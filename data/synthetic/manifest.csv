@@ -1,0 +1,201 @@
+utterance_id,intent,text,slots,audio_path,dataset,synthetic
+utt-000,book_appointment,Book an appointment for tomorrow,date=tomorrow,data/synthetic/audio/utt-000.aiff,synthetic,true
+utt-001,book_appointment,Book an appointment for Friday,date=Friday,data/synthetic/audio/utt-001.aiff,synthetic,true
+utt-002,book_appointment,Book an appointment for Monday,date=Monday,data/synthetic/audio/utt-002.aiff,synthetic,true
+utt-003,book_appointment,Book an appointment for Tuesday,date=Tuesday,data/synthetic/audio/utt-003.aiff,synthetic,true
+utt-004,book_appointment,Book an appointment for Wednesday,date=Wednesday,data/synthetic/audio/utt-004.aiff,synthetic,true
+utt-005,book_appointment,Book an appointment for Thursday,date=Thursday,data/synthetic/audio/utt-005.aiff,synthetic,true
+utt-006,book_appointment,Book an appointment for Saturday,date=Saturday,data/synthetic/audio/utt-006.aiff,synthetic,true
+utt-007,book_appointment,Book an appointment for Sunday,date=Sunday,data/synthetic/audio/utt-007.aiff,synthetic,true
+utt-008,book_appointment,Book an appointment for next week,date=next week,data/synthetic/audio/utt-008.aiff,synthetic,true
+utt-009,book_appointment,Book an appointment for this evening,date=this evening,data/synthetic/audio/utt-009.aiff,synthetic,true
+utt-010,book_appointment,Book an appointment for noon,date=noon,data/synthetic/audio/utt-010.aiff,synthetic,true
+utt-011,book_appointment,Book an appointment for 3 PM,date=3 PM,data/synthetic/audio/utt-011.aiff,synthetic,true
+utt-012,book_appointment,Book an appointment for today,date=today,data/synthetic/audio/utt-012.aiff,synthetic,true
+utt-013,book_appointment,Book an appointment for April 2,date=April 2,data/synthetic/audio/utt-013.aiff,synthetic,true
+utt-014,book_appointment,Book an appointment for May 5,date=May 5,data/synthetic/audio/utt-014.aiff,synthetic,true
+utt-015,book_appointment,Book an appointment for June 10,date=June 10,data/synthetic/audio/utt-015.aiff,synthetic,true
+utt-016,book_appointment,Book an appointment for July 1,date=July 1,data/synthetic/audio/utt-016.aiff,synthetic,true
+utt-017,book_appointment,Book an appointment for August 12,date=August 12,data/synthetic/audio/utt-017.aiff,synthetic,true
+utt-018,book_appointment,Book an appointment for September 9,date=September 9,data/synthetic/audio/utt-018.aiff,synthetic,true
+utt-019,book_appointment,Book an appointment for October 3,date=October 3,data/synthetic/audio/utt-019.aiff,synthetic,true
+utt-020,cancel_appointment,Cancel my appointment,,data/synthetic/audio/utt-020.aiff,synthetic,true
+utt-021,cancel_appointment,Cancel my appointment for Friday,date=Friday,data/synthetic/audio/utt-021.aiff,synthetic,true
+utt-022,cancel_appointment,Cancel my appointment for Monday,date=Monday,data/synthetic/audio/utt-022.aiff,synthetic,true
+utt-023,cancel_appointment,Cancel my appointment for Tuesday,date=Tuesday,data/synthetic/audio/utt-023.aiff,synthetic,true
+utt-024,cancel_appointment,Cancel my appointment for Wednesday,date=Wednesday,data/synthetic/audio/utt-024.aiff,synthetic,true
+utt-025,cancel_appointment,Cancel my appointment for Thursday,date=Thursday,data/synthetic/audio/utt-025.aiff,synthetic,true
+utt-026,cancel_appointment,Cancel my appointment for Saturday,date=Saturday,data/synthetic/audio/utt-026.aiff,synthetic,true
+utt-027,cancel_appointment,Cancel my appointment for Sunday,date=Sunday,data/synthetic/audio/utt-027.aiff,synthetic,true
+utt-028,cancel_appointment,Cancel my appointment for next week,date=next week,data/synthetic/audio/utt-028.aiff,synthetic,true
+utt-029,cancel_appointment,Cancel my appointment for this evening,date=this evening,data/synthetic/audio/utt-029.aiff,synthetic,true
+utt-030,cancel_appointment,Cancel my appointment for noon,date=noon,data/synthetic/audio/utt-030.aiff,synthetic,true
+utt-031,cancel_appointment,Cancel my appointment for 3 PM,date=3 PM,data/synthetic/audio/utt-031.aiff,synthetic,true
+utt-032,cancel_appointment,Cancel my appointment for today,date=today,data/synthetic/audio/utt-032.aiff,synthetic,true
+utt-033,cancel_appointment,Cancel my appointment for April 2,date=April 2,data/synthetic/audio/utt-033.aiff,synthetic,true
+utt-034,cancel_appointment,Cancel my appointment for May 5,date=May 5,data/synthetic/audio/utt-034.aiff,synthetic,true
+utt-035,cancel_appointment,Cancel my appointment for June 10,date=June 10,data/synthetic/audio/utt-035.aiff,synthetic,true
+utt-036,cancel_appointment,Cancel my appointment for July 1,date=July 1,data/synthetic/audio/utt-036.aiff,synthetic,true
+utt-037,cancel_appointment,Cancel my appointment for August 12,date=August 12,data/synthetic/audio/utt-037.aiff,synthetic,true
+utt-038,cancel_appointment,Cancel my appointment for September 9,date=September 9,data/synthetic/audio/utt-038.aiff,synthetic,true
+utt-039,cancel_appointment,Cancel my appointment for October 3,date=October 3,data/synthetic/audio/utt-039.aiff,synthetic,true
+utt-040,check_appointment,When is my appointment?,,data/synthetic/audio/utt-040.aiff,synthetic,true
+utt-041,check_appointment,When is my Friday appointment?,date=Friday,data/synthetic/audio/utt-041.aiff,synthetic,true
+utt-042,check_appointment,When is my Monday appointment?,date=Monday,data/synthetic/audio/utt-042.aiff,synthetic,true
+utt-043,check_appointment,When is my Tuesday appointment?,date=Tuesday,data/synthetic/audio/utt-043.aiff,synthetic,true
+utt-044,check_appointment,When is my Wednesday appointment?,date=Wednesday,data/synthetic/audio/utt-044.aiff,synthetic,true
+utt-045,check_appointment,When is my Thursday appointment?,date=Thursday,data/synthetic/audio/utt-045.aiff,synthetic,true
+utt-046,check_appointment,When is my Saturday appointment?,date=Saturday,data/synthetic/audio/utt-046.aiff,synthetic,true
+utt-047,check_appointment,When is my Sunday appointment?,date=Sunday,data/synthetic/audio/utt-047.aiff,synthetic,true
+utt-048,check_appointment,When is my next week appointment?,date=next week,data/synthetic/audio/utt-048.aiff,synthetic,true
+utt-049,check_appointment,When is my this evening appointment?,date=this evening,data/synthetic/audio/utt-049.aiff,synthetic,true
+utt-050,check_appointment,When is my noon appointment?,date=noon,data/synthetic/audio/utt-050.aiff,synthetic,true
+utt-051,check_appointment,When is my 3 PM appointment?,date=3 PM,data/synthetic/audio/utt-051.aiff,synthetic,true
+utt-052,check_appointment,When is my today appointment?,date=today,data/synthetic/audio/utt-052.aiff,synthetic,true
+utt-053,check_appointment,When is my April 2 appointment?,date=April 2,data/synthetic/audio/utt-053.aiff,synthetic,true
+utt-054,check_appointment,When is my May 5 appointment?,date=May 5,data/synthetic/audio/utt-054.aiff,synthetic,true
+utt-055,check_appointment,When is my June 10 appointment?,date=June 10,data/synthetic/audio/utt-055.aiff,synthetic,true
+utt-056,check_appointment,When is my July 1 appointment?,date=July 1,data/synthetic/audio/utt-056.aiff,synthetic,true
+utt-057,check_appointment,When is my August 12 appointment?,date=August 12,data/synthetic/audio/utt-057.aiff,synthetic,true
+utt-058,check_appointment,When is my September 9 appointment?,date=September 9,data/synthetic/audio/utt-058.aiff,synthetic,true
+utt-059,check_appointment,When is my October 3 appointment?,date=October 3,data/synthetic/audio/utt-059.aiff,synthetic,true
+utt-060,check_balance,What is my account balance?,account=account,data/synthetic/audio/utt-060.aiff,synthetic,true
+utt-061,check_balance,What is my savings account balance?,account=savings account,data/synthetic/audio/utt-061.aiff,synthetic,true
+utt-062,check_balance,What is my checking account balance?,account=checking account,data/synthetic/audio/utt-062.aiff,synthetic,true
+utt-063,check_balance,What is my salary account balance?,account=salary account,data/synthetic/audio/utt-063.aiff,synthetic,true
+utt-064,check_balance,What is my current account balance?,account=current account,data/synthetic/audio/utt-064.aiff,synthetic,true
+utt-065,check_balance,What is my joint account balance?,account=joint account,data/synthetic/audio/utt-065.aiff,synthetic,true
+utt-066,check_balance,What is my travel account balance?,account=travel account,data/synthetic/audio/utt-066.aiff,synthetic,true
+utt-067,check_balance,What is my student account balance?,account=student account,data/synthetic/audio/utt-067.aiff,synthetic,true
+utt-068,check_balance,What is my business account balance?,account=business account,data/synthetic/audio/utt-068.aiff,synthetic,true
+utt-069,check_balance,What is my family account balance?,account=family account,data/synthetic/audio/utt-069.aiff,synthetic,true
+utt-070,check_balance,What is my primary account balance?,account=primary account,data/synthetic/audio/utt-070.aiff,synthetic,true
+utt-071,check_balance,What is my secondary account balance?,account=secondary account,data/synthetic/audio/utt-071.aiff,synthetic,true
+utt-072,check_balance,What is my card account balance?,account=card account,data/synthetic/audio/utt-072.aiff,synthetic,true
+utt-073,check_balance,What is my wallet balance?,account=wallet,data/synthetic/audio/utt-073.aiff,synthetic,true
+utt-074,check_balance,What is my deposit account balance?,account=deposit account,data/synthetic/audio/utt-074.aiff,synthetic,true
+utt-075,check_balance,What is my tax account balance?,account=tax account,data/synthetic/audio/utt-075.aiff,synthetic,true
+utt-076,check_balance,What is my expense account balance?,account=expense account,data/synthetic/audio/utt-076.aiff,synthetic,true
+utt-077,check_balance,What is my holiday account balance?,account=holiday account,data/synthetic/audio/utt-077.aiff,synthetic,true
+utt-078,check_balance,What is my emergency account balance?,account=emergency account,data/synthetic/audio/utt-078.aiff,synthetic,true
+utt-079,check_balance,What is my daily account balance?,account=daily account,data/synthetic/audio/utt-079.aiff,synthetic,true
+utt-080,transfer_money,Transfer 500 rupees,amount=500|currency=rupees,data/synthetic/audio/utt-080.aiff,synthetic,true
+utt-081,transfer_money,Transfer 100 rupees,amount=100|currency=rupees,data/synthetic/audio/utt-081.aiff,synthetic,true
+utt-082,transfer_money,Transfer 250 rupees,amount=250|currency=rupees,data/synthetic/audio/utt-082.aiff,synthetic,true
+utt-083,transfer_money,Transfer 1000 rupees,amount=1000|currency=rupees,data/synthetic/audio/utt-083.aiff,synthetic,true
+utt-084,transfer_money,Transfer 50 rupees,amount=50|currency=rupees,data/synthetic/audio/utt-084.aiff,synthetic,true
+utt-085,transfer_money,Transfer 75 rupees,amount=75|currency=rupees,data/synthetic/audio/utt-085.aiff,synthetic,true
+utt-086,transfer_money,Transfer 200 rupees,amount=200|currency=rupees,data/synthetic/audio/utt-086.aiff,synthetic,true
+utt-087,transfer_money,Transfer 300 rupees,amount=300|currency=rupees,data/synthetic/audio/utt-087.aiff,synthetic,true
+utt-088,transfer_money,Transfer 400 rupees,amount=400|currency=rupees,data/synthetic/audio/utt-088.aiff,synthetic,true
+utt-089,transfer_money,Transfer 750 rupees,amount=750|currency=rupees,data/synthetic/audio/utt-089.aiff,synthetic,true
+utt-090,transfer_money,Transfer 1500 rupees,amount=1500|currency=rupees,data/synthetic/audio/utt-090.aiff,synthetic,true
+utt-091,transfer_money,Transfer 2000 rupees,amount=2000|currency=rupees,data/synthetic/audio/utt-091.aiff,synthetic,true
+utt-092,transfer_money,Transfer 20 rupees,amount=20|currency=rupees,data/synthetic/audio/utt-092.aiff,synthetic,true
+utt-093,transfer_money,Transfer 40 rupees,amount=40|currency=rupees,data/synthetic/audio/utt-093.aiff,synthetic,true
+utt-094,transfer_money,Transfer 60 rupees,amount=60|currency=rupees,data/synthetic/audio/utt-094.aiff,synthetic,true
+utt-095,transfer_money,Transfer 80 rupees,amount=80|currency=rupees,data/synthetic/audio/utt-095.aiff,synthetic,true
+utt-096,transfer_money,Transfer 120 rupees,amount=120|currency=rupees,data/synthetic/audio/utt-096.aiff,synthetic,true
+utt-097,transfer_money,Transfer 180 rupees,amount=180|currency=rupees,data/synthetic/audio/utt-097.aiff,synthetic,true
+utt-098,transfer_money,Transfer 900 rupees,amount=900|currency=rupees,data/synthetic/audio/utt-098.aiff,synthetic,true
+utt-099,transfer_money,Transfer 650 rupees,amount=650|currency=rupees,data/synthetic/audio/utt-099.aiff,synthetic,true
+utt-100,check_transaction,Show my latest transaction,recency=latest,data/synthetic/audio/utt-100.aiff,synthetic,true
+utt-101,check_transaction,Show my last transaction,recency=last,data/synthetic/audio/utt-101.aiff,synthetic,true
+utt-102,check_transaction,Show my previous transaction,recency=previous,data/synthetic/audio/utt-102.aiff,synthetic,true
+utt-103,check_transaction,Show my recent transaction,recency=recent,data/synthetic/audio/utt-103.aiff,synthetic,true
+utt-104,check_transaction,Show my newest transaction,recency=newest,data/synthetic/audio/utt-104.aiff,synthetic,true
+utt-105,check_transaction,Show my first transaction,recency=first,data/synthetic/audio/utt-105.aiff,synthetic,true
+utt-106,check_transaction,Show my second transaction,recency=second,data/synthetic/audio/utt-106.aiff,synthetic,true
+utt-107,check_transaction,Show my third transaction,recency=third,data/synthetic/audio/utt-107.aiff,synthetic,true
+utt-108,check_transaction,Show my pending transaction,recency=pending,data/synthetic/audio/utt-108.aiff,synthetic,true
+utt-109,check_transaction,Show my cleared transaction,recency=cleared,data/synthetic/audio/utt-109.aiff,synthetic,true
+utt-110,check_transaction,Show my failed transaction,recency=failed,data/synthetic/audio/utt-110.aiff,synthetic,true
+utt-111,check_transaction,Show my large transaction,recency=large,data/synthetic/audio/utt-111.aiff,synthetic,true
+utt-112,check_transaction,Show my small transaction,recency=small,data/synthetic/audio/utt-112.aiff,synthetic,true
+utt-113,check_transaction,Show my card transaction,recency=card,data/synthetic/audio/utt-113.aiff,synthetic,true
+utt-114,check_transaction,Show my cash transaction,recency=cash,data/synthetic/audio/utt-114.aiff,synthetic,true
+utt-115,check_transaction,Show my online transaction,recency=online,data/synthetic/audio/utt-115.aiff,synthetic,true
+utt-116,check_transaction,Show my weekly transaction,recency=weekly,data/synthetic/audio/utt-116.aiff,synthetic,true
+utt-117,check_transaction,Show my monthly transaction,recency=monthly,data/synthetic/audio/utt-117.aiff,synthetic,true
+utt-118,check_transaction,Show my yesterday transaction,recency=yesterday,data/synthetic/audio/utt-118.aiff,synthetic,true
+utt-119,check_transaction,Show my today transaction,recency=today,data/synthetic/audio/utt-119.aiff,synthetic,true
+utt-120,set_reminder,Remind me at 6 PM,time=6 PM,data/synthetic/audio/utt-120.aiff,synthetic,true
+utt-121,set_reminder,Remind me at 7 AM,time=7 AM,data/synthetic/audio/utt-121.aiff,synthetic,true
+utt-122,set_reminder,Remind me at 8 PM,time=8 PM,data/synthetic/audio/utt-122.aiff,synthetic,true
+utt-123,set_reminder,Remind me at 9 AM,time=9 AM,data/synthetic/audio/utt-123.aiff,synthetic,true
+utt-124,set_reminder,Remind me at 5 PM,time=5 PM,data/synthetic/audio/utt-124.aiff,synthetic,true
+utt-125,set_reminder,Remind me at 4 PM,time=4 PM,data/synthetic/audio/utt-125.aiff,synthetic,true
+utt-126,set_reminder,Remind me at 10 AM,time=10 AM,data/synthetic/audio/utt-126.aiff,synthetic,true
+utt-127,set_reminder,Remind me at 11 AM,time=11 AM,data/synthetic/audio/utt-127.aiff,synthetic,true
+utt-128,set_reminder,Remind me at 1 PM,time=1 PM,data/synthetic/audio/utt-128.aiff,synthetic,true
+utt-129,set_reminder,Remind me at 2 PM,time=2 PM,data/synthetic/audio/utt-129.aiff,synthetic,true
+utt-130,set_reminder,Remind me at 3 PM,time=3 PM,data/synthetic/audio/utt-130.aiff,synthetic,true
+utt-131,set_reminder,Remind me at 12 PM,time=12 PM,data/synthetic/audio/utt-131.aiff,synthetic,true
+utt-132,set_reminder,Remind me at 6 AM,time=6 AM,data/synthetic/audio/utt-132.aiff,synthetic,true
+utt-133,set_reminder,Remind me at 7 PM,time=7 PM,data/synthetic/audio/utt-133.aiff,synthetic,true
+utt-134,set_reminder,Remind me at 8 AM,time=8 AM,data/synthetic/audio/utt-134.aiff,synthetic,true
+utt-135,set_reminder,Remind me at 9 PM,time=9 PM,data/synthetic/audio/utt-135.aiff,synthetic,true
+utt-136,set_reminder,Remind me at 10 PM,time=10 PM,data/synthetic/audio/utt-136.aiff,synthetic,true
+utt-137,set_reminder,Remind me at 11 PM,time=11 PM,data/synthetic/audio/utt-137.aiff,synthetic,true
+utt-138,set_reminder,Remind me at noon,time=noon,data/synthetic/audio/utt-138.aiff,synthetic,true
+utt-139,set_reminder,Remind me at midnight,time=midnight,data/synthetic/audio/utt-139.aiff,synthetic,true
+utt-140,weather_query,Will it rain tomorrow?,date=tomorrow,data/synthetic/audio/utt-140.aiff,synthetic,true
+utt-141,weather_query,Will it rain Friday?,date=Friday,data/synthetic/audio/utt-141.aiff,synthetic,true
+utt-142,weather_query,Will it rain Monday?,date=Monday,data/synthetic/audio/utt-142.aiff,synthetic,true
+utt-143,weather_query,Will it rain Tuesday?,date=Tuesday,data/synthetic/audio/utt-143.aiff,synthetic,true
+utt-144,weather_query,Will it rain Wednesday?,date=Wednesday,data/synthetic/audio/utt-144.aiff,synthetic,true
+utt-145,weather_query,Will it rain Thursday?,date=Thursday,data/synthetic/audio/utt-145.aiff,synthetic,true
+utt-146,weather_query,Will it rain Saturday?,date=Saturday,data/synthetic/audio/utt-146.aiff,synthetic,true
+utt-147,weather_query,Will it rain Sunday?,date=Sunday,data/synthetic/audio/utt-147.aiff,synthetic,true
+utt-148,weather_query,Will it rain next week?,date=next week,data/synthetic/audio/utt-148.aiff,synthetic,true
+utt-149,weather_query,Will it rain this evening?,date=this evening,data/synthetic/audio/utt-149.aiff,synthetic,true
+utt-150,weather_query,Will it rain noon?,date=noon,data/synthetic/audio/utt-150.aiff,synthetic,true
+utt-151,weather_query,Will it rain 3 PM?,date=3 PM,data/synthetic/audio/utt-151.aiff,synthetic,true
+utt-152,weather_query,Will it rain today?,date=today,data/synthetic/audio/utt-152.aiff,synthetic,true
+utt-153,weather_query,Will it rain April 2?,date=April 2,data/synthetic/audio/utt-153.aiff,synthetic,true
+utt-154,weather_query,Will it rain May 5?,date=May 5,data/synthetic/audio/utt-154.aiff,synthetic,true
+utt-155,weather_query,Will it rain June 10?,date=June 10,data/synthetic/audio/utt-155.aiff,synthetic,true
+utt-156,weather_query,Will it rain July 1?,date=July 1,data/synthetic/audio/utt-156.aiff,synthetic,true
+utt-157,weather_query,Will it rain August 12?,date=August 12,data/synthetic/audio/utt-157.aiff,synthetic,true
+utt-158,weather_query,Will it rain September 9?,date=September 9,data/synthetic/audio/utt-158.aiff,synthetic,true
+utt-159,weather_query,Will it rain October 3?,date=October 3,data/synthetic/audio/utt-159.aiff,synthetic,true
+utt-160,play_music,Play jazz music,genre=jazz,data/synthetic/audio/utt-160.aiff,synthetic,true
+utt-161,play_music,Play classical music,genre=classical,data/synthetic/audio/utt-161.aiff,synthetic,true
+utt-162,play_music,Play rock music,genre=rock,data/synthetic/audio/utt-162.aiff,synthetic,true
+utt-163,play_music,Play pop music,genre=pop,data/synthetic/audio/utt-163.aiff,synthetic,true
+utt-164,play_music,Play blues music,genre=blues,data/synthetic/audio/utt-164.aiff,synthetic,true
+utt-165,play_music,Play folk music,genre=folk,data/synthetic/audio/utt-165.aiff,synthetic,true
+utt-166,play_music,Play hip hop music,genre=hip hop,data/synthetic/audio/utt-166.aiff,synthetic,true
+utt-167,play_music,Play electronic music,genre=electronic,data/synthetic/audio/utt-167.aiff,synthetic,true
+utt-168,play_music,Play country music,genre=country,data/synthetic/audio/utt-168.aiff,synthetic,true
+utt-169,play_music,Play reggae music,genre=reggae,data/synthetic/audio/utt-169.aiff,synthetic,true
+utt-170,play_music,Play metal music,genre=metal,data/synthetic/audio/utt-170.aiff,synthetic,true
+utt-171,play_music,Play soul music,genre=soul,data/synthetic/audio/utt-171.aiff,synthetic,true
+utt-172,play_music,Play disco music,genre=disco,data/synthetic/audio/utt-172.aiff,synthetic,true
+utt-173,play_music,Play ambient music,genre=ambient,data/synthetic/audio/utt-173.aiff,synthetic,true
+utt-174,play_music,Play opera music,genre=opera,data/synthetic/audio/utt-174.aiff,synthetic,true
+utt-175,play_music,Play punk music,genre=punk,data/synthetic/audio/utt-175.aiff,synthetic,true
+utt-176,play_music,Play latin music,genre=latin,data/synthetic/audio/utt-176.aiff,synthetic,true
+utt-177,play_music,Play indie music,genre=indie,data/synthetic/audio/utt-177.aiff,synthetic,true
+utt-178,play_music,Play acoustic music,genre=acoustic,data/synthetic/audio/utt-178.aiff,synthetic,true
+utt-179,play_music,Play instrumental music,genre=instrumental,data/synthetic/audio/utt-179.aiff,synthetic,true
+utt-180,general_information,What are your working hours?,topic=working hours,data/synthetic/audio/utt-180.aiff,synthetic,true
+utt-181,general_information,What are your Saturday hours?,topic=Saturday hours,data/synthetic/audio/utt-181.aiff,synthetic,true
+utt-182,general_information,What are your branch address?,topic=branch address,data/synthetic/audio/utt-182.aiff,synthetic,true
+utt-183,general_information,What are your phone number?,topic=phone number,data/synthetic/audio/utt-183.aiff,synthetic,true
+utt-184,general_information,What are your support email?,topic=support email,data/synthetic/audio/utt-184.aiff,synthetic,true
+utt-185,general_information,What are your holiday calendar?,topic=holiday calendar,data/synthetic/audio/utt-185.aiff,synthetic,true
+utt-186,general_information,What are your membership rules?,topic=membership rules,data/synthetic/audio/utt-186.aiff,synthetic,true
+utt-187,general_information,What are your fee schedule?,topic=fee schedule,data/synthetic/audio/utt-187.aiff,synthetic,true
+utt-188,general_information,What are your lost card process?,topic=lost card process,data/synthetic/audio/utt-188.aiff,synthetic,true
+utt-189,general_information,What are your password reset?,topic=password reset,data/synthetic/audio/utt-189.aiff,synthetic,true
+utt-190,general_information,What are your branch manager?,topic=branch manager,data/synthetic/audio/utt-190.aiff,synthetic,true
+utt-191,general_information,What are your complaint desk?,topic=complaint desk,data/synthetic/audio/utt-191.aiff,synthetic,true
+utt-192,general_information,What are your service status?,topic=service status,data/synthetic/audio/utt-192.aiff,synthetic,true
+utt-193,general_information,What are your queue time?,topic=queue time,data/synthetic/audio/utt-193.aiff,synthetic,true
+utt-194,general_information,What are your document list?,topic=document list,data/synthetic/audio/utt-194.aiff,synthetic,true
+utt-195,general_information,What are your identification rules?,topic=identification rules,data/synthetic/audio/utt-195.aiff,synthetic,true
+utt-196,general_information,What are your closing time?,topic=closing time,data/synthetic/audio/utt-196.aiff,synthetic,true
+utt-197,general_information,What are your opening time?,topic=opening time,data/synthetic/audio/utt-197.aiff,synthetic,true
+utt-198,general_information,What are your parking rules?,topic=parking rules,data/synthetic/audio/utt-198.aiff,synthetic,true
+utt-199,general_information,What are your wheelchair access?,topic=wheelchair access,data/synthetic/audio/utt-199.aiff,synthetic,true

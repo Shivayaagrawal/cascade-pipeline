@@ -1,0 +1,286 @@
+{
+  "experiment_id": "sim-eval-v3b",
+  "role": "audit_and_reporting_extension",
+  "authoritative_experiment": "sim-eval-v3",
+  "authoritative_report": "experiments/sim-eval-v3/report.json",
+  "not_a_new_performance_experiment": true,
+  "real_speech_validation": false,
+  "asr_decode": false,
+  "librispeech_used": false,
+  "test_clean_accessed": false,
+  "phase_1c": "blocked",
+  "dataset": "synthetic",
+  "seed": 17,
+  "utterance_count": 200,
+  "utterance_id_first": "utt-000",
+  "utterance_id_last": "utt-199",
+  "backend": "synthetic_hypothesis",
+  "retry_mechanism": "simulated_candidate_rescore",
+  "candidate_evidence": {
+    "location": "experiments/sim-eval-v3b/decision_log.jsonl",
+    "fields_from_assess": [
+      "intent_evidence",
+      "slot_evidence"
+    ],
+    "negation_evidence": {
+      "available": false,
+      "reason": "assess() returns intent cues and lexicon slot values. No existing function returns a negation finding for a candidate string."
+    },
+    "uncertainty_evidence": {
+      "available": false,
+      "reason": "No existing function returns an uncertainty finding for a candidate string."
+    }
+  },
+  "decision_log": {
+    "path": "experiments/sim-eval-v3b/decision_log.jsonl",
+    "rows": 200,
+    "one_row_per_utterance": true,
+    "sha256": "9c486601dcac141ccf7453f84b144fbd5d5c491da1b1a32542e7a14a796a4e75"
+  },
+  "slot_metrics": {
+    "definition": "Micro-average over (slot name, value) pairs from slot_scores(). An empty gold slot set and an empty prediction count as one matched pair-set. These are the scores already stored by selective_report(), not a new metric.",
+    "b1_selector_all_inputs": {
+      "precision": 0.144,
+      "recall": 0.08181818181818182,
+      "f1": 0.10434782608695653,
+      "matched_pairs": 18,
+      "predicted_pairs": 125,
+      "reference_pairs": 220,
+      "precision_denominator": "predicted_pairs",
+      "recall_denominator": "reference_pairs",
+      "function": "cascadeguard.evaluation.slot_metrics.slot_scores"
+    },
+    "forced_selector_all_inputs": {
+      "precision": 0.9763313609467456,
+      "recall": 0.75,
+      "f1": 0.8483290488431877,
+      "matched_pairs": 165,
+      "predicted_pairs": 169,
+      "reference_pairs": 220,
+      "precision_denominator": "predicted_pairs",
+      "recall_denominator": "reference_pairs",
+      "function": "cascadeguard.evaluation.slot_metrics.slot_scores"
+    },
+    "selective_all_inputs_abstention_is_empty_prediction": {
+      "precision": 0.9808917197452229,
+      "recall": 0.7,
+      "f1": 0.8169761273209549,
+      "matched_pairs": 154,
+      "predicted_pairs": 157,
+      "reference_pairs": 220,
+      "precision_denominator": "predicted_pairs",
+      "recall_denominator": "reference_pairs",
+      "function": "cascadeguard.evaluation.slot_metrics.slot_scores"
+    },
+    "selective_committed_decisions_only": {
+      "precision": 0.9806451612903225,
+      "recall": 0.9806451612903225,
+      "f1": 0.9806451612903225,
+      "matched_pairs": 152,
+      "predicted_pairs": 155,
+      "reference_pairs": 155,
+      "precision_denominator": "predicted_pairs",
+      "recall_denominator": "reference_pairs",
+      "function": "cascadeguard.evaluation.slot_metrics.slot_scores"
+    }
+  },
+  "lexical_processing_timing": {
+    "measure": "lexical_processing_only",
+    "asr_latency": false,
+    "audio_decoded": false,
+    "what_was_timed": "Wall time of assess() over one utterance's v1 candidate strings, then wall time of recovery_action() on that same list. No waveform was decoded. This is not ASR latency.",
+    "assess_seconds": {
+      "n": 200,
+      "mean": 9.299788798671216e-05,
+      "median": 9.247899288311601e-05,
+      "p95": 0.00010704202577471733
+    },
+    "recovery_action_seconds": {
+      "n": 200,
+      "mean": 8.85664444649592e-05,
+      "median": 8.925001020543277e-05,
+      "p95": 9.883299935609102e-05
+    }
+  },
+  "ablation": {
+    "role": "map of requested names onto existing functions",
+    "not_a_new_performance_experiment": true,
+    "authoritative_results": "experiments/sim-eval-v3/report.json",
+    "input": "v1 injector candidate lists, seed 17, utt-000 through utt-199, min_support 1, no retry bundle",
+    "rows": [
+      {
+        "requested_condition": "existing_baseline_candidate_selection",
+        "implementation": "cascadeguard.candidates.candidate_manager.select_candidate",
+        "called_through": "cascadeguard.evaluation.v3_metrics.b1_frames",
+        "distinct_from_another_row": true,
+        "metrics": {
+          "intent_accuracy": 0.685,
+          "slot_scores": {
+            "precision": 0.144,
+            "recall": 0.08181818181818182,
+            "f1": 0.10434782608695653,
+            "matched_pairs": 18,
+            "predicted_pairs": 125,
+            "reference_pairs": 220
+          },
+          "exact_frame_accuracy": {
+            "value": 0.005,
+            "numerator": 1,
+            "denominator": 200,
+            "reason": null
+          }
+        }
+      },
+      {
+        "requested_condition": "semantic_evidence_preservation_disabled",
+        "implementation": "cascadeguard.candidates.candidate_manager.select_candidate",
+        "distinct_from_another_row": false,
+        "same_implementation_as": "existing_baseline_candidate_selection",
+        "reason": "The prefix selector never calls assess(). v3 has no switch that turns evidence preservation off while leaving another selector in place.",
+        "metrics": "same_as_existing_baseline_candidate_selection"
+      },
+      {
+        "requested_condition": "slot_aware_selection_disabled",
+        "implementation": "cascadeguard.candidates.candidate_manager.select_candidate",
+        "distinct_from_another_row": false,
+        "same_implementation_as": "existing_baseline_candidate_selection",
+        "reason": "Slot-aware selection is forced_selection(). Turning it off leaves the prefix selector. There is no third selector.",
+        "metrics": "same_as_existing_baseline_candidate_selection"
+      },
+      {
+        "requested_condition": "selective_prediction_disabled",
+        "implementation": "cascadeguard.evaluation.selective.forced_selection",
+        "distinct_from_another_row": true,
+        "reason": "This selector always returns one frame. It is not a safety decision.",
+        "metrics": {
+          "intent_accuracy": 0.94,
+          "slot_scores": {
+            "precision": 0.9763313609467456,
+            "recall": 0.75,
+            "f1": 0.8483290488431877,
+            "matched_pairs": 165,
+            "predicted_pairs": 169,
+            "reference_pairs": 220
+          },
+          "exact_frame_accuracy": {
+            "value": 0.725,
+            "numerator": 145,
+            "denominator": 200,
+            "reason": null
+          }
+        }
+      },
+      {
+        "requested_condition": "recovery_disabled",
+        "implementation": "cascadeguard.evaluation.selective.recovery_action",
+        "call": "retry_candidates omitted",
+        "distinct_from_another_row": false,
+        "same_implementation_as": "full_synthetic_v3_on_the_v1_list",
+        "reason": "The published v1 condition also omits the retry bundle. On this input, recovery disabled and full v3 are the same call.",
+        "metrics": {
+          "decision_coverage": {
+            "value": 0.725,
+            "numerator": 145,
+            "denominator": 200,
+            "reason": null
+          },
+          "selective_risk": {
+            "value": 0.020689655172413793,
+            "numerator": 3,
+            "denominator": 145,
+            "reason": null
+          },
+          "unsafe_commitment": {
+            "value": 0.020689655172413793,
+            "numerator": 3,
+            "denominator": 145,
+            "reason": null
+          },
+          "action_counts": {
+            "CONTINUE": 145,
+            "RETRY": 0,
+            "CLARIFY": 48,
+            "HOLD": 7
+          },
+          "action_accuracy": {
+            "value": 0.96,
+            "numerator": 192,
+            "denominator": 200,
+            "reason": null
+          },
+          "slot_scores_counting_abstention_as_empty": {
+            "precision": 0.9808917197452229,
+            "recall": 0.7,
+            "f1": 0.8169761273209549,
+            "matched_pairs": 154,
+            "predicted_pairs": 157,
+            "reference_pairs": 220
+          },
+          "exact_frame_counting_abstention_as_incorrect": {
+            "value": 0.71,
+            "numerator": 142,
+            "denominator": 200,
+            "reason": null
+          }
+        }
+      },
+      {
+        "requested_condition": "full_synthetic_v3",
+        "implementation": "cascadeguard.evaluation.selective.recovery_action",
+        "call": "retry_candidates omitted, min_support 1, v1 injector list",
+        "distinct_from_another_row": false,
+        "same_recomputed_call_as": "recovery_disabled",
+        "metrics": "same_as_recovery_disabled",
+        "cited_recovery_condition_not_recomputed": {
+          "source": "experiments/sim-eval-v3/report.json",
+          "key": "recovery_with_simulated_retry",
+          "recomputed": false,
+          "action_counts": {
+            "CONTINUE": 0,
+            "RETRY": 198,
+            "CLARIFY": 2,
+            "HOLD": 0
+          },
+          "decision_coverage": {
+            "value": 0.99,
+            "numerator": 198,
+            "denominator": 200,
+            "reason": null
+          },
+          "selective_risk": {
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 198,
+            "reason": null
+          }
+        }
+      }
+    ]
+  },
+  "limitation": "v3b repeats the frozen v3 functions on the same 200 synthetic transcripts. It does not show that the method works on real speech. The authoritative numbers remain experiments/sim-eval-v3/report.json.",
+  "started_at": "2026-11-02T11:38:41.599253+00:00",
+  "frozen_v3_report_sha256": "7d1ca46400795908f6ffcd17091d4348e633493923fc030e5160e9f2ff8a8cd6",
+  "preserved_sha256_before": {
+    "experiments/B0/summary.json": "3873057391b2f36727f503a4d504ddea9453472e6d518a63a2fef2481ae850ee",
+    "experiments/B1/summary.json": "597a2800c946018467865dfcf3d8e547bc51c10487596cc134ca2181fee695b2",
+    "experiments/B2/summary.json": "34a40fdd233f5d4faa00af73c26f1afcc32c4d83922db8df57b7a7184dce0e5d",
+    "artifacts/reports/simulation_report.json": "7adf69ee6ac344e7ef205099af3686ddf7cceaffa111a8789f03b83ed8319856",
+    "experiments/sim-eval-v2/report.json": "74499b716103e26ef829cb56816bf738d67d3d3e5961848c4cfe37f2e8f4f77d",
+    "experiments/sim-eval-v3/report.json": "7d1ca46400795908f6ffcd17091d4348e633493923fc030e5160e9f2ff8a8cd6",
+    "configs/evaluation_v3.yaml": "ac4bb7ea743195e6ea860a4f2c34dc546437321f28c811055782fe4b1c5ed842",
+    "data/librispeech/annotations/phase_1c_pilot_30.csv": "56a4dc49b3a2f5add5c361c2b23edde923c8265a998de76c7e5b87462e5d6a5c",
+    "artifacts/reports/simulation_v3/report.json": "7d1ca46400795908f6ffcd17091d4348e633493923fc030e5160e9f2ff8a8cd6"
+  },
+  "config": "configs/evaluation_v3b.yaml",
+  "preserved_sha256_after": {
+    "experiments/B0/summary.json": "3873057391b2f36727f503a4d504ddea9453472e6d518a63a2fef2481ae850ee",
+    "experiments/B1/summary.json": "597a2800c946018467865dfcf3d8e547bc51c10487596cc134ca2181fee695b2",
+    "experiments/B2/summary.json": "34a40fdd233f5d4faa00af73c26f1afcc32c4d83922db8df57b7a7184dce0e5d",
+    "artifacts/reports/simulation_report.json": "7adf69ee6ac344e7ef205099af3686ddf7cceaffa111a8789f03b83ed8319856",
+    "experiments/sim-eval-v2/report.json": "74499b716103e26ef829cb56816bf738d67d3d3e5961848c4cfe37f2e8f4f77d",
+    "experiments/sim-eval-v3/report.json": "7d1ca46400795908f6ffcd17091d4348e633493923fc030e5160e9f2ff8a8cd6",
+    "configs/evaluation_v3.yaml": "ac4bb7ea743195e6ea860a4f2c34dc546437321f28c811055782fe4b1c5ed842",
+    "data/librispeech/annotations/phase_1c_pilot_30.csv": "56a4dc49b3a2f5add5c361c2b23edde923c8265a998de76c7e5b87462e5d6a5c",
+    "artifacts/reports/simulation_v3/report.json": "7d1ca46400795908f6ffcd17091d4348e633493923fc030e5160e9f2ff8a8cd6"
+  }
+}

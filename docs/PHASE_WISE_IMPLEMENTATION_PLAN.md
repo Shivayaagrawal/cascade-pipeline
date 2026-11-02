@@ -1,5 +1,7 @@
 # CascadeGuard — Phase-wise Implementation Plan
 
+**Superseded for Phase 1 on 2026-11-02.** The current Phase 1 scope, stages 1A–1E, and the later phase boundary table are in `docs/PHASE_1_IMPLEMENTATION_PLAN.md`. That plan is not approved. The sections below are the earlier roadmap. Do not download FSC or start the Phase 1 prompt in this file.
+
 **Project:** Uncertainty-Aware Cascaded Speech Understanding with Failure Diagnosis and Recovery
 
 ---

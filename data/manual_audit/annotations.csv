@@ -1,0 +1,121 @@
+utterance_id,candidate_id,transcript,human_intent,human_slots,negation_present,uncertainty_present,temporal_expression,numerical_expression,semantic_completeness,semantic_ambiguity,coreference_dependency,commit_safety,annotation_confidence,annotator_id,annotation_notes,annotation_status
+utt-041,utt-041-v0,When is my Friday banana,,,,,,,,,,,,,,pending
+utt-076,utt-076-v2,What is my expense account banana,,,,,,,,,,,,,,pending
+utt-041,utt-041-v2,When is my Friday appointment? What is my account balance?,,,,,,,,,,,,,,pending
+utt-157,utt-157-v0,Will not it rain August 12?,,,,,,,,,,,,,,pending
+utt-157,utt-157-v2,Will please it rain August 12?,,,,,,,,,,,,,,pending
+utt-196,utt-196-v2,banana are your closing time?,,,,,,,,,,,,,,pending
+utt-130,utt-130-v1,Remind not me at 3 PM,,,,,,,,,,,,,,pending
+utt-163,utt-163-v1,Play pop music What is my account balance?,,,,,,,,,,,,,,pending
+utt-085,utt-085-gold,Transfer 75 rupees,,,,,,,,,,,,,,pending
+utt-085,utt-085-v1,Transfer 75,,,,,,,,,,,,,,pending
+utt-018,utt-018-v2,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-002,utt-002-v2,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-197,utt-197-v2,What please are your opening time?,,,,,,,,,,,,,,pending
+utt-012,utt-012-v0,9 an appointment for today,,,,,,,,,,,,,,pending
+utt-097,utt-097-v0,banana 180 rupees,,,,,,,,,,,,,,pending
+utt-074,utt-074-gold,What is my deposit account balance?,,,,,,,,,,,,,,pending
+utt-163,utt-163-gold,Play pop music,,,,,,,,,,,,,,pending
+utt-162,utt-162-v2,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-118,utt-118-v0,Show my yesterday transaction What is my account balance?,,,,,,,,,,,,,,pending
+utt-113,utt-113-gold,Show my card transaction,,,,,,,,,,,,,,pending
+utt-018,utt-018-v0,Book please an appointment for September 9,,,,,,,,,,,,,,pending
+utt-052,utt-052-v2,banana is my today appointment?,,,,,,,,,,,,,,pending
+utt-099,utt-099-gold,Transfer 650 rupees,,,,,,,,,,,,,,pending
+utt-179,utt-179-gold,Play instrumental music,,,,,,,,,,,,,,pending
+utt-130,utt-130-v0,Remind please me at 3 PM,,,,,,,,,,,,,,pending
+utt-074,utt-074-v1,What not is my deposit account balance?,,,,,,,,,,,,,,pending
+utt-033,utt-033-v1,Cancel my appointment for April 3,,,,,,,,,,,,,,pending
+utt-156,utt-156-v2,Will it rain July banana,,,,,,,,,,,,,,pending
+utt-025,utt-025-v0,banana my appointment for Thursday,,,,,,,,,,,,,,pending
+utt-099,utt-099-v1,Transfer 650 rupees What is my account balance?,,,,,,,,,,,,,,pending
+utt-023,utt-023-v2,9 my appointment for Tuesday,,,,,,,,,,,,,,pending
+utt-046,utt-046-v1,banana is my Saturday appointment?,,,,,,,,,,,,,,pending
+utt-141,utt-141-v0,Will not it rain Friday?,,,,,,,,,,,,,,pending
+utt-163,utt-163-v2,Play music,,,,,,,,,,,,,,pending
+utt-041,utt-041-v1,9 is my Friday appointment?,,,,,,,,,,,,,,pending
+utt-162,utt-162-gold,Play rock music,,,,,,,,,,,,,,pending
+utt-113,utt-113-v2,Show my card transaction What is my account balance?,,,,,,,,,,,,,,pending
+utt-156,utt-156-v1,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-180,utt-180-v0,9 are your working hours?,,,,,,,,,,,,,,pending
+utt-033,utt-033-v2,Cancel my appointment for April 2 What is my account balance?,,,,,,,,,,,,,,pending
+utt-179,utt-179-v1,Play instrumental music What is my account balance?,,,,,,,,,,,,,,pending
+utt-041,utt-041-gold,When is my Friday appointment?,,,,,,,,,,,,,,pending
+utt-179,utt-179-v0,Play other music,,,,,,,,,,,,,,pending
+utt-012,utt-012-v1,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-066,utt-066-v1,What not is my travel account balance?,,,,,,,,,,,,,,pending
+utt-033,utt-033-v0,banana my appointment for April 2,,,,,,,,,,,,,,pending
+utt-066,utt-066-v2,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-196,utt-196-v0,9 are your closing time?,,,,,,,,,,,,,,pending
+utt-025,utt-025-v1,9 my appointment for Thursday,,,,,,,,,,,,,,pending
+utt-197,utt-197-v1,What are your opening,,,,,,,,,,,,,,pending
+utt-130,utt-130-v2,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-002,utt-002-v1,Book not an appointment for Monday,,,,,,,,,,,,,,pending
+utt-002,utt-002-v0,Book please an appointment for Monday,,,,,,,,,,,,,,pending
+utt-126,utt-126-v2,Remind me at other,,,,,,,,,,,,,,pending
+utt-002,utt-002-gold,Book an appointment for Monday,,,,,,,,,,,,,,pending
+utt-180,utt-180-v1,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-138,utt-138-v0,Remind please me at noon,,,,,,,,,,,,,,pending
+utt-052,utt-052-gold,When is my today appointment?,,,,,,,,,,,,,,pending
+utt-046,utt-046-v2,When is my other appointment?,,,,,,,,,,,,,,pending
+utt-138,utt-138-v1,Remind not me at noon,,,,,,,,,,,,,,pending
+utt-023,utt-023-gold,Cancel my appointment for Tuesday,,,,,,,,,,,,,,pending
+utt-097,utt-097-v2,Transfer 180 rupees What is my account balance?,,,,,,,,,,,,,,pending
+utt-099,utt-099-v0,Transfer 650 other,,,,,,,,,,,,,,pending
+utt-023,utt-023-v1,Cancel please my appointment for Tuesday,,,,,,,,,,,,,,pending
+utt-114,utt-114-v1,Show not my cash transaction,,,,,,,,,,,,,,pending
+utt-196,utt-196-v1,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-138,utt-138-v2,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-076,utt-076-v1,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-114,utt-114-v2,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-018,utt-018-gold,Book an appointment for September 9,,,,,,,,,,,,,,pending
+utt-052,utt-052-v0,9 is my today appointment?,,,,,,,,,,,,,,pending
+utt-156,utt-156-gold,Will it rain July 1?,,,,,,,,,,,,,,pending
+utt-085,utt-085-v0,Transfer not 75 rupees,,,,,,,,,,,,,,pending
+utt-097,utt-097-gold,Transfer 180 rupees,,,,,,,,,,,,,,pending
+utt-046,utt-046-v0,When is my Saturday appointment? What is my account balance?,,,,,,,,,,,,,,pending
+utt-012,utt-012-v2,Book an banana for today,,,,,,,,,,,,,,pending
+utt-099,utt-099-v2,Transfer rupees,,,,,,,,,,,,,,pending
+utt-023,utt-023-v0,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-141,utt-141-v2,Will please it rain Friday?,,,,,,,,,,,,,,pending
+utt-118,utt-118-v2,Show my other transaction,,,,,,,,,,,,,,pending
+utt-074,utt-074-v2,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-066,utt-066-gold,What is my travel account balance?,,,,,,,,,,,,,,pending
+utt-156,utt-156-v0,Will it rain July 2?,,,,,,,,,,,,,,pending
+utt-113,utt-113-v1,9 my card transaction,,,,,,,,,,,,,,pending
+utt-180,utt-180-v2,banana are your working hours?,,,,,,,,,,,,,,pending
+utt-113,utt-113-v0,banana my card transaction,,,,,,,,,,,,,,pending
+utt-141,utt-141-v1,Will rain Friday?,,,,,,,,,,,,,,pending
+utt-074,utt-074-v0,What please is my deposit account balance?,,,,,,,,,,,,,,pending
+utt-052,utt-052-v1,The warehouse is closed today,,,,,,,,,,,,,,pending
+utt-033,utt-033-gold,Cancel my appointment for April 2,,,,,,,,,,,,,,pending
+utt-162,utt-162-v1,Play not rock music,,,,,,,,,,,,,,pending
+utt-126,utt-126-v0,Remind me at 10 AM What is my account balance?,,,,,,,,,,,,,,pending
+utt-126,utt-126-v1,banana me at 10 AM,,,,,,,,,,,,,,pending
+utt-076,utt-076-gold,What is my expense account balance?,,,,,,,,,,,,,,pending
+utt-179,utt-179-v2,instrumental music,,,,,,,,,,,,,,pending
+utt-197,utt-197-v0,What not are your opening time?,,,,,,,,,,,,,,pending
+utt-114,utt-114-gold,Show my cash transaction,,,,,,,,,,,,,,pending
+utt-118,utt-118-v1,banana my yesterday transaction,,,,,,,,,,,,,,pending
+utt-180,utt-180-gold,What are your working hours?,,,,,,,,,,,,,,pending
+utt-076,utt-076-v0,9 is my expense account balance?,,,,,,,,,,,,,,pending
+utt-025,utt-025-gold,Cancel my appointment for Thursday,,,,,,,,,,,,,,pending
+utt-197,utt-197-gold,What are your opening time?,,,,,,,,,,,,,,pending
+utt-163,utt-163-v0,Play other music,,,,,,,,,,,,,,pending
+utt-118,utt-118-gold,Show my yesterday transaction,,,,,,,,,,,,,,pending
+utt-157,utt-157-v1,it rain August 12?,,,,,,,,,,,,,,pending
+utt-046,utt-046-gold,When is my Saturday appointment?,,,,,,,,,,,,,,pending
+utt-157,utt-157-gold,Will it rain August 12?,,,,,,,,,,,,,,pending
+utt-025,utt-025-v2,Cancel my appointment for Thursday What is my account balance?,,,,,,,,,,,,,,pending
+utt-130,utt-130-gold,Remind me at 3 PM,,,,,,,,,,,,,,pending
+utt-162,utt-162-v0,Play please rock music,,,,,,,,,,,,,,pending
+utt-141,utt-141-gold,Will it rain Friday?,,,,,,,,,,,,,,pending
+utt-126,utt-126-gold,Remind me at 10 AM,,,,,,,,,,,,,,pending
+utt-196,utt-196-gold,What are your closing time?,,,,,,,,,,,,,,pending
+utt-085,utt-085-v2,Transfer please 75 rupees,,,,,,,,,,,,,,pending
+utt-012,utt-012-gold,Book an appointment for today,,,,,,,,,,,,,,pending
+utt-114,utt-114-v0,Show please my cash transaction,,,,,,,,,,,,,,pending
+utt-138,utt-138-gold,Remind me at noon,,,,,,,,,,,,,,pending
+utt-066,utt-066-v0,What please is my travel account balance?,,,,,,,,,,,,,,pending
+utt-097,utt-097-v1,Transfer 181 rupees,,,,,,,,,,,,,,pending
+utt-018,utt-018-v1,Book not an appointment for September 9,,,,,,,,,,,,,,pending

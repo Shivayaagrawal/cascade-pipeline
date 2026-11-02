@@ -1,0 +1,105 @@
+{
+  "cases": 40,
+  "intent_accuracy": {
+    "value": 0.1,
+    "numerator": 4,
+    "denominator": 40,
+    "reason": null
+  },
+  "slot_scores": {
+    "precision": 1.0,
+    "recall": 0.11363636363636363,
+    "f1": 0.20408163265306123,
+    "matched_pairs": 5,
+    "predicted_pairs": 5,
+    "reference_pairs": 44
+  },
+  "exact_frame_accuracy": {
+    "value": 0.1,
+    "numerator": 4,
+    "denominator": 40,
+    "reason": null
+  },
+  "coverage": {
+    "value": 0.1,
+    "numerator": 4,
+    "denominator": 40,
+    "reason": null
+  },
+  "selective_risk": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 4,
+    "reason": null
+  },
+  "unsafe_commit_rate": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 4,
+    "reason": null
+  },
+  "safe_commitment_accuracy": {
+    "value": 1.0,
+    "numerator": 4,
+    "denominator": 4,
+    "reason": null
+  },
+  "action_accuracy": {
+    "value": 1.0,
+    "numerator": 40,
+    "denominator": 40,
+    "reason": null
+  },
+  "retry_success_rate": {
+    "value": 1.0,
+    "numerator": 2,
+    "denominator": 2,
+    "reason": null
+  },
+  "clarify_rate": {
+    "value": 0.125,
+    "numerator": 5,
+    "denominator": 40,
+    "reason": null
+  },
+  "hold_rate": {
+    "value": 0.775,
+    "numerator": 31,
+    "denominator": 40,
+    "reason": null
+  },
+  "polarity_accuracy": {
+    "value": 0.875,
+    "numerator": 35,
+    "denominator": 40,
+    "reason": null
+  },
+  "ambiguity_precision": {
+    "value": 1.0,
+    "numerator": 5,
+    "denominator": 5,
+    "reason": null
+  },
+  "ambiguity_recall": {
+    "value": 1.0,
+    "numerator": 5,
+    "denominator": 5,
+    "reason": null
+  },
+  "contradiction_recall": {
+    "value": 1.0,
+    "numerator": 5,
+    "denominator": 5,
+    "reason": null
+  },
+  "critical_slot_safety": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "reason": "no commits on critical-slot cases"
+  },
+  "committed_count": 4,
+  "unsafe_count": 0,
+  "split": "test",
+  "policy_version": "phase3-policy-v1"
+}

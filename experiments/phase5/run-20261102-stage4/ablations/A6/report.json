@@ -1,0 +1,108 @@
+{
+  "cases": 56,
+  "coverage": {
+    "value": 0.9464285714285714,
+    "numerator": 53,
+    "denominator": 56,
+    "ci95": {
+      "low": 0.8539269093117847,
+      "high": 0.9816142186178909
+    },
+    "reason": null
+  },
+  "selective_risk": {
+    "value": 0.2641509433962264,
+    "numerator": 14,
+    "denominator": 53,
+    "ci95": {
+      "low": 0.16437353918463654,
+      "high": 0.395806644106185
+    },
+    "reason": null
+  },
+  "unsafe_commit_rate": {
+    "value": 0.8867924528301887,
+    "numerator": 47,
+    "denominator": 53,
+    "ci95": {
+      "low": 0.7742348088800781,
+      "high": 0.9470696905229743
+    },
+    "reason": null
+  },
+  "path_safety": {
+    "value": 0.11320754716981132,
+    "numerator": 6,
+    "denominator": 53,
+    "ci95": {
+      "low": 0.05293030947702562,
+      "high": 0.22576519111992185
+    },
+    "reason": null
+  },
+  "adapter_path_safety": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "no adapter-traced commits"
+  },
+  "exact_frame_accuracy": {
+    "value": 0.6964285714285714,
+    "numerator": 39,
+    "denominator": 56,
+    "ci95": {
+      "low": 0.5666413471427517,
+      "high": 0.8009967491463056
+    },
+    "reason": null
+  },
+  "safe_commitment_accuracy": {
+    "value": 0.11320754716981132,
+    "numerator": 6,
+    "denominator": 53,
+    "ci95": {
+      "low": 0.05293030947702562,
+      "high": 0.22576519111992185
+    },
+    "reason": null
+  },
+  "unnecessary_abstention": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 9,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.2991450484195441
+    },
+    "reason": null
+  },
+  "critical_slot_safety": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 14,
+    "ci95": {
+      "low": 1.3877787807814457e-17,
+      "high": 0.2153108027376358
+    },
+    "reason": null
+  },
+  "action_accuracy": {
+    "value": 0.16071428571428573,
+    "numerator": 9,
+    "denominator": 56,
+    "ci95": {
+      "low": 0.08692667607595139,
+      "high": 0.2780620666974952
+    },
+    "reason": null
+  },
+  "outcomes": {
+    "SAFE_COMMIT": 6,
+    "UNSAFE_COMMIT": 14,
+    "SAFE_ABSTENTION": 3,
+    "UNNECESSARY_ABSTENTION": 0,
+    "INCORRECT_FRAME": 0,
+    "CORRECT_FRAME_UNSAFE_PATH": 33
+  }
+}

@@ -1,0 +1,28 @@
+# Local Common Voice audio. The placeholder manifest is tracked.
+data/raw/
+data/processed/
+data/common_voice/**
+!data/common_voice/manifest.csv
+
+# Local synthetic audio. Manifests and annotations stay in git.
+data/synthetic/audio/
+
+# LibriSpeech audio, archives, and processed sample tables stay local.
+# Annotations and metadata stay tracked. Phases 3–6 do not need processed/*.csv.
+data/librispeech/archives/
+data/librispeech/raw/
+data/librispeech/processed/
+
+# Local scratch. Frozen text reports stay tracked. Audio and checkpoints do not.
+artifacts/*
+!artifacts/reports/
+!artifacts/reports/**
+outputs/
+checkpoints/
+
+# Local environment
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.DS_Store

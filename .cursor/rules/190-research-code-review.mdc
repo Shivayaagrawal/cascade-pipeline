@@ -1,0 +1,82 @@
+---
+description: Mandatory research and engineering review before completing substantial changes.
+alwaysApply: true
+---
+
+# CascadeGuard Research Code Review
+
+Before considering a substantial implementation complete, perform this review.
+
+## 1. Research alignment
+
+- Does the implementation support the stated research questions?
+- Does it preserve the cascaded architecture?
+- Does it preserve B0, B1, and B2 comparisons?
+- Has any methodological deviation occurred?
+- Is the deviation documented and approved?
+
+## 2. Data integrity
+
+- Are official dataset splits preserved?
+- Is there any train-test leakage?
+- Are speaker identities separated correctly?
+- Are original samples immutable?
+- Are synthetic perturbations traceable?
+
+## 3. ML validity
+
+- Is the model unnecessarily complex?
+- Is there evidence of overfitting?
+- Was model selection performed on validation data?
+- Were thresholds selected without test leakage?
+- Are metrics calculated correctly?
+- Are the baselines fair?
+
+## 4. Engineering quality
+
+- Are modules separated correctly?
+- Are interfaces consistent?
+- Are types and schemas validated?
+- Are exceptions handled?
+- Are tests included?
+- Are configurations externalized?
+
+## 5. Reproducibility
+
+- Are seeds recorded?
+- Are configurations saved?
+- Are model versions recorded?
+- Are predictions preserved?
+- Can the experiment be rerun?
+
+## 6. Reporting
+
+- Are all claims supported by evidence?
+- Are unverified assumptions disclosed?
+- Are negative results preserved?
+- Are limitations documented?
+- Are synthetic results distinguished from natural speech results?
+
+## 7. Final response format
+
+After completing a substantial task, report:
+
+### Implementation
+What was implemented.
+
+### Research impact
+Whether the change affects the methodology.
+
+### Validation
+Tests and experiments actually executed.
+
+### Risks
+Known limitations and unresolved issues.
+
+### Deviations
+Any changes from the approved design.
+
+### Next step
+The smallest logical next implementation task.
+
+Never mark a task research-complete solely because the code executes.

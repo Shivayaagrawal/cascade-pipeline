@@ -1,0 +1,23 @@
+---
+description: ML implementation and evaluation integrity
+globs: ["src/**", "experiments/**", "tests/**"]
+---
+
+# ML and evaluation rules
+
+- Establish a simple baseline before adding complexity.
+- Evaluate B0, B1 and B2 on identical sample IDs and conditions.
+- Use validation data for threshold selection; reserve test data for final evaluation.
+- Report sample counts and denominators with every metric.
+- Implement metrics from saved per-sample predictions, not manually typed values.
+- Unit-test WER, intent accuracy, slot precision/recall/F1 and exact-frame matching on hand-checkable toy cases.
+- A model score or decoder confidence is not a calibrated probability unless calibration has been evaluated.
+- Do not call generated transcript variants genuine ASR N-best hypotheses.
+- Record the true provenance of every candidate.
+- Do not call known injected corruption an online root-cause diagnosis.
+- Keep `injected_failure_type` separate from `predicted_failure_type`.
+- Synthetic corruption is a stress-test condition, not evidence of natural failure frequency.
+- Include clean-condition false-positive measurements.
+- Report failed runs, exclusions and missing outputs.
+- Do not quietly drop difficult samples.
+- Compare latency with hardware, batch size, warm-up and timing method documented.

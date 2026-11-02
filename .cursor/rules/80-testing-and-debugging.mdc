@@ -1,0 +1,129 @@
+---
+description: Testing, debugging, and reliability requirements for CascadeGuard.
+globs: "**/*.py"
+alwaysApply: true
+---
+
+# Testing and Debugging Rules
+
+## 1. Testing framework
+
+Use pytest.
+
+Every new component must include relevant tests.
+
+Maintain separate test categories:
+
+- Unit tests
+- Integration tests
+- Pipeline tests
+- Dataset validation tests
+- Regression tests
+
+## 2. Unit tests
+
+Test:
+
+- Audio loading
+- Audio preprocessing
+- Transcript normalization
+- Semantic frame extraction
+- Failure classification
+- Risk scoring
+- Recovery decisions
+- Evaluation metrics
+- Configuration validation
+
+Test normal, boundary, and invalid inputs.
+
+## 3. Pipeline integration tests
+
+Verify that:
+
+- Audio reaches the ASR component.
+- ASR output reaches NLU.
+- NLU output reaches diagnosis.
+- Diagnosis reaches recovery.
+- Recovery produces a valid action.
+- Sample IDs remain consistent.
+- Intermediate outputs are preserved.
+
+## 4. Edge cases
+
+Explicitly test:
+
+### Audio
+
+- Empty audio
+- Corrupted audio
+- Unsupported format
+- Very short recordings
+- Very long recordings
+- Incorrect sample rate
+- Silent recordings
+- Noisy recordings
+- Clipped recordings
+
+### ASR
+
+- Empty transcript
+- Incorrect transcription
+- Missing words
+- Repeated words
+- Incorrect numbers
+- Negation errors
+- Malformed output
+- ASR timeout
+
+### NLU
+
+- Unknown intent
+- Missing slots
+- Incorrect slot values
+- Multiple possible interpretations
+- Contradictory semantic values
+- Empty model response
+
+### Recovery
+
+- CONTINUE
+- RETRY
+- CLARIFY
+- HOLD
+- Repeated retry attempts
+- Retry limit reached
+- Unresolved ambiguity
+- Recovery timeout
+
+## 5. Error handling
+
+- Use specific exception types.
+- Do not silently ignore errors.
+- Do not return fabricated predictions after model failure.
+- Distinguish model failure from a legitimate low-confidence prediction.
+- Include meaningful error messages.
+- Log failures with sample IDs and pipeline stage.
+
+## 6. Regression protection
+
+When fixing a bug:
+
+1. Reproduce the issue.
+2. Write a test that fails.
+3. Implement the fix.
+4. Verify that the test passes.
+5. Run related regression tests.
+
+Never remove a failing test simply to make the test suite pass.
+
+## 7. Before completing a coding task
+
+Run the relevant test suite.
+
+Report:
+
+- Files changed
+- Tests executed
+- Tests passed
+- Tests failed
+- Known limitations

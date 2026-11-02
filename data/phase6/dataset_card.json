@@ -1,0 +1,36 @@
+{
+  "dataset_id": "synthetic-reference-integrity-v1",
+  "seed": 20261106,
+  "eligible_parents": 198,
+  "excluded_parents": [
+    "utt-020",
+    "utt-040"
+  ],
+  "cases": 184,
+  "category_counts": {
+    "clean_affirmative": 24,
+    "clean_polite_instruction": 12,
+    "negation": 24,
+    "uncertainty": 24,
+    "conditionality": 12,
+    "date_substitution": 16,
+    "time_substitution": 19,
+    "amount_substitution": 19,
+    "candidate_provenance_conflict": 16,
+    "ambiguous_candidate_bundle": 12,
+    "parent_transcript_cue": 6
+  },
+  "shortfalls": {
+    "development": {
+      "time_substitution": 1,
+      "amount_substitution": 1
+    }
+  },
+  "preassigned_test": {
+    "amount_180": "utt-097",
+    "april_2": "utt-013",
+    "time_7am": "utt-121"
+  },
+  "multiple_slot_category": "not built; transfer_money is the only two-slot intent and its second slot is always rupees",
+  "same_session_limitation": "The specification table and the reference check were written in the same session. The labels are not human gold."
+}

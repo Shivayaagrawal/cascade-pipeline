@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CascadeGuard pilot annotation</title>
+  <style>
+    body { font-family: Georgia, serif; margin: 2rem auto; max-width: 46rem; line-height: 1.45; color: #1c1915; background: #f7f4ee; }
+    h1 { font-size: 1.4rem; }
+    .warn { background: #fff6d8; border: 1px solid #e2c56a; padding: 0.7rem 0.9rem; }
+    label { display: block; margin-top: 0.9rem; font-weight: bold; }
+    select, input, textarea { width: 100%; box-sizing: border-box; font: inherit; }
+    textarea { min-height: 4.5rem; }
+    .row { display: flex; gap: 0.6rem; margin-top: 1rem; }
+    button { font: inherit; padding: 0.4rem 0.8rem; }
+    .error { color: #8d1d1d; }
+    audio { width: 100%; margin-top: 0.6rem; }
+  </style>
+</head>
+<body>
+  <h1>Development pilot, one utterance</h1>
+  <p id="progress"></p>
+  <p class="warn">The reference text is not proof of what was spoken. Listen to the recording, then choose each value yourself. Nothing is selected for you.</p>
+  <p><strong id="utterance"></strong> · speaker <strong id="speaker"></strong></p>
+  <p id="reference"></p>
+  <audio id="player" controls preload="none"></audio>
+  <p id="listen-state">Recording not played through.</p>
+  <form id="form">
+    <div id="fields"></div>
+    <label>Annotator id <input id="annotator_id" name="annotator_id" autocomplete="off" placeholder="Type your reviewer id"></label>
+    <label>Notes <textarea id="annotation_notes" name="annotation_notes"></textarea></label>
+    <div class="row">
+      <button type="button" id="previous">Previous</button>
+      <button type="button" id="save">Save</button>
+      <button type="button" id="next">Next</button>
+    </div>
+  </form>
+  <p class="error" id="error"></p>
+  <script>
+    const ENUM_FIELDS = [
+      "sentence_type", "utterance_completeness", "semantic_coherence",
+      "negation_present", "uncertainty_present", "temporal_expression_present",
+      "numerical_expression_present", "coreference_or_context_dependency",
+      "semantic_ambiguity", "task_intent_status", "annotation_confidence", "audio_reviewed"
+    ];
+    const TEXT_FIELDS = ["proposition_summary", "entities_explicitly_mentioned", "task_intent", "task_slots"];
+    let state = null;
+    let saved = null;
+    let listened = false;
+
+    function currentFields() {
+      const fields = {};
+      for (const name of ENUM_FIELDS.concat(TEXT_FIELDS)) {
+        fields[name] = document.getElementById(name).value;
+      }
+      fields.annotator_id = document.getElementById("annotator_id").value;
+      fields.annotation_notes = document.getElementById("annotation_notes").value;
+      return fields;
+    }
+
+    function isDirty() {
+      if (!saved) return false;
+      const fields = currentFields();
+      return Object.keys(saved).some((key) => saved[key] !== fields[key]);
+    }
+
+    function confirmLeave() {
+      if (!isDirty()) return true;
+      return window.confirm("This utterance has unsaved changes. Leave without saving?");
+    }
+
+    window.addEventListener("beforeunload", (event) => {
+      if (!isDirty()) return;
+      event.preventDefault();
+      event.returnValue = "";
+    });
+
+    function fillForm(row) {
+      saved = {};
+      for (const name of ENUM_FIELDS.concat(TEXT_FIELDS, ["annotator_id", "annotation_notes"])) {
+        const stored = row[name];
+        const element = document.getElementById(name);
+        if (name === "annotator_id" && stored === "not_annotated") {
+          element.value = "";
+          saved[name] = "";
+        } else {
+          element.value = stored;
+          saved[name] = stored;
+        }
+      }
+    }
+
+    async function load(index) {
+      const response = await fetch("/api/utterance?index=" + index);
+      state = await response.json();
+      document.getElementById("progress").textContent = state.completed + "/" + state.total + " completed";
+      document.getElementById("utterance").textContent = state.row.utterance_id;
+      document.getElementById("speaker").textContent = state.row.speaker_id;
+      document.getElementById("reference").textContent = state.row.reference_text;
+      const player = document.getElementById("player");
+      player.src = "/audio?index=" + state.index;
+      listened = false;
+      document.getElementById("listen-state").textContent = "Recording not played through.";
+      fillForm(state.row);
+      document.getElementById("error").textContent = "";
+    }
+
+    function buildFields(enums) {
+      const root = document.getElementById("fields");
+      for (const name of ENUM_FIELDS) {
+        const label = document.createElement("label");
+        label.textContent = name.replaceAll("_", " ");
+        const select = document.createElement("select");
+        select.id = name;
+        select.name = name;
+        for (const value of enums[name]) {
+          const option = document.createElement("option");
+          option.value = value;
+          option.textContent = value;
+          select.appendChild(option);
+        }
+        label.appendChild(select);
+        root.appendChild(label);
+      }
+      for (const name of TEXT_FIELDS) {
+        const label = document.createElement("label");
+        label.textContent = name.replaceAll("_", " ");
+        const area = document.createElement("textarea");
+        area.id = name;
+        area.name = name;
+        label.appendChild(area);
+        root.appendChild(label);
+      }
+    }
+
+    document.getElementById("player").addEventListener("ended", () => {
+      listened = true;
+      document.getElementById("listen-state").textContent = "Recording played through.";
+    });
+
+    document.getElementById("previous").addEventListener("click", () => {
+      if (state.index === 0 || !confirmLeave()) return;
+      load(state.index - 1);
+    });
+    document.getElementById("next").addEventListener("click", () => {
+      if (state.index + 1 >= state.total || !confirmLeave()) return;
+      load(state.index + 1);
+    });
+    document.getElementById("save").addEventListener("click", async () => {
+      const response = await fetch("/api/save", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({index: state.index, listened: listened, fields: currentFields()})
+      });
+      const body = await response.json();
+      if (!response.ok) {
+        document.getElementById("error").textContent = body.error;
+        return;
+      }
+      document.getElementById("error").textContent = "";
+      await load(state.index);
+    });
+
+    fetch("/api/schema").then((response) => response.json()).then((schema) => {
+      buildFields(schema.enums);
+      load(0);
+    });
+  </script>
+</body>
+</html>

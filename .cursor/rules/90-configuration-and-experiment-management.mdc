@@ -1,0 +1,135 @@
+---
+description: Configuration, reproducibility, experiment execution, and artifact management.
+globs: "**/*"
+alwaysApply: true
+---
+
+# Configuration and Experiment Management
+
+## 1. Configuration
+
+- Store experiment parameters in YAML configuration files.
+- Avoid hardcoding model settings.
+- Avoid hardcoding dataset paths.
+- Avoid hardcoding thresholds.
+- Use a centralized configuration loader.
+- Validate configuration before starting experiments.
+
+Example:
+
+```yaml
+experiment:
+  name: baseline_b0
+  seed: 42
+
+dataset:
+  name: fluent_speech_commands
+  split: test
+
+asr:
+  provider: faster_whisper
+  model: base
+  device: cpu
+
+nlu:
+  model_type: baseline
+
+recovery:
+  enabled: false
+
+evaluation:
+  calculate_wer: true
+  calculate_intent_accuracy: true
+  calculate_slot_f1: true
+```
+
+## 2. Experiment identity
+
+Every experiment must have:
+
+- Unique experiment ID
+- Experiment name
+- Timestamp
+- Configuration snapshot
+- Dataset version
+- Model version
+- Random seed
+- Evaluation split
+- Execution status
+
+## 3. Artifact management
+
+Store outputs in a predictable structure.
+
+```text
+artifacts/
+    experiments/
+        experiment_id/
+            config.yaml
+            metadata.json
+            predictions.jsonl
+            metrics.json
+            logs/
+            checkpoints/
+```
+
+Do not overwrite previous experiment outputs by default.
+
+## 4. Prediction records
+
+Each prediction should preserve:
+
+- Sample ID
+- Ground truth
+- ASR transcript
+- ASR metadata
+- NLU prediction
+- Failure diagnosis
+- Recovery action
+- Final prediction
+- Per-stage latency
+- Experiment ID
+
+Use JSONL or another appropriate structured format.
+
+## 5. Reproducibility
+
+- Fix random seeds where applicable.
+- Record library versions.
+- Record model versions.
+- Record hardware and device settings.
+- Save preprocessing configurations.
+- Keep original audio immutable.
+- Track perturbation parameters and random seeds.
+- Make experiment runs reproducible from their saved configurations.
+
+## 6. Dataset integrity
+
+- Never modify original dataset files.
+- Store derived data separately.
+- Preserve official train, validation, and test splits.
+- Prevent train/test leakage.
+- Do not silently drop invalid samples.
+- Log exclusions and their reasons.
+- Maintain stable sample identifiers.
+
+## 7. Experiment execution
+
+Do not run a large experiment before validating the pipeline on a small sample.
+
+Use this sequence:
+
+1. Configuration validation.
+2. Small-sample smoke test.
+3. Pipeline integration test.
+4. Full experiment.
+5. Metrics generation.
+6. Artifact verification.
+
+## 8. Results
+
+- Never fabricate metrics.
+- Never overwrite actual results with example values.
+- Distinguish preliminary results from final results.
+- Preserve failed experiment logs.
+- Clearly identify synthetic corruption experiments.

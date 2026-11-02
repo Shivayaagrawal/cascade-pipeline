@@ -1,0 +1,25 @@
+{
+  "dataset_id": "synthetic-semantic-integrity-v1",
+  "seed": 20261105,
+  "eligible_parents": 198,
+  "excluded_parents": [
+    "utt-020",
+    "utt-040"
+  ],
+  "cases": 280,
+  "category_counts": {
+    "clean_affirmative": 30,
+    "negation": 30,
+    "uncertainty_maybe": 30,
+    "uncertainty_possibly": 30,
+    "uncertainty_might": 30,
+    "conditional_if_needed": 30,
+    "critical_date_mutation": 30,
+    "critical_time_mutation": 20,
+    "critical_amount_mutation": 20,
+    "candidate_provenance_conflict": 30
+  },
+  "shortfalls": {},
+  "label_location": "oracle_labels.jsonl",
+  "same_session_limitation": "The specification table and the controller were written in the same session. The labels are not human gold."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "pending_human_annotation",
+  "comparison_performed": false,
+  "reason": "Annotation fields are pending. Gold labels were not compared and were not written into annotations.csv.",
+  "single_annotator": true,
+  "inter_annotator_agreement": "not_claimed",
+  "audio_reviewed": "not_applicable_text_audit",
+  "selected_utterances": 30,
+  "annotation_rows": 120,
+  "seed": 20261102,
+  "disagreements": null
+}

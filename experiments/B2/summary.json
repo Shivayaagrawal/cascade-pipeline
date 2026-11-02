@@ -1,0 +1,45 @@
+{
+  "system": "B2",
+  "dataset": "synthetic",
+  "utterances": 200,
+  "wer": {
+    "wer": 0.3946524064171123,
+    "edits": 369,
+    "reference_words": 935,
+    "utterances": 200,
+    "excluded_empty_reference": 0
+  },
+  "cer": {
+    "cer": 0.3572397751502229,
+    "edits": 1843,
+    "reference_characters": 5159,
+    "utterances": 200,
+    "excluded_empty_reference": 0
+  },
+  "intent_accuracy": 0.565,
+  "slots": {
+    "precision": 0.15454545454545454,
+    "recall": 0.07727272727272727,
+    "f1": 0.10303030303030303,
+    "matched_pairs": 17,
+    "predicted_pairs": 110,
+    "reference_pairs": 220
+  },
+  "exact_frame_match": 0.005,
+  "semantic_error_rate": 0.995,
+  "mean_latency_seconds": 7.547989662270993e-06,
+  "actions": {
+    "RETRY": 52,
+    "HOLD": 65,
+    "CONTINUE": 61,
+    "CLARIFY": 22
+  },
+  "recovery": {
+    "recovery_success_rate": 0.005,
+    "false_recovery_rate": null,
+    "b0_frame_failures": 200,
+    "b0_frame_successes": 0,
+    "recovered": 1,
+    "harmed": 0
+  }
+}

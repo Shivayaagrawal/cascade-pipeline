@@ -1,0 +1,79 @@
+---
+description: Python coding standards for all CascadeGuard source code.
+globs: "**/*.py"
+alwaysApply: true
+---
+
+# Python Coding Standards
+
+You are working on CascadeGuard, a research-oriented cascaded speech understanding system.
+
+## 1. General principles
+
+- Write clean, readable, modular, production-quality Python.
+- Prefer simple implementations over unnecessary abstractions.
+- Follow PEP 8.
+- Use descriptive variable, function, class, and module names.
+- Keep functions focused on one responsibility.
+- Avoid duplicated logic.
+- Avoid monolithic files and excessively long functions.
+- Do not introduce abstractions without a practical reason.
+- Never use hardcoded machine-specific paths.
+
+## 2. Type safety
+
+- Use Python type hints for all public functions and class methods.
+- Use explicit return types.
+- Use dataclasses or Pydantic models for structured data where appropriate.
+- Avoid excessive use of `Any`.
+- Validate inputs at system boundaries.
+- Prefer enums for fixed values such as pipeline states and recovery actions.
+
+Example:
+
+```python
+from enum import Enum
+
+class RecoveryAction(str, Enum):
+    CONTINUE = "continue"
+    RETRY = "retry"
+    CLARIFY = "clarify"
+    HOLD = "hold"
+```
+
+## 3. Function design
+
+- Keep functions small and testable.
+- Separate data processing from business logic.
+- Separate model inference from evaluation.
+- Pass dependencies explicitly rather than relying on global variables.
+- Avoid functions that silently modify input objects.
+- Use immutable data structures where practical.
+
+## 4. Documentation
+
+- Add docstrings to public classes and functions.
+- Document non-obvious algorithms and research decisions.
+- Explain why a particular implementation exists, not just what it does.
+- Include units in parameter names or documentation when relevant.
+- Document assumptions and limitations.
+
+## 5. Code quality
+
+- No unnecessary `print()` statements.
+- Use the project logging system.
+- No broad exception suppression.
+- No unexplained magic numbers.
+- No unused imports or dead code.
+- No temporary debugging code in committed modules.
+- No unnecessary dependencies.
+
+## 6. Imports
+
+Organize imports in this order:
+
+1. Standard library
+2. Third-party libraries
+3. Internal CascadeGuard modules
+
+Use absolute imports from the project package wherever practical.

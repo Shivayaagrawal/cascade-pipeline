@@ -1,0 +1,5 @@
+backend: synthetic_hypothesis
+provenance: synthetic_edit
+whisper_model: tiny
+whisper_executed: false
+note: beam_size is not native N-best. The simulation does not install or run faster-whisper.

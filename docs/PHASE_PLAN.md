@@ -1,5 +1,7 @@
 # 14-Day Phase Plan
 
+**Superseded.** This schedule assumed a Fluent Speech Commands download. The current Phase 1 document is `docs/PHASE_1_IMPLEMENTATION_PLAN.md`. It is not approved, and it does not authorize an FSC or Common Voice download.
+
 This is a focused prototype schedule. Prioritize a working baseline and defensible evaluation over adding many model architectures.
 
 ## Day 1 — Environment and data audit

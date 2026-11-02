@@ -1,0 +1,81 @@
+---
+description: Enforce dataset integrity and prevent train-test leakage in speech and NLU experiments.
+globs: "**/*.py"
+alwaysApply: true
+---
+
+# Data Integrity and Leakage Prevention
+
+## 1. Original data protection
+
+- Never modify original dataset files.
+- Never overwrite original annotations.
+- Keep derived datasets separate.
+- Preserve original sample IDs.
+- Maintain a manifest for every derived sample.
+
+## 2. Leakage prevention
+
+Check for leakage through:
+
+- Duplicate audio recordings.
+- Near-duplicate audio.
+- Shared speakers across splits.
+- Shared utterances across splits.
+- Preprocessing performed using test-wide statistics.
+- Feature normalization fitted on the full dataset.
+- Vocabulary or label mappings learned using test annotations.
+- Training examples generated from test recordings.
+
+Fit data-dependent preprocessing only on training data.
+
+Apply the fitted transformation to validation and test data.
+
+## 3. Perturbation discipline
+
+When generating noisy or corrupted audio:
+
+- Preserve the original clean sample.
+- Save perturbations separately.
+- Record transformation type and parameters.
+- Record random seed.
+- Preserve the source sample ID.
+- Never generate perturbations before defining split boundaries in a way that permits leakage.
+
+Generate perturbations independently within each split.
+
+## 4. Transcript corruption
+
+For synthetic text corruption, record:
+
+- Original transcript.
+- Corrupted transcript.
+- Corruption operation.
+- Corrupted token positions.
+- Corruption severity.
+- Random seed.
+- Sample ID.
+
+Never overwrite the original transcript.
+
+## 5. Dataset verification
+
+Before training, validate:
+
+- Audio files exist.
+- Labels are valid.
+- Sample IDs are unique where required.
+- Splits are correctly assigned.
+- Audio duration is reasonable.
+- Sample rates are understood.
+- No unexpected missing annotations exist.
+
+Report invalid samples and their exclusion reasons.
+
+## 6. Reproducible preprocessing
+
+- Use consistent preprocessing across comparable experiments.
+- Version preprocessing configurations.
+- Avoid hidden transformations.
+- Preserve feature extraction parameters.
+- Ensure train, validation, and test transformations are consistent unless a deliberate experimental condition requires otherwise.

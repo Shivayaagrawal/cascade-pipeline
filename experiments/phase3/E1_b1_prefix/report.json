@@ -1,0 +1,105 @@
+{
+  "cases": 40,
+  "intent_accuracy": {
+    "value": 0.675,
+    "numerator": 27,
+    "denominator": 40,
+    "reason": null
+  },
+  "slot_scores": {
+    "precision": 0.42857142857142855,
+    "recall": 0.20454545454545456,
+    "f1": 0.27692307692307694,
+    "matched_pairs": 9,
+    "predicted_pairs": 21,
+    "reference_pairs": 44
+  },
+  "exact_frame_accuracy": {
+    "value": 0.15,
+    "numerator": 6,
+    "denominator": 40,
+    "reason": null
+  },
+  "coverage": {
+    "value": 0.675,
+    "numerator": 27,
+    "denominator": 40,
+    "reason": null
+  },
+  "selective_risk": {
+    "value": 0.7777777777777778,
+    "numerator": 21,
+    "denominator": 27,
+    "reason": null
+  },
+  "unsafe_commit_rate": {
+    "value": 0.8888888888888888,
+    "numerator": 24,
+    "denominator": 27,
+    "reason": null
+  },
+  "safe_commitment_accuracy": {
+    "value": 0.037037037037037035,
+    "numerator": 1,
+    "denominator": 27,
+    "reason": null
+  },
+  "action_accuracy": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 40,
+    "reason": null
+  },
+  "retry_success_rate": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "reason": "no retry attempts"
+  },
+  "clarify_rate": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 40,
+    "reason": null
+  },
+  "hold_rate": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 40,
+    "reason": null
+  },
+  "polarity_accuracy": {
+    "value": null,
+    "numerator": null,
+    "denominator": 40,
+    "reason": "strategy does not represent polarity"
+  },
+  "ambiguity_precision": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "reason": "no predicted ambiguity"
+  },
+  "ambiguity_recall": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 5,
+    "reason": null
+  },
+  "contradiction_recall": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 5,
+    "reason": null
+  },
+  "critical_slot_safety": {
+    "value": 0.5,
+    "numerator": 5,
+    "denominator": 10,
+    "reason": null
+  },
+  "committed_count": 27,
+  "unsafe_count": 24,
+  "split": "test",
+  "policy_version": "phase3-policy-v1"
+}

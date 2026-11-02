@@ -1,0 +1,125 @@
+{
+  "policy_version": "phase3-policy-v1",
+  "selection_split": "validation",
+  "test_cases_read": false,
+  "weights": {
+    "intent": 0.0,
+    "slot": 0.0,
+    "polarity": 0.0,
+    "ambiguity": 0.0,
+    "contradiction": 1.0
+  },
+  "threshold": 0.25,
+  "grid_size": 350,
+  "selection_rule": [
+    "fewest unsafe commits",
+    "highest safe commitment accuracy",
+    "lowest selective risk",
+    "highest coverage",
+    "lexicographic weights then lowest threshold"
+  ],
+  "validation_summary": {
+    "cases": 32,
+    "intent_accuracy": {
+      "value": 0.125,
+      "numerator": 4,
+      "denominator": 32,
+      "reason": null
+    },
+    "slot_scores": {
+      "precision": 1.0,
+      "recall": 0.13513513513513514,
+      "f1": 0.2380952380952381,
+      "matched_pairs": 5,
+      "predicted_pairs": 5,
+      "reference_pairs": 37
+    },
+    "exact_frame_accuracy": {
+      "value": 0.125,
+      "numerator": 4,
+      "denominator": 32,
+      "reason": null
+    },
+    "coverage": {
+      "value": 0.125,
+      "numerator": 4,
+      "denominator": 32,
+      "reason": null
+    },
+    "selective_risk": {
+      "value": 0.0,
+      "numerator": 0,
+      "denominator": 4,
+      "reason": null
+    },
+    "unsafe_commit_rate": {
+      "value": 0.0,
+      "numerator": 0,
+      "denominator": 4,
+      "reason": null
+    },
+    "safe_commitment_accuracy": {
+      "value": 1.0,
+      "numerator": 4,
+      "denominator": 4,
+      "reason": null
+    },
+    "action_accuracy": {
+      "value": 1.0,
+      "numerator": 32,
+      "denominator": 32,
+      "reason": null
+    },
+    "retry_success_rate": {
+      "value": 1.0,
+      "numerator": 2,
+      "denominator": 2,
+      "reason": null
+    },
+    "clarify_rate": {
+      "value": 0.125,
+      "numerator": 4,
+      "denominator": 32,
+      "reason": null
+    },
+    "hold_rate": {
+      "value": 0.75,
+      "numerator": 24,
+      "denominator": 32,
+      "reason": null
+    },
+    "polarity_accuracy": {
+      "value": 0.875,
+      "numerator": 28,
+      "denominator": 32,
+      "reason": null
+    },
+    "ambiguity_precision": {
+      "value": 1.0,
+      "numerator": 4,
+      "denominator": 4,
+      "reason": null
+    },
+    "ambiguity_recall": {
+      "value": 1.0,
+      "numerator": 4,
+      "denominator": 4,
+      "reason": null
+    },
+    "contradiction_recall": {
+      "value": 1.0,
+      "numerator": 4,
+      "denominator": 4,
+      "reason": null
+    },
+    "critical_slot_safety": {
+      "value": null,
+      "numerator": 0,
+      "denominator": 0,
+      "reason": "no commits on critical-slot cases"
+    },
+    "committed_count": 4,
+    "unsafe_count": 0
+  },
+  "rationale": "The published selective risk stays null when nothing is committed. The tuner uses 1.0 only as a sort sentinel for that missing rate so a null risk is not treated as a perfect zero."
+}

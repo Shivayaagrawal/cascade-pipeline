@@ -1,0 +1,19 @@
+---
+description: Dataset handling, provenance, privacy and split integrity
+globs: ["data/**", "src/data/**", "configs/data*"]
+---
+
+# Data rules
+
+- The primary candidate is Mozilla Common Voice Scripted Speech, through Mozilla Data Collective only, and only after the owner confirms the release and accepts the applicable terms. Fluent Speech Commands and SLURP are superseded unless a new deviation reopens them.
+- Record source URL, release/commit, download date, checksum and license text/location in `docs/DATASET_CARD.md`.
+- Do not redistribute raw audio or annotations unless the license explicitly permits it.
+- Do not infer license permissions from a GitHub README badge or a paper citation alone.
+- Preserve the dataset's official train/validation/test split.
+- Check speaker overlap across splits and fail loudly if leakage is found.
+- Keep clean source audio immutable.
+- Write transformed audio to a separate derived-data location.
+- Every derived sample must retain source sample ID, transformation name, parameters and seed.
+- Distinguish audio-level transforms from transcript-level synthetic edits.
+- Do not include real user recordings without explicit permission and a documented data-handling plan.
+- Never log secrets or unnecessary personal information.

@@ -218,9 +218,13 @@ States: PASS means the check is done and evidenced. PENDING means a person or an
 | Metric definitions | PASS as formulas | WER normalizer is specified as a policy and is not implemented. Do not publish a WER yet. |
 | CPU feasibility | PASS for CPU availability | Apple M1, 16 GiB RAM, no NVIDIA GPU. |
 | Full English archive on this disk | FAIL | Catalogue 88.43 GB. About 60 GiB free. |
-| Phase 1 implementation plan | PASS as a document | `docs/PHASE_1_IMPLEMENTATION_PLAN.md`. Not approved. |
+| Phase 1 implementation plan | PASS as a document, revised after simulation v3 | `docs/PHASE_1_IMPLEMENTATION_PLAN.md`. Not approved. |
 | Owner approval | PENDING | No Phase 1 approval and no terms acceptance. |
 
 **Final decision: NOT READY FOR PHASE 1.**
 
 The research direction is recorded. Acquisition is not permitted. No dataset archive was downloaded, no dependency was installed, no dataset repository was cloned, and no model was trained. Phase 1 does not start from this report. The owner’s next action is in `docs/PHASE_0_DECISION_LOG.md`.
+
+## 16. Amendment after simulation v3
+
+On 2026-11-02 the Phase 1 plan was replaced. Stages 1A–1E are the real-audio foundation described in `docs/PHASE_1_IMPLEMENTATION_PLAN.md` and decision D-CV-006. Simulation results were not edited. Terms stay Pending. The MDC record stays unfrozen. This report remains **NOT READY FOR PHASE 1**.

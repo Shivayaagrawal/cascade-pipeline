@@ -1,0 +1,1297 @@
+{
+  "experiment_id": "sim-eval-v2",
+  "dataset": "synthetic",
+  "seed": 17,
+  "started_at": "2026-11-02T07:40:43.679797+00:00",
+  "git_head": "f55b5bd5b74d760e00f3178a35cd9b9512fd1ccf",
+  "git_status_short": "M docs/METRIC_DEFINITIONS.md\n M docs/PHASE_0_DECISION_LOG.md\n M docs/RESEARCH_DEVIATIONS.md\n?? .cursor/\n?? .gitignore\n?? AGENTS.md\n?? README.md\n?? configs/\n?? data/\n?? docs/SIMULATION_PROTOCOL.md\n?? docs/SIMULATION_RESULTS.md\n?? docs/STORAGE_DECISION.md\n?? experiments/\n?? prompts/\n?? pytest.ini\n?? src/\n?? tests/",
+  "backend": "synthetic_hypothesis",
+  "whisper_executed": false,
+  "asr_decode": false,
+  "candidate_provenance": "synthetic_edit",
+  "retry_mechanism": "simulated_candidate_rescore",
+  "phase_1_approved": false,
+  "common_voice": "not_acquired",
+  "manifest_sha256": "abc3cceec6a90e0953ac6614e1a6fee63b91c1401324798e0232ef1aa4f723e9",
+  "variants_sha256": "fd4d3d9a66e68dd8e687a8ab4d6c5484d32774c2d9c08f3c1ecb7a7e7fa89f68",
+  "preserved_initial_sha256": {
+    "experiments/B0/summary.json": "3873057391b2f36727f503a4d504ddea9453472e6d518a63a2fef2481ae850ee",
+    "experiments/B1/summary.json": "597a2800c946018467865dfcf3d8e547bc51c10487596cc134ca2181fee695b2",
+    "experiments/B2/summary.json": "34a40fdd233f5d4faa00af73c26f1afcc32c4d83922db8df57b7a7184dce0e5d",
+    "artifacts/reports/simulation_report.json": "7adf69ee6ac344e7ef205099af3686ddf7cceaffa111a8789f03b83ed8319856"
+  },
+  "candidate_oracle": {
+    "candidate_oracle_intent_accuracy": {
+      "value": 0.685,
+      "numerator": 137,
+      "denominator": 200,
+      "reason": null
+    },
+    "candidate_oracle_slot_f1": {
+      "precision": 0.13138686131386862,
+      "recall": 0.08181818181818182,
+      "f1": 0.10084033613445378,
+      "matched_pairs": 18,
+      "predicted_pairs": 137,
+      "reference_pairs": 220
+    },
+    "complete_frame_oracle_coverage": {
+      "value": 0.005,
+      "numerator": 1,
+      "denominator": 200,
+      "reason": null
+    },
+    "utterances_with_no_recoverable_frame": 199,
+    "gold_transcript_included": false
+  },
+  "systems_recomputed_not_a_replacement": {
+    "B0": {
+      "system": "B0",
+      "n": 200,
+      "wer": {
+        "wer": 0.4481283422459893,
+        "edits": 419,
+        "reference_words": 935,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.41325838340763715,
+        "edits": 2132,
+        "reference_characters": 5159,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.31,
+      "slot_f1": 0.06498194945848375,
+      "semantic_error_rate": 1.0,
+      "exact_frame_match": 0.0
+    },
+    "B1": {
+      "system": "B1",
+      "n": 200,
+      "wer": {
+        "wer": 0.3090909090909091,
+        "edits": 289,
+        "reference_words": 935,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.2672998643147897,
+        "edits": 1379,
+        "reference_characters": 5159,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.685,
+      "slot_f1": 0.10434782608695653,
+      "semantic_error_rate": 0.995,
+      "exact_frame_match": 0.005
+    },
+    "B2": {
+      "system": "B2",
+      "n": 200,
+      "wer": {
+        "wer": 0.3946524064171123,
+        "edits": 369,
+        "reference_words": 935,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.3572397751502229,
+        "edits": 1843,
+        "reference_characters": 5159,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.565,
+      "slot_f1": 0.10303030303030303,
+      "semantic_error_rate": 0.995,
+      "exact_frame_match": 0.005
+    }
+  },
+  "by_v0_category": {
+    "B0": {
+      "deletion": {
+        "system": "B0",
+        "n": 25,
+        "wer": {
+          "wer": 0.21929824561403508,
+          "edits": 25,
+          "reference_words": 114,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.23633440514469453,
+          "edits": 147,
+          "reference_characters": 622,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.36,
+        "slot_f1": 0.06060606060606061,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "substitution": {
+        "system": "B0",
+        "n": 25,
+        "wer": {
+          "wer": 0.21551724137931033,
+          "edits": 25,
+          "reference_words": 116,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.20662460567823343,
+          "edits": 131,
+          "reference_characters": 634,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.16,
+        "slot_f1": 0.0,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "insertion": {
+        "system": "B0",
+        "n": 25,
+        "wer": {
+          "wer": 0.21929824561403508,
+          "edits": 25,
+          "reference_words": 114,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.27821939586645467,
+          "edits": 175,
+          "reference_characters": 629,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.32,
+        "slot_f1": 0.16216216216216214,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "entity_corruption": {
+        "system": "B0",
+        "n": 25,
+        "wer": {
+          "wer": 0.31896551724137934,
+          "edits": 37,
+          "reference_words": 116,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.26572327044025157,
+          "edits": 169,
+          "reference_characters": 636,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.88,
+        "slot_f1": 0.0,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "number_corruption": {
+        "system": "B0",
+        "n": 25,
+        "wer": {
+          "wer": 0.21551724137931033,
+          "edits": 25,
+          "reference_words": 116,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.13374805598755832,
+          "edits": 86,
+          "reference_characters": 643,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.36,
+        "slot_f1": 0.16666666666666666,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "negation_corruption": {
+        "system": "B0",
+        "n": 25,
+        "wer": {
+          "wer": 0.20833333333333334,
+          "edits": 25,
+          "reference_words": 120,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.14925373134328357,
+          "edits": 100,
+          "reference_characters": 670,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.28,
+        "slot_f1": 0.12121212121212122,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "ambiguous_transcript": {
+        "system": "B0",
+        "n": 25,
+        "wer": {
+          "wer": 1.050420168067227,
+          "edits": 125,
+          "reference_words": 119,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 1.0494752623688155,
+          "edits": 700,
+          "reference_characters": 667,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.12,
+        "slot_f1": 0.0,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "incorrect_transcript": {
+        "system": "B0",
+        "n": 25,
+        "wer": {
+          "wer": 1.1,
+          "edits": 132,
+          "reference_words": 120,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.9483282674772037,
+          "edits": 624,
+          "reference_characters": 658,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.0,
+        "slot_f1": null,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      }
+    },
+    "B1": {
+      "deletion": {
+        "system": "B1",
+        "n": 25,
+        "wer": {
+          "wer": 0.2719298245614035,
+          "edits": 31,
+          "reference_words": 114,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.2347266881028939,
+          "edits": 146,
+          "reference_characters": 622,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 1.0,
+        "slot_f1": 0.15384615384615383,
+        "semantic_error_rate": 0.96,
+        "exact_frame_match": 0.04
+      },
+      "substitution": {
+        "system": "B1",
+        "n": 25,
+        "wer": {
+          "wer": 0.28448275862068967,
+          "edits": 33,
+          "reference_words": 116,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.222397476340694,
+          "edits": 141,
+          "reference_characters": 634,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.6,
+        "slot_f1": 0.13333333333333333,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "insertion": {
+        "system": "B1",
+        "n": 25,
+        "wer": {
+          "wer": 0.21929824561403508,
+          "edits": 25,
+          "reference_words": 114,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.27821939586645467,
+          "edits": 175,
+          "reference_characters": 629,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.32,
+        "slot_f1": 0.16216216216216214,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "entity_corruption": {
+        "system": "B1",
+        "n": 25,
+        "wer": {
+          "wer": 0.31896551724137934,
+          "edits": 37,
+          "reference_words": 116,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.2641509433962264,
+          "edits": 168,
+          "reference_characters": 636,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 1.0,
+        "slot_f1": 0.0,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "number_corruption": {
+        "system": "B1",
+        "n": 25,
+        "wer": {
+          "wer": 0.21551724137931033,
+          "edits": 25,
+          "reference_words": 116,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.14774494556765164,
+          "edits": 95,
+          "reference_characters": 643,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.52,
+        "slot_f1": 0.15789473684210525,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "negation_corruption": {
+        "system": "B1",
+        "n": 25,
+        "wer": {
+          "wer": 0.20833333333333334,
+          "edits": 25,
+          "reference_words": 120,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.1626865671641791,
+          "edits": 109,
+          "reference_characters": 670,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.48,
+        "slot_f1": 0.10810810810810811,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "ambiguous_transcript": {
+        "system": "B1",
+        "n": 25,
+        "wer": {
+          "wer": 0.37815126050420167,
+          "edits": 45,
+          "reference_words": 119,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.3553223388305847,
+          "edits": 237,
+          "reference_characters": 667,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.96,
+        "slot_f1": 0.04444444444444444,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "incorrect_transcript": {
+        "system": "B1",
+        "n": 25,
+        "wer": {
+          "wer": 0.5666666666666667,
+          "edits": 68,
+          "reference_words": 120,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.46808510638297873,
+          "edits": 308,
+          "reference_characters": 658,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.6,
+        "slot_f1": 0.0975609756097561,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      }
+    },
+    "B2": {
+      "deletion": {
+        "system": "B2",
+        "n": 25,
+        "wer": {
+          "wer": 0.2719298245614035,
+          "edits": 31,
+          "reference_words": 114,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.2347266881028939,
+          "edits": 146,
+          "reference_characters": 622,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 1.0,
+        "slot_f1": 0.15384615384615383,
+        "semantic_error_rate": 0.96,
+        "exact_frame_match": 0.04
+      },
+      "substitution": {
+        "system": "B2",
+        "n": 25,
+        "wer": {
+          "wer": 0.28448275862068967,
+          "edits": 33,
+          "reference_words": 116,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.222397476340694,
+          "edits": 141,
+          "reference_characters": 634,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.6,
+        "slot_f1": 0.13333333333333333,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "insertion": {
+        "system": "B2",
+        "n": 25,
+        "wer": {
+          "wer": 0.21929824561403508,
+          "edits": 25,
+          "reference_words": 114,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.27821939586645467,
+          "edits": 175,
+          "reference_characters": 629,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.32,
+        "slot_f1": 0.16216216216216214,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "entity_corruption": {
+        "system": "B2",
+        "n": 25,
+        "wer": {
+          "wer": 0.31896551724137934,
+          "edits": 37,
+          "reference_words": 116,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.26572327044025157,
+          "edits": 169,
+          "reference_characters": 636,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.88,
+        "slot_f1": 0.0,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "number_corruption": {
+        "system": "B2",
+        "n": 25,
+        "wer": {
+          "wer": 0.21551724137931033,
+          "edits": 25,
+          "reference_words": 116,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.14774494556765164,
+          "edits": 95,
+          "reference_characters": 643,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.52,
+        "slot_f1": 0.15789473684210525,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "negation_corruption": {
+        "system": "B2",
+        "n": 25,
+        "wer": {
+          "wer": 0.20833333333333334,
+          "edits": 25,
+          "reference_words": 120,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.1626865671641791,
+          "edits": 109,
+          "reference_characters": 670,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.48,
+        "slot_f1": 0.10810810810810811,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "ambiguous_transcript": {
+        "system": "B2",
+        "n": 25,
+        "wer": {
+          "wer": 1.050420168067227,
+          "edits": 125,
+          "reference_words": 119,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 1.0494752623688155,
+          "edits": 700,
+          "reference_characters": 667,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.12,
+        "slot_f1": 0.0,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      },
+      "incorrect_transcript": {
+        "system": "B2",
+        "n": 25,
+        "wer": {
+          "wer": 0.5666666666666667,
+          "edits": 68,
+          "reference_words": 120,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "cer": {
+          "cer": 0.46808510638297873,
+          "edits": 308,
+          "reference_characters": 658,
+          "utterances": 25,
+          "excluded_empty_reference": 0
+        },
+        "intent_accuracy": 0.6,
+        "slot_f1": 0.0975609756097561,
+        "semantic_error_rate": 1.0,
+        "exact_frame_match": 0.0
+      }
+    }
+  },
+  "by_variant_category": {
+    "deletion": {
+      "system": "variant",
+      "n": 75,
+      "wer": {
+        "wer": 0.21428571428571427,
+        "edits": 75,
+        "reference_words": 350,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.21939834024896265,
+        "edits": 423,
+        "reference_characters": 1928,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.38666666666666666,
+      "slot_f1": 0.02061855670103093,
+      "semantic_error_rate": 1.0,
+      "exact_frame_match": 0.0
+    },
+    "substitution": {
+      "system": "variant",
+      "n": 75,
+      "wer": {
+        "wer": 0.21367521367521367,
+        "edits": 75,
+        "reference_words": 351,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.2139917695473251,
+        "edits": 416,
+        "reference_characters": 1944,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.38666666666666666,
+      "slot_f1": 0.04,
+      "semantic_error_rate": 1.0,
+      "exact_frame_match": 0.0
+    },
+    "insertion": {
+      "system": "variant",
+      "n": 75,
+      "wer": {
+        "wer": 0.211864406779661,
+        "edits": 75,
+        "reference_words": 354,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.2682677567705672,
+        "edits": 525,
+        "reference_characters": 1957,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.29333333333333333,
+      "slot_f1": 0.1359223300970874,
+      "semantic_error_rate": 1.0,
+      "exact_frame_match": 0.0
+    },
+    "entity_corruption": {
+      "system": "variant",
+      "n": 75,
+      "wer": {
+        "wer": 0.31805157593123207,
+        "edits": 111,
+        "reference_words": 349,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.27324675324675324,
+        "edits": 526,
+        "reference_characters": 1925,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.8933333333333333,
+      "slot_f1": 0.013333333333333334,
+      "semantic_error_rate": 0.9866666666666667,
+      "exact_frame_match": 0.013333333333333334
+    },
+    "number_corruption": {
+      "system": "variant",
+      "n": 75,
+      "wer": {
+        "wer": 0.21306818181818182,
+        "edits": 75,
+        "reference_words": 352,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.11937984496124031,
+        "edits": 231,
+        "reference_characters": 1935,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.4533333333333333,
+      "slot_f1": 0.13793103448275862,
+      "semantic_error_rate": 1.0,
+      "exact_frame_match": 0.0
+    },
+    "negation_corruption": {
+      "system": "variant",
+      "n": 75,
+      "wer": {
+        "wer": 0.21551724137931033,
+        "edits": 75,
+        "reference_words": 348,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.15616866215512754,
+        "edits": 300,
+        "reference_characters": 1921,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.30666666666666664,
+      "slot_f1": 0.16666666666666666,
+      "semantic_error_rate": 1.0,
+      "exact_frame_match": 0.0
+    },
+    "ambiguous_transcript": {
+      "system": "variant",
+      "n": 75,
+      "wer": {
+        "wer": 1.0683760683760684,
+        "edits": 375,
+        "reference_words": 351,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 1.0841507485802788,
+        "edits": 2100,
+        "reference_characters": 1937,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.09333333333333334,
+      "slot_f1": 0.0,
+      "semantic_error_rate": 1.0,
+      "exact_frame_match": 0.0
+    },
+    "incorrect_transcript": {
+      "system": "variant",
+      "n": 75,
+      "wer": {
+        "wer": 1.1142857142857143,
+        "edits": 390,
+        "reference_words": 350,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.9647668393782384,
+        "edits": 1862,
+        "reference_characters": 1930,
+        "utterances": 75,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.0,
+      "slot_f1": 0.024096385542168676,
+      "semantic_error_rate": 1.0,
+      "exact_frame_match": 0.0
+    }
+  },
+  "b2_policy": {
+    "action_accuracy": {
+      "value": 0.44,
+      "numerator": 88,
+      "denominator": 200,
+      "reason": null
+    },
+    "recovery_success": {
+      "value": 0.005,
+      "numerator": 1,
+      "denominator": 200,
+      "reason": null
+    },
+    "false_recovery": {
+      "value": null,
+      "numerator": 0,
+      "denominator": 0,
+      "reason": "B0 had no exact-frame successes"
+    },
+    "unnecessary_clarification": {
+      "value": 0.0,
+      "numerator": 0,
+      "denominator": 175,
+      "reason": null
+    },
+    "unnecessary_hold": {
+      "value": 0.0,
+      "numerator": 0,
+      "denominator": 26,
+      "reason": null
+    },
+    "missed_clarification": {
+      "value": 0.12,
+      "numerator": 3,
+      "denominator": 25,
+      "reason": null
+    },
+    "unsafe_commitment": {
+      "value": 0.9911504424778761,
+      "numerator": 112,
+      "denominator": 113,
+      "reason": null
+    },
+    "retry_mechanism": "simulated_candidate_rescore",
+    "asr_decode": false
+  },
+  "per_slot": {
+    "B0": {
+      "account": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 6,
+        "reference": 20
+      },
+      "amount": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 7,
+        "reference": 20
+      },
+      "currency": {
+        "precision": 1.0,
+        "recall": 0.35,
+        "f1": 0.5185185185185185,
+        "matched": 7,
+        "predicted": 7,
+        "reference": 20
+      },
+      "date": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 13,
+        "reference": 78
+      },
+      "genre": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 9,
+        "reference": 20
+      },
+      "recency": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 3,
+        "reference": 20
+      },
+      "time": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 7,
+        "reference": 20
+      },
+      "topic": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 3,
+        "reference": 20
+      }
+    },
+    "B1": {
+      "account": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 10,
+        "reference": 20
+      },
+      "amount": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 16,
+        "reference": 20
+      },
+      "currency": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.888888888888889,
+        "matched": 16,
+        "predicted": 16,
+        "reference": 20
+      },
+      "date": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 37,
+        "reference": 78
+      },
+      "genre": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 16,
+        "reference": 20
+      },
+      "recency": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 4,
+        "reference": 20
+      },
+      "time": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 16,
+        "reference": 20
+      },
+      "topic": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 8,
+        "reference": 20
+      }
+    },
+    "B2": {
+      "account": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 10,
+        "reference": 20
+      },
+      "amount": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 15,
+        "reference": 20
+      },
+      "currency": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571,
+        "matched": 15,
+        "predicted": 15,
+        "reference": 20
+      },
+      "date": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 32,
+        "reference": 78
+      },
+      "genre": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 14,
+        "reference": 20
+      },
+      "recency": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 3,
+        "reference": 20
+      },
+      "time": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 14,
+        "reference": 20
+      },
+      "topic": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "matched": 0,
+        "predicted": 5,
+        "reference": 20
+      }
+    },
+    "not_in_schema": {
+      "location": {
+        "value": null,
+        "reason": "the synthetic schema has no location slot"
+      },
+      "negation": {
+        "value": null,
+        "reason": "negation is an error category, not a gold slot"
+      }
+    }
+  },
+  "ablations": {
+    "b1_one_candidate_with_semantic_comparison": {
+      "system": "B1-1-semantic-True",
+      "n": 200,
+      "wer": {
+        "wer": 0.4481283422459893,
+        "edits": 419,
+        "reference_words": 935,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.41325838340763715,
+        "edits": 2132,
+        "reference_characters": 5159,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.31,
+      "slot_f1": 0.06498194945848375,
+      "semantic_error_rate": 1.0,
+      "exact_frame_match": 0.0
+    },
+    "b1_two_candidates_with_semantic_comparison": {
+      "system": "B1-2-semantic-True",
+      "n": 200,
+      "wer": {
+        "wer": 0.360427807486631,
+        "edits": 337,
+        "reference_words": 935,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.32041093235123086,
+        "edits": 1653,
+        "reference_characters": 5159,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.555,
+      "slot_f1": 0.09345794392523364,
+      "semantic_error_rate": 0.995,
+      "exact_frame_match": 0.005
+    },
+    "b1_three_candidates_with_semantic_comparison": {
+      "system": "B1-3-semantic-True",
+      "n": 200,
+      "wer": {
+        "wer": 0.3090909090909091,
+        "edits": 289,
+        "reference_words": 935,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.2672998643147897,
+        "edits": 1379,
+        "reference_characters": 5159,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.685,
+      "slot_f1": 0.10434782608695653,
+      "semantic_error_rate": 0.995,
+      "exact_frame_match": 0.005
+    },
+    "b1_three_candidates_without_semantic_comparison": {
+      "system": "B1-3-semantic-False",
+      "n": 200,
+      "wer": {
+        "wer": 0.4481283422459893,
+        "edits": 419,
+        "reference_words": 935,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.41325838340763715,
+        "edits": 2132,
+        "reference_characters": 5159,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.31,
+      "slot_f1": 0.06498194945848375,
+      "semantic_error_rate": 1.0,
+      "exact_frame_match": 0.0
+    },
+    "b2_with_failure_diagnosis": {
+      "system": "B2-diagnosis-True",
+      "n": 200,
+      "wer": {
+        "wer": 0.3946524064171123,
+        "edits": 369,
+        "reference_words": 935,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.3572397751502229,
+        "edits": 1843,
+        "reference_characters": 5159,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.565,
+      "slot_f1": 0.10303030303030303,
+      "semantic_error_rate": 0.995,
+      "exact_frame_match": 0.005
+    },
+    "b2_without_failure_diagnosis": {
+      "system": "B2-diagnosis-False",
+      "n": 200,
+      "wer": {
+        "wer": 0.4481283422459893,
+        "edits": 419,
+        "reference_words": 935,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "cer": {
+        "cer": 0.41325838340763715,
+        "edits": 2132,
+        "reference_characters": 5159,
+        "utterances": 200,
+        "excluded_empty_reference": 0
+      },
+      "intent_accuracy": 0.31,
+      "slot_f1": 0.06498194945848375,
+      "semantic_error_rate": 1.0,
+      "exact_frame_match": 0.0
+    },
+    "oracle_with_gold_transcript": {
+      "candidate_oracle_intent_accuracy": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_f1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "matched_pairs": 220,
+        "predicted_pairs": 220,
+        "reference_pairs": 220
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "utterances_with_no_recoverable_frame": 0,
+      "gold_transcript_included": true,
+      "label": "separate ablation; not part of the primary three-candidate oracle"
+    }
+  },
+  "latency_seconds": {
+    "audio_synthesis": {
+      "value": null,
+      "reason": "macOS say was not run again. The initial 437.66s wall time included synthesis and is not ASR or recovery latency."
+    },
+    "asr_decode": {
+      "value": null,
+      "reason": "no waveform decoder was executed"
+    },
+    "audio_loading": {
+      "n": 200,
+      "mean": 5.6846652587410066e-05,
+      "median": 5.5104028433561325e-05,
+      "p95": 6.512500112876296e-05
+    },
+    "candidate_generation": {
+      "n": 1,
+      "mean": 0.009684249991551042,
+      "median": 0.009684249991551042,
+      "p95": 0.009684249991551042
+    },
+    "nlu": {
+      "n": 600,
+      "mean": 2.3882047389633953e-06,
+      "median": 2.2500171326100826e-06,
+      "p95": 3.0829687602818012e-06
+    },
+    "candidate_scoring": {
+      "n": 200,
+      "mean": 9.244759276043624e-06,
+      "median": 8.790986612439156e-06,
+      "p95": 1.0791991371661425e-05
+    },
+    "failure_diagnosis": {
+      "n": 200,
+      "mean": 3.114639548584819e-07,
+      "median": 2.08965502679348e-07,
+      "p95": 3.3300602808594704e-07
+    },
+    "recovery_decision": {
+      "n": 200,
+      "mean": 5.796155019197613e-06,
+      "median": 6.791495252400637e-06,
+      "p95": 8.833012543618679e-06
+    },
+    "text_pipeline_per_utterance": {
+      "n": 200,
+      "mean": 2.3700824531260878e-05,
+      "median": 2.2145977709442377e-05,
+      "p95": 3.162503708153963e-05
+    }
+  },
+  "limitation": "Recomputed scores describe the same unchanged controller and the same three synthetic candidates. They do not replace experiments/B0, B1, or B2."
+}

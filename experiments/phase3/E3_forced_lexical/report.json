@@ -1,0 +1,112 @@
+{
+  "cases": 40,
+  "intent_accuracy": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 40,
+    "reason": null
+  },
+  "slot_scores": {
+    "precision": null,
+    "recall": 0.0,
+    "f1": null,
+    "matched_pairs": 0,
+    "predicted_pairs": 0,
+    "reference_pairs": 44
+  },
+  "exact_frame_accuracy": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 40,
+    "reason": null
+  },
+  "coverage": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 40,
+    "reason": null
+  },
+  "selective_risk": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "reason": "no committed decisions; refusing every input is not a reliability score"
+  },
+  "unsafe_commit_rate": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "reason": "no committed decisions; abstention is not an unsafe commit"
+  },
+  "safe_commitment_accuracy": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "reason": "no committed decisions"
+  },
+  "action_accuracy": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 40,
+    "reason": null
+  },
+  "retry_success_rate": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "reason": "no retry attempts"
+  },
+  "clarify_rate": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 40,
+    "reason": null
+  },
+  "hold_rate": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 40,
+    "reason": null
+  },
+  "polarity_accuracy": {
+    "value": null,
+    "numerator": null,
+    "denominator": 40,
+    "reason": "strategy does not represent polarity"
+  },
+  "ambiguity_precision": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "reason": "no predicted ambiguity"
+  },
+  "ambiguity_recall": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 5,
+    "reason": null
+  },
+  "contradiction_recall": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 5,
+    "reason": null
+  },
+  "critical_slot_safety": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "reason": "no commits on critical-slot cases"
+  },
+  "committed_count": 0,
+  "unsafe_count": 0,
+  "forced_exact_frame_accuracy": {
+    "value": 0.425,
+    "numerator": 17,
+    "denominator": 40,
+    "reason": null
+  },
+  "coverage_note": "Forced selection is scored as an answer, not as coverage.",
+  "split": "test",
+  "policy_version": "phase3-policy-v1"
+}

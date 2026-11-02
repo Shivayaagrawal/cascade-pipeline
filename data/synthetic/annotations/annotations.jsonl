@@ -1,0 +1,200 @@
+{"utterance_id": "utt-000", "intent": "book_appointment", "slots": {"date": "tomorrow"}, "text": "Book an appointment for tomorrow", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-001", "intent": "book_appointment", "slots": {"date": "Friday"}, "text": "Book an appointment for Friday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-002", "intent": "book_appointment", "slots": {"date": "Monday"}, "text": "Book an appointment for Monday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-003", "intent": "book_appointment", "slots": {"date": "Tuesday"}, "text": "Book an appointment for Tuesday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-004", "intent": "book_appointment", "slots": {"date": "Wednesday"}, "text": "Book an appointment for Wednesday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-005", "intent": "book_appointment", "slots": {"date": "Thursday"}, "text": "Book an appointment for Thursday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-006", "intent": "book_appointment", "slots": {"date": "Saturday"}, "text": "Book an appointment for Saturday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-007", "intent": "book_appointment", "slots": {"date": "Sunday"}, "text": "Book an appointment for Sunday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-008", "intent": "book_appointment", "slots": {"date": "next week"}, "text": "Book an appointment for next week", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-009", "intent": "book_appointment", "slots": {"date": "this evening"}, "text": "Book an appointment for this evening", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-010", "intent": "book_appointment", "slots": {"date": "noon"}, "text": "Book an appointment for noon", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-011", "intent": "book_appointment", "slots": {"date": "3 PM"}, "text": "Book an appointment for 3 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-012", "intent": "book_appointment", "slots": {"date": "today"}, "text": "Book an appointment for today", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-013", "intent": "book_appointment", "slots": {"date": "April 2"}, "text": "Book an appointment for April 2", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-014", "intent": "book_appointment", "slots": {"date": "May 5"}, "text": "Book an appointment for May 5", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-015", "intent": "book_appointment", "slots": {"date": "June 10"}, "text": "Book an appointment for June 10", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-016", "intent": "book_appointment", "slots": {"date": "July 1"}, "text": "Book an appointment for July 1", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-017", "intent": "book_appointment", "slots": {"date": "August 12"}, "text": "Book an appointment for August 12", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-018", "intent": "book_appointment", "slots": {"date": "September 9"}, "text": "Book an appointment for September 9", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-019", "intent": "book_appointment", "slots": {"date": "October 3"}, "text": "Book an appointment for October 3", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-020", "intent": "cancel_appointment", "slots": {}, "text": "Cancel my appointment", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-021", "intent": "cancel_appointment", "slots": {"date": "Friday"}, "text": "Cancel my appointment for Friday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-022", "intent": "cancel_appointment", "slots": {"date": "Monday"}, "text": "Cancel my appointment for Monday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-023", "intent": "cancel_appointment", "slots": {"date": "Tuesday"}, "text": "Cancel my appointment for Tuesday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-024", "intent": "cancel_appointment", "slots": {"date": "Wednesday"}, "text": "Cancel my appointment for Wednesday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-025", "intent": "cancel_appointment", "slots": {"date": "Thursday"}, "text": "Cancel my appointment for Thursday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-026", "intent": "cancel_appointment", "slots": {"date": "Saturday"}, "text": "Cancel my appointment for Saturday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-027", "intent": "cancel_appointment", "slots": {"date": "Sunday"}, "text": "Cancel my appointment for Sunday", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-028", "intent": "cancel_appointment", "slots": {"date": "next week"}, "text": "Cancel my appointment for next week", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-029", "intent": "cancel_appointment", "slots": {"date": "this evening"}, "text": "Cancel my appointment for this evening", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-030", "intent": "cancel_appointment", "slots": {"date": "noon"}, "text": "Cancel my appointment for noon", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-031", "intent": "cancel_appointment", "slots": {"date": "3 PM"}, "text": "Cancel my appointment for 3 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-032", "intent": "cancel_appointment", "slots": {"date": "today"}, "text": "Cancel my appointment for today", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-033", "intent": "cancel_appointment", "slots": {"date": "April 2"}, "text": "Cancel my appointment for April 2", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-034", "intent": "cancel_appointment", "slots": {"date": "May 5"}, "text": "Cancel my appointment for May 5", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-035", "intent": "cancel_appointment", "slots": {"date": "June 10"}, "text": "Cancel my appointment for June 10", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-036", "intent": "cancel_appointment", "slots": {"date": "July 1"}, "text": "Cancel my appointment for July 1", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-037", "intent": "cancel_appointment", "slots": {"date": "August 12"}, "text": "Cancel my appointment for August 12", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-038", "intent": "cancel_appointment", "slots": {"date": "September 9"}, "text": "Cancel my appointment for September 9", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-039", "intent": "cancel_appointment", "slots": {"date": "October 3"}, "text": "Cancel my appointment for October 3", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-040", "intent": "check_appointment", "slots": {}, "text": "When is my appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-041", "intent": "check_appointment", "slots": {"date": "Friday"}, "text": "When is my Friday appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-042", "intent": "check_appointment", "slots": {"date": "Monday"}, "text": "When is my Monday appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-043", "intent": "check_appointment", "slots": {"date": "Tuesday"}, "text": "When is my Tuesday appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-044", "intent": "check_appointment", "slots": {"date": "Wednesday"}, "text": "When is my Wednesday appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-045", "intent": "check_appointment", "slots": {"date": "Thursday"}, "text": "When is my Thursday appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-046", "intent": "check_appointment", "slots": {"date": "Saturday"}, "text": "When is my Saturday appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-047", "intent": "check_appointment", "slots": {"date": "Sunday"}, "text": "When is my Sunday appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-048", "intent": "check_appointment", "slots": {"date": "next week"}, "text": "When is my next week appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-049", "intent": "check_appointment", "slots": {"date": "this evening"}, "text": "When is my this evening appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-050", "intent": "check_appointment", "slots": {"date": "noon"}, "text": "When is my noon appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-051", "intent": "check_appointment", "slots": {"date": "3 PM"}, "text": "When is my 3 PM appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-052", "intent": "check_appointment", "slots": {"date": "today"}, "text": "When is my today appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-053", "intent": "check_appointment", "slots": {"date": "April 2"}, "text": "When is my April 2 appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-054", "intent": "check_appointment", "slots": {"date": "May 5"}, "text": "When is my May 5 appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-055", "intent": "check_appointment", "slots": {"date": "June 10"}, "text": "When is my June 10 appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-056", "intent": "check_appointment", "slots": {"date": "July 1"}, "text": "When is my July 1 appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-057", "intent": "check_appointment", "slots": {"date": "August 12"}, "text": "When is my August 12 appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-058", "intent": "check_appointment", "slots": {"date": "September 9"}, "text": "When is my September 9 appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-059", "intent": "check_appointment", "slots": {"date": "October 3"}, "text": "When is my October 3 appointment?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-060", "intent": "check_balance", "slots": {"account": "account"}, "text": "What is my account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-061", "intent": "check_balance", "slots": {"account": "savings account"}, "text": "What is my savings account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-062", "intent": "check_balance", "slots": {"account": "checking account"}, "text": "What is my checking account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-063", "intent": "check_balance", "slots": {"account": "salary account"}, "text": "What is my salary account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-064", "intent": "check_balance", "slots": {"account": "current account"}, "text": "What is my current account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-065", "intent": "check_balance", "slots": {"account": "joint account"}, "text": "What is my joint account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-066", "intent": "check_balance", "slots": {"account": "travel account"}, "text": "What is my travel account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-067", "intent": "check_balance", "slots": {"account": "student account"}, "text": "What is my student account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-068", "intent": "check_balance", "slots": {"account": "business account"}, "text": "What is my business account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-069", "intent": "check_balance", "slots": {"account": "family account"}, "text": "What is my family account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-070", "intent": "check_balance", "slots": {"account": "primary account"}, "text": "What is my primary account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-071", "intent": "check_balance", "slots": {"account": "secondary account"}, "text": "What is my secondary account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-072", "intent": "check_balance", "slots": {"account": "card account"}, "text": "What is my card account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-073", "intent": "check_balance", "slots": {"account": "wallet"}, "text": "What is my wallet balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-074", "intent": "check_balance", "slots": {"account": "deposit account"}, "text": "What is my deposit account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-075", "intent": "check_balance", "slots": {"account": "tax account"}, "text": "What is my tax account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-076", "intent": "check_balance", "slots": {"account": "expense account"}, "text": "What is my expense account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-077", "intent": "check_balance", "slots": {"account": "holiday account"}, "text": "What is my holiday account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-078", "intent": "check_balance", "slots": {"account": "emergency account"}, "text": "What is my emergency account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-079", "intent": "check_balance", "slots": {"account": "daily account"}, "text": "What is my daily account balance?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-080", "intent": "transfer_money", "slots": {"amount": "500", "currency": "rupees"}, "text": "Transfer 500 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-081", "intent": "transfer_money", "slots": {"amount": "100", "currency": "rupees"}, "text": "Transfer 100 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-082", "intent": "transfer_money", "slots": {"amount": "250", "currency": "rupees"}, "text": "Transfer 250 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-083", "intent": "transfer_money", "slots": {"amount": "1000", "currency": "rupees"}, "text": "Transfer 1000 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-084", "intent": "transfer_money", "slots": {"amount": "50", "currency": "rupees"}, "text": "Transfer 50 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-085", "intent": "transfer_money", "slots": {"amount": "75", "currency": "rupees"}, "text": "Transfer 75 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-086", "intent": "transfer_money", "slots": {"amount": "200", "currency": "rupees"}, "text": "Transfer 200 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-087", "intent": "transfer_money", "slots": {"amount": "300", "currency": "rupees"}, "text": "Transfer 300 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-088", "intent": "transfer_money", "slots": {"amount": "400", "currency": "rupees"}, "text": "Transfer 400 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-089", "intent": "transfer_money", "slots": {"amount": "750", "currency": "rupees"}, "text": "Transfer 750 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-090", "intent": "transfer_money", "slots": {"amount": "1500", "currency": "rupees"}, "text": "Transfer 1500 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-091", "intent": "transfer_money", "slots": {"amount": "2000", "currency": "rupees"}, "text": "Transfer 2000 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-092", "intent": "transfer_money", "slots": {"amount": "20", "currency": "rupees"}, "text": "Transfer 20 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-093", "intent": "transfer_money", "slots": {"amount": "40", "currency": "rupees"}, "text": "Transfer 40 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-094", "intent": "transfer_money", "slots": {"amount": "60", "currency": "rupees"}, "text": "Transfer 60 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-095", "intent": "transfer_money", "slots": {"amount": "80", "currency": "rupees"}, "text": "Transfer 80 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-096", "intent": "transfer_money", "slots": {"amount": "120", "currency": "rupees"}, "text": "Transfer 120 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-097", "intent": "transfer_money", "slots": {"amount": "180", "currency": "rupees"}, "text": "Transfer 180 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-098", "intent": "transfer_money", "slots": {"amount": "900", "currency": "rupees"}, "text": "Transfer 900 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-099", "intent": "transfer_money", "slots": {"amount": "650", "currency": "rupees"}, "text": "Transfer 650 rupees", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-100", "intent": "check_transaction", "slots": {"recency": "latest"}, "text": "Show my latest transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-101", "intent": "check_transaction", "slots": {"recency": "last"}, "text": "Show my last transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-102", "intent": "check_transaction", "slots": {"recency": "previous"}, "text": "Show my previous transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-103", "intent": "check_transaction", "slots": {"recency": "recent"}, "text": "Show my recent transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-104", "intent": "check_transaction", "slots": {"recency": "newest"}, "text": "Show my newest transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-105", "intent": "check_transaction", "slots": {"recency": "first"}, "text": "Show my first transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-106", "intent": "check_transaction", "slots": {"recency": "second"}, "text": "Show my second transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-107", "intent": "check_transaction", "slots": {"recency": "third"}, "text": "Show my third transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-108", "intent": "check_transaction", "slots": {"recency": "pending"}, "text": "Show my pending transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-109", "intent": "check_transaction", "slots": {"recency": "cleared"}, "text": "Show my cleared transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-110", "intent": "check_transaction", "slots": {"recency": "failed"}, "text": "Show my failed transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-111", "intent": "check_transaction", "slots": {"recency": "large"}, "text": "Show my large transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-112", "intent": "check_transaction", "slots": {"recency": "small"}, "text": "Show my small transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-113", "intent": "check_transaction", "slots": {"recency": "card"}, "text": "Show my card transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-114", "intent": "check_transaction", "slots": {"recency": "cash"}, "text": "Show my cash transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-115", "intent": "check_transaction", "slots": {"recency": "online"}, "text": "Show my online transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-116", "intent": "check_transaction", "slots": {"recency": "weekly"}, "text": "Show my weekly transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-117", "intent": "check_transaction", "slots": {"recency": "monthly"}, "text": "Show my monthly transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-118", "intent": "check_transaction", "slots": {"recency": "yesterday"}, "text": "Show my yesterday transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-119", "intent": "check_transaction", "slots": {"recency": "today"}, "text": "Show my today transaction", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-120", "intent": "set_reminder", "slots": {"time": "6 PM"}, "text": "Remind me at 6 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-121", "intent": "set_reminder", "slots": {"time": "7 AM"}, "text": "Remind me at 7 AM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-122", "intent": "set_reminder", "slots": {"time": "8 PM"}, "text": "Remind me at 8 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-123", "intent": "set_reminder", "slots": {"time": "9 AM"}, "text": "Remind me at 9 AM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-124", "intent": "set_reminder", "slots": {"time": "5 PM"}, "text": "Remind me at 5 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-125", "intent": "set_reminder", "slots": {"time": "4 PM"}, "text": "Remind me at 4 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-126", "intent": "set_reminder", "slots": {"time": "10 AM"}, "text": "Remind me at 10 AM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-127", "intent": "set_reminder", "slots": {"time": "11 AM"}, "text": "Remind me at 11 AM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-128", "intent": "set_reminder", "slots": {"time": "1 PM"}, "text": "Remind me at 1 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-129", "intent": "set_reminder", "slots": {"time": "2 PM"}, "text": "Remind me at 2 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-130", "intent": "set_reminder", "slots": {"time": "3 PM"}, "text": "Remind me at 3 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-131", "intent": "set_reminder", "slots": {"time": "12 PM"}, "text": "Remind me at 12 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-132", "intent": "set_reminder", "slots": {"time": "6 AM"}, "text": "Remind me at 6 AM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-133", "intent": "set_reminder", "slots": {"time": "7 PM"}, "text": "Remind me at 7 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-134", "intent": "set_reminder", "slots": {"time": "8 AM"}, "text": "Remind me at 8 AM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-135", "intent": "set_reminder", "slots": {"time": "9 PM"}, "text": "Remind me at 9 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-136", "intent": "set_reminder", "slots": {"time": "10 PM"}, "text": "Remind me at 10 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-137", "intent": "set_reminder", "slots": {"time": "11 PM"}, "text": "Remind me at 11 PM", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-138", "intent": "set_reminder", "slots": {"time": "noon"}, "text": "Remind me at noon", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-139", "intent": "set_reminder", "slots": {"time": "midnight"}, "text": "Remind me at midnight", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-140", "intent": "weather_query", "slots": {"date": "tomorrow"}, "text": "Will it rain tomorrow?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-141", "intent": "weather_query", "slots": {"date": "Friday"}, "text": "Will it rain Friday?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-142", "intent": "weather_query", "slots": {"date": "Monday"}, "text": "Will it rain Monday?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-143", "intent": "weather_query", "slots": {"date": "Tuesday"}, "text": "Will it rain Tuesday?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-144", "intent": "weather_query", "slots": {"date": "Wednesday"}, "text": "Will it rain Wednesday?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-145", "intent": "weather_query", "slots": {"date": "Thursday"}, "text": "Will it rain Thursday?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-146", "intent": "weather_query", "slots": {"date": "Saturday"}, "text": "Will it rain Saturday?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-147", "intent": "weather_query", "slots": {"date": "Sunday"}, "text": "Will it rain Sunday?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-148", "intent": "weather_query", "slots": {"date": "next week"}, "text": "Will it rain next week?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-149", "intent": "weather_query", "slots": {"date": "this evening"}, "text": "Will it rain this evening?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-150", "intent": "weather_query", "slots": {"date": "noon"}, "text": "Will it rain noon?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-151", "intent": "weather_query", "slots": {"date": "3 PM"}, "text": "Will it rain 3 PM?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-152", "intent": "weather_query", "slots": {"date": "today"}, "text": "Will it rain today?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-153", "intent": "weather_query", "slots": {"date": "April 2"}, "text": "Will it rain April 2?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-154", "intent": "weather_query", "slots": {"date": "May 5"}, "text": "Will it rain May 5?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-155", "intent": "weather_query", "slots": {"date": "June 10"}, "text": "Will it rain June 10?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-156", "intent": "weather_query", "slots": {"date": "July 1"}, "text": "Will it rain July 1?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-157", "intent": "weather_query", "slots": {"date": "August 12"}, "text": "Will it rain August 12?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-158", "intent": "weather_query", "slots": {"date": "September 9"}, "text": "Will it rain September 9?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-159", "intent": "weather_query", "slots": {"date": "October 3"}, "text": "Will it rain October 3?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-160", "intent": "play_music", "slots": {"genre": "jazz"}, "text": "Play jazz music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-161", "intent": "play_music", "slots": {"genre": "classical"}, "text": "Play classical music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-162", "intent": "play_music", "slots": {"genre": "rock"}, "text": "Play rock music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-163", "intent": "play_music", "slots": {"genre": "pop"}, "text": "Play pop music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-164", "intent": "play_music", "slots": {"genre": "blues"}, "text": "Play blues music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-165", "intent": "play_music", "slots": {"genre": "folk"}, "text": "Play folk music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-166", "intent": "play_music", "slots": {"genre": "hip hop"}, "text": "Play hip hop music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-167", "intent": "play_music", "slots": {"genre": "electronic"}, "text": "Play electronic music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-168", "intent": "play_music", "slots": {"genre": "country"}, "text": "Play country music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-169", "intent": "play_music", "slots": {"genre": "reggae"}, "text": "Play reggae music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-170", "intent": "play_music", "slots": {"genre": "metal"}, "text": "Play metal music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-171", "intent": "play_music", "slots": {"genre": "soul"}, "text": "Play soul music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-172", "intent": "play_music", "slots": {"genre": "disco"}, "text": "Play disco music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-173", "intent": "play_music", "slots": {"genre": "ambient"}, "text": "Play ambient music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-174", "intent": "play_music", "slots": {"genre": "opera"}, "text": "Play opera music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-175", "intent": "play_music", "slots": {"genre": "punk"}, "text": "Play punk music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-176", "intent": "play_music", "slots": {"genre": "latin"}, "text": "Play latin music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-177", "intent": "play_music", "slots": {"genre": "indie"}, "text": "Play indie music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-178", "intent": "play_music", "slots": {"genre": "acoustic"}, "text": "Play acoustic music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-179", "intent": "play_music", "slots": {"genre": "instrumental"}, "text": "Play instrumental music", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-180", "intent": "general_information", "slots": {"topic": "working hours"}, "text": "What are your working hours?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-181", "intent": "general_information", "slots": {"topic": "Saturday hours"}, "text": "What are your Saturday hours?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-182", "intent": "general_information", "slots": {"topic": "branch address"}, "text": "What are your branch address?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-183", "intent": "general_information", "slots": {"topic": "phone number"}, "text": "What are your phone number?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-184", "intent": "general_information", "slots": {"topic": "support email"}, "text": "What are your support email?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-185", "intent": "general_information", "slots": {"topic": "holiday calendar"}, "text": "What are your holiday calendar?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-186", "intent": "general_information", "slots": {"topic": "membership rules"}, "text": "What are your membership rules?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-187", "intent": "general_information", "slots": {"topic": "fee schedule"}, "text": "What are your fee schedule?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-188", "intent": "general_information", "slots": {"topic": "lost card process"}, "text": "What are your lost card process?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-189", "intent": "general_information", "slots": {"topic": "password reset"}, "text": "What are your password reset?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-190", "intent": "general_information", "slots": {"topic": "branch manager"}, "text": "What are your branch manager?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-191", "intent": "general_information", "slots": {"topic": "complaint desk"}, "text": "What are your complaint desk?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-192", "intent": "general_information", "slots": {"topic": "service status"}, "text": "What are your service status?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-193", "intent": "general_information", "slots": {"topic": "queue time"}, "text": "What are your queue time?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-194", "intent": "general_information", "slots": {"topic": "document list"}, "text": "What are your document list?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-195", "intent": "general_information", "slots": {"topic": "identification rules"}, "text": "What are your identification rules?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-196", "intent": "general_information", "slots": {"topic": "closing time"}, "text": "What are your closing time?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-197", "intent": "general_information", "slots": {"topic": "opening time"}, "text": "What are your opening time?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-198", "intent": "general_information", "slots": {"topic": "parking rules"}, "text": "What are your parking rules?", "dataset": "synthetic", "synthetic": true}
+{"utterance_id": "utt-199", "intent": "general_information", "slots": {"topic": "wheelchair access"}, "text": "What are your wheelchair access?", "dataset": "synthetic", "synthetic": true}

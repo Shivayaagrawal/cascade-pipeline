@@ -1,0 +1,103 @@
+---
+description: Prevent unapproved deviations from CascadeGuard's research objectives and experimental methodology.
+alwaysApply: true
+---
+
+# Research Deviation Control
+
+## 1. Research objective
+
+CascadeGuard investigates:
+
+1. How ASR errors propagate into spoken language understanding.
+2. Whether multiple transcript candidates improve semantic interpretation.
+3. Whether failure diagnosis can identify unreliable downstream predictions.
+4. Whether recovery strategies improve task reliability.
+5. The trade-offs between accuracy, latency, false alarms, and recovery success.
+
+The intended research direction is an uncertainty-aware cascaded speech understanding system.
+
+## 2. Preserve the cascade
+
+Maintain the conceptual pipeline:
+
+Audio
+→ Preprocessing
+→ ASR
+→ NLU
+→ Failure Diagnosis
+→ Recovery
+→ Final Decision
+
+Do not silently replace the cascaded approach with:
+- End-to-end speech-to-intent prediction.
+- A general-purpose chatbot.
+- A language-model-only solution.
+- An unrelated speech classification system.
+
+Alternative architectures may be investigated as separate baselines or extensions only when justified.
+
+## 3. Research baseline preservation
+
+Maintain three principal configurations:
+
+- B0: Single-best transcript cascade.
+- B1: Multi-candidate cascade.
+- B2: Failure-aware cascade with recovery.
+
+Keep the original baseline available.
+
+Never modify B0 to make B2 appear better.
+
+## 4. Deviation protocol
+
+If a proposed implementation changes any of the following:
+- Dataset
+- Dataset split
+- Model architecture
+- Training objective
+- Loss function
+- ASR backend
+- NLU approach
+- Candidate generation method
+- Failure detection strategy
+- Recovery policy
+- Evaluation metric
+- Research question
+
+Then:
+
+1. Identify the original design.
+2. Describe the proposed change.
+3. Explain why the change is needed.
+4. Explain its scientific implications.
+5. Identify affected experiments and metrics.
+6. Record the change in `docs/RESEARCH_DEVIATIONS.md`.
+7. Request approval before implementing material methodological changes.
+
+Do not block ordinary refactoring that preserves behavior.
+
+## 5. Research reproduction
+
+If reproducing an existing paper:
+
+- Verify its actual methodology.
+- Separate faithful reproduction from approximation.
+- Document missing implementation details.
+- Record differences in dataset, model, training, and evaluation.
+- Do not call an approximation an exact reproduction.
+
+## 6. Experimental separation
+
+Maintain separate labels for:
+
+- Original paper-inspired baseline.
+- Reproduced or approximated method.
+- Proposed CascadeGuard extension.
+- Optional exploratory experiments.
+
+Do not merge exploratory results into the primary comparison without justification.
+
+## 7. When uncertain
+
+If the proposed change could materially alter the research conclusion, stop and ask for approval rather than silently choosing an alternative.

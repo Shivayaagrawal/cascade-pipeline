@@ -1,0 +1,31 @@
+{
+  "system": "B0",
+  "dataset": "synthetic",
+  "utterances": 200,
+  "wer": {
+    "wer": 0.4481283422459893,
+    "edits": 419,
+    "reference_words": 935,
+    "utterances": 200,
+    "excluded_empty_reference": 0
+  },
+  "cer": {
+    "cer": 0.41325838340763715,
+    "edits": 2132,
+    "reference_characters": 5159,
+    "utterances": 200,
+    "excluded_empty_reference": 0
+  },
+  "intent_accuracy": 0.31,
+  "slots": {
+    "precision": 0.15789473684210525,
+    "recall": 0.04090909090909091,
+    "f1": 0.06498194945848375,
+    "matched_pairs": 9,
+    "predicted_pairs": 57,
+    "reference_pairs": 220
+  },
+  "exact_frame_match": 0.0,
+  "semantic_error_rate": 1.0,
+  "mean_latency_seconds": 3.0975227127783003e-06
+}

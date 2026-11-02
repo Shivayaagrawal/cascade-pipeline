@@ -1,0 +1,37 @@
+{
+  "grid_size": 350,
+  "hypothesis_configuration": "primary_configuration",
+  "note": "Hypotheses are scored on the unmodified Phase 3 configuration. The selection-rule cell is a sensitivity run frozen before the test split is read.",
+  "phase3_config_in_optimal_set": false,
+  "policy_version": "phase4-policy-v1",
+  "primary_configuration": "phase3-policy-v1",
+  "primary_threshold": 0.25,
+  "primary_weights": {
+    "ambiguity": 0.0,
+    "contradiction": 1.0,
+    "intent": 0.0,
+    "polarity": 0.0,
+    "slot": 0.0
+  },
+  "selection_rule": [
+    "fewest unsafe candidate commitments",
+    "fewest invalid action paths",
+    "highest safe commitment accuracy",
+    "lowest selective risk",
+    "highest coverage",
+    "lowest unnecessary abstention",
+    "if the Phase 3 configuration ties, keep it",
+    "otherwise lexicographic weights then lowest threshold"
+  ],
+  "selection_rule_threshold": 0.0,
+  "selection_rule_weights": {
+    "ambiguity": 0.0,
+    "contradiction": 1.0,
+    "intent": 0.0,
+    "polarity": 0.0,
+    "slot": 0.0
+  },
+  "selection_split": "validation",
+  "test_cases_read": false,
+  "tie_count_on_scientific_criteria": 70
+}

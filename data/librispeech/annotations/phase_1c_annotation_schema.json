@@ -1,0 +1,51 @@
+{
+  "schema_version": "phase1c-0",
+  "dataset": "LibriSpeech OpenSLR SLR12",
+  "licence": "CC BY 4.0",
+  "unit": "one LibriSpeech utterance, identified by utterance_id",
+  "annotator_requirement": "A person applies the guidelines after reading the reference text and listening to the FLAC. An unannotated row uses not_annotated and does not invent labels.",
+  "columns": [
+    "utterance_id",
+    "split",
+    "speaker_id",
+    "reference_text",
+    "sentence_type",
+    "utterance_completeness",
+    "proposition_summary",
+    "semantic_coherence",
+    "entities_explicitly_mentioned",
+    "negation_present",
+    "uncertainty_present",
+    "temporal_expression_present",
+    "numerical_expression_present",
+    "coreference_or_context_dependency",
+    "semantic_ambiguity",
+    "task_intent_status",
+    "task_intent",
+    "task_slots",
+    "annotation_confidence",
+    "annotator_id",
+    "annotation_notes",
+    "audio_reviewed"
+  ],
+  "enumerations": {
+    "sentence_type": ["declarative", "interrogative", "imperative", "exclamatory", "fragment", "unclear", "not_annotated"],
+    "utterance_completeness": ["complete", "incomplete", "fragment", "unclear", "not_annotated"],
+    "semantic_coherence": ["coherent", "internally_inconsistent", "unclear", "not_annotated"],
+    "presence": ["present", "absent", "ambiguous", "not_annotated"],
+    "coreference_or_context_dependency": ["none_observed", "context_dependent", "unclear", "not_annotated"],
+    "semantic_ambiguity": ["none_observed", "lexical", "syntactic", "semantic", "context_dependent", "unclear", "not_annotated"],
+    "task_intent_status": ["not_applicable", "genuinely_present", "ambiguous", "not_annotated"],
+    "annotation_confidence": ["high", "medium", "low", "not_annotated"],
+    "audio_reviewed": ["yes", "no", "not_performed"]
+  },
+  "json_fields": {
+    "entities_explicitly_mentioned": "A JSON list of strings copied from the reference, or the token not_annotated. An empty list means the annotator found no explicit entity. It is not a substitute for not_annotated.",
+    "task_slots": "A JSON list of objects with name and value, or the token not_annotated. Use an empty list only when task_intent_status is genuinely_present and no slot was stated."
+  },
+  "task_oriented_schema_proposal": {
+    "status": "not used for LibriSpeech",
+    "future_fields": ["intent", "slots"],
+    "rule": "Apply only to a dataset whose utterances are task requests and whose schema is fixed before annotation."
+  }
+}

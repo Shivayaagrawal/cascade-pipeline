@@ -1,0 +1,16 @@
+{
+  "dataset": "synthetic",
+  "slots_by_intent": {
+    "book_appointment": ["date"],
+    "cancel_appointment": ["date"],
+    "check_appointment": ["date"],
+    "check_balance": ["account"],
+    "transfer_money": ["amount", "currency"],
+    "check_transaction": ["recency"],
+    "set_reminder": ["time"],
+    "weather_query": ["date"],
+    "play_music": ["genre"],
+    "general_information": ["topic"]
+  },
+  "note": "The first cancel and check-appointment examples have an empty slot set. A missing slot is not the string none."
+}

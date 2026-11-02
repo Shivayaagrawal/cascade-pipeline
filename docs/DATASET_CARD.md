@@ -73,9 +73,15 @@ ATIS stays excluded. Google Speech Commands stays optional and off the critical 
 
 ## Phase 1 gate
 
-Do not download until:
+The revised plan is `docs/PHASE_1_IMPLEMENTATION_PLAN.md`. Phase 1B preparation of the two authorized LibriSpeech archives is in progress under D-LS-001. Phase 1C is not authorized.
 
-1. The owner confirms the dataset ID, locale, archive name, format, and size in their own MDC account and writes them here as confirmed.
+**LibriSpeech.** D-LS-001 records the owner's acceptance of CC BY 4.0 and authorization of `dev-clean.tar.gz` and `test-clean.tar.gz`, including extraction into the project dataset directory. The storage cap remains 5,000,000,000 bytes. The browser transfer URL was `https://chatgpt.com/`, not an OpenSLR host. Integrity is the MD5 match against the official `md5sum.txt`. Phase 1C is not authorized. Common Voice is unchanged below.
+
+**Common Voice.** This card stays a pending candidate. Do not download it until:
+
+1. The owner confirms the dataset ID, locale, archive or subset source, format, and size in their own MDC account and writes them here as confirmed.
 2. The owner records Accepted for the terms that apply to that record.
-3. The chosen download fits on disk, or a smaller official subset is identified without assuming one exists.
-4. Raw audio stays outside git.
+3. A permitted subset acquisition method is identified. The full 88.43 GB archive is not an allowed download on this Mac.
+4. That subset is checked against the 5 GB local limit in `docs/STORAGE_DECISION.md`.
+5. The owner explicitly approves that acquisition.
+6. Raw audio stays outside git.

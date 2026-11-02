@@ -1,0 +1,9 @@
+seed: 17
+dataset: synthetic
+intents: 10
+utterances_per_intent: 20
+utterances: 200
+variants_per_utterance: 3
+audio: macOS say AIFF
+common_voice_download: false
+phase_1_approved: false

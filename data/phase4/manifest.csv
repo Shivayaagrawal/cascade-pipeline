@@ -1,0 +1,12 @@
+field,value
+dataset_id,synthetic-independent-challenge-v1
+seed,20261104
+oracle_version,phase4-oracle-v1
+construction_version,phase4-construction-v1
+cases,600
+eligible_parents,198
+excluded_parents,utt-020 utt-040
+shortfalls,{}
+bundles_sha256,593a00c6dd96a4c81dc4ad6b47901123ae89582a625cba2c9ee117674a832e3d
+oracle_sha256,7770ceb1afda6c1889d2273b42a6090dae4ace4363eb89388eea815d3ad0adde
+parent_leakage,False

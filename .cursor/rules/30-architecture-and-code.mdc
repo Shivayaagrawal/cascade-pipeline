@@ -1,0 +1,21 @@
+---
+description: Modular Python architecture, code quality and testing
+globs: ["src/**/*.py", "tests/**/*.py", "*.py"]
+---
+
+# Engineering rules
+
+- Keep dataset, audio, ASR, NLU, risk analysis, controller, evaluation and UI as separate modules.
+- Use typed dataclasses or validated schemas for sample and prediction objects.
+- Avoid hidden global state and implicit file paths.
+- Use explicit configuration.
+- Keep core pipeline usable without Streamlit.
+- Keep local inference as the default.
+- Isolate external service adapters behind interfaces.
+- Handle empty audio, missing files, malformed model outputs, timeout and exceptions explicitly.
+- Never silently convert a failed stage into a successful prediction.
+- Emit structured per-stage traces with sample ID, run ID, stage, duration, status and reason.
+- Add tests for normal, boundary and failure cases.
+- Avoid broad exception swallowing.
+- If an exception is handled, preserve diagnostic context.
+- Do not add dependencies without explaining why they are needed.

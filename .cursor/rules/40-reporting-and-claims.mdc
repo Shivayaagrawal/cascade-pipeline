@@ -1,0 +1,18 @@
+---
+description: Research writing, citations, claims and reporting
+globs: ["docs/**/*.md", "reports/**"]
+---
+
+# Research reporting rules
+
+- Cite the source for dataset, model and method facts.
+- Record exact URLs and access dates.
+- Never invent papers, authors, DOI values, quotations or citations.
+- Clearly label prior-work claims, project design choices, hypotheses and measured findings.
+- Do not claim novelty from component combination alone.
+- Do not claim superiority unless a fair, repeated comparison supports it.
+- State dataset limitations, licensing, domain, language and synthetic-data limitations.
+- Explain negative, null and regressive results rather than hiding them.
+- Every table and figure must be generated from saved experiment outputs or clearly marked as illustrative.
+- Do not write conclusions before results exist.
+- Use TODO placeholders in advance.

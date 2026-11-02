@@ -1,0 +1,129 @@
+---
+description: Enforce scientifically valid experiment design, fair comparisons, and evaluation.
+globs: "**/*.py"
+alwaysApply: true
+---
+
+# ML Experiment Design and Evaluation
+
+## 1. Define experiments before execution
+
+Every experiment must specify:
+
+- Research question.
+- Hypothesis.
+- Independent variable.
+- Dependent variables.
+- Dataset and split.
+- Baseline.
+- Experimental configuration.
+- Evaluation metrics.
+- Expected limitations.
+
+Do not run experiments without knowing what question they are intended to answer.
+
+## 2. Fair comparison
+
+For B0, B1, and B2:
+
+- Use identical test sample IDs.
+- Use the same dataset version.
+- Use consistent preprocessing.
+- Use equivalent evaluation conditions.
+- Preserve the same ground truth.
+- Report excluded samples.
+- Report per-stage and end-to-end latency.
+
+Where components differ intentionally, document the difference.
+
+## 3. Baselines first
+
+Implement and evaluate simple baselines before complex methods.
+
+Examples:
+
+- Single-best ASR + NLU.
+- Simple intent classifier.
+- Simple slot extraction baseline.
+- Rule-based failure detection.
+- Fixed-threshold recovery policy.
+
+Do not assume a complex model is better than a simple baseline.
+
+## 4. Ablation studies
+
+When a system has multiple components, investigate their individual contributions.
+
+For example:
+
+- B0 versus B1.
+- B0 versus B2.
+- B1 versus B2.
+- B2 without risk scoring.
+- B2 without retry.
+- B2 without clarification.
+- B2 with different thresholds.
+
+Do not attribute improvements to a component without an appropriate comparison.
+
+## 5. Metrics
+
+Use metrics appropriate to each task.
+
+### ASR
+- Word Error Rate (WER).
+- Character Error Rate (CER), where appropriate.
+
+### NLU
+- Intent accuracy.
+- Macro-F1 where class imbalance matters.
+- Slot precision, recall, and F1.
+- Exact semantic frame match.
+
+### Recovery
+- Recovery success rate.
+- Harmful recovery rate.
+- False-positive rate.
+- Detection precision, recall, and F1.
+- Coverage.
+- Clarification rate.
+- HOLD rate.
+
+### System
+- End-to-end latency.
+- Per-stage latency.
+- Throughput.
+- Failure rate.
+
+Define each metric precisely before comparing systems.
+
+## 6. Statistical discipline
+
+- Use multiple random seeds for stochastic training where feasible.
+- Report mean and standard deviation.
+- Consider confidence intervals for key metrics.
+- Use paired comparisons when systems operate on the same samples.
+- Do not interpret tiny numerical differences as meaningful improvements without uncertainty analysis.
+- Avoid significance claims without an appropriate statistical test.
+
+## 7. Evaluation integrity
+
+- Never modify evaluation labels.
+- Never manually correct model outputs before scoring.
+- Never omit difficult samples without disclosure.
+- Do not compare metrics calculated using different definitions.
+- Preserve raw predictions.
+- Make metric calculations independently testable.
+
+## 8. Result interpretation
+
+For every reported improvement, identify:
+
+- Which metric improved.
+- By how much.
+- On which split.
+- Under which conditions.
+- At what latency or computational cost.
+- Whether other metrics deteriorated.
+
+Do not report only the best-performing metric.

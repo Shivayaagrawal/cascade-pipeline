@@ -1,0 +1,98 @@
+---
+description: Rules for uncertainty estimation, failure diagnosis, and safe recovery decisions.
+globs: "**/*.py"
+alwaysApply: true
+---
+
+# Uncertainty, Diagnosis, and Recovery
+
+## 1. Purpose
+
+The diagnosis and recovery system must identify potentially unreliable pipeline outputs and choose an appropriate response.
+
+It must not pretend to know the correct answer when evidence is insufficient.
+
+## 2. Uncertainty signals
+
+Possible signals include:
+
+- ASR confidence, when genuinely provided.
+- ASR candidate disagreement.
+- Intent prediction confidence.
+- Slot prediction confidence.
+- Semantic inconsistency.
+- Missing required slots.
+- Invalid output schemas.
+- Timeouts.
+- Out-of-distribution indicators, when implemented and validated.
+
+Every signal must have a documented source and interpretation.
+
+## 3. Confidence discipline
+
+- Do not treat confidence as correctness.
+- Do not combine scores without a justified method.
+- Do not compare uncalibrated scores as if they were probabilities.
+- Do not call a model calibrated without calibration evaluation.
+- Do not assume high confidence means low risk.
+- Validate thresholds on validation data.
+
+## 4. Recovery actions
+
+Support:
+
+CONTINUE:
+Proceed when available evidence satisfies the defined acceptance criteria.
+
+RETRY:
+Attempt another inference or decoding operation when technically justified.
+
+CLARIFY:
+Request additional user information when semantic ambiguity remains unresolved.
+
+HOLD:
+Avoid making a potentially harmful or unsupported decision when the system cannot establish sufficient confidence.
+
+## 5. Recovery limits
+
+- Set a maximum retry count.
+- Prevent infinite retry loops.
+- Set timeouts.
+- Record retry reasons.
+- Record every recovery decision.
+- Do not retry deterministic schema errors indefinitely.
+- Do not retry when no useful alternative inference is available.
+
+## 6. Risk and recovery evaluation
+
+Measure:
+
+- Detection precision.
+- Detection recall.
+- False-positive rate.
+- Recovery success.
+- Harmful recovery.
+- Unnecessary clarification.
+- Unnecessary HOLD.
+- Added latency.
+
+## 7. Explainability
+
+Every recovery decision must have a trace containing:
+
+- Input signals.
+- Detected condition.
+- Applied policy.
+- Selected action.
+- Reason for the action.
+- Final outcome.
+
+Do not generate explanations that claim evidence not present in the trace.
+
+## 8. Safety of final decisions
+
+When required semantic information is missing or contradictory:
+
+- Do not silently invent slot values.
+- Do not convert unknown values into confident predictions.
+- Prefer clarification or HOLD when the policy requires it.

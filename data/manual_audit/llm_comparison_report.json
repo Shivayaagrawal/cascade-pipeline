@@ -1,0 +1,393 @@
+{
+  "status": "llm_provisional_comparison_complete",
+  "claim_boundary": "These labels are LLM-generated provisional annotations. They are not human annotations and not independently validated ground truth. Agreement with synthetic gold is a consistency check, not a benchmark.",
+  "model_name": "Cursor Auto",
+  "prompt_version": "llm-audit-v1",
+  "annotation_order_seed": "20261102",
+  "generated_at": "2026-11-02T13:11:57+00:00",
+  "rows": 120,
+  "human_sheet_modified": false,
+  "inter_annotator_agreement": "not_claimed",
+  "audio_reviewed": "not_applicable_text_audit",
+  "overall": {
+    "rows": 120,
+    "intent_agreement": {
+      "numerator": 87,
+      "denominator": 120,
+      "value": 0.725
+    },
+    "slot_agreement": {
+      "numerator": 73,
+      "denominator": 120,
+      "value": 0.6083333333333333
+    },
+    "frame_agreement": {
+      "numerator": 73,
+      "denominator": 120,
+      "value": 0.6083333333333333
+    },
+    "temporal_agreement_where_gold_has_date_or_time": {
+      "numerator": 49,
+      "denominator": 60,
+      "value": 0.8166666666666667
+    },
+    "numerical_agreement_where_gold_has_amount": {
+      "numerator": 10,
+      "denominator": 12,
+      "value": 0.8333333333333334
+    },
+    "group": "all_rows"
+  },
+  "gold_rows": {
+    "rows": 30,
+    "intent_agreement": {
+      "numerator": 30,
+      "denominator": 30,
+      "value": 1.0
+    },
+    "slot_agreement": {
+      "numerator": 30,
+      "denominator": 30,
+      "value": 1.0
+    },
+    "frame_agreement": {
+      "numerator": 30,
+      "denominator": 30,
+      "value": 1.0
+    },
+    "temporal_agreement_where_gold_has_date_or_time": {
+      "numerator": 15,
+      "denominator": 15,
+      "value": 1.0
+    },
+    "numerical_agreement_where_gold_has_amount": {
+      "numerator": 3,
+      "denominator": 3,
+      "value": 1.0
+    },
+    "group": "gold_transcripts"
+  },
+  "variant_rows": {
+    "rows": 90,
+    "intent_agreement": {
+      "numerator": 57,
+      "denominator": 90,
+      "value": 0.6333333333333333
+    },
+    "slot_agreement": {
+      "numerator": 43,
+      "denominator": 90,
+      "value": 0.4777777777777778
+    },
+    "frame_agreement": {
+      "numerator": 43,
+      "denominator": 90,
+      "value": 0.4777777777777778
+    },
+    "temporal_agreement_where_gold_has_date_or_time": {
+      "numerator": 34,
+      "denominator": 45,
+      "value": 0.7555555555555555
+    },
+    "numerical_agreement_where_gold_has_amount": {
+      "numerator": 7,
+      "denominator": 9,
+      "value": 0.7777777777777778
+    },
+    "group": "edited_variants"
+  },
+  "by_variant_category": {
+    "ambiguous_transcript": {
+      "rows": 11,
+      "intent_agreement": {
+        "numerator": 0,
+        "denominator": 11,
+        "value": 0.0
+      },
+      "slot_agreement": {
+        "numerator": 0,
+        "denominator": 11,
+        "value": 0.0
+      },
+      "frame_agreement": {
+        "numerator": 0,
+        "denominator": 11,
+        "value": 0.0
+      },
+      "temporal_agreement_where_gold_has_date_or_time": {
+        "numerator": 5,
+        "denominator": 5,
+        "value": 1.0
+      },
+      "numerical_agreement_where_gold_has_amount": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "group": "ambiguous_transcript"
+    },
+    "deletion": {
+      "rows": 7,
+      "intent_agreement": {
+        "numerator": 7,
+        "denominator": 7,
+        "value": 1.0
+      },
+      "slot_agreement": {
+        "numerator": 3,
+        "denominator": 7,
+        "value": 0.42857142857142855
+      },
+      "frame_agreement": {
+        "numerator": 3,
+        "denominator": 7,
+        "value": 0.42857142857142855
+      },
+      "temporal_agreement_where_gold_has_date_or_time": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "numerical_agreement_where_gold_has_amount": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "group": "deletion"
+    },
+    "entity_corruption": {
+      "rows": 6,
+      "intent_agreement": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "slot_agreement": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "frame_agreement": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "temporal_agreement_where_gold_has_date_or_time": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "numerical_agreement_where_gold_has_amount": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "group": "entity_corruption"
+    },
+    "incorrect_transcript": {
+      "rows": 15,
+      "intent_agreement": {
+        "numerator": 0,
+        "denominator": 15,
+        "value": 0.0
+      },
+      "slot_agreement": {
+        "numerator": 0,
+        "denominator": 15,
+        "value": 0.0
+      },
+      "frame_agreement": {
+        "numerator": 0,
+        "denominator": 15,
+        "value": 0.0
+      },
+      "temporal_agreement_where_gold_has_date_or_time": {
+        "numerator": 2,
+        "denominator": 8,
+        "value": 0.25
+      },
+      "numerical_agreement_where_gold_has_amount": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "group": "incorrect_transcript"
+    },
+    "insertion": {
+      "rows": 13,
+      "intent_agreement": {
+        "numerator": 13,
+        "denominator": 13,
+        "value": 1.0
+      },
+      "slot_agreement": {
+        "numerator": 13,
+        "denominator": 13,
+        "value": 1.0
+      },
+      "frame_agreement": {
+        "numerator": 13,
+        "denominator": 13,
+        "value": 1.0
+      },
+      "temporal_agreement_where_gold_has_date_or_time": {
+        "numerator": 7,
+        "denominator": 7,
+        "value": 1.0
+      },
+      "numerical_agreement_where_gold_has_amount": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "group": "insertion"
+    },
+    "negation_corruption": {
+      "rows": 12,
+      "intent_agreement": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "slot_agreement": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "frame_agreement": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "temporal_agreement_where_gold_has_date_or_time": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "numerical_agreement_where_gold_has_amount": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "group": "negation_corruption"
+    },
+    "number_corruption": {
+      "rows": 12,
+      "intent_agreement": {
+        "numerator": 9,
+        "denominator": 12,
+        "value": 0.75
+      },
+      "slot_agreement": {
+        "numerator": 6,
+        "denominator": 12,
+        "value": 0.5
+      },
+      "frame_agreement": {
+        "numerator": 6,
+        "denominator": 12,
+        "value": 0.5
+      },
+      "temporal_agreement_where_gold_has_date_or_time": {
+        "numerator": 5,
+        "denominator": 7,
+        "value": 0.7142857142857143
+      },
+      "numerical_agreement_where_gold_has_amount": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "group": "number_corruption"
+    },
+    "substitution": {
+      "rows": 14,
+      "intent_agreement": {
+        "numerator": 10,
+        "denominator": 14,
+        "value": 0.7142857142857143
+      },
+      "slot_agreement": {
+        "numerator": 9,
+        "denominator": 14,
+        "value": 0.6428571428571429
+      },
+      "frame_agreement": {
+        "numerator": 9,
+        "denominator": 14,
+        "value": 0.6428571428571429
+      },
+      "temporal_agreement_where_gold_has_date_or_time": {
+        "numerator": 7,
+        "denominator": 8,
+        "value": 0.875
+      },
+      "numerical_agreement_where_gold_has_amount": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "group": "substitution"
+    }
+  },
+  "label_counts": {
+    "negation_present": {
+      "no": 108,
+      "yes": 12
+    },
+    "uncertainty_present": {
+      "no": 120
+    },
+    "semantic_ambiguity": {
+      "no": 104,
+      "yes": 16
+    },
+    "semantic_completeness": {
+      "incomplete": 15,
+      "uncertain": 26,
+      "complete": 79
+    },
+    "coreference_dependency": {
+      "no": 120
+    },
+    "commit_safety": {
+      "unsafe": 59,
+      "safe": 47,
+      "uncertain": 14
+    },
+    "annotation_confidence": {
+      "medium": 26,
+      "high": 94
+    },
+    "llm_intent": {
+      "unknown": 33,
+      "check_balance": 9,
+      "weather_query": 11,
+      "general_information": 10,
+      "set_reminder": 9,
+      "transfer_money": 9,
+      "play_music": 9,
+      "check_transaction": 9,
+      "book_appointment": 8,
+      "check_appointment": 8,
+      "cancel_appointment": 5
+    }
+  },
+  "negation_against_edit_category": {
+    "note": "negation_corruption is an edit tag, not a gold semantic label.",
+    "negation_corruption_rows": 12,
+    "marked_negation_yes": 12,
+    "negation_yes_outside_that_category": []
+  },
+  "uncertainty": {
+    "note": "The synthetic gold tables have no uncertainty label. 'please' was not coded as uncertainty. No row contained 'maybe'.",
+    "uncertainty_yes": 0
+  },
+  "review_counts": {
+    "gold_frame_disagreements": 0,
+    "semantic_ambiguity_yes": 16,
+    "commit_uncertain": 14,
+    "commit_unsafe": 59,
+    "confidence_medium_or_low": 26
+  }
+}

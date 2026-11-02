@@ -1,0 +1,26 @@
+{
+  "dataset": "synthetic-semantic-challenge-v1",
+  "seed": 20261103,
+  "label_source": "deterministic_transformation",
+  "llm_labels_used_as_gold": false,
+  "categories": [
+    "NEGATION_SHIFT",
+    "SLOT_VALUE_CORRUPTION",
+    "SEMANTIC_AMBIGUITY",
+    "CONTRADICTORY_EVIDENCE",
+    "INCOMPLETE_EVIDENCE",
+    "UNCERTAINTY_OR_MODALITY",
+    "CONTEXT_DEPENDENCY",
+    "FUNCTION_WORD_DAMAGE"
+  ],
+  "operators": {
+    "NEGATION_SHIFT": "Insert ' not' after the first token. Odd selected rows in each split also keep the parent text as an alternate candidate.",
+    "SLOT_VALUE_CORRUPTION": "Replace the primary critical slot span with the placeholder other.",
+    "SEMANTIC_AMBIGUITY": "Append a second closed-grammar request that adds a different intent.",
+    "CONTRADICTORY_EVIDENCE": "Pair the parent text with a copy whose primary critical value is the first other lexicon value.",
+    "INCOMPLETE_EVIDENCE": "Delete the primary critical slot span.",
+    "UNCERTAINTY_OR_MODALITY": "Prefix 'Maybe '.",
+    "CONTEXT_DEPENDENCY": "Replace the primary critical slot span with that. Weather it is not the dependency.",
+    "FUNCTION_WORD_DAMAGE": "Replace the first token with banana."
+  }
+}

@@ -1,0 +1,6 @@
+dataset: synthetic
+normalizer: NFC, casefold, collapse whitespace, keep punctuation
+max_retries: 1
+continue_when_confidence: 1.0
+comparison: identical synthetic utterance ids
+do_not_pool_with_common_voice: true

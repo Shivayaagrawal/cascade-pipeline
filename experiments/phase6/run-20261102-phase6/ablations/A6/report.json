@@ -1,0 +1,199 @@
+{
+  "cases": 36,
+  "committed_cases": 32,
+  "abstained_cases": 4,
+  "coverage": {
+    "value": 0.8888888888888888,
+    "numerator": 32,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.7468519140963513,
+      "high": 0.9559335969968435
+    },
+    "reason": null
+  },
+  "selective_risk": {
+    "value": 0.28125,
+    "numerator": 9,
+    "denominator": 32,
+    "ci95": {
+      "low": 0.15564580497742764,
+      "high": 0.45374509425916565
+    },
+    "reason": null
+  },
+  "unsafe_commit_rate": {
+    "value": 0.71875,
+    "numerator": 23,
+    "denominator": 32,
+    "ci95": {
+      "low": 0.5462549057408342,
+      "high": 0.8443541950225723
+    },
+    "reason": null
+  },
+  "path_safety": {
+    "value": 0.28125,
+    "numerator": 9,
+    "denominator": 32,
+    "ci95": {
+      "low": 0.15564580497742764,
+      "high": 0.45374509425916565
+    },
+    "reason": null
+  },
+  "adapter_path_safety": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "no adapter-traced commits"
+  },
+  "exact_frame_accuracy": {
+    "value": 0.6388888888888888,
+    "numerator": 23,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.4757507548555804,
+      "high": 0.7752440705348462
+    },
+    "reason": null
+  },
+  "safe_commitment_accuracy": {
+    "value": 0.28125,
+    "numerator": 9,
+    "denominator": 32,
+    "ci95": {
+      "low": 0.15564580497742764,
+      "high": 0.45374509425916565
+    },
+    "reason": null
+  },
+  "unnecessary_abstention": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 11,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.2588329669680317
+    },
+    "reason": null
+  },
+  "critical_slot_safety": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 9,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.2991450484195441
+    },
+    "reason": null
+  },
+  "critical_substitution_detection": {
+    "value": 0.18181818181818182,
+    "numerator": 2,
+    "denominator": 11,
+    "ci95": {
+      "low": 0.05136768974608513,
+      "high": 0.4769805619608442
+    },
+    "reason": null
+  },
+  "false_rejection_on_clean": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 7,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.35433043506668743
+    },
+    "reason": null
+  },
+  "intent_accuracy": {
+    "value": 0.8888888888888888,
+    "numerator": 32,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.7468519140963513,
+      "high": 0.9559335969968435
+    },
+    "reason": null
+  },
+  "slots": {
+    "precision": {
+      "value": 0.7428571428571429,
+      "numerator": 26,
+      "denominator": 35,
+      "ci95": {
+        "low": 0.5793069315616084,
+        "high": 0.8583697293093955
+      },
+      "reason": null
+    },
+    "recall": {
+      "value": 0.65,
+      "numerator": 26,
+      "denominator": 40,
+      "ci95": {
+        "low": 0.49505880837257693,
+        "high": 0.7786547112682372
+      },
+      "reason": null
+    },
+    "f1": 0.6933333333333334
+  },
+  "action_accuracy": {
+    "value": 0.3055555555555556,
+    "numerator": 11,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.1800445159482992,
+      "high": 0.4685627285051034
+    },
+    "reason": null
+  },
+  "modality_accuracy": {
+    "value": 1.0,
+    "numerator": 36,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.9035813714055363,
+      "high": 1.0
+    },
+    "reason": null
+  },
+  "polarity_accuracy": {
+    "value": 1.0,
+    "numerator": 36,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.9035813714055363,
+      "high": 1.0
+    },
+    "reason": null
+  },
+  "conditionality_accuracy": {
+    "value": 1.0,
+    "numerator": 36,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.9035813714055363,
+      "high": 1.0
+    },
+    "reason": null
+  },
+  "outcomes": {
+    "SAFE_COMMIT": 9,
+    "UNSAFE_COMMIT": 9,
+    "SAFE_ABSTENTION": 4,
+    "UNNECESSARY_ABSTENTION": 0,
+    "INCORRECT_FRAME": 0,
+    "CORRECT_FRAME_UNSAFE_PATH": 14
+  },
+  "actions": {
+    "CONTINUE": 32,
+    "RETRY": 0,
+    "CLARIFY": 0,
+    "HOLD": 4
+  }
+}

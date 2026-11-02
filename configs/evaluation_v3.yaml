@@ -1,0 +1,27 @@
+experiment_id: sim-eval-v3
+seed: 17
+dataset: synthetic
+utterance_count: 200
+asr_decode: false
+retry_mechanism: simulated_candidate_rescore
+phase_1_approved: false
+common_voice_download: false
+b2_thresholds_tuned: false
+gold_transcript_in_primary_candidates: false
+min_support_reported: [1, 2, 3]
+candidate_methods:
+  - v1_injector
+  - paraphrase
+  - slot_removed
+  - split_evidence
+preserves:
+  - experiments/B0/summary.json
+  - experiments/B1/summary.json
+  - experiments/B2/summary.json
+  - artifacts/reports/simulation_report.json
+  - experiments/sim-eval-v2/report.json
+expected_action_order:
+  - primary_candidate_preserves_gold_frame_expects_continue
+  - supplied_retry_bundle_preserves_gold_frame_expects_simulated_retry
+  - missing_slot_split_evidence_or_ambiguity_expects_clarify
+  - otherwise_hold

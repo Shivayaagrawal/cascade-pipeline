@@ -1,0 +1,2559 @@
+{
+  "experiment_id": "sim-eval-v3",
+  "dataset": "synthetic",
+  "seed": 17,
+  "started_at": "2026-11-02T08:50:05.085299+00:00",
+  "git_head": "f55b5bd5b74d760e00f3178a35cd9b9512fd1ccf",
+  "git_status_short": "M docs/METRIC_DEFINITIONS.md\n M docs/PHASE_0_DECISION_LOG.md\n M docs/RESEARCH_DEVIATIONS.md\n?? .cursor/\n?? .gitignore\n?? AGENTS.md\n?? README.md\n?? configs/\n?? data/\n?? docs/SIMULATION_EVAL_V2.md\n?? docs/SIMULATION_PROTOCOL.md\n?? docs/SIMULATION_RESULTS.md\n?? docs/STORAGE_DECISION.md\n?? experiments/\n?? prompts/\n?? pytest.ini\n?? src/\n?? tests/",
+  "backend": "synthetic_hypothesis",
+  "whisper_executed": false,
+  "asr_decode": false,
+  "retry_mechanism": "simulated_candidate_rescore",
+  "phase_1_approved": false,
+  "common_voice": "not_acquired",
+  "b2_thresholds_tuned": false,
+  "gold_transcript_in_primary_candidates": false,
+  "manifest_sha256": "abc3cceec6a90e0953ac6614e1a6fee63b91c1401324798e0232ef1aa4f723e9",
+  "config_sha256": "ac4bb7ea743195e6ea860a4f2c34dc546437321f28c811055782fe4b1c5ed842",
+  "preserved_sha256_before": {
+    "experiments/B0/summary.json": "3873057391b2f36727f503a4d504ddea9453472e6d518a63a2fef2481ae850ee",
+    "experiments/B1/summary.json": "597a2800c946018467865dfcf3d8e547bc51c10487596cc134ca2181fee695b2",
+    "experiments/B2/summary.json": "34a40fdd233f5d4faa00af73c26f1afcc32c4d83922db8df57b7a7184dce0e5d",
+    "artifacts/reports/simulation_report.json": "7adf69ee6ac344e7ef205099af3686ddf7cceaffa111a8789f03b83ed8319856",
+    "experiments/sim-eval-v2/report.json": "74499b716103e26ef829cb56816bf738d67d3d3e5961848c4cfe37f2e8f4f77d"
+  },
+  "candidate_information": {
+    "v1_injector": {
+      "candidate_oracle_intent_coverage": {
+        "value": 0.965,
+        "numerator": 193,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.735,
+        "numerator": 147,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_disagreement": {
+        "value": 0.34,
+        "numerator": 68,
+        "denominator": 200,
+        "reason": null
+      },
+      "missing_gold_slots": {
+        "value": 0.01,
+        "numerator": 2,
+        "denominator": 200,
+        "reason": null
+      },
+      "utterances_with_no_complete_frame": 53,
+      "gold_transcript_included": false
+    },
+    "paraphrase": {
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_disagreement": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "missing_gold_slots": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "utterances_with_no_complete_frame": 0,
+      "gold_transcript_included": false
+    },
+    "slot_removed": {
+      "candidate_oracle_intent_coverage": {
+        "value": 0.9,
+        "numerator": 180,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 0.01,
+        "numerator": 2,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.01,
+        "numerator": 2,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_disagreement": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "missing_gold_slots": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "utterances_with_no_complete_frame": 198,
+      "gold_transcript_included": false
+    },
+    "split_evidence": {
+      "candidate_oracle_intent_coverage": {
+        "value": 0.9,
+        "numerator": 180,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.01,
+        "numerator": 2,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_disagreement": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "missing_gold_slots": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "utterances_with_no_complete_frame": 198,
+      "gold_transcript_included": false
+    }
+  },
+  "selector_comparison": {
+    "v1_injector": {
+      "decision_coverage": {
+        "value": 0.725,
+        "numerator": 145,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.020689655172413793,
+        "numerator": 3,
+        "denominator": 145,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.020689655172413793,
+        "numerator": 3,
+        "denominator": 145,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.020689655172413793,
+        "numerator": 3,
+        "denominator": 145,
+        "reason": null
+      },
+      "accuracy_on_committed_decisions": {
+        "intent_accuracy": 1.0,
+        "slot_f1": 0.9806451612903225,
+        "slot_scores": {
+          "precision": 0.9806451612903225,
+          "recall": 0.9806451612903225,
+          "f1": 0.9806451612903225,
+          "matched_pairs": 152,
+          "predicted_pairs": 155,
+          "reference_pairs": 155
+        },
+        "exact_frame_accuracy": {
+          "value": 0.9793103448275862,
+          "numerator": 142,
+          "denominator": 145,
+          "reason": null
+        }
+      },
+      "accuracy_counting_abstention_as_incorrect": {
+        "intent_accuracy": 0.725,
+        "slot_f1": 0.8169761273209549,
+        "slot_scores": {
+          "precision": 0.9808917197452229,
+          "recall": 0.7,
+          "f1": 0.8169761273209549,
+          "matched_pairs": 154,
+          "predicted_pairs": 157,
+          "reference_pairs": 220
+        },
+        "exact_frame_accuracy": {
+          "value": 0.71,
+          "numerator": 142,
+          "denominator": 200,
+          "reason": null
+        }
+      },
+      "clarification_precision": {
+        "value": 0.8958333333333334,
+        "numerator": 43,
+        "denominator": 48,
+        "reason": null
+      },
+      "clarification_recall": {
+        "value": 0.9347826086956522,
+        "numerator": 43,
+        "denominator": 46,
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.96,
+        "numerator": 192,
+        "denominator": 200,
+        "reason": null
+      },
+      "recovery_gain_over_b0": {
+        "value": 0.71,
+        "achieved_exact_frames_over_all_inputs": {
+          "value": 0.71,
+          "numerator": 142,
+          "denominator": 200,
+          "reason": null
+        },
+        "b0_exact_frames": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        },
+        "definition": "Exact-frame rate of committed correct decisions, with abstention counted as not correct, minus the B0 exact-frame rate on the same ids."
+      },
+      "action_counts": {
+        "CONTINUE": 145,
+        "RETRY": 0,
+        "CLARIFY": 48,
+        "HOLD": 7
+      },
+      "retry_mechanism_counts": {
+        "simulated_candidate_rescore": 0,
+        "primary_bundle": 200
+      },
+      "forced_slot_aware_selector": {
+        "intent_accuracy": 0.94,
+        "slot_f1": 0.8483290488431877,
+        "slot_scores": {
+          "precision": 0.9763313609467456,
+          "recall": 0.75,
+          "f1": 0.8483290488431877,
+          "matched_pairs": 165,
+          "predicted_pairs": 169,
+          "reference_pairs": 220
+        },
+        "exact_frame_accuracy": {
+          "value": 0.725,
+          "numerator": 145,
+          "denominator": 200,
+          "reason": null
+        }
+      },
+      "b1_selector": {
+        "intent_accuracy": 0.685,
+        "slot_f1": 0.10434782608695653,
+        "slot_scores": {
+          "precision": 0.144,
+          "recall": 0.08181818181818182,
+          "f1": 0.10434782608695653,
+          "matched_pairs": 18,
+          "predicted_pairs": 125,
+          "reference_pairs": 220
+        },
+        "exact_frame_accuracy": {
+          "value": 0.005,
+          "numerator": 1,
+          "denominator": 200,
+          "reason": null
+        }
+      },
+      "min_support": 1,
+      "asr_decode": false
+    },
+    "paraphrase": {
+      "decision_coverage": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "accuracy_on_committed_decisions": {
+        "intent_accuracy": 1.0,
+        "slot_f1": 1.0,
+        "slot_scores": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "matched_pairs": 218,
+          "predicted_pairs": 218,
+          "reference_pairs": 218
+        },
+        "exact_frame_accuracy": {
+          "value": 1.0,
+          "numerator": 198,
+          "denominator": 198,
+          "reason": null
+        }
+      },
+      "accuracy_counting_abstention_as_incorrect": {
+        "intent_accuracy": 0.99,
+        "slot_f1": 1.0,
+        "slot_scores": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "matched_pairs": 220,
+          "predicted_pairs": 220,
+          "reference_pairs": 220
+        },
+        "exact_frame_accuracy": {
+          "value": 0.99,
+          "numerator": 198,
+          "denominator": 200,
+          "reason": null
+        }
+      },
+      "clarification_precision": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 2,
+        "reason": null
+      },
+      "clarification_recall": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no utterance expected CLARIFY"
+      },
+      "action_accuracy": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "recovery_gain_over_b0": {
+        "value": 0.99,
+        "achieved_exact_frames_over_all_inputs": {
+          "value": 0.99,
+          "numerator": 198,
+          "denominator": 200,
+          "reason": null
+        },
+        "b0_exact_frames": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        },
+        "definition": "Exact-frame rate of committed correct decisions, with abstention counted as not correct, minus the B0 exact-frame rate on the same ids."
+      },
+      "action_counts": {
+        "CONTINUE": 198,
+        "RETRY": 0,
+        "CLARIFY": 2,
+        "HOLD": 0
+      },
+      "retry_mechanism_counts": {
+        "simulated_candidate_rescore": 0,
+        "primary_bundle": 200
+      },
+      "forced_slot_aware_selector": {
+        "intent_accuracy": 1.0,
+        "slot_f1": 1.0,
+        "slot_scores": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "matched_pairs": 220,
+          "predicted_pairs": 220,
+          "reference_pairs": 220
+        },
+        "exact_frame_accuracy": {
+          "value": 1.0,
+          "numerator": 200,
+          "denominator": 200,
+          "reason": null
+        }
+      },
+      "b1_selector": {
+        "intent_accuracy": 0.3,
+        "slot_f1": 0.16793893129770995,
+        "slot_scores": {
+          "precision": 0.5238095238095238,
+          "recall": 0.1,
+          "f1": 0.16793893129770995,
+          "matched_pairs": 22,
+          "predicted_pairs": 42,
+          "reference_pairs": 220
+        },
+        "exact_frame_accuracy": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        }
+      },
+      "min_support": 1,
+      "asr_decode": false
+    },
+    "slot_removed": {
+      "decision_coverage": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no committed decisions; refusing every input is not a reliability score"
+      },
+      "unsafe_commitment": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no CONTINUE or simulated RETRY committed a frame"
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no CONTINUE or simulated RETRY committed a frame"
+      },
+      "accuracy_on_committed_decisions": null,
+      "accuracy_counting_abstention_as_incorrect": {
+        "intent_accuracy": 0.0,
+        "slot_f1": 0.018018018018018018,
+        "slot_scores": {
+          "precision": 1.0,
+          "recall": 0.00909090909090909,
+          "f1": 0.018018018018018018,
+          "matched_pairs": 2,
+          "predicted_pairs": 2,
+          "reference_pairs": 220
+        },
+        "exact_frame_accuracy": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        }
+      },
+      "clarification_precision": {
+        "value": 0.9888888888888889,
+        "numerator": 178,
+        "denominator": 180,
+        "reason": null
+      },
+      "clarification_recall": {
+        "value": 1.0,
+        "numerator": 178,
+        "denominator": 178,
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "recovery_gain_over_b0": {
+        "value": 0.0,
+        "achieved_exact_frames_over_all_inputs": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        },
+        "b0_exact_frames": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        },
+        "definition": "Exact-frame rate of committed correct decisions, with abstention counted as not correct, minus the B0 exact-frame rate on the same ids."
+      },
+      "action_counts": {
+        "CONTINUE": 0,
+        "RETRY": 0,
+        "CLARIFY": 180,
+        "HOLD": 20
+      },
+      "retry_mechanism_counts": {
+        "simulated_candidate_rescore": 0,
+        "primary_bundle": 200
+      },
+      "forced_slot_aware_selector": {
+        "intent_accuracy": 0.9,
+        "slot_f1": 0.018018018018018018,
+        "slot_scores": {
+          "precision": 1.0,
+          "recall": 0.00909090909090909,
+          "f1": 0.018018018018018018,
+          "matched_pairs": 2,
+          "predicted_pairs": 2,
+          "reference_pairs": 220
+        },
+        "exact_frame_accuracy": {
+          "value": 0.01,
+          "numerator": 2,
+          "denominator": 200,
+          "reason": null
+        }
+      },
+      "b1_selector": {
+        "intent_accuracy": 0.0,
+        "slot_f1": 0.018018018018018018,
+        "slot_scores": {
+          "precision": 1.0,
+          "recall": 0.00909090909090909,
+          "f1": 0.018018018018018018,
+          "matched_pairs": 2,
+          "predicted_pairs": 2,
+          "reference_pairs": 220
+        },
+        "exact_frame_accuracy": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        }
+      },
+      "min_support": 1,
+      "asr_decode": false
+    },
+    "split_evidence": {
+      "decision_coverage": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no committed decisions; refusing every input is not a reliability score"
+      },
+      "unsafe_commitment": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no CONTINUE or simulated RETRY committed a frame"
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no CONTINUE or simulated RETRY committed a frame"
+      },
+      "accuracy_on_committed_decisions": null,
+      "accuracy_counting_abstention_as_incorrect": {
+        "intent_accuracy": 0.0,
+        "slot_f1": 0.018018018018018018,
+        "slot_scores": {
+          "precision": 1.0,
+          "recall": 0.00909090909090909,
+          "f1": 0.018018018018018018,
+          "matched_pairs": 2,
+          "predicted_pairs": 2,
+          "reference_pairs": 220
+        },
+        "exact_frame_accuracy": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        }
+      },
+      "clarification_precision": {
+        "value": 0.9888888888888889,
+        "numerator": 178,
+        "denominator": 180,
+        "reason": null
+      },
+      "clarification_recall": {
+        "value": 1.0,
+        "numerator": 178,
+        "denominator": 178,
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "recovery_gain_over_b0": {
+        "value": 0.0,
+        "achieved_exact_frames_over_all_inputs": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        },
+        "b0_exact_frames": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        },
+        "definition": "Exact-frame rate of committed correct decisions, with abstention counted as not correct, minus the B0 exact-frame rate on the same ids."
+      },
+      "action_counts": {
+        "CONTINUE": 0,
+        "RETRY": 0,
+        "CLARIFY": 180,
+        "HOLD": 20
+      },
+      "retry_mechanism_counts": {
+        "simulated_candidate_rescore": 0,
+        "primary_bundle": 200
+      },
+      "forced_slot_aware_selector": {
+        "intent_accuracy": 0.9,
+        "slot_f1": 0.018018018018018018,
+        "slot_scores": {
+          "precision": 1.0,
+          "recall": 0.00909090909090909,
+          "f1": 0.018018018018018018,
+          "matched_pairs": 2,
+          "predicted_pairs": 2,
+          "reference_pairs": 220
+        },
+        "exact_frame_accuracy": {
+          "value": 0.01,
+          "numerator": 2,
+          "denominator": 200,
+          "reason": null
+        }
+      },
+      "b1_selector": {
+        "intent_accuracy": 0.0,
+        "slot_f1": 0.018018018018018018,
+        "slot_scores": {
+          "precision": 1.0,
+          "recall": 0.00909090909090909,
+          "f1": 0.018018018018018018,
+          "matched_pairs": 2,
+          "predicted_pairs": 2,
+          "reference_pairs": 220
+        },
+        "exact_frame_accuracy": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        }
+      },
+      "min_support": 1,
+      "asr_decode": false
+    }
+  },
+  "risk_coverage": {
+    "paraphrase": [
+      {
+        "rule": "min_support_1",
+        "decision_coverage": {
+          "value": 0.99,
+          "numerator": 198,
+          "denominator": 200,
+          "reason": null
+        },
+        "selective_risk": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 198,
+          "reason": null
+        },
+        "unsafe_commitment": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 198,
+          "reason": null
+        },
+        "slot_critical_unsafe_commitment": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 198,
+          "reason": null
+        }
+      },
+      {
+        "rule": "min_support_2",
+        "decision_coverage": {
+          "value": 0.99,
+          "numerator": 198,
+          "denominator": 200,
+          "reason": null
+        },
+        "selective_risk": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 198,
+          "reason": null
+        },
+        "unsafe_commitment": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 198,
+          "reason": null
+        },
+        "slot_critical_unsafe_commitment": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 198,
+          "reason": null
+        }
+      },
+      {
+        "rule": "min_support_3",
+        "decision_coverage": {
+          "value": 0.99,
+          "numerator": 198,
+          "denominator": 200,
+          "reason": null
+        },
+        "selective_risk": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 198,
+          "reason": null
+        },
+        "unsafe_commitment": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 198,
+          "reason": null
+        },
+        "slot_critical_unsafe_commitment": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 198,
+          "reason": null
+        }
+      },
+      {
+        "rule": "always_hold",
+        "decision_coverage": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        },
+        "selective_risk": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no committed decisions; an always-HOLD system has no reliability score"
+        },
+        "unsafe_commitment": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no committed decisions"
+        },
+        "slot_critical_unsafe_commitment": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no committed decisions"
+        }
+      }
+    ],
+    "one_clean_candidate": [
+      {
+        "rule": "min_support_1",
+        "decision_coverage": {
+          "value": 0.99,
+          "numerator": 198,
+          "denominator": 200,
+          "reason": null
+        },
+        "selective_risk": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 198,
+          "reason": null
+        },
+        "unsafe_commitment": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 198,
+          "reason": null
+        },
+        "slot_critical_unsafe_commitment": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 198,
+          "reason": null
+        }
+      },
+      {
+        "rule": "min_support_2",
+        "decision_coverage": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        },
+        "selective_risk": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no committed decisions; refusing every input is not a reliability score"
+        },
+        "unsafe_commitment": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no CONTINUE or simulated RETRY committed a frame"
+        },
+        "slot_critical_unsafe_commitment": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no CONTINUE or simulated RETRY committed a frame"
+        }
+      },
+      {
+        "rule": "min_support_3",
+        "decision_coverage": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        },
+        "selective_risk": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no committed decisions; refusing every input is not a reliability score"
+        },
+        "unsafe_commitment": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no CONTINUE or simulated RETRY committed a frame"
+        },
+        "slot_critical_unsafe_commitment": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no CONTINUE or simulated RETRY committed a frame"
+        }
+      },
+      {
+        "rule": "always_hold",
+        "decision_coverage": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        },
+        "selective_risk": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no committed decisions; an always-HOLD system has no reliability score"
+        },
+        "unsafe_commitment": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no committed decisions"
+        },
+        "slot_critical_unsafe_commitment": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no committed decisions"
+        }
+      }
+    ],
+    "v1_injector": [
+      {
+        "rule": "min_support_1",
+        "decision_coverage": {
+          "value": 0.725,
+          "numerator": 145,
+          "denominator": 200,
+          "reason": null
+        },
+        "selective_risk": {
+          "value": 0.020689655172413793,
+          "numerator": 3,
+          "denominator": 145,
+          "reason": null
+        },
+        "unsafe_commitment": {
+          "value": 0.020689655172413793,
+          "numerator": 3,
+          "denominator": 145,
+          "reason": null
+        },
+        "slot_critical_unsafe_commitment": {
+          "value": 0.020689655172413793,
+          "numerator": 3,
+          "denominator": 145,
+          "reason": null
+        }
+      },
+      {
+        "rule": "min_support_2",
+        "decision_coverage": {
+          "value": 0.37,
+          "numerator": 74,
+          "denominator": 200,
+          "reason": null
+        },
+        "selective_risk": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 74,
+          "reason": null
+        },
+        "unsafe_commitment": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 74,
+          "reason": null
+        },
+        "slot_critical_unsafe_commitment": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 74,
+          "reason": null
+        }
+      },
+      {
+        "rule": "min_support_3",
+        "decision_coverage": {
+          "value": 0.04,
+          "numerator": 8,
+          "denominator": 200,
+          "reason": null
+        },
+        "selective_risk": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 8,
+          "reason": null
+        },
+        "unsafe_commitment": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 8,
+          "reason": null
+        },
+        "slot_critical_unsafe_commitment": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 8,
+          "reason": null
+        }
+      },
+      {
+        "rule": "always_hold",
+        "decision_coverage": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 200,
+          "reason": null
+        },
+        "selective_risk": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no committed decisions; an always-HOLD system has no reliability score"
+        },
+        "unsafe_commitment": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no committed decisions"
+        },
+        "slot_critical_unsafe_commitment": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "reason": "no committed decisions"
+        }
+      }
+    ]
+  },
+  "recovery_with_simulated_retry": {
+    "decision_coverage": {
+      "value": 0.99,
+      "numerator": 198,
+      "denominator": 200,
+      "reason": null
+    },
+    "selective_risk": {
+      "value": 0.0,
+      "numerator": 0,
+      "denominator": 198,
+      "reason": null
+    },
+    "unsafe_commitment": {
+      "value": 0.0,
+      "numerator": 0,
+      "denominator": 198,
+      "reason": null
+    },
+    "slot_critical_unsafe_commitment": {
+      "value": 0.0,
+      "numerator": 0,
+      "denominator": 198,
+      "reason": null
+    },
+    "accuracy_on_committed_decisions": {
+      "intent_accuracy": 1.0,
+      "slot_f1": 1.0,
+      "slot_scores": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "matched_pairs": 218,
+        "predicted_pairs": 218,
+        "reference_pairs": 218
+      },
+      "exact_frame_accuracy": {
+        "value": 1.0,
+        "numerator": 198,
+        "denominator": 198,
+        "reason": null
+      }
+    },
+    "accuracy_counting_abstention_as_incorrect": {
+      "intent_accuracy": 0.99,
+      "slot_f1": 1.0,
+      "slot_scores": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "matched_pairs": 220,
+        "predicted_pairs": 220,
+        "reference_pairs": 220
+      },
+      "exact_frame_accuracy": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      }
+    },
+    "clarification_precision": {
+      "value": 0.0,
+      "numerator": 0,
+      "denominator": 2,
+      "reason": null
+    },
+    "clarification_recall": {
+      "value": null,
+      "numerator": 0,
+      "denominator": 0,
+      "reason": "no utterance expected CLARIFY"
+    },
+    "action_accuracy": {
+      "value": 0.99,
+      "numerator": 198,
+      "denominator": 200,
+      "reason": null
+    },
+    "recovery_gain_over_b0": {
+      "value": 0.99,
+      "achieved_exact_frames_over_all_inputs": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "b0_exact_frames": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "definition": "Exact-frame rate of committed correct decisions, with abstention counted as not correct, minus the B0 exact-frame rate on the same ids."
+    },
+    "action_counts": {
+      "CONTINUE": 0,
+      "RETRY": 198,
+      "CLARIFY": 2,
+      "HOLD": 0
+    },
+    "retry_mechanism_counts": {
+      "simulated_candidate_rescore": 198,
+      "primary_bundle": 2
+    },
+    "forced_slot_aware_selector": {
+      "intent_accuracy": 0.9,
+      "slot_f1": 0.018018018018018018,
+      "slot_scores": {
+        "precision": 1.0,
+        "recall": 0.00909090909090909,
+        "f1": 0.018018018018018018,
+        "matched_pairs": 2,
+        "predicted_pairs": 2,
+        "reference_pairs": 220
+      },
+      "exact_frame_accuracy": {
+        "value": 0.01,
+        "numerator": 2,
+        "denominator": 200,
+        "reason": null
+      }
+    },
+    "b1_selector": {
+      "intent_accuracy": 0.0,
+      "slot_f1": 0.018018018018018018,
+      "slot_scores": {
+        "precision": 1.0,
+        "recall": 0.00909090909090909,
+        "f1": 0.018018018018018018,
+        "matched_pairs": 2,
+        "predicted_pairs": 2,
+        "reference_pairs": 220
+      },
+      "exact_frame_accuracy": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      }
+    },
+    "min_support": 1,
+    "asr_decode": false
+  },
+  "by_v0_category_on_v1_candidates": {
+    "deletion": {
+      "n": 25,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "intent_accuracy": 0.96,
+      "slot_f1": 1.0,
+      "exact_frame_accuracy": {
+        "value": 0.96,
+        "numerator": 24,
+        "denominator": 25,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.96,
+        "numerator": 24,
+        "denominator": 25,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 24,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 24,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 24,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "substitution": {
+      "n": 25,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.52,
+        "numerator": 13,
+        "denominator": 25,
+        "reason": null
+      },
+      "intent_accuracy": 0.56,
+      "slot_f1": 0.5714285714285714,
+      "exact_frame_accuracy": {
+        "value": 0.48,
+        "numerator": 12,
+        "denominator": 25,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.56,
+        "numerator": 14,
+        "denominator": 25,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.14285714285714285,
+        "numerator": 2,
+        "denominator": 14,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.14285714285714285,
+        "numerator": 2,
+        "denominator": 14,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.14285714285714285,
+        "numerator": 2,
+        "denominator": 14,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "insertion": {
+      "n": 25,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "intent_accuracy": 1.0,
+      "slot_f1": 1.0,
+      "exact_frame_accuracy": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 25,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 25,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 25,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "entity_corruption": {
+      "n": 25,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.4,
+        "numerator": 10,
+        "denominator": 25,
+        "reason": null
+      },
+      "intent_accuracy": 0.4,
+      "slot_f1": 0.5263157894736842,
+      "exact_frame_accuracy": {
+        "value": 0.4,
+        "numerator": 10,
+        "denominator": 25,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.4,
+        "numerator": 10,
+        "denominator": 25,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 10,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 10,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 10,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "number_corruption": {
+      "n": 25,
+      "candidate_oracle_intent_coverage": {
+        "value": 0.72,
+        "numerator": 18,
+        "denominator": 25,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 0.92,
+        "numerator": 23,
+        "denominator": 25,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.52,
+        "numerator": 13,
+        "denominator": 25,
+        "reason": null
+      },
+      "intent_accuracy": 0.52,
+      "slot_f1": 0.6341463414634146,
+      "exact_frame_accuracy": {
+        "value": 0.48,
+        "numerator": 12,
+        "denominator": 25,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.52,
+        "numerator": 13,
+        "denominator": 25,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.07692307692307693,
+        "numerator": 1,
+        "denominator": 13,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.07692307692307693,
+        "numerator": 1,
+        "denominator": 13,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.07692307692307693,
+        "numerator": 1,
+        "denominator": 13,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "negation_corruption": {
+      "n": 25,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "intent_accuracy": 1.0,
+      "slot_f1": 1.0,
+      "exact_frame_accuracy": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 25,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 25,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 25,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "ambiguous_transcript": {
+      "n": 25,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.44,
+        "numerator": 11,
+        "denominator": 25,
+        "reason": null
+      },
+      "intent_accuracy": 0.4,
+      "slot_f1": 0.5405405405405406,
+      "exact_frame_accuracy": {
+        "value": 0.4,
+        "numerator": 10,
+        "denominator": 25,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.4,
+        "numerator": 10,
+        "denominator": 25,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 10,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 10,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 10,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "incorrect_transcript": {
+      "n": 25,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 25,
+        "denominator": 25,
+        "reason": null
+      },
+      "intent_accuracy": 0.96,
+      "slot_f1": 0.9811320754716981,
+      "exact_frame_accuracy": {
+        "value": 0.96,
+        "numerator": 24,
+        "denominator": 25,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.96,
+        "numerator": 24,
+        "denominator": 25,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 24,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 24,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 24,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    }
+  },
+  "ambiguous_edit_contains_reference_sentence": {
+    "count": 1,
+    "reason": "The ambiguous category appends the fixed question 'What is my account balance?'. That question is the reference sentence of one balance utterance, so the appended question is the reference text. It is not added as its own candidate."
+  },
+  "by_corruption_of_one_paraphrase": {
+    "deletion": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 0.67,
+        "numerator": 134,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 0.655,
+        "numerator": 131,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.335,
+        "numerator": 67,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.345,
+      "slot_f1": 0.5231788079470199,
+      "exact_frame_accuracy": {
+        "value": 0.33,
+        "numerator": 66,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.345,
+        "numerator": 69,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.043478260869565216,
+        "numerator": 3,
+        "denominator": 69,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.043478260869565216,
+        "numerator": 3,
+        "denominator": 69,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.043478260869565216,
+        "numerator": 3,
+        "denominator": 69,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "substitution": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 0.705,
+        "numerator": 141,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 0.625,
+        "numerator": 125,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.34,
+        "numerator": 68,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.34,
+      "slot_f1": 0.5150501672240803,
+      "exact_frame_accuracy": {
+        "value": 0.33,
+        "numerator": 66,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.34,
+        "numerator": 68,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.029411764705882353,
+        "numerator": 2,
+        "denominator": 68,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.029411764705882353,
+        "numerator": 2,
+        "denominator": 68,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.029411764705882353,
+        "numerator": 2,
+        "denominator": 68,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "insertion": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.99,
+      "slot_f1": 1.0,
+      "exact_frame_accuracy": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "entity_corruption": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 0.9,
+        "numerator": 180,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 0.01,
+        "numerator": 2,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.01,
+        "numerator": 2,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.0,
+      "slot_f1": 0.018018018018018018,
+      "exact_frame_accuracy": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no committed decisions; refusing every input is not a reliability score"
+      },
+      "unsafe_commitment": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no CONTINUE or simulated RETRY committed a frame"
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no CONTINUE or simulated RETRY committed a frame"
+      },
+      "intent_accuracy_on_committed_decisions": null
+    },
+    "number_corruption": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 0.45,
+        "numerator": 90,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 0.65,
+        "numerator": 130,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.1,
+        "numerator": 20,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.18,
+      "slot_f1": 0.17054263565891475,
+      "exact_frame_accuracy": {
+        "value": 0.1,
+        "numerator": 20,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.18,
+        "numerator": 36,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.4444444444444444,
+        "numerator": 16,
+        "denominator": 36,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.4444444444444444,
+        "numerator": 16,
+        "denominator": 36,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.4444444444444444,
+        "numerator": 16,
+        "denominator": 36,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "negation_corruption": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.99,
+      "slot_f1": 1.0,
+      "exact_frame_accuracy": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "ambiguous_transcript": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.1,
+        "numerator": 20,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.005,
+      "slot_f1": 0.026905829596412554,
+      "exact_frame_accuracy": {
+        "value": 0.005,
+        "numerator": 1,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.005,
+        "numerator": 1,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 1,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 1,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 1,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "incorrect_transcript": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 0.035,
+        "numerator": 7,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.0,
+      "slot_f1": 0.018018018018018018,
+      "exact_frame_accuracy": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no committed decisions; refusing every input is not a reliability score"
+      },
+      "unsafe_commitment": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no CONTINUE or simulated RETRY committed a frame"
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "reason": "no CONTINUE or simulated RETRY committed a frame"
+      },
+      "intent_accuracy_on_committed_decisions": null
+    }
+  },
+  "by_corruption_with_two_clean_paraphrases": {
+    "deletion": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.975,
+      "slot_f1": 0.9931350114416476,
+      "exact_frame_accuracy": {
+        "value": 0.975,
+        "numerator": 195,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.975,
+        "numerator": 195,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 195,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 195,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 195,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "substitution": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.98,
+      "slot_f1": 0.995433789954338,
+      "exact_frame_accuracy": {
+        "value": 0.98,
+        "numerator": 196,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.98,
+        "numerator": 196,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 196,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 196,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 196,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "insertion": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.99,
+      "slot_f1": 1.0,
+      "exact_frame_accuracy": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "entity_corruption": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.99,
+      "slot_f1": 1.0,
+      "exact_frame_accuracy": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "number_corruption": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.91,
+      "slot_f1": 0.9622641509433962,
+      "exact_frame_accuracy": {
+        "value": 0.91,
+        "numerator": 182,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.91,
+        "numerator": 182,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 182,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 182,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 182,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "negation_corruption": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.99,
+      "slot_f1": 1.0,
+      "exact_frame_accuracy": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "ambiguous_transcript": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.99,
+      "slot_f1": 1.0,
+      "exact_frame_accuracy": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    },
+    "incorrect_transcript": {
+      "n": 200,
+      "candidate_oracle_intent_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "candidate_oracle_slot_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "complete_frame_oracle_coverage": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      },
+      "intent_accuracy": 0.99,
+      "slot_f1": 1.0,
+      "exact_frame_accuracy": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "decision_coverage": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "slot_critical_unsafe_commitment": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 198,
+        "reason": null
+      },
+      "intent_accuracy_on_committed_decisions": 1.0
+    }
+  },
+  "gold_transcript_oracle": {
+    "gold_transcript_included": true,
+    "label": "separate condition; the gold transcript is not added to ordinary candidate lists",
+    "lexical_evidence": {
+      "intent_accuracy": 0.99,
+      "slot_f1": 1.0,
+      "slot_scores": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "matched_pairs": 220,
+        "predicted_pairs": 220,
+        "reference_pairs": 220
+      },
+      "exact_frame_accuracy": {
+        "value": 0.99,
+        "numerator": 198,
+        "denominator": 200,
+        "reason": null
+      }
+    },
+    "prefix_nlu": {
+      "intent_accuracy": 1.0,
+      "slot_f1": 1.0,
+      "slot_scores": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "matched_pairs": 220,
+        "predicted_pairs": 220,
+        "reference_pairs": 220
+      },
+      "exact_frame_accuracy": {
+        "value": 1.0,
+        "numerator": 200,
+        "denominator": 200,
+        "reason": null
+      }
+    }
+  },
+  "unchanged_b2_recorded_in_v2": {
+    "source": "experiments/sim-eval-v2/report.json",
+    "controller_modified": false,
+    "thresholds_tuned_on_v1_or_v2": false,
+    "unsafe_commitment": {
+      "value": 0.9911504424778761,
+      "numerator": 112,
+      "denominator": 113,
+      "reason": null
+    },
+    "action_accuracy": {
+      "value": 0.44,
+      "numerator": 88,
+      "denominator": 200,
+      "reason": null
+    }
+  },
+  "oracle_definitions": {
+    "candidate_oracle_coverage": "Share of utterances whose ordinary candidate list still contains the gold intent cue, the gold slot values, or both in one candidate. The gold transcript is not added.",
+    "gold_transcript_oracle": "The reference sentence is scored by itself, in a separate condition. It is not a member of the B0, B1, or selective candidate lists.",
+    "achieved_performance": "Frames the selective layer commits. Abstention counts as not correct in the all-input rate, and selective risk is the error among commits only."
+  },
+  "limitation": "Candidate lists are written variants, not recognizer N-best lists. RETRY rescores a supplied second list. No waveform was decoded.",
+  "preserved_sha256_after": {
+    "experiments/B0/summary.json": "3873057391b2f36727f503a4d504ddea9453472e6d518a63a2fef2481ae850ee",
+    "experiments/B1/summary.json": "597a2800c946018467865dfcf3d8e547bc51c10487596cc134ca2181fee695b2",
+    "experiments/B2/summary.json": "34a40fdd233f5d4faa00af73c26f1afcc32c4d83922db8df57b7a7184dce0e5d",
+    "artifacts/reports/simulation_report.json": "7adf69ee6ac344e7ef205099af3686ddf7cceaffa111a8789f03b83ed8319856",
+    "experiments/sim-eval-v2/report.json": "74499b716103e26ef829cb56816bf738d67d3d3e5961848c4cfe37f2e8f4f77d"
+  }
+}

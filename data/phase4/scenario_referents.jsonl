@@ -1,0 +1,600 @@
+{"case_id": "p4-negation_polarity-dev-00", "intent": "general_information", "parent_id": "utt-199", "slots": {"topic": "wheelchair access"}}
+{"case_id": "p4-negation_polarity-dev-01", "intent": "cancel_appointment", "parent_id": "utt-021", "slots": {"date": "Friday"}}
+{"case_id": "p4-negation_polarity-dev-02", "intent": "transfer_money", "parent_id": "utt-085", "slots": {"amount": "75", "currency": "rupees"}}
+{"case_id": "p4-negation_polarity-dev-03", "intent": "cancel_appointment", "parent_id": "utt-024", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-negation_polarity-dev-04", "intent": "check_appointment", "parent_id": "utt-046", "slots": {"date": "Saturday"}}
+{"case_id": "p4-negation_polarity-dev-05", "intent": "set_reminder", "parent_id": "utt-137", "slots": {"time": "11 PM"}}
+{"case_id": "p4-negation_polarity-dev-06", "intent": "book_appointment", "parent_id": "utt-002", "slots": {"date": "Monday"}}
+{"case_id": "p4-negation_polarity-dev-07", "intent": "play_music", "parent_id": "utt-166", "slots": {"genre": "hip hop"}}
+{"case_id": "p4-negation_polarity-dev-08", "intent": "transfer_money", "parent_id": "utt-093", "slots": {"amount": "40", "currency": "rupees"}}
+{"case_id": "p4-negation_polarity-dev-09", "intent": "check_appointment", "parent_id": "utt-053", "slots": {"date": "April 2"}}
+{"case_id": "p4-negation_polarity-dev-10", "intent": "weather_query", "parent_id": "utt-158", "slots": {"date": "September 9"}}
+{"case_id": "p4-negation_polarity-dev-11", "intent": "general_information", "parent_id": "utt-181", "slots": {"topic": "Saturday hours"}}
+{"case_id": "p4-negation_polarity-dev-12", "intent": "transfer_money", "parent_id": "utt-092", "slots": {"amount": "20", "currency": "rupees"}}
+{"case_id": "p4-negation_polarity-dev-13", "intent": "play_music", "parent_id": "utt-175", "slots": {"genre": "punk"}}
+{"case_id": "p4-negation_polarity-dev-14", "intent": "general_information", "parent_id": "utt-192", "slots": {"topic": "service status"}}
+{"case_id": "p4-negation_polarity-dev-15", "intent": "play_music", "parent_id": "utt-177", "slots": {"genre": "indie"}}
+{"case_id": "p4-negation_polarity-dev-16", "intent": "check_appointment", "parent_id": "utt-044", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-negation_polarity-dev-17", "intent": "general_information", "parent_id": "utt-186", "slots": {"topic": "membership rules"}}
+{"case_id": "p4-negation_polarity-dev-18", "intent": "general_information", "parent_id": "utt-185", "slots": {"topic": "holiday calendar"}}
+{"case_id": "p4-negation_polarity-dev-19", "intent": "cancel_appointment", "parent_id": "utt-025", "slots": {"date": "Thursday"}}
+{"case_id": "p4-negation_polarity-dev-20", "intent": "cancel_appointment", "parent_id": "utt-037", "slots": {"date": "August 12"}}
+{"case_id": "p4-negation_polarity-dev-21", "intent": "book_appointment", "parent_id": "utt-014", "slots": {"date": "May 5"}}
+{"case_id": "p4-negation_polarity-dev-22", "intent": "cancel_appointment", "parent_id": "utt-023", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-negation_polarity-dev-23", "intent": "transfer_money", "parent_id": "utt-086", "slots": {"amount": "200", "currency": "rupees"}}
+{"case_id": "p4-negation_polarity-dev-24", "intent": "check_balance", "parent_id": "utt-079", "slots": {"account": "daily account"}}
+{"case_id": "p4-negation_polarity-dev-25", "intent": "cancel_appointment", "parent_id": "utt-035", "slots": {"date": "June 10"}}
+{"case_id": "p4-negation_polarity-dev-26", "intent": "general_information", "parent_id": "utt-188", "slots": {"topic": "lost card process"}}
+{"case_id": "p4-negation_polarity-dev-27", "intent": "play_music", "parent_id": "utt-174", "slots": {"genre": "opera"}}
+{"case_id": "p4-negation_polarity-dev-28", "intent": "check_transaction", "parent_id": "utt-111", "slots": {"recency": "large"}}
+{"case_id": "p4-negation_polarity-dev-29", "intent": "check_transaction", "parent_id": "utt-104", "slots": {"recency": "newest"}}
+{"case_id": "p4-uncertainty_modality-dev-00", "intent": "general_information", "parent_id": "utt-199", "slots": {"topic": "wheelchair access"}}
+{"case_id": "p4-uncertainty_modality-dev-01", "intent": "cancel_appointment", "parent_id": "utt-021", "slots": {"date": "Friday"}}
+{"case_id": "p4-uncertainty_modality-dev-02", "intent": "transfer_money", "parent_id": "utt-085", "slots": {"amount": "75", "currency": "rupees"}}
+{"case_id": "p4-uncertainty_modality-dev-03", "intent": "cancel_appointment", "parent_id": "utt-024", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-uncertainty_modality-dev-04", "intent": "check_appointment", "parent_id": "utt-046", "slots": {"date": "Saturday"}}
+{"case_id": "p4-uncertainty_modality-dev-05", "intent": "set_reminder", "parent_id": "utt-137", "slots": {"time": "11 PM"}}
+{"case_id": "p4-uncertainty_modality-dev-06", "intent": "book_appointment", "parent_id": "utt-002", "slots": {"date": "Monday"}}
+{"case_id": "p4-uncertainty_modality-dev-07", "intent": "play_music", "parent_id": "utt-166", "slots": {"genre": "hip hop"}}
+{"case_id": "p4-uncertainty_modality-dev-08", "intent": "transfer_money", "parent_id": "utt-093", "slots": {"amount": "40", "currency": "rupees"}}
+{"case_id": "p4-uncertainty_modality-dev-09", "intent": "check_appointment", "parent_id": "utt-053", "slots": {"date": "April 2"}}
+{"case_id": "p4-uncertainty_modality-dev-10", "intent": "weather_query", "parent_id": "utt-158", "slots": {"date": "September 9"}}
+{"case_id": "p4-uncertainty_modality-dev-11", "intent": "general_information", "parent_id": "utt-181", "slots": {"topic": "Saturday hours"}}
+{"case_id": "p4-uncertainty_modality-dev-12", "intent": "transfer_money", "parent_id": "utt-092", "slots": {"amount": "20", "currency": "rupees"}}
+{"case_id": "p4-uncertainty_modality-dev-13", "intent": "play_music", "parent_id": "utt-175", "slots": {"genre": "punk"}}
+{"case_id": "p4-uncertainty_modality-dev-14", "intent": "general_information", "parent_id": "utt-192", "slots": {"topic": "service status"}}
+{"case_id": "p4-uncertainty_modality-dev-15", "intent": "play_music", "parent_id": "utt-177", "slots": {"genre": "indie"}}
+{"case_id": "p4-uncertainty_modality-dev-16", "intent": "check_appointment", "parent_id": "utt-044", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-uncertainty_modality-dev-17", "intent": "general_information", "parent_id": "utt-186", "slots": {"topic": "membership rules"}}
+{"case_id": "p4-uncertainty_modality-dev-18", "intent": "general_information", "parent_id": "utt-185", "slots": {"topic": "holiday calendar"}}
+{"case_id": "p4-uncertainty_modality-dev-19", "intent": "cancel_appointment", "parent_id": "utt-025", "slots": {"date": "Thursday"}}
+{"case_id": "p4-uncertainty_modality-dev-20", "intent": "cancel_appointment", "parent_id": "utt-037", "slots": {"date": "August 12"}}
+{"case_id": "p4-uncertainty_modality-dev-21", "intent": "book_appointment", "parent_id": "utt-014", "slots": {"date": "May 5"}}
+{"case_id": "p4-uncertainty_modality-dev-22", "intent": "cancel_appointment", "parent_id": "utt-023", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-uncertainty_modality-dev-23", "intent": "transfer_money", "parent_id": "utt-086", "slots": {"amount": "200", "currency": "rupees"}}
+{"case_id": "p4-uncertainty_modality-dev-24", "intent": "check_balance", "parent_id": "utt-079", "slots": {"account": "daily account"}}
+{"case_id": "p4-uncertainty_modality-dev-25", "intent": "cancel_appointment", "parent_id": "utt-035", "slots": {"date": "June 10"}}
+{"case_id": "p4-uncertainty_modality-dev-26", "intent": "general_information", "parent_id": "utt-188", "slots": {"topic": "lost card process"}}
+{"case_id": "p4-uncertainty_modality-dev-27", "intent": "play_music", "parent_id": "utt-174", "slots": {"genre": "opera"}}
+{"case_id": "p4-uncertainty_modality-dev-28", "intent": "check_transaction", "parent_id": "utt-111", "slots": {"recency": "large"}}
+{"case_id": "p4-uncertainty_modality-dev-29", "intent": "check_transaction", "parent_id": "utt-104", "slots": {"recency": "newest"}}
+{"case_id": "p4-critical_slot_mutation-dev-00", "intent": "general_information", "parent_id": "utt-199", "slots": {"topic": "wheelchair access"}}
+{"case_id": "p4-critical_slot_mutation-dev-01", "intent": "cancel_appointment", "parent_id": "utt-021", "slots": {"date": "Friday"}}
+{"case_id": "p4-critical_slot_mutation-dev-02", "intent": "transfer_money", "parent_id": "utt-085", "slots": {"amount": "75", "currency": "rupees"}}
+{"case_id": "p4-critical_slot_mutation-dev-03", "intent": "cancel_appointment", "parent_id": "utt-024", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-critical_slot_mutation-dev-04", "intent": "check_appointment", "parent_id": "utt-046", "slots": {"date": "Saturday"}}
+{"case_id": "p4-critical_slot_mutation-dev-05", "intent": "set_reminder", "parent_id": "utt-137", "slots": {"time": "11 PM"}}
+{"case_id": "p4-critical_slot_mutation-dev-06", "intent": "book_appointment", "parent_id": "utt-002", "slots": {"date": "Monday"}}
+{"case_id": "p4-critical_slot_mutation-dev-07", "intent": "play_music", "parent_id": "utt-166", "slots": {"genre": "hip hop"}}
+{"case_id": "p4-critical_slot_mutation-dev-08", "intent": "transfer_money", "parent_id": "utt-093", "slots": {"amount": "40", "currency": "rupees"}}
+{"case_id": "p4-critical_slot_mutation-dev-09", "intent": "check_appointment", "parent_id": "utt-053", "slots": {"date": "April 2"}}
+{"case_id": "p4-critical_slot_mutation-dev-10", "intent": "weather_query", "parent_id": "utt-158", "slots": {"date": "September 9"}}
+{"case_id": "p4-critical_slot_mutation-dev-11", "intent": "general_information", "parent_id": "utt-181", "slots": {"topic": "Saturday hours"}}
+{"case_id": "p4-critical_slot_mutation-dev-12", "intent": "transfer_money", "parent_id": "utt-092", "slots": {"amount": "20", "currency": "rupees"}}
+{"case_id": "p4-critical_slot_mutation-dev-13", "intent": "play_music", "parent_id": "utt-175", "slots": {"genre": "punk"}}
+{"case_id": "p4-critical_slot_mutation-dev-14", "intent": "general_information", "parent_id": "utt-192", "slots": {"topic": "service status"}}
+{"case_id": "p4-critical_slot_mutation-dev-15", "intent": "play_music", "parent_id": "utt-177", "slots": {"genre": "indie"}}
+{"case_id": "p4-critical_slot_mutation-dev-16", "intent": "check_appointment", "parent_id": "utt-044", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-critical_slot_mutation-dev-17", "intent": "general_information", "parent_id": "utt-186", "slots": {"topic": "membership rules"}}
+{"case_id": "p4-critical_slot_mutation-dev-18", "intent": "general_information", "parent_id": "utt-185", "slots": {"topic": "holiday calendar"}}
+{"case_id": "p4-critical_slot_mutation-dev-19", "intent": "cancel_appointment", "parent_id": "utt-025", "slots": {"date": "Thursday"}}
+{"case_id": "p4-critical_slot_mutation-dev-20", "intent": "cancel_appointment", "parent_id": "utt-037", "slots": {"date": "August 12"}}
+{"case_id": "p4-critical_slot_mutation-dev-21", "intent": "book_appointment", "parent_id": "utt-014", "slots": {"date": "May 5"}}
+{"case_id": "p4-critical_slot_mutation-dev-22", "intent": "cancel_appointment", "parent_id": "utt-023", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-critical_slot_mutation-dev-23", "intent": "transfer_money", "parent_id": "utt-086", "slots": {"amount": "200", "currency": "rupees"}}
+{"case_id": "p4-critical_slot_mutation-dev-24", "intent": "check_balance", "parent_id": "utt-079", "slots": {"account": "daily account"}}
+{"case_id": "p4-critical_slot_mutation-dev-25", "intent": "cancel_appointment", "parent_id": "utt-035", "slots": {"date": "June 10"}}
+{"case_id": "p4-critical_slot_mutation-dev-26", "intent": "general_information", "parent_id": "utt-188", "slots": {"topic": "lost card process"}}
+{"case_id": "p4-critical_slot_mutation-dev-27", "intent": "play_music", "parent_id": "utt-174", "slots": {"genre": "opera"}}
+{"case_id": "p4-critical_slot_mutation-dev-28", "intent": "check_transaction", "parent_id": "utt-111", "slots": {"recency": "large"}}
+{"case_id": "p4-critical_slot_mutation-dev-29", "intent": "check_transaction", "parent_id": "utt-104", "slots": {"recency": "newest"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-00", "intent": "cancel_appointment", "parent_id": "utt-021", "slots": {"date": "Friday"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-01", "intent": "transfer_money", "parent_id": "utt-085", "slots": {"amount": "75", "currency": "rupees"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-02", "intent": "cancel_appointment", "parent_id": "utt-024", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-03", "intent": "check_appointment", "parent_id": "utt-046", "slots": {"date": "Saturday"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-04", "intent": "set_reminder", "parent_id": "utt-137", "slots": {"time": "11 PM"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-05", "intent": "book_appointment", "parent_id": "utt-002", "slots": {"date": "Monday"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-06", "intent": "transfer_money", "parent_id": "utt-093", "slots": {"amount": "40", "currency": "rupees"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-07", "intent": "check_appointment", "parent_id": "utt-053", "slots": {"date": "April 2"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-08", "intent": "weather_query", "parent_id": "utt-158", "slots": {"date": "September 9"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-09", "intent": "transfer_money", "parent_id": "utt-092", "slots": {"amount": "20", "currency": "rupees"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-10", "intent": "check_appointment", "parent_id": "utt-044", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-11", "intent": "cancel_appointment", "parent_id": "utt-025", "slots": {"date": "Thursday"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-12", "intent": "cancel_appointment", "parent_id": "utt-037", "slots": {"date": "August 12"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-13", "intent": "book_appointment", "parent_id": "utt-014", "slots": {"date": "May 5"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-14", "intent": "cancel_appointment", "parent_id": "utt-023", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-15", "intent": "transfer_money", "parent_id": "utt-086", "slots": {"amount": "200", "currency": "rupees"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-16", "intent": "cancel_appointment", "parent_id": "utt-035", "slots": {"date": "June 10"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-17", "intent": "check_transaction", "parent_id": "utt-111", "slots": {"recency": "large"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-18", "intent": "check_transaction", "parent_id": "utt-104", "slots": {"recency": "newest"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-19", "intent": "weather_query", "parent_id": "utt-141", "slots": {"date": "Friday"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-20", "intent": "weather_query", "parent_id": "utt-156", "slots": {"date": "July 1"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-21", "intent": "check_transaction", "parent_id": "utt-103", "slots": {"recency": "recent"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-22", "intent": "check_appointment", "parent_id": "utt-047", "slots": {"date": "Sunday"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-23", "intent": "set_reminder", "parent_id": "utt-127", "slots": {"time": "11 AM"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-24", "intent": "book_appointment", "parent_id": "utt-006", "slots": {"date": "Saturday"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-25", "intent": "transfer_money", "parent_id": "utt-095", "slots": {"amount": "80", "currency": "rupees"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-26", "intent": "set_reminder", "parent_id": "utt-125", "slots": {"time": "4 PM"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-27", "intent": "cancel_appointment", "parent_id": "utt-036", "slots": {"date": "July 1"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-28", "intent": "set_reminder", "parent_id": "utt-126", "slots": {"time": "10 AM"}}
+{"case_id": "p4-temporal_numerical_conflict-dev-29", "intent": "set_reminder", "parent_id": "utt-139", "slots": {"time": "midnight"}}
+{"case_id": "p4-semantic_ambiguity-dev-00", "intent": "general_information", "parent_id": "utt-199", "slots": {"topic": "wheelchair access"}}
+{"case_id": "p4-semantic_ambiguity-dev-01", "intent": "cancel_appointment", "parent_id": "utt-021", "slots": {"date": "Friday"}}
+{"case_id": "p4-semantic_ambiguity-dev-02", "intent": "transfer_money", "parent_id": "utt-085", "slots": {"amount": "75", "currency": "rupees"}}
+{"case_id": "p4-semantic_ambiguity-dev-03", "intent": "cancel_appointment", "parent_id": "utt-024", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-semantic_ambiguity-dev-04", "intent": "check_appointment", "parent_id": "utt-046", "slots": {"date": "Saturday"}}
+{"case_id": "p4-semantic_ambiguity-dev-05", "intent": "set_reminder", "parent_id": "utt-137", "slots": {"time": "11 PM"}}
+{"case_id": "p4-semantic_ambiguity-dev-06", "intent": "book_appointment", "parent_id": "utt-002", "slots": {"date": "Monday"}}
+{"case_id": "p4-semantic_ambiguity-dev-07", "intent": "play_music", "parent_id": "utt-166", "slots": {"genre": "hip hop"}}
+{"case_id": "p4-semantic_ambiguity-dev-08", "intent": "transfer_money", "parent_id": "utt-093", "slots": {"amount": "40", "currency": "rupees"}}
+{"case_id": "p4-semantic_ambiguity-dev-09", "intent": "check_appointment", "parent_id": "utt-053", "slots": {"date": "April 2"}}
+{"case_id": "p4-semantic_ambiguity-dev-10", "intent": "weather_query", "parent_id": "utt-158", "slots": {"date": "September 9"}}
+{"case_id": "p4-semantic_ambiguity-dev-11", "intent": "general_information", "parent_id": "utt-181", "slots": {"topic": "Saturday hours"}}
+{"case_id": "p4-semantic_ambiguity-dev-12", "intent": "transfer_money", "parent_id": "utt-092", "slots": {"amount": "20", "currency": "rupees"}}
+{"case_id": "p4-semantic_ambiguity-dev-13", "intent": "play_music", "parent_id": "utt-175", "slots": {"genre": "punk"}}
+{"case_id": "p4-semantic_ambiguity-dev-14", "intent": "general_information", "parent_id": "utt-192", "slots": {"topic": "service status"}}
+{"case_id": "p4-semantic_ambiguity-dev-15", "intent": "play_music", "parent_id": "utt-177", "slots": {"genre": "indie"}}
+{"case_id": "p4-semantic_ambiguity-dev-16", "intent": "check_appointment", "parent_id": "utt-044", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-semantic_ambiguity-dev-17", "intent": "general_information", "parent_id": "utt-186", "slots": {"topic": "membership rules"}}
+{"case_id": "p4-semantic_ambiguity-dev-18", "intent": "general_information", "parent_id": "utt-185", "slots": {"topic": "holiday calendar"}}
+{"case_id": "p4-semantic_ambiguity-dev-19", "intent": "cancel_appointment", "parent_id": "utt-025", "slots": {"date": "Thursday"}}
+{"case_id": "p4-semantic_ambiguity-dev-20", "intent": "cancel_appointment", "parent_id": "utt-037", "slots": {"date": "August 12"}}
+{"case_id": "p4-semantic_ambiguity-dev-21", "intent": "book_appointment", "parent_id": "utt-014", "slots": {"date": "May 5"}}
+{"case_id": "p4-semantic_ambiguity-dev-22", "intent": "cancel_appointment", "parent_id": "utt-023", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-semantic_ambiguity-dev-23", "intent": "transfer_money", "parent_id": "utt-086", "slots": {"amount": "200", "currency": "rupees"}}
+{"case_id": "p4-semantic_ambiguity-dev-24", "intent": "check_balance", "parent_id": "utt-079", "slots": {"account": "daily account"}}
+{"case_id": "p4-semantic_ambiguity-dev-25", "intent": "cancel_appointment", "parent_id": "utt-035", "slots": {"date": "June 10"}}
+{"case_id": "p4-semantic_ambiguity-dev-26", "intent": "general_information", "parent_id": "utt-188", "slots": {"topic": "lost card process"}}
+{"case_id": "p4-semantic_ambiguity-dev-27", "intent": "play_music", "parent_id": "utt-174", "slots": {"genre": "opera"}}
+{"case_id": "p4-semantic_ambiguity-dev-28", "intent": "check_transaction", "parent_id": "utt-111", "slots": {"recency": "large"}}
+{"case_id": "p4-semantic_ambiguity-dev-29", "intent": "check_transaction", "parent_id": "utt-104", "slots": {"recency": "newest"}}
+{"case_id": "p4-contradictory_candidates-dev-00", "intent": "general_information", "parent_id": "utt-199", "slots": {"topic": "wheelchair access"}}
+{"case_id": "p4-contradictory_candidates-dev-01", "intent": "cancel_appointment", "parent_id": "utt-021", "slots": {"date": "Friday"}}
+{"case_id": "p4-contradictory_candidates-dev-02", "intent": "transfer_money", "parent_id": "utt-085", "slots": {"amount": "75", "currency": "rupees"}}
+{"case_id": "p4-contradictory_candidates-dev-03", "intent": "cancel_appointment", "parent_id": "utt-024", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-contradictory_candidates-dev-04", "intent": "check_appointment", "parent_id": "utt-046", "slots": {"date": "Saturday"}}
+{"case_id": "p4-contradictory_candidates-dev-05", "intent": "set_reminder", "parent_id": "utt-137", "slots": {"time": "11 PM"}}
+{"case_id": "p4-contradictory_candidates-dev-06", "intent": "book_appointment", "parent_id": "utt-002", "slots": {"date": "Monday"}}
+{"case_id": "p4-contradictory_candidates-dev-07", "intent": "play_music", "parent_id": "utt-166", "slots": {"genre": "hip hop"}}
+{"case_id": "p4-contradictory_candidates-dev-08", "intent": "transfer_money", "parent_id": "utt-093", "slots": {"amount": "40", "currency": "rupees"}}
+{"case_id": "p4-contradictory_candidates-dev-09", "intent": "check_appointment", "parent_id": "utt-053", "slots": {"date": "April 2"}}
+{"case_id": "p4-contradictory_candidates-dev-10", "intent": "weather_query", "parent_id": "utt-158", "slots": {"date": "September 9"}}
+{"case_id": "p4-contradictory_candidates-dev-11", "intent": "general_information", "parent_id": "utt-181", "slots": {"topic": "Saturday hours"}}
+{"case_id": "p4-contradictory_candidates-dev-12", "intent": "transfer_money", "parent_id": "utt-092", "slots": {"amount": "20", "currency": "rupees"}}
+{"case_id": "p4-contradictory_candidates-dev-13", "intent": "play_music", "parent_id": "utt-175", "slots": {"genre": "punk"}}
+{"case_id": "p4-contradictory_candidates-dev-14", "intent": "general_information", "parent_id": "utt-192", "slots": {"topic": "service status"}}
+{"case_id": "p4-contradictory_candidates-dev-15", "intent": "play_music", "parent_id": "utt-177", "slots": {"genre": "indie"}}
+{"case_id": "p4-contradictory_candidates-dev-16", "intent": "check_appointment", "parent_id": "utt-044", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-contradictory_candidates-dev-17", "intent": "general_information", "parent_id": "utt-186", "slots": {"topic": "membership rules"}}
+{"case_id": "p4-contradictory_candidates-dev-18", "intent": "general_information", "parent_id": "utt-185", "slots": {"topic": "holiday calendar"}}
+{"case_id": "p4-contradictory_candidates-dev-19", "intent": "cancel_appointment", "parent_id": "utt-025", "slots": {"date": "Thursday"}}
+{"case_id": "p4-contradictory_candidates-dev-20", "intent": "cancel_appointment", "parent_id": "utt-037", "slots": {"date": "August 12"}}
+{"case_id": "p4-contradictory_candidates-dev-21", "intent": "book_appointment", "parent_id": "utt-014", "slots": {"date": "May 5"}}
+{"case_id": "p4-contradictory_candidates-dev-22", "intent": "cancel_appointment", "parent_id": "utt-023", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-contradictory_candidates-dev-23", "intent": "transfer_money", "parent_id": "utt-086", "slots": {"amount": "200", "currency": "rupees"}}
+{"case_id": "p4-contradictory_candidates-dev-24", "intent": "check_balance", "parent_id": "utt-079", "slots": {"account": "daily account"}}
+{"case_id": "p4-contradictory_candidates-dev-25", "intent": "cancel_appointment", "parent_id": "utt-035", "slots": {"date": "June 10"}}
+{"case_id": "p4-contradictory_candidates-dev-26", "intent": "general_information", "parent_id": "utt-188", "slots": {"topic": "lost card process"}}
+{"case_id": "p4-contradictory_candidates-dev-27", "intent": "play_music", "parent_id": "utt-174", "slots": {"genre": "opera"}}
+{"case_id": "p4-contradictory_candidates-dev-28", "intent": "check_transaction", "parent_id": "utt-111", "slots": {"recency": "large"}}
+{"case_id": "p4-contradictory_candidates-dev-29", "intent": "check_transaction", "parent_id": "utt-104", "slots": {"recency": "newest"}}
+{"case_id": "p4-incomplete_required_slots-dev-00", "intent": "general_information", "parent_id": "utt-199", "slots": {"topic": "wheelchair access"}}
+{"case_id": "p4-incomplete_required_slots-dev-01", "intent": "cancel_appointment", "parent_id": "utt-021", "slots": {"date": "Friday"}}
+{"case_id": "p4-incomplete_required_slots-dev-02", "intent": "transfer_money", "parent_id": "utt-085", "slots": {"amount": "75", "currency": "rupees"}}
+{"case_id": "p4-incomplete_required_slots-dev-03", "intent": "cancel_appointment", "parent_id": "utt-024", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-incomplete_required_slots-dev-04", "intent": "check_appointment", "parent_id": "utt-046", "slots": {"date": "Saturday"}}
+{"case_id": "p4-incomplete_required_slots-dev-05", "intent": "set_reminder", "parent_id": "utt-137", "slots": {"time": "11 PM"}}
+{"case_id": "p4-incomplete_required_slots-dev-06", "intent": "book_appointment", "parent_id": "utt-002", "slots": {"date": "Monday"}}
+{"case_id": "p4-incomplete_required_slots-dev-07", "intent": "play_music", "parent_id": "utt-166", "slots": {"genre": "hip hop"}}
+{"case_id": "p4-incomplete_required_slots-dev-08", "intent": "transfer_money", "parent_id": "utt-093", "slots": {"amount": "40", "currency": "rupees"}}
+{"case_id": "p4-incomplete_required_slots-dev-09", "intent": "check_appointment", "parent_id": "utt-053", "slots": {"date": "April 2"}}
+{"case_id": "p4-incomplete_required_slots-dev-10", "intent": "weather_query", "parent_id": "utt-158", "slots": {"date": "September 9"}}
+{"case_id": "p4-incomplete_required_slots-dev-11", "intent": "general_information", "parent_id": "utt-181", "slots": {"topic": "Saturday hours"}}
+{"case_id": "p4-incomplete_required_slots-dev-12", "intent": "transfer_money", "parent_id": "utt-092", "slots": {"amount": "20", "currency": "rupees"}}
+{"case_id": "p4-incomplete_required_slots-dev-13", "intent": "play_music", "parent_id": "utt-175", "slots": {"genre": "punk"}}
+{"case_id": "p4-incomplete_required_slots-dev-14", "intent": "general_information", "parent_id": "utt-192", "slots": {"topic": "service status"}}
+{"case_id": "p4-incomplete_required_slots-dev-15", "intent": "play_music", "parent_id": "utt-177", "slots": {"genre": "indie"}}
+{"case_id": "p4-incomplete_required_slots-dev-16", "intent": "check_appointment", "parent_id": "utt-044", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-incomplete_required_slots-dev-17", "intent": "general_information", "parent_id": "utt-186", "slots": {"topic": "membership rules"}}
+{"case_id": "p4-incomplete_required_slots-dev-18", "intent": "general_information", "parent_id": "utt-185", "slots": {"topic": "holiday calendar"}}
+{"case_id": "p4-incomplete_required_slots-dev-19", "intent": "cancel_appointment", "parent_id": "utt-025", "slots": {"date": "Thursday"}}
+{"case_id": "p4-incomplete_required_slots-dev-20", "intent": "cancel_appointment", "parent_id": "utt-037", "slots": {"date": "August 12"}}
+{"case_id": "p4-incomplete_required_slots-dev-21", "intent": "book_appointment", "parent_id": "utt-014", "slots": {"date": "May 5"}}
+{"case_id": "p4-incomplete_required_slots-dev-22", "intent": "cancel_appointment", "parent_id": "utt-023", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-incomplete_required_slots-dev-23", "intent": "transfer_money", "parent_id": "utt-086", "slots": {"amount": "200", "currency": "rupees"}}
+{"case_id": "p4-incomplete_required_slots-dev-24", "intent": "check_balance", "parent_id": "utt-079", "slots": {"account": "daily account"}}
+{"case_id": "p4-incomplete_required_slots-dev-25", "intent": "cancel_appointment", "parent_id": "utt-035", "slots": {"date": "June 10"}}
+{"case_id": "p4-incomplete_required_slots-dev-26", "intent": "general_information", "parent_id": "utt-188", "slots": {"topic": "lost card process"}}
+{"case_id": "p4-incomplete_required_slots-dev-27", "intent": "play_music", "parent_id": "utt-174", "slots": {"genre": "opera"}}
+{"case_id": "p4-incomplete_required_slots-dev-28", "intent": "check_transaction", "parent_id": "utt-111", "slots": {"recency": "large"}}
+{"case_id": "p4-incomplete_required_slots-dev-29", "intent": "check_transaction", "parent_id": "utt-104", "slots": {"recency": "newest"}}
+{"case_id": "p4-context_dependency-dev-00", "intent": "general_information", "parent_id": "utt-199", "slots": {"topic": "wheelchair access"}}
+{"case_id": "p4-context_dependency-dev-01", "intent": "cancel_appointment", "parent_id": "utt-021", "slots": {"date": "Friday"}}
+{"case_id": "p4-context_dependency-dev-02", "intent": "transfer_money", "parent_id": "utt-085", "slots": {"amount": "75", "currency": "rupees"}}
+{"case_id": "p4-context_dependency-dev-03", "intent": "cancel_appointment", "parent_id": "utt-024", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-context_dependency-dev-04", "intent": "check_appointment", "parent_id": "utt-046", "slots": {"date": "Saturday"}}
+{"case_id": "p4-context_dependency-dev-05", "intent": "set_reminder", "parent_id": "utt-137", "slots": {"time": "11 PM"}}
+{"case_id": "p4-context_dependency-dev-06", "intent": "book_appointment", "parent_id": "utt-002", "slots": {"date": "Monday"}}
+{"case_id": "p4-context_dependency-dev-07", "intent": "play_music", "parent_id": "utt-166", "slots": {"genre": "hip hop"}}
+{"case_id": "p4-context_dependency-dev-08", "intent": "transfer_money", "parent_id": "utt-093", "slots": {"amount": "40", "currency": "rupees"}}
+{"case_id": "p4-context_dependency-dev-09", "intent": "check_appointment", "parent_id": "utt-053", "slots": {"date": "April 2"}}
+{"case_id": "p4-context_dependency-dev-10", "intent": "weather_query", "parent_id": "utt-158", "slots": {"date": "September 9"}}
+{"case_id": "p4-context_dependency-dev-11", "intent": "general_information", "parent_id": "utt-181", "slots": {"topic": "Saturday hours"}}
+{"case_id": "p4-context_dependency-dev-12", "intent": "transfer_money", "parent_id": "utt-092", "slots": {"amount": "20", "currency": "rupees"}}
+{"case_id": "p4-context_dependency-dev-13", "intent": "play_music", "parent_id": "utt-175", "slots": {"genre": "punk"}}
+{"case_id": "p4-context_dependency-dev-14", "intent": "general_information", "parent_id": "utt-192", "slots": {"topic": "service status"}}
+{"case_id": "p4-context_dependency-dev-15", "intent": "play_music", "parent_id": "utt-177", "slots": {"genre": "indie"}}
+{"case_id": "p4-context_dependency-dev-16", "intent": "check_appointment", "parent_id": "utt-044", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-context_dependency-dev-17", "intent": "general_information", "parent_id": "utt-186", "slots": {"topic": "membership rules"}}
+{"case_id": "p4-context_dependency-dev-18", "intent": "general_information", "parent_id": "utt-185", "slots": {"topic": "holiday calendar"}}
+{"case_id": "p4-context_dependency-dev-19", "intent": "cancel_appointment", "parent_id": "utt-025", "slots": {"date": "Thursday"}}
+{"case_id": "p4-context_dependency-dev-20", "intent": "cancel_appointment", "parent_id": "utt-037", "slots": {"date": "August 12"}}
+{"case_id": "p4-context_dependency-dev-21", "intent": "book_appointment", "parent_id": "utt-014", "slots": {"date": "May 5"}}
+{"case_id": "p4-context_dependency-dev-22", "intent": "cancel_appointment", "parent_id": "utt-023", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-context_dependency-dev-23", "intent": "transfer_money", "parent_id": "utt-086", "slots": {"amount": "200", "currency": "rupees"}}
+{"case_id": "p4-context_dependency-dev-24", "intent": "check_balance", "parent_id": "utt-079", "slots": {"account": "daily account"}}
+{"case_id": "p4-context_dependency-dev-25", "intent": "cancel_appointment", "parent_id": "utt-035", "slots": {"date": "June 10"}}
+{"case_id": "p4-context_dependency-dev-26", "intent": "general_information", "parent_id": "utt-188", "slots": {"topic": "lost card process"}}
+{"case_id": "p4-context_dependency-dev-27", "intent": "play_music", "parent_id": "utt-174", "slots": {"genre": "opera"}}
+{"case_id": "p4-context_dependency-dev-28", "intent": "check_transaction", "parent_id": "utt-111", "slots": {"recency": "large"}}
+{"case_id": "p4-context_dependency-dev-29", "intent": "check_transaction", "parent_id": "utt-104", "slots": {"recency": "newest"}}
+{"case_id": "p4-function_word_damage-dev-00", "intent": "general_information", "parent_id": "utt-199", "slots": {"topic": "wheelchair access"}}
+{"case_id": "p4-function_word_damage-dev-01", "intent": "cancel_appointment", "parent_id": "utt-021", "slots": {"date": "Friday"}}
+{"case_id": "p4-function_word_damage-dev-02", "intent": "transfer_money", "parent_id": "utt-085", "slots": {"amount": "75", "currency": "rupees"}}
+{"case_id": "p4-function_word_damage-dev-03", "intent": "cancel_appointment", "parent_id": "utt-024", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-function_word_damage-dev-04", "intent": "check_appointment", "parent_id": "utt-046", "slots": {"date": "Saturday"}}
+{"case_id": "p4-function_word_damage-dev-05", "intent": "set_reminder", "parent_id": "utt-137", "slots": {"time": "11 PM"}}
+{"case_id": "p4-function_word_damage-dev-06", "intent": "book_appointment", "parent_id": "utt-002", "slots": {"date": "Monday"}}
+{"case_id": "p4-function_word_damage-dev-07", "intent": "play_music", "parent_id": "utt-166", "slots": {"genre": "hip hop"}}
+{"case_id": "p4-function_word_damage-dev-08", "intent": "transfer_money", "parent_id": "utt-093", "slots": {"amount": "40", "currency": "rupees"}}
+{"case_id": "p4-function_word_damage-dev-09", "intent": "check_appointment", "parent_id": "utt-053", "slots": {"date": "April 2"}}
+{"case_id": "p4-function_word_damage-dev-10", "intent": "weather_query", "parent_id": "utt-158", "slots": {"date": "September 9"}}
+{"case_id": "p4-function_word_damage-dev-11", "intent": "general_information", "parent_id": "utt-181", "slots": {"topic": "Saturday hours"}}
+{"case_id": "p4-function_word_damage-dev-12", "intent": "transfer_money", "parent_id": "utt-092", "slots": {"amount": "20", "currency": "rupees"}}
+{"case_id": "p4-function_word_damage-dev-13", "intent": "play_music", "parent_id": "utt-175", "slots": {"genre": "punk"}}
+{"case_id": "p4-function_word_damage-dev-14", "intent": "general_information", "parent_id": "utt-192", "slots": {"topic": "service status"}}
+{"case_id": "p4-function_word_damage-dev-15", "intent": "play_music", "parent_id": "utt-177", "slots": {"genre": "indie"}}
+{"case_id": "p4-function_word_damage-dev-16", "intent": "check_appointment", "parent_id": "utt-044", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-function_word_damage-dev-17", "intent": "general_information", "parent_id": "utt-186", "slots": {"topic": "membership rules"}}
+{"case_id": "p4-function_word_damage-dev-18", "intent": "general_information", "parent_id": "utt-185", "slots": {"topic": "holiday calendar"}}
+{"case_id": "p4-function_word_damage-dev-19", "intent": "cancel_appointment", "parent_id": "utt-025", "slots": {"date": "Thursday"}}
+{"case_id": "p4-function_word_damage-dev-20", "intent": "cancel_appointment", "parent_id": "utt-037", "slots": {"date": "August 12"}}
+{"case_id": "p4-function_word_damage-dev-21", "intent": "book_appointment", "parent_id": "utt-014", "slots": {"date": "May 5"}}
+{"case_id": "p4-function_word_damage-dev-22", "intent": "cancel_appointment", "parent_id": "utt-023", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-function_word_damage-dev-23", "intent": "transfer_money", "parent_id": "utt-086", "slots": {"amount": "200", "currency": "rupees"}}
+{"case_id": "p4-function_word_damage-dev-24", "intent": "check_balance", "parent_id": "utt-079", "slots": {"account": "daily account"}}
+{"case_id": "p4-function_word_damage-dev-25", "intent": "cancel_appointment", "parent_id": "utt-035", "slots": {"date": "June 10"}}
+{"case_id": "p4-function_word_damage-dev-26", "intent": "general_information", "parent_id": "utt-188", "slots": {"topic": "lost card process"}}
+{"case_id": "p4-function_word_damage-dev-27", "intent": "play_music", "parent_id": "utt-174", "slots": {"genre": "opera"}}
+{"case_id": "p4-function_word_damage-dev-28", "intent": "check_transaction", "parent_id": "utt-111", "slots": {"recency": "large"}}
+{"case_id": "p4-function_word_damage-dev-29", "intent": "check_transaction", "parent_id": "utt-104", "slots": {"recency": "newest"}}
+{"case_id": "p4-candidate_provenance-dev-00", "intent": "general_information", "parent_id": "utt-199", "slots": {"topic": "wheelchair access"}}
+{"case_id": "p4-candidate_provenance-dev-01", "intent": "cancel_appointment", "parent_id": "utt-021", "slots": {"date": "Friday"}}
+{"case_id": "p4-candidate_provenance-dev-02", "intent": "transfer_money", "parent_id": "utt-085", "slots": {"amount": "75", "currency": "rupees"}}
+{"case_id": "p4-candidate_provenance-dev-03", "intent": "cancel_appointment", "parent_id": "utt-024", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-candidate_provenance-dev-04", "intent": "check_appointment", "parent_id": "utt-046", "slots": {"date": "Saturday"}}
+{"case_id": "p4-candidate_provenance-dev-05", "intent": "set_reminder", "parent_id": "utt-137", "slots": {"time": "11 PM"}}
+{"case_id": "p4-candidate_provenance-dev-06", "intent": "book_appointment", "parent_id": "utt-002", "slots": {"date": "Monday"}}
+{"case_id": "p4-candidate_provenance-dev-07", "intent": "play_music", "parent_id": "utt-166", "slots": {"genre": "hip hop"}}
+{"case_id": "p4-candidate_provenance-dev-08", "intent": "transfer_money", "parent_id": "utt-093", "slots": {"amount": "40", "currency": "rupees"}}
+{"case_id": "p4-candidate_provenance-dev-09", "intent": "check_appointment", "parent_id": "utt-053", "slots": {"date": "April 2"}}
+{"case_id": "p4-candidate_provenance-dev-10", "intent": "weather_query", "parent_id": "utt-158", "slots": {"date": "September 9"}}
+{"case_id": "p4-candidate_provenance-dev-11", "intent": "general_information", "parent_id": "utt-181", "slots": {"topic": "Saturday hours"}}
+{"case_id": "p4-candidate_provenance-dev-12", "intent": "transfer_money", "parent_id": "utt-092", "slots": {"amount": "20", "currency": "rupees"}}
+{"case_id": "p4-candidate_provenance-dev-13", "intent": "play_music", "parent_id": "utt-175", "slots": {"genre": "punk"}}
+{"case_id": "p4-candidate_provenance-dev-14", "intent": "general_information", "parent_id": "utt-192", "slots": {"topic": "service status"}}
+{"case_id": "p4-candidate_provenance-dev-15", "intent": "play_music", "parent_id": "utt-177", "slots": {"genre": "indie"}}
+{"case_id": "p4-candidate_provenance-dev-16", "intent": "check_appointment", "parent_id": "utt-044", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-candidate_provenance-dev-17", "intent": "general_information", "parent_id": "utt-186", "slots": {"topic": "membership rules"}}
+{"case_id": "p4-candidate_provenance-dev-18", "intent": "general_information", "parent_id": "utt-185", "slots": {"topic": "holiday calendar"}}
+{"case_id": "p4-candidate_provenance-dev-19", "intent": "cancel_appointment", "parent_id": "utt-025", "slots": {"date": "Thursday"}}
+{"case_id": "p4-candidate_provenance-dev-20", "intent": "cancel_appointment", "parent_id": "utt-037", "slots": {"date": "August 12"}}
+{"case_id": "p4-candidate_provenance-dev-21", "intent": "book_appointment", "parent_id": "utt-014", "slots": {"date": "May 5"}}
+{"case_id": "p4-candidate_provenance-dev-22", "intent": "cancel_appointment", "parent_id": "utt-023", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-candidate_provenance-dev-23", "intent": "transfer_money", "parent_id": "utt-086", "slots": {"amount": "200", "currency": "rupees"}}
+{"case_id": "p4-candidate_provenance-dev-24", "intent": "check_balance", "parent_id": "utt-079", "slots": {"account": "daily account"}}
+{"case_id": "p4-candidate_provenance-dev-25", "intent": "cancel_appointment", "parent_id": "utt-035", "slots": {"date": "June 10"}}
+{"case_id": "p4-candidate_provenance-dev-26", "intent": "general_information", "parent_id": "utt-188", "slots": {"topic": "lost card process"}}
+{"case_id": "p4-candidate_provenance-dev-27", "intent": "play_music", "parent_id": "utt-174", "slots": {"genre": "opera"}}
+{"case_id": "p4-candidate_provenance-dev-28", "intent": "check_transaction", "parent_id": "utt-111", "slots": {"recency": "large"}}
+{"case_id": "p4-candidate_provenance-dev-29", "intent": "check_transaction", "parent_id": "utt-104", "slots": {"recency": "newest"}}
+{"case_id": "p4-clean_control-dev-00", "intent": "general_information", "parent_id": "utt-199", "slots": {"topic": "wheelchair access"}}
+{"case_id": "p4-clean_control-dev-01", "intent": "cancel_appointment", "parent_id": "utt-021", "slots": {"date": "Friday"}}
+{"case_id": "p4-clean_control-dev-02", "intent": "transfer_money", "parent_id": "utt-085", "slots": {"amount": "75", "currency": "rupees"}}
+{"case_id": "p4-clean_control-dev-03", "intent": "cancel_appointment", "parent_id": "utt-024", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-clean_control-dev-04", "intent": "check_appointment", "parent_id": "utt-046", "slots": {"date": "Saturday"}}
+{"case_id": "p4-clean_control-dev-05", "intent": "set_reminder", "parent_id": "utt-137", "slots": {"time": "11 PM"}}
+{"case_id": "p4-clean_control-dev-06", "intent": "book_appointment", "parent_id": "utt-002", "slots": {"date": "Monday"}}
+{"case_id": "p4-clean_control-dev-07", "intent": "play_music", "parent_id": "utt-166", "slots": {"genre": "hip hop"}}
+{"case_id": "p4-clean_control-dev-08", "intent": "transfer_money", "parent_id": "utt-093", "slots": {"amount": "40", "currency": "rupees"}}
+{"case_id": "p4-clean_control-dev-09", "intent": "check_appointment", "parent_id": "utt-053", "slots": {"date": "April 2"}}
+{"case_id": "p4-clean_control-dev-10", "intent": "weather_query", "parent_id": "utt-158", "slots": {"date": "September 9"}}
+{"case_id": "p4-clean_control-dev-11", "intent": "general_information", "parent_id": "utt-181", "slots": {"topic": "Saturday hours"}}
+{"case_id": "p4-clean_control-dev-12", "intent": "transfer_money", "parent_id": "utt-092", "slots": {"amount": "20", "currency": "rupees"}}
+{"case_id": "p4-clean_control-dev-13", "intent": "play_music", "parent_id": "utt-175", "slots": {"genre": "punk"}}
+{"case_id": "p4-clean_control-dev-14", "intent": "general_information", "parent_id": "utt-192", "slots": {"topic": "service status"}}
+{"case_id": "p4-clean_control-dev-15", "intent": "play_music", "parent_id": "utt-177", "slots": {"genre": "indie"}}
+{"case_id": "p4-clean_control-dev-16", "intent": "check_appointment", "parent_id": "utt-044", "slots": {"date": "Wednesday"}}
+{"case_id": "p4-clean_control-dev-17", "intent": "general_information", "parent_id": "utt-186", "slots": {"topic": "membership rules"}}
+{"case_id": "p4-clean_control-dev-18", "intent": "general_information", "parent_id": "utt-185", "slots": {"topic": "holiday calendar"}}
+{"case_id": "p4-clean_control-dev-19", "intent": "cancel_appointment", "parent_id": "utt-025", "slots": {"date": "Thursday"}}
+{"case_id": "p4-clean_control-dev-20", "intent": "cancel_appointment", "parent_id": "utt-037", "slots": {"date": "August 12"}}
+{"case_id": "p4-clean_control-dev-21", "intent": "book_appointment", "parent_id": "utt-014", "slots": {"date": "May 5"}}
+{"case_id": "p4-clean_control-dev-22", "intent": "cancel_appointment", "parent_id": "utt-023", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-clean_control-dev-23", "intent": "transfer_money", "parent_id": "utt-086", "slots": {"amount": "200", "currency": "rupees"}}
+{"case_id": "p4-clean_control-dev-24", "intent": "check_balance", "parent_id": "utt-079", "slots": {"account": "daily account"}}
+{"case_id": "p4-clean_control-dev-25", "intent": "cancel_appointment", "parent_id": "utt-035", "slots": {"date": "June 10"}}
+{"case_id": "p4-clean_control-dev-26", "intent": "general_information", "parent_id": "utt-188", "slots": {"topic": "lost card process"}}
+{"case_id": "p4-clean_control-dev-27", "intent": "play_music", "parent_id": "utt-174", "slots": {"genre": "opera"}}
+{"case_id": "p4-clean_control-dev-28", "intent": "check_transaction", "parent_id": "utt-111", "slots": {"recency": "large"}}
+{"case_id": "p4-clean_control-dev-29", "intent": "check_transaction", "parent_id": "utt-104", "slots": {"recency": "newest"}}
+{"case_id": "p4-clean_control-dev-30", "intent": "weather_query", "parent_id": "utt-141", "slots": {"date": "Friday"}}
+{"case_id": "p4-clean_control-dev-31", "intent": "check_balance", "parent_id": "utt-067", "slots": {"account": "student account"}}
+{"case_id": "p4-clean_control-dev-32", "intent": "check_balance", "parent_id": "utt-072", "slots": {"account": "card account"}}
+{"case_id": "p4-clean_control-dev-33", "intent": "weather_query", "parent_id": "utt-156", "slots": {"date": "July 1"}}
+{"case_id": "p4-clean_control-dev-34", "intent": "check_transaction", "parent_id": "utt-103", "slots": {"recency": "recent"}}
+{"case_id": "p4-clean_control-dev-35", "intent": "check_appointment", "parent_id": "utt-047", "slots": {"date": "Sunday"}}
+{"case_id": "p4-clean_control-dev-36", "intent": "set_reminder", "parent_id": "utt-127", "slots": {"time": "11 AM"}}
+{"case_id": "p4-clean_control-dev-37", "intent": "general_information", "parent_id": "utt-197", "slots": {"topic": "opening time"}}
+{"case_id": "p4-clean_control-dev-38", "intent": "book_appointment", "parent_id": "utt-006", "slots": {"date": "Saturday"}}
+{"case_id": "p4-clean_control-dev-39", "intent": "general_information", "parent_id": "utt-193", "slots": {"topic": "queue time"}}
+{"case_id": "p4-clean_control-dev-40", "intent": "general_information", "parent_id": "utt-196", "slots": {"topic": "closing time"}}
+{"case_id": "p4-clean_control-dev-41", "intent": "transfer_money", "parent_id": "utt-095", "slots": {"amount": "80", "currency": "rupees"}}
+{"case_id": "p4-clean_control-dev-42", "intent": "play_music", "parent_id": "utt-173", "slots": {"genre": "ambient"}}
+{"case_id": "p4-clean_control-dev-43", "intent": "set_reminder", "parent_id": "utt-125", "slots": {"time": "4 PM"}}
+{"case_id": "p4-clean_control-dev-44", "intent": "cancel_appointment", "parent_id": "utt-036", "slots": {"date": "July 1"}}
+{"case_id": "p4-clean_control-dev-45", "intent": "set_reminder", "parent_id": "utt-126", "slots": {"time": "10 AM"}}
+{"case_id": "p4-clean_control-dev-46", "intent": "set_reminder", "parent_id": "utt-139", "slots": {"time": "midnight"}}
+{"case_id": "p4-clean_control-dev-47", "intent": "check_appointment", "parent_id": "utt-052", "slots": {"date": "today"}}
+{"case_id": "p4-clean_control-dev-48", "intent": "book_appointment", "parent_id": "utt-016", "slots": {"date": "July 1"}}
+{"case_id": "p4-clean_control-dev-49", "intent": "check_transaction", "parent_id": "utt-114", "slots": {"recency": "cash"}}
+{"case_id": "p4-clean_control-dev-50", "intent": "check_balance", "parent_id": "utt-064", "slots": {"account": "current account"}}
+{"case_id": "p4-clean_control-dev-51", "intent": "check_transaction", "parent_id": "utt-112", "slots": {"recency": "small"}}
+{"case_id": "p4-clean_control-dev-52", "intent": "check_balance", "parent_id": "utt-062", "slots": {"account": "checking account"}}
+{"case_id": "p4-clean_control-dev-53", "intent": "check_appointment", "parent_id": "utt-045", "slots": {"date": "Thursday"}}
+{"case_id": "p4-clean_control-dev-54", "intent": "general_information", "parent_id": "utt-183", "slots": {"topic": "phone number"}}
+{"case_id": "p4-clean_control-dev-55", "intent": "transfer_money", "parent_id": "utt-088", "slots": {"amount": "400", "currency": "rupees"}}
+{"case_id": "p4-clean_control-dev-56", "intent": "general_information", "parent_id": "utt-180", "slots": {"topic": "working hours"}}
+{"case_id": "p4-clean_control-dev-57", "intent": "check_balance", "parent_id": "utt-066", "slots": {"account": "travel account"}}
+{"case_id": "p4-clean_control-dev-58", "intent": "cancel_appointment", "parent_id": "utt-032", "slots": {"date": "today"}}
+{"case_id": "p4-clean_control-dev-59", "intent": "general_information", "parent_id": "utt-189", "slots": {"topic": "password reset"}}
+{"case_id": "p4-negation_polarity-val-00", "intent": "book_appointment", "parent_id": "utt-000", "slots": {"date": "tomorrow"}}
+{"case_id": "p4-negation_polarity-val-01", "intent": "check_transaction", "parent_id": "utt-115", "slots": {"recency": "online"}}
+{"case_id": "p4-negation_polarity-val-02", "intent": "check_balance", "parent_id": "utt-070", "slots": {"account": "primary account"}}
+{"case_id": "p4-negation_polarity-val-03", "intent": "transfer_money", "parent_id": "utt-094", "slots": {"amount": "60", "currency": "rupees"}}
+{"case_id": "p4-negation_polarity-val-04", "intent": "general_information", "parent_id": "utt-184", "slots": {"topic": "support email"}}
+{"case_id": "p4-negation_polarity-val-05", "intent": "transfer_money", "parent_id": "utt-097", "slots": {"amount": "180", "currency": "rupees"}}
+{"case_id": "p4-negation_polarity-val-06", "intent": "book_appointment", "parent_id": "utt-017", "slots": {"date": "August 12"}}
+{"case_id": "p4-negation_polarity-val-07", "intent": "check_appointment", "parent_id": "utt-057", "slots": {"date": "August 12"}}
+{"case_id": "p4-negation_polarity-val-08", "intent": "weather_query", "parent_id": "utt-145", "slots": {"date": "Thursday"}}
+{"case_id": "p4-negation_polarity-val-09", "intent": "transfer_money", "parent_id": "utt-089", "slots": {"amount": "750", "currency": "rupees"}}
+{"case_id": "p4-uncertainty_modality-val-00", "intent": "book_appointment", "parent_id": "utt-000", "slots": {"date": "tomorrow"}}
+{"case_id": "p4-uncertainty_modality-val-01", "intent": "check_transaction", "parent_id": "utt-115", "slots": {"recency": "online"}}
+{"case_id": "p4-uncertainty_modality-val-02", "intent": "check_balance", "parent_id": "utt-070", "slots": {"account": "primary account"}}
+{"case_id": "p4-uncertainty_modality-val-03", "intent": "transfer_money", "parent_id": "utt-094", "slots": {"amount": "60", "currency": "rupees"}}
+{"case_id": "p4-uncertainty_modality-val-04", "intent": "general_information", "parent_id": "utt-184", "slots": {"topic": "support email"}}
+{"case_id": "p4-uncertainty_modality-val-05", "intent": "transfer_money", "parent_id": "utt-097", "slots": {"amount": "180", "currency": "rupees"}}
+{"case_id": "p4-uncertainty_modality-val-06", "intent": "book_appointment", "parent_id": "utt-017", "slots": {"date": "August 12"}}
+{"case_id": "p4-uncertainty_modality-val-07", "intent": "check_appointment", "parent_id": "utt-057", "slots": {"date": "August 12"}}
+{"case_id": "p4-uncertainty_modality-val-08", "intent": "weather_query", "parent_id": "utt-145", "slots": {"date": "Thursday"}}
+{"case_id": "p4-uncertainty_modality-val-09", "intent": "transfer_money", "parent_id": "utt-089", "slots": {"amount": "750", "currency": "rupees"}}
+{"case_id": "p4-critical_slot_mutation-val-00", "intent": "book_appointment", "parent_id": "utt-000", "slots": {"date": "tomorrow"}}
+{"case_id": "p4-critical_slot_mutation-val-01", "intent": "check_transaction", "parent_id": "utt-115", "slots": {"recency": "online"}}
+{"case_id": "p4-critical_slot_mutation-val-02", "intent": "check_balance", "parent_id": "utt-070", "slots": {"account": "primary account"}}
+{"case_id": "p4-critical_slot_mutation-val-03", "intent": "transfer_money", "parent_id": "utt-094", "slots": {"amount": "60", "currency": "rupees"}}
+{"case_id": "p4-critical_slot_mutation-val-04", "intent": "general_information", "parent_id": "utt-184", "slots": {"topic": "support email"}}
+{"case_id": "p4-critical_slot_mutation-val-05", "intent": "transfer_money", "parent_id": "utt-097", "slots": {"amount": "180", "currency": "rupees"}}
+{"case_id": "p4-critical_slot_mutation-val-06", "intent": "book_appointment", "parent_id": "utt-017", "slots": {"date": "August 12"}}
+{"case_id": "p4-critical_slot_mutation-val-07", "intent": "check_appointment", "parent_id": "utt-057", "slots": {"date": "August 12"}}
+{"case_id": "p4-critical_slot_mutation-val-08", "intent": "weather_query", "parent_id": "utt-145", "slots": {"date": "Thursday"}}
+{"case_id": "p4-critical_slot_mutation-val-09", "intent": "transfer_money", "parent_id": "utt-089", "slots": {"amount": "750", "currency": "rupees"}}
+{"case_id": "p4-temporal_numerical_conflict-val-00", "intent": "book_appointment", "parent_id": "utt-000", "slots": {"date": "tomorrow"}}
+{"case_id": "p4-temporal_numerical_conflict-val-01", "intent": "check_transaction", "parent_id": "utt-115", "slots": {"recency": "online"}}
+{"case_id": "p4-temporal_numerical_conflict-val-02", "intent": "transfer_money", "parent_id": "utt-094", "slots": {"amount": "60", "currency": "rupees"}}
+{"case_id": "p4-temporal_numerical_conflict-val-03", "intent": "transfer_money", "parent_id": "utt-097", "slots": {"amount": "180", "currency": "rupees"}}
+{"case_id": "p4-temporal_numerical_conflict-val-04", "intent": "book_appointment", "parent_id": "utt-017", "slots": {"date": "August 12"}}
+{"case_id": "p4-temporal_numerical_conflict-val-05", "intent": "check_appointment", "parent_id": "utt-057", "slots": {"date": "August 12"}}
+{"case_id": "p4-temporal_numerical_conflict-val-06", "intent": "weather_query", "parent_id": "utt-145", "slots": {"date": "Thursday"}}
+{"case_id": "p4-temporal_numerical_conflict-val-07", "intent": "transfer_money", "parent_id": "utt-089", "slots": {"amount": "750", "currency": "rupees"}}
+{"case_id": "p4-temporal_numerical_conflict-val-08", "intent": "cancel_appointment", "parent_id": "utt-028", "slots": {"date": "next week"}}
+{"case_id": "p4-temporal_numerical_conflict-val-09", "intent": "set_reminder", "parent_id": "utt-131", "slots": {"time": "12 PM"}}
+{"case_id": "p4-semantic_ambiguity-val-00", "intent": "book_appointment", "parent_id": "utt-000", "slots": {"date": "tomorrow"}}
+{"case_id": "p4-semantic_ambiguity-val-01", "intent": "check_transaction", "parent_id": "utt-115", "slots": {"recency": "online"}}
+{"case_id": "p4-semantic_ambiguity-val-02", "intent": "check_balance", "parent_id": "utt-070", "slots": {"account": "primary account"}}
+{"case_id": "p4-semantic_ambiguity-val-03", "intent": "transfer_money", "parent_id": "utt-094", "slots": {"amount": "60", "currency": "rupees"}}
+{"case_id": "p4-semantic_ambiguity-val-04", "intent": "general_information", "parent_id": "utt-184", "slots": {"topic": "support email"}}
+{"case_id": "p4-semantic_ambiguity-val-05", "intent": "transfer_money", "parent_id": "utt-097", "slots": {"amount": "180", "currency": "rupees"}}
+{"case_id": "p4-semantic_ambiguity-val-06", "intent": "book_appointment", "parent_id": "utt-017", "slots": {"date": "August 12"}}
+{"case_id": "p4-semantic_ambiguity-val-07", "intent": "check_appointment", "parent_id": "utt-057", "slots": {"date": "August 12"}}
+{"case_id": "p4-semantic_ambiguity-val-08", "intent": "weather_query", "parent_id": "utt-145", "slots": {"date": "Thursday"}}
+{"case_id": "p4-semantic_ambiguity-val-09", "intent": "transfer_money", "parent_id": "utt-089", "slots": {"amount": "750", "currency": "rupees"}}
+{"case_id": "p4-contradictory_candidates-val-00", "intent": "book_appointment", "parent_id": "utt-000", "slots": {"date": "tomorrow"}}
+{"case_id": "p4-contradictory_candidates-val-01", "intent": "check_transaction", "parent_id": "utt-115", "slots": {"recency": "online"}}
+{"case_id": "p4-contradictory_candidates-val-02", "intent": "check_balance", "parent_id": "utt-070", "slots": {"account": "primary account"}}
+{"case_id": "p4-contradictory_candidates-val-03", "intent": "transfer_money", "parent_id": "utt-094", "slots": {"amount": "60", "currency": "rupees"}}
+{"case_id": "p4-contradictory_candidates-val-04", "intent": "general_information", "parent_id": "utt-184", "slots": {"topic": "support email"}}
+{"case_id": "p4-contradictory_candidates-val-05", "intent": "transfer_money", "parent_id": "utt-097", "slots": {"amount": "180", "currency": "rupees"}}
+{"case_id": "p4-contradictory_candidates-val-06", "intent": "book_appointment", "parent_id": "utt-017", "slots": {"date": "August 12"}}
+{"case_id": "p4-contradictory_candidates-val-07", "intent": "check_appointment", "parent_id": "utt-057", "slots": {"date": "August 12"}}
+{"case_id": "p4-contradictory_candidates-val-08", "intent": "weather_query", "parent_id": "utt-145", "slots": {"date": "Thursday"}}
+{"case_id": "p4-contradictory_candidates-val-09", "intent": "transfer_money", "parent_id": "utt-089", "slots": {"amount": "750", "currency": "rupees"}}
+{"case_id": "p4-incomplete_required_slots-val-00", "intent": "book_appointment", "parent_id": "utt-000", "slots": {"date": "tomorrow"}}
+{"case_id": "p4-incomplete_required_slots-val-01", "intent": "check_transaction", "parent_id": "utt-115", "slots": {"recency": "online"}}
+{"case_id": "p4-incomplete_required_slots-val-02", "intent": "check_balance", "parent_id": "utt-070", "slots": {"account": "primary account"}}
+{"case_id": "p4-incomplete_required_slots-val-03", "intent": "transfer_money", "parent_id": "utt-094", "slots": {"amount": "60", "currency": "rupees"}}
+{"case_id": "p4-incomplete_required_slots-val-04", "intent": "general_information", "parent_id": "utt-184", "slots": {"topic": "support email"}}
+{"case_id": "p4-incomplete_required_slots-val-05", "intent": "transfer_money", "parent_id": "utt-097", "slots": {"amount": "180", "currency": "rupees"}}
+{"case_id": "p4-incomplete_required_slots-val-06", "intent": "book_appointment", "parent_id": "utt-017", "slots": {"date": "August 12"}}
+{"case_id": "p4-incomplete_required_slots-val-07", "intent": "check_appointment", "parent_id": "utt-057", "slots": {"date": "August 12"}}
+{"case_id": "p4-incomplete_required_slots-val-08", "intent": "weather_query", "parent_id": "utt-145", "slots": {"date": "Thursday"}}
+{"case_id": "p4-incomplete_required_slots-val-09", "intent": "transfer_money", "parent_id": "utt-089", "slots": {"amount": "750", "currency": "rupees"}}
+{"case_id": "p4-context_dependency-val-00", "intent": "book_appointment", "parent_id": "utt-000", "slots": {"date": "tomorrow"}}
+{"case_id": "p4-context_dependency-val-01", "intent": "check_transaction", "parent_id": "utt-115", "slots": {"recency": "online"}}
+{"case_id": "p4-context_dependency-val-02", "intent": "check_balance", "parent_id": "utt-070", "slots": {"account": "primary account"}}
+{"case_id": "p4-context_dependency-val-03", "intent": "transfer_money", "parent_id": "utt-094", "slots": {"amount": "60", "currency": "rupees"}}
+{"case_id": "p4-context_dependency-val-04", "intent": "general_information", "parent_id": "utt-184", "slots": {"topic": "support email"}}
+{"case_id": "p4-context_dependency-val-05", "intent": "transfer_money", "parent_id": "utt-097", "slots": {"amount": "180", "currency": "rupees"}}
+{"case_id": "p4-context_dependency-val-06", "intent": "book_appointment", "parent_id": "utt-017", "slots": {"date": "August 12"}}
+{"case_id": "p4-context_dependency-val-07", "intent": "check_appointment", "parent_id": "utt-057", "slots": {"date": "August 12"}}
+{"case_id": "p4-context_dependency-val-08", "intent": "weather_query", "parent_id": "utt-145", "slots": {"date": "Thursday"}}
+{"case_id": "p4-context_dependency-val-09", "intent": "transfer_money", "parent_id": "utt-089", "slots": {"amount": "750", "currency": "rupees"}}
+{"case_id": "p4-function_word_damage-val-00", "intent": "book_appointment", "parent_id": "utt-000", "slots": {"date": "tomorrow"}}
+{"case_id": "p4-function_word_damage-val-01", "intent": "check_transaction", "parent_id": "utt-115", "slots": {"recency": "online"}}
+{"case_id": "p4-function_word_damage-val-02", "intent": "check_balance", "parent_id": "utt-070", "slots": {"account": "primary account"}}
+{"case_id": "p4-function_word_damage-val-03", "intent": "transfer_money", "parent_id": "utt-094", "slots": {"amount": "60", "currency": "rupees"}}
+{"case_id": "p4-function_word_damage-val-04", "intent": "general_information", "parent_id": "utt-184", "slots": {"topic": "support email"}}
+{"case_id": "p4-function_word_damage-val-05", "intent": "transfer_money", "parent_id": "utt-097", "slots": {"amount": "180", "currency": "rupees"}}
+{"case_id": "p4-function_word_damage-val-06", "intent": "book_appointment", "parent_id": "utt-017", "slots": {"date": "August 12"}}
+{"case_id": "p4-function_word_damage-val-07", "intent": "check_appointment", "parent_id": "utt-057", "slots": {"date": "August 12"}}
+{"case_id": "p4-function_word_damage-val-08", "intent": "weather_query", "parent_id": "utt-145", "slots": {"date": "Thursday"}}
+{"case_id": "p4-function_word_damage-val-09", "intent": "transfer_money", "parent_id": "utt-089", "slots": {"amount": "750", "currency": "rupees"}}
+{"case_id": "p4-candidate_provenance-val-00", "intent": "book_appointment", "parent_id": "utt-000", "slots": {"date": "tomorrow"}}
+{"case_id": "p4-candidate_provenance-val-01", "intent": "check_transaction", "parent_id": "utt-115", "slots": {"recency": "online"}}
+{"case_id": "p4-candidate_provenance-val-02", "intent": "check_balance", "parent_id": "utt-070", "slots": {"account": "primary account"}}
+{"case_id": "p4-candidate_provenance-val-03", "intent": "transfer_money", "parent_id": "utt-094", "slots": {"amount": "60", "currency": "rupees"}}
+{"case_id": "p4-candidate_provenance-val-04", "intent": "general_information", "parent_id": "utt-184", "slots": {"topic": "support email"}}
+{"case_id": "p4-candidate_provenance-val-05", "intent": "transfer_money", "parent_id": "utt-097", "slots": {"amount": "180", "currency": "rupees"}}
+{"case_id": "p4-candidate_provenance-val-06", "intent": "book_appointment", "parent_id": "utt-017", "slots": {"date": "August 12"}}
+{"case_id": "p4-candidate_provenance-val-07", "intent": "check_appointment", "parent_id": "utt-057", "slots": {"date": "August 12"}}
+{"case_id": "p4-candidate_provenance-val-08", "intent": "weather_query", "parent_id": "utt-145", "slots": {"date": "Thursday"}}
+{"case_id": "p4-candidate_provenance-val-09", "intent": "transfer_money", "parent_id": "utt-089", "slots": {"amount": "750", "currency": "rupees"}}
+{"case_id": "p4-clean_control-val-00", "intent": "book_appointment", "parent_id": "utt-000", "slots": {"date": "tomorrow"}}
+{"case_id": "p4-clean_control-val-01", "intent": "check_transaction", "parent_id": "utt-115", "slots": {"recency": "online"}}
+{"case_id": "p4-clean_control-val-02", "intent": "check_balance", "parent_id": "utt-070", "slots": {"account": "primary account"}}
+{"case_id": "p4-clean_control-val-03", "intent": "transfer_money", "parent_id": "utt-094", "slots": {"amount": "60", "currency": "rupees"}}
+{"case_id": "p4-clean_control-val-04", "intent": "general_information", "parent_id": "utt-184", "slots": {"topic": "support email"}}
+{"case_id": "p4-clean_control-val-05", "intent": "transfer_money", "parent_id": "utt-097", "slots": {"amount": "180", "currency": "rupees"}}
+{"case_id": "p4-clean_control-val-06", "intent": "book_appointment", "parent_id": "utt-017", "slots": {"date": "August 12"}}
+{"case_id": "p4-clean_control-val-07", "intent": "check_appointment", "parent_id": "utt-057", "slots": {"date": "August 12"}}
+{"case_id": "p4-clean_control-val-08", "intent": "weather_query", "parent_id": "utt-145", "slots": {"date": "Thursday"}}
+{"case_id": "p4-clean_control-val-09", "intent": "transfer_money", "parent_id": "utt-089", "slots": {"amount": "750", "currency": "rupees"}}
+{"case_id": "p4-clean_control-val-10", "intent": "cancel_appointment", "parent_id": "utt-028", "slots": {"date": "next week"}}
+{"case_id": "p4-clean_control-val-11", "intent": "set_reminder", "parent_id": "utt-131", "slots": {"time": "12 PM"}}
+{"case_id": "p4-clean_control-val-12", "intent": "cancel_appointment", "parent_id": "utt-027", "slots": {"date": "Sunday"}}
+{"case_id": "p4-clean_control-val-13", "intent": "book_appointment", "parent_id": "utt-010", "slots": {"date": "noon"}}
+{"case_id": "p4-clean_control-val-14", "intent": "weather_query", "parent_id": "utt-143", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-clean_control-val-15", "intent": "transfer_money", "parent_id": "utt-081", "slots": {"amount": "100", "currency": "rupees"}}
+{"case_id": "p4-clean_control-val-16", "intent": "weather_query", "parent_id": "utt-154", "slots": {"date": "May 5"}}
+{"case_id": "p4-clean_control-val-17", "intent": "general_information", "parent_id": "utt-182", "slots": {"topic": "branch address"}}
+{"case_id": "p4-clean_control-val-18", "intent": "play_music", "parent_id": "utt-164", "slots": {"genre": "blues"}}
+{"case_id": "p4-clean_control-val-19", "intent": "weather_query", "parent_id": "utt-148", "slots": {"date": "next week"}}
+{"case_id": "p4-negation_polarity-tes-00", "intent": "check_transaction", "parent_id": "utt-117", "slots": {"recency": "monthly"}}
+{"case_id": "p4-negation_polarity-tes-01", "intent": "set_reminder", "parent_id": "utt-138", "slots": {"time": "noon"}}
+{"case_id": "p4-negation_polarity-tes-02", "intent": "check_transaction", "parent_id": "utt-100", "slots": {"recency": "latest"}}
+{"case_id": "p4-negation_polarity-tes-03", "intent": "set_reminder", "parent_id": "utt-128", "slots": {"time": "1 PM"}}
+{"case_id": "p4-negation_polarity-tes-04", "intent": "set_reminder", "parent_id": "utt-136", "slots": {"time": "10 PM"}}
+{"case_id": "p4-negation_polarity-tes-05", "intent": "general_information", "parent_id": "utt-194", "slots": {"topic": "document list"}}
+{"case_id": "p4-negation_polarity-tes-06", "intent": "set_reminder", "parent_id": "utt-130", "slots": {"time": "3 PM"}}
+{"case_id": "p4-negation_polarity-tes-07", "intent": "play_music", "parent_id": "utt-178", "slots": {"genre": "acoustic"}}
+{"case_id": "p4-negation_polarity-tes-08", "intent": "transfer_money", "parent_id": "utt-083", "slots": {"amount": "1000", "currency": "rupees"}}
+{"case_id": "p4-negation_polarity-tes-09", "intent": "cancel_appointment", "parent_id": "utt-029", "slots": {"date": "this evening"}}
+{"case_id": "p4-uncertainty_modality-tes-00", "intent": "check_transaction", "parent_id": "utt-117", "slots": {"recency": "monthly"}}
+{"case_id": "p4-uncertainty_modality-tes-01", "intent": "set_reminder", "parent_id": "utt-138", "slots": {"time": "noon"}}
+{"case_id": "p4-uncertainty_modality-tes-02", "intent": "check_transaction", "parent_id": "utt-100", "slots": {"recency": "latest"}}
+{"case_id": "p4-uncertainty_modality-tes-03", "intent": "set_reminder", "parent_id": "utt-128", "slots": {"time": "1 PM"}}
+{"case_id": "p4-uncertainty_modality-tes-04", "intent": "set_reminder", "parent_id": "utt-136", "slots": {"time": "10 PM"}}
+{"case_id": "p4-uncertainty_modality-tes-05", "intent": "general_information", "parent_id": "utt-194", "slots": {"topic": "document list"}}
+{"case_id": "p4-uncertainty_modality-tes-06", "intent": "set_reminder", "parent_id": "utt-130", "slots": {"time": "3 PM"}}
+{"case_id": "p4-uncertainty_modality-tes-07", "intent": "play_music", "parent_id": "utt-178", "slots": {"genre": "acoustic"}}
+{"case_id": "p4-uncertainty_modality-tes-08", "intent": "transfer_money", "parent_id": "utt-083", "slots": {"amount": "1000", "currency": "rupees"}}
+{"case_id": "p4-uncertainty_modality-tes-09", "intent": "cancel_appointment", "parent_id": "utt-029", "slots": {"date": "this evening"}}
+{"case_id": "p4-critical_slot_mutation-tes-00", "intent": "check_transaction", "parent_id": "utt-117", "slots": {"recency": "monthly"}}
+{"case_id": "p4-critical_slot_mutation-tes-01", "intent": "set_reminder", "parent_id": "utt-138", "slots": {"time": "noon"}}
+{"case_id": "p4-critical_slot_mutation-tes-02", "intent": "check_transaction", "parent_id": "utt-100", "slots": {"recency": "latest"}}
+{"case_id": "p4-critical_slot_mutation-tes-03", "intent": "set_reminder", "parent_id": "utt-128", "slots": {"time": "1 PM"}}
+{"case_id": "p4-critical_slot_mutation-tes-04", "intent": "set_reminder", "parent_id": "utt-136", "slots": {"time": "10 PM"}}
+{"case_id": "p4-critical_slot_mutation-tes-05", "intent": "general_information", "parent_id": "utt-194", "slots": {"topic": "document list"}}
+{"case_id": "p4-critical_slot_mutation-tes-06", "intent": "set_reminder", "parent_id": "utt-130", "slots": {"time": "3 PM"}}
+{"case_id": "p4-critical_slot_mutation-tes-07", "intent": "play_music", "parent_id": "utt-178", "slots": {"genre": "acoustic"}}
+{"case_id": "p4-critical_slot_mutation-tes-08", "intent": "transfer_money", "parent_id": "utt-083", "slots": {"amount": "1000", "currency": "rupees"}}
+{"case_id": "p4-critical_slot_mutation-tes-09", "intent": "cancel_appointment", "parent_id": "utt-029", "slots": {"date": "this evening"}}
+{"case_id": "p4-temporal_numerical_conflict-tes-00", "intent": "check_transaction", "parent_id": "utt-117", "slots": {"recency": "monthly"}}
+{"case_id": "p4-temporal_numerical_conflict-tes-01", "intent": "set_reminder", "parent_id": "utt-138", "slots": {"time": "noon"}}
+{"case_id": "p4-temporal_numerical_conflict-tes-02", "intent": "check_transaction", "parent_id": "utt-100", "slots": {"recency": "latest"}}
+{"case_id": "p4-temporal_numerical_conflict-tes-03", "intent": "set_reminder", "parent_id": "utt-128", "slots": {"time": "1 PM"}}
+{"case_id": "p4-temporal_numerical_conflict-tes-04", "intent": "set_reminder", "parent_id": "utt-136", "slots": {"time": "10 PM"}}
+{"case_id": "p4-temporal_numerical_conflict-tes-05", "intent": "set_reminder", "parent_id": "utt-130", "slots": {"time": "3 PM"}}
+{"case_id": "p4-temporal_numerical_conflict-tes-06", "intent": "transfer_money", "parent_id": "utt-083", "slots": {"amount": "1000", "currency": "rupees"}}
+{"case_id": "p4-temporal_numerical_conflict-tes-07", "intent": "cancel_appointment", "parent_id": "utt-029", "slots": {"date": "this evening"}}
+{"case_id": "p4-temporal_numerical_conflict-tes-08", "intent": "check_appointment", "parent_id": "utt-056", "slots": {"date": "July 1"}}
+{"case_id": "p4-temporal_numerical_conflict-tes-09", "intent": "cancel_appointment", "parent_id": "utt-030", "slots": {"date": "noon"}}
+{"case_id": "p4-semantic_ambiguity-tes-00", "intent": "check_transaction", "parent_id": "utt-117", "slots": {"recency": "monthly"}}
+{"case_id": "p4-semantic_ambiguity-tes-01", "intent": "set_reminder", "parent_id": "utt-138", "slots": {"time": "noon"}}
+{"case_id": "p4-semantic_ambiguity-tes-02", "intent": "check_transaction", "parent_id": "utt-100", "slots": {"recency": "latest"}}
+{"case_id": "p4-semantic_ambiguity-tes-03", "intent": "set_reminder", "parent_id": "utt-128", "slots": {"time": "1 PM"}}
+{"case_id": "p4-semantic_ambiguity-tes-04", "intent": "set_reminder", "parent_id": "utt-136", "slots": {"time": "10 PM"}}
+{"case_id": "p4-semantic_ambiguity-tes-05", "intent": "general_information", "parent_id": "utt-194", "slots": {"topic": "document list"}}
+{"case_id": "p4-semantic_ambiguity-tes-06", "intent": "set_reminder", "parent_id": "utt-130", "slots": {"time": "3 PM"}}
+{"case_id": "p4-semantic_ambiguity-tes-07", "intent": "play_music", "parent_id": "utt-178", "slots": {"genre": "acoustic"}}
+{"case_id": "p4-semantic_ambiguity-tes-08", "intent": "transfer_money", "parent_id": "utt-083", "slots": {"amount": "1000", "currency": "rupees"}}
+{"case_id": "p4-semantic_ambiguity-tes-09", "intent": "cancel_appointment", "parent_id": "utt-029", "slots": {"date": "this evening"}}
+{"case_id": "p4-contradictory_candidates-tes-00", "intent": "check_transaction", "parent_id": "utt-117", "slots": {"recency": "monthly"}}
+{"case_id": "p4-contradictory_candidates-tes-01", "intent": "set_reminder", "parent_id": "utt-138", "slots": {"time": "noon"}}
+{"case_id": "p4-contradictory_candidates-tes-02", "intent": "check_transaction", "parent_id": "utt-100", "slots": {"recency": "latest"}}
+{"case_id": "p4-contradictory_candidates-tes-03", "intent": "set_reminder", "parent_id": "utt-128", "slots": {"time": "1 PM"}}
+{"case_id": "p4-contradictory_candidates-tes-04", "intent": "set_reminder", "parent_id": "utt-136", "slots": {"time": "10 PM"}}
+{"case_id": "p4-contradictory_candidates-tes-05", "intent": "general_information", "parent_id": "utt-194", "slots": {"topic": "document list"}}
+{"case_id": "p4-contradictory_candidates-tes-06", "intent": "set_reminder", "parent_id": "utt-130", "slots": {"time": "3 PM"}}
+{"case_id": "p4-contradictory_candidates-tes-07", "intent": "play_music", "parent_id": "utt-178", "slots": {"genre": "acoustic"}}
+{"case_id": "p4-contradictory_candidates-tes-08", "intent": "transfer_money", "parent_id": "utt-083", "slots": {"amount": "1000", "currency": "rupees"}}
+{"case_id": "p4-contradictory_candidates-tes-09", "intent": "cancel_appointment", "parent_id": "utt-029", "slots": {"date": "this evening"}}
+{"case_id": "p4-incomplete_required_slots-tes-00", "intent": "check_transaction", "parent_id": "utt-117", "slots": {"recency": "monthly"}}
+{"case_id": "p4-incomplete_required_slots-tes-01", "intent": "set_reminder", "parent_id": "utt-138", "slots": {"time": "noon"}}
+{"case_id": "p4-incomplete_required_slots-tes-02", "intent": "check_transaction", "parent_id": "utt-100", "slots": {"recency": "latest"}}
+{"case_id": "p4-incomplete_required_slots-tes-03", "intent": "set_reminder", "parent_id": "utt-128", "slots": {"time": "1 PM"}}
+{"case_id": "p4-incomplete_required_slots-tes-04", "intent": "set_reminder", "parent_id": "utt-136", "slots": {"time": "10 PM"}}
+{"case_id": "p4-incomplete_required_slots-tes-05", "intent": "general_information", "parent_id": "utt-194", "slots": {"topic": "document list"}}
+{"case_id": "p4-incomplete_required_slots-tes-06", "intent": "set_reminder", "parent_id": "utt-130", "slots": {"time": "3 PM"}}
+{"case_id": "p4-incomplete_required_slots-tes-07", "intent": "play_music", "parent_id": "utt-178", "slots": {"genre": "acoustic"}}
+{"case_id": "p4-incomplete_required_slots-tes-08", "intent": "transfer_money", "parent_id": "utt-083", "slots": {"amount": "1000", "currency": "rupees"}}
+{"case_id": "p4-incomplete_required_slots-tes-09", "intent": "cancel_appointment", "parent_id": "utt-029", "slots": {"date": "this evening"}}
+{"case_id": "p4-context_dependency-tes-00", "intent": "check_transaction", "parent_id": "utt-117", "slots": {"recency": "monthly"}}
+{"case_id": "p4-context_dependency-tes-01", "intent": "set_reminder", "parent_id": "utt-138", "slots": {"time": "noon"}}
+{"case_id": "p4-context_dependency-tes-02", "intent": "check_transaction", "parent_id": "utt-100", "slots": {"recency": "latest"}}
+{"case_id": "p4-context_dependency-tes-03", "intent": "set_reminder", "parent_id": "utt-128", "slots": {"time": "1 PM"}}
+{"case_id": "p4-context_dependency-tes-04", "intent": "set_reminder", "parent_id": "utt-136", "slots": {"time": "10 PM"}}
+{"case_id": "p4-context_dependency-tes-05", "intent": "general_information", "parent_id": "utt-194", "slots": {"topic": "document list"}}
+{"case_id": "p4-context_dependency-tes-06", "intent": "set_reminder", "parent_id": "utt-130", "slots": {"time": "3 PM"}}
+{"case_id": "p4-context_dependency-tes-07", "intent": "play_music", "parent_id": "utt-178", "slots": {"genre": "acoustic"}}
+{"case_id": "p4-context_dependency-tes-08", "intent": "transfer_money", "parent_id": "utt-083", "slots": {"amount": "1000", "currency": "rupees"}}
+{"case_id": "p4-context_dependency-tes-09", "intent": "cancel_appointment", "parent_id": "utt-029", "slots": {"date": "this evening"}}
+{"case_id": "p4-function_word_damage-tes-00", "intent": "check_transaction", "parent_id": "utt-117", "slots": {"recency": "monthly"}}
+{"case_id": "p4-function_word_damage-tes-01", "intent": "set_reminder", "parent_id": "utt-138", "slots": {"time": "noon"}}
+{"case_id": "p4-function_word_damage-tes-02", "intent": "check_transaction", "parent_id": "utt-100", "slots": {"recency": "latest"}}
+{"case_id": "p4-function_word_damage-tes-03", "intent": "set_reminder", "parent_id": "utt-128", "slots": {"time": "1 PM"}}
+{"case_id": "p4-function_word_damage-tes-04", "intent": "set_reminder", "parent_id": "utt-136", "slots": {"time": "10 PM"}}
+{"case_id": "p4-function_word_damage-tes-05", "intent": "general_information", "parent_id": "utt-194", "slots": {"topic": "document list"}}
+{"case_id": "p4-function_word_damage-tes-06", "intent": "set_reminder", "parent_id": "utt-130", "slots": {"time": "3 PM"}}
+{"case_id": "p4-function_word_damage-tes-07", "intent": "play_music", "parent_id": "utt-178", "slots": {"genre": "acoustic"}}
+{"case_id": "p4-function_word_damage-tes-08", "intent": "transfer_money", "parent_id": "utt-083", "slots": {"amount": "1000", "currency": "rupees"}}
+{"case_id": "p4-function_word_damage-tes-09", "intent": "cancel_appointment", "parent_id": "utt-029", "slots": {"date": "this evening"}}
+{"case_id": "p4-candidate_provenance-tes-00", "intent": "check_transaction", "parent_id": "utt-117", "slots": {"recency": "monthly"}}
+{"case_id": "p4-candidate_provenance-tes-01", "intent": "set_reminder", "parent_id": "utt-138", "slots": {"time": "noon"}}
+{"case_id": "p4-candidate_provenance-tes-02", "intent": "check_transaction", "parent_id": "utt-100", "slots": {"recency": "latest"}}
+{"case_id": "p4-candidate_provenance-tes-03", "intent": "set_reminder", "parent_id": "utt-128", "slots": {"time": "1 PM"}}
+{"case_id": "p4-candidate_provenance-tes-04", "intent": "set_reminder", "parent_id": "utt-136", "slots": {"time": "10 PM"}}
+{"case_id": "p4-candidate_provenance-tes-05", "intent": "general_information", "parent_id": "utt-194", "slots": {"topic": "document list"}}
+{"case_id": "p4-candidate_provenance-tes-06", "intent": "set_reminder", "parent_id": "utt-130", "slots": {"time": "3 PM"}}
+{"case_id": "p4-candidate_provenance-tes-07", "intent": "play_music", "parent_id": "utt-178", "slots": {"genre": "acoustic"}}
+{"case_id": "p4-candidate_provenance-tes-08", "intent": "transfer_money", "parent_id": "utt-083", "slots": {"amount": "1000", "currency": "rupees"}}
+{"case_id": "p4-candidate_provenance-tes-09", "intent": "cancel_appointment", "parent_id": "utt-029", "slots": {"date": "this evening"}}
+{"case_id": "p4-clean_control-tes-00", "intent": "check_transaction", "parent_id": "utt-117", "slots": {"recency": "monthly"}}
+{"case_id": "p4-clean_control-tes-01", "intent": "set_reminder", "parent_id": "utt-138", "slots": {"time": "noon"}}
+{"case_id": "p4-clean_control-tes-02", "intent": "check_transaction", "parent_id": "utt-100", "slots": {"recency": "latest"}}
+{"case_id": "p4-clean_control-tes-03", "intent": "set_reminder", "parent_id": "utt-128", "slots": {"time": "1 PM"}}
+{"case_id": "p4-clean_control-tes-04", "intent": "set_reminder", "parent_id": "utt-136", "slots": {"time": "10 PM"}}
+{"case_id": "p4-clean_control-tes-05", "intent": "general_information", "parent_id": "utt-194", "slots": {"topic": "document list"}}
+{"case_id": "p4-clean_control-tes-06", "intent": "set_reminder", "parent_id": "utt-130", "slots": {"time": "3 PM"}}
+{"case_id": "p4-clean_control-tes-07", "intent": "play_music", "parent_id": "utt-178", "slots": {"genre": "acoustic"}}
+{"case_id": "p4-clean_control-tes-08", "intent": "transfer_money", "parent_id": "utt-083", "slots": {"amount": "1000", "currency": "rupees"}}
+{"case_id": "p4-clean_control-tes-09", "intent": "cancel_appointment", "parent_id": "utt-029", "slots": {"date": "this evening"}}
+{"case_id": "p4-clean_control-tes-10", "intent": "check_appointment", "parent_id": "utt-056", "slots": {"date": "July 1"}}
+{"case_id": "p4-clean_control-tes-11", "intent": "check_balance", "parent_id": "utt-076", "slots": {"account": "expense account"}}
+{"case_id": "p4-clean_control-tes-12", "intent": "check_balance", "parent_id": "utt-075", "slots": {"account": "tax account"}}
+{"case_id": "p4-clean_control-tes-13", "intent": "cancel_appointment", "parent_id": "utt-030", "slots": {"date": "noon"}}
+{"case_id": "p4-clean_control-tes-14", "intent": "check_balance", "parent_id": "utt-063", "slots": {"account": "salary account"}}
+{"case_id": "p4-clean_control-tes-15", "intent": "set_reminder", "parent_id": "utt-122", "slots": {"time": "8 PM"}}
+{"case_id": "p4-clean_control-tes-16", "intent": "weather_query", "parent_id": "utt-142", "slots": {"date": "Monday"}}
+{"case_id": "p4-clean_control-tes-17", "intent": "check_appointment", "parent_id": "utt-043", "slots": {"date": "Tuesday"}}
+{"case_id": "p4-clean_control-tes-18", "intent": "play_music", "parent_id": "utt-176", "slots": {"genre": "latin"}}
+{"case_id": "p4-clean_control-tes-19", "intent": "check_transaction", "parent_id": "utt-116", "slots": {"recency": "weekly"}}

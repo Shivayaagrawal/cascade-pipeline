@@ -1,0 +1,108 @@
+{
+  "cases": 56,
+  "coverage": {
+    "value": 0.35714285714285715,
+    "numerator": 20,
+    "denominator": 56,
+    "ci95": {
+      "low": 0.24456571707649905,
+      "high": 0.4880611219860049
+    },
+    "reason": null
+  },
+  "selective_risk": {
+    "value": 0.7,
+    "numerator": 14,
+    "denominator": 20,
+    "ci95": {
+      "low": 0.4810271816464765,
+      "high": 0.8545227551323956
+    },
+    "reason": null
+  },
+  "unsafe_commit_rate": {
+    "value": 0.7,
+    "numerator": 14,
+    "denominator": 20,
+    "ci95": {
+      "low": 0.4810271816464765,
+      "high": 0.8545227551323956
+    },
+    "reason": null
+  },
+  "path_safety": {
+    "value": 0.3,
+    "numerator": 6,
+    "denominator": 20,
+    "ci95": {
+      "low": 0.1454772448676043,
+      "high": 0.5189728183535235
+    },
+    "reason": null
+  },
+  "adapter_path_safety": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "no adapter-traced commits"
+  },
+  "exact_frame_accuracy": {
+    "value": 0.10714285714285714,
+    "numerator": 6,
+    "denominator": 56,
+    "ci95": {
+      "low": 0.05003935571117074,
+      "high": 0.21468445171071482
+    },
+    "reason": null
+  },
+  "safe_commitment_accuracy": {
+    "value": 0.3,
+    "numerator": 6,
+    "denominator": 20,
+    "ci95": {
+      "low": 0.1454772448676043,
+      "high": 0.5189728183535235
+    },
+    "reason": null
+  },
+  "unnecessary_abstention": {
+    "value": 0.3333333333333333,
+    "numerator": 3,
+    "denominator": 9,
+    "ci95": {
+      "low": 0.1205838183869109,
+      "high": 0.6457978644196036
+    },
+    "reason": null
+  },
+  "critical_slot_safety": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 14,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.2153108027376358
+    },
+    "reason": null
+  },
+  "action_accuracy": {
+    "value": 0.6964285714285714,
+    "numerator": 39,
+    "denominator": 56,
+    "ci95": {
+      "low": 0.5666413471427517,
+      "high": 0.8009967491463056
+    },
+    "reason": null
+  },
+  "outcomes": {
+    "SAFE_COMMIT": 6,
+    "UNSAFE_COMMIT": 14,
+    "SAFE_ABSTENTION": 33,
+    "UNNECESSARY_ABSTENTION": 3,
+    "INCORRECT_FRAME": 0,
+    "CORRECT_FRAME_UNSAFE_PATH": 0
+  }
+}

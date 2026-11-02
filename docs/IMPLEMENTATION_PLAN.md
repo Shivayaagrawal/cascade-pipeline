@@ -1,13 +1,13 @@
 # Implementation Plan — Phase 0 status
 
-**Canonical build order:** `docs/PHASE_WISE_IMPLEMENTATION_PLAN.md` (Phases 0–8).  
-**Earlier schedule, still in the repo:** `docs/PHASE_PLAN.md` (14 days). Differences are recorded in `docs/RESEARCH_DEVIATIONS.md`.
+**Current Phase 1 document:** `docs/PHASE_1_IMPLEMENTATION_PLAN.md`, accepted as the working plan after simulation v3. Execution is not approved. Acquisition is pending.  
+**Earlier schedules, still in the repo:** `docs/PHASE_WISE_IMPLEMENTATION_PLAN.md` and `docs/PHASE_PLAN.md`. Their Phase 1 sections are superseded by the revised plan. Differences are recorded in `docs/RESEARCH_DEVIATIONS.md`.
 
-This file is the Phase 0 execution record. It does not replace the phase-wise plan.
+This file is the Phase 0 execution record. It does not approve Phase 1.
 
 ## Current phase
 
-**Phase 0 — research foundation.** Common Voice Scripted Speech v27.0 English is the candidate recorded on 2026-11-02. Terms are not accepted. This file is not an approval to implement. **Phase 1 code has not been started. Status: NOT READY FOR PHASE 1.** See `docs/PHASE_0_REPORT.md`, `docs/PHASE_0_DECISION_LOG.md`, and `docs/PHASE_1_IMPLEMENTATION_PLAN.md`.
+**Phase 0 is complete.** Common Voice Scripted Speech v27.0 English remains the candidate recorded on 2026-11-02. Terms are not accepted. The revised Phase 1 plan is the working baseline, and **Phase 1 execution has not started. Status: NOT READY TO EXECUTE PHASE 1.** See `docs/PHASE_0_DECISION_LOG.md` decision D-CV-007.
 
 | Deliverable | State |
 |-------------|--------|
@@ -28,23 +28,21 @@ This file is the Phase 0 execution record. It does not replace the phase-wise pl
 
 ## What Phase 1 is allowed to do after approval
 
-Order from `docs/PHASE_WISE_IMPLEMENTATION_PLAN.md` section 6:
+The allowed order is 1A through 1E in `docs/PHASE_1_IMPLEMENTATION_PLAN.md`:
 
-1. Environment and minimal package.
-2. License decision, then official dataset acquisition if approved.
-3. Manifest from the real CSV schema.
-4. Integrity checks, including speaker overlap.
-5. Audio loader and preprocessing.
-6. Waveform, STFT spectrogram, log-Mel features.
-7. Inspection script.
-8. Pytest and `docs/PHASE_1_REPORT.md`.
+1. Confirm the MDC record, accept the applicable terms personally, and acquire only a permitted subset inside 5 GB.
+2. Validate audio, transcripts, official splits, and duplicates.
+3. Decode real waveforms with one lightweight CPU ASR model and measure WER, CER, latency, and memory.
+4. Store hypotheses with provenance: `beam_hypothesis`, `independent_decode`, `retry_decode`, or `synthetic_edit`.
+5. Prepare a manual annotation guide and a 200–300 utterance pilot. Do not treat generated labels as gold.
 
-Phase 1 still must not train ASR or NLU, add B0/B1/B2, or build a demo UI.
+Phase 1 still must not train ASR or NLU, run a B0/B1/B2 comparison, fit a recovery policy, or build a demo UI.
 
 ## Blockers before Phase 1 data work
 
-1. Owner accepts or rejects `docs/RESEARCH_ALIGNMENT.md`.
-2. Owner records the license decision in `docs/DATASET_CARD.md`.
-3. Owner confirms that the phase-wise plan, including a required Phase 2 fundamentals track, is the plan to execute.
+1. The owner confirms the dataset identity in the MDC account.
+2. The owner records Accepted for the terms that apply to that record.
+3. A permitted subset acquisition method is identified, and the subset is checked against the 5 GB limit.
+4. The owner explicitly approves the revised Phase 1 plan.
 
-Environment setup (a virtualenv and an empty package) can proceed without the dataset. Dataset download cannot.
+Dataset download cannot start from this file. A virtualenv is not a substitute for those gates.

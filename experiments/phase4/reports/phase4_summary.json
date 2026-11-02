@@ -1,0 +1,598 @@
+{
+  "ablations": {
+    "A1": {
+      "changed_cases": 19,
+      "component_absent": false
+    },
+    "A2": {
+      "changed_cases": 3,
+      "component_absent": false
+    },
+    "A3": {
+      "changed_cases": 10,
+      "component_absent": false
+    },
+    "A4": {
+      "changed_cases": 0,
+      "component_absent": true
+    },
+    "A5": {
+      "changed_cases": 0,
+      "component_absent": false
+    },
+    "A6": {
+      "changed_cases": 0,
+      "component_absent": false
+    },
+    "A7": {
+      "changed_cases": 10,
+      "component_absent": false
+    },
+    "A8": {
+      "changed_cases": 52,
+      "component_absent": false
+    }
+  },
+  "contrasts": {
+    "E7_minus_E0": {
+      "candidate_safe_per_case": {
+        "ci95": {
+          "high": 0.08759124087591241,
+          "low": 0.05263157894736842
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": 0.07500000000000001,
+        "indicator": "candidate_safe",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      },
+      "coverage_per_case": {
+        "ci95": {
+          "high": -0.2957746478873239,
+          "low": -0.4148936170212766
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": -0.3583333333333333,
+        "indicator": "committed",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      },
+      "unsafe_commit_per_case": {
+        "ci95": {
+          "high": -0.37362637362637363,
+          "low": -0.4866666666666667
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": -0.43333333333333335,
+        "indicator": "unsafe_commit",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      }
+    },
+    "E7_minus_E1": {
+      "candidate_safe_per_case": {
+        "ci95": {
+          "high": 0.08759124087591241,
+          "low": 0.05263157894736842
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": 0.07500000000000001,
+        "indicator": "candidate_safe",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      },
+      "coverage_per_case": {
+        "ci95": {
+          "high": -0.2957746478873239,
+          "low": -0.4148936170212766
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": -0.3583333333333333,
+        "indicator": "committed",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      },
+      "unsafe_commit_per_case": {
+        "ci95": {
+          "high": -0.37362637362637363,
+          "low": -0.4866666666666667
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": -0.43333333333333335,
+        "indicator": "unsafe_commit",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      }
+    },
+    "E7_minus_E2": {
+      "candidate_safe_per_case": {
+        "ci95": {
+          "high": 0.08759124087591241,
+          "low": 0.05263157894736842
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": 0.07500000000000001,
+        "indicator": "candidate_safe",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      },
+      "coverage_per_case": {
+        "ci95": {
+          "high": -0.2592592592592593,
+          "low": -0.3984962406015038
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": -0.33333333333333337,
+        "indicator": "committed",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      },
+      "unsafe_commit_per_case": {
+        "ci95": {
+          "high": -0.33333333333333337,
+          "low": -0.47239263803680986
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": -0.4083333333333333,
+        "indicator": "unsafe_commit",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      }
+    },
+    "E7_minus_E4": {
+      "candidate_safe_per_case": {
+        "ci95": {
+          "high": 0.08759124087591241,
+          "low": 0.05263157894736842
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": 0.07500000000000001,
+        "indicator": "candidate_safe",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      },
+      "coverage_per_case": {
+        "ci95": {
+          "high": -0.08108108108108103,
+          "low": -0.13392857142857145
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": -0.10833333333333328,
+        "indicator": "committed",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      },
+      "unsafe_commit_per_case": {
+        "ci95": {
+          "high": -0.14285714285714285,
+          "low": -0.2142857142857143
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": -0.18333333333333332,
+        "indicator": "unsafe_commit",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      }
+    }
+  },
+  "hypotheses": {
+    "H1_unsafe_lower_than_prefix": {
+      "E0": "supported",
+      "E1": "supported",
+      "E2": "supported"
+    },
+    "H2_path_safety_indicator": {
+      "E0": "supported",
+      "E4": "supported"
+    },
+    "H3_negation": {
+      "E0": {
+        "cases": 10,
+        "per_case": {
+          "ci95": {
+            "high": 0.9999999999999999,
+            "low": 0.7224672001371107
+          },
+          "denominator": 10,
+          "numerator": 10,
+          "percentage": 100.0,
+          "reason": null,
+          "value": 1.0
+        },
+        "per_commit": {
+          "ci95": {
+            "high": 0.9999999999999999,
+            "low": 0.7224672001371107
+          },
+          "denominator": 10,
+          "numerator": 10,
+          "percentage": 100.0,
+          "reason": null,
+          "value": 1.0
+        }
+      },
+      "E4": {
+        "cases": 10,
+        "per_case": {
+          "ci95": {
+            "high": 0.9999999999999999,
+            "low": 0.7224672001371107
+          },
+          "denominator": 10,
+          "numerator": 10,
+          "percentage": 100.0,
+          "reason": null,
+          "value": 1.0
+        },
+        "per_commit": {
+          "ci95": {
+            "high": 0.9999999999999999,
+            "low": 0.7224672001371107
+          },
+          "denominator": 10,
+          "numerator": 10,
+          "percentage": 100.0,
+          "reason": null,
+          "value": 1.0
+        }
+      },
+      "E7": {
+        "cases": 10,
+        "per_case": {
+          "ci95": {
+            "high": 0.2775327998628892,
+            "low": 0.0
+          },
+          "denominator": 10,
+          "numerator": 0,
+          "percentage": 0.0,
+          "reason": null,
+          "value": 0.0
+        },
+        "per_commit": {
+          "ci95": null,
+          "denominator": 0,
+          "numerator": 0,
+          "percentage": null,
+          "reason": "no commits in this category",
+          "value": null
+        }
+      }
+    },
+    "H4_slot_mutation": {
+      "E0": {
+        "cases": 10,
+        "per_case": {
+          "ci95": {
+            "high": 0.9999999999999999,
+            "low": 0.7224672001371107
+          },
+          "denominator": 10,
+          "numerator": 10,
+          "percentage": 100.0,
+          "reason": null,
+          "value": 1.0
+        },
+        "per_commit": {
+          "ci95": {
+            "high": 0.9999999999999999,
+            "low": 0.7224672001371107
+          },
+          "denominator": 10,
+          "numerator": 10,
+          "percentage": 100.0,
+          "reason": null,
+          "value": 1.0
+        }
+      },
+      "E4": {
+        "cases": 10,
+        "per_case": {
+          "ci95": {
+            "high": 0.9999999999999999,
+            "low": 0.7224672001371107
+          },
+          "denominator": 10,
+          "numerator": 10,
+          "percentage": 100.0,
+          "reason": null,
+          "value": 1.0
+        },
+        "per_commit": {
+          "ci95": {
+            "high": 0.9999999999999999,
+            "low": 0.7224672001371107
+          },
+          "denominator": 10,
+          "numerator": 10,
+          "percentage": 100.0,
+          "reason": null,
+          "value": 1.0
+        }
+      },
+      "E7": {
+        "cases": 10,
+        "per_case": {
+          "ci95": {
+            "high": 0.9999999999999999,
+            "low": 0.7224672001371107
+          },
+          "denominator": 10,
+          "numerator": 10,
+          "percentage": 100.0,
+          "reason": null,
+          "value": 1.0
+        },
+        "per_commit": {
+          "ci95": {
+            "high": 0.9999999999999999,
+            "low": 0.7224672001371107
+          },
+          "denominator": 10,
+          "numerator": 10,
+          "percentage": 100.0,
+          "reason": null,
+          "value": 1.0
+        }
+      }
+    },
+    "H5_provenance_retries": {
+      "cases": 10,
+      "invalid_paths": 0,
+      "safe_commits": 9,
+      "unsafe_commits": 0
+    },
+    "H6_coverage_difference": {
+      "E0": {
+        "ci95": {
+          "high": -0.2957746478873239,
+          "low": -0.4148936170212766
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": -0.3583333333333333,
+        "indicator": "committed",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      },
+      "E4": {
+        "ci95": {
+          "high": -0.08108108108108103,
+          "low": -0.13392857142857145
+        },
+        "contrast": "left_minus_right",
+        "draws": 1000,
+        "estimate": -0.10833333333333328,
+        "indicator": "committed",
+        "method": "parent_cluster_bootstrap",
+        "parents": 20
+      }
+    },
+    "H7_clean_controls": {
+      "coverage": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.8388748419471806
+        },
+        "denominator": 20,
+        "numerator": 20,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commit": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.8388748419471806
+        },
+        "denominator": 20,
+        "numerator": 20,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "unnecessary_abstention": {
+        "ci95": {
+          "high": 0.16112515805281938,
+          "low": 0.0
+        },
+        "denominator": 20,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      }
+    }
+  },
+  "policy_sha256": "82820621bcbff3ac9bd9d3fa88795240d5023a65cd5c61300dfde3fd79162f6c",
+  "selection_rule_test": {
+    "action_accuracy": {
+      "ci95": {
+        "high": 0.8894400363201539,
+        "low": 0.7565471860673773
+      },
+      "denominator": 120,
+      "numerator": 100,
+      "percentage": 83.33333333333333,
+      "reason": null,
+      "value": 0.8333333333333334
+    },
+    "action_path_consistency": {
+      "ci95": {
+        "high": 1.0,
+        "low": 0.9689808335812966
+      },
+      "denominator": 120,
+      "numerator": 120,
+      "percentage": 100.0,
+      "reason": null,
+      "value": 1.0
+    },
+    "cases": 120,
+    "category": null,
+    "correct_candidate_commitment": {
+      "ci95": {
+        "high": 0.4923013423309317,
+        "low": 0.17275616744483216
+      },
+      "denominator": 29,
+      "numerator": 9,
+      "percentage": 31.03448275862069,
+      "reason": null,
+      "value": 0.3103448275862069
+    },
+    "coverage": {
+      "ci95": {
+        "high": 0.1364091760599377,
+        "low": 0.03995711539596028
+      },
+      "denominator": 120,
+      "numerator": 9,
+      "percentage": 7.5,
+      "reason": null,
+      "value": 0.075
+    },
+    "critical_slot_safety": {
+      "ci95": null,
+      "denominator": 0,
+      "numerator": 0,
+      "percentage": null,
+      "reason": "no commits on critical-slot categories; this is not a perfect score",
+      "value": null
+    },
+    "exact_frame_accuracy": {
+      "ci95": {
+        "high": 0.1364091760599377,
+        "low": 0.03995711539596028
+      },
+      "denominator": 120,
+      "numerator": 9,
+      "percentage": 7.5,
+      "reason": null,
+      "value": 0.075
+    },
+    "modality_accuracy": {
+      "ci95": {
+        "high": 0.9712166875192725,
+        "low": 0.8835435946201926
+      },
+      "denominator": 119,
+      "numerator": 112,
+      "percentage": 94.11764705882354,
+      "reason": null,
+      "value": 0.9411764705882353
+    },
+    "outcomes": {
+      "CORRECT_FRAME_UNSAFE_PATH": 0,
+      "INCORRECT_FRAME": 0,
+      "INVALID_ACTION_PATH": 0,
+      "SAFE_ABSTENTION": 91,
+      "SAFE_COMMIT": 9,
+      "UNNECESSARY_ABSTENTION": 20,
+      "UNSAFE_COMMIT": 0
+    },
+    "path_safety": {
+      "ci95": {
+        "high": 1.0,
+        "low": 0.7008549515804559
+      },
+      "denominator": 9,
+      "numerator": 9,
+      "percentage": 100.0,
+      "reason": null,
+      "value": 1.0
+    },
+    "polarity_accuracy": {
+      "ci95": {
+        "high": 1.0,
+        "low": 0.9689808335812966
+      },
+      "denominator": 120,
+      "numerator": 120,
+      "percentage": 100.0,
+      "reason": null,
+      "value": 1.0
+    },
+    "safe_commitment_accuracy": {
+      "ci95": {
+        "high": 1.0,
+        "low": 0.7008549515804559
+      },
+      "denominator": 9,
+      "numerator": 9,
+      "percentage": 100.0,
+      "reason": null,
+      "value": 1.0
+    },
+    "selective_risk": {
+      "ci95": {
+        "high": 0.2991450484195441,
+        "low": 0.0
+      },
+      "denominator": 9,
+      "numerator": 0,
+      "percentage": 0.0,
+      "reason": null,
+      "value": 0.0
+    },
+    "slot_scores": {
+      "f1": 0.14184397163120568,
+      "matched_pairs": 10,
+      "precision": 1.0,
+      "predicted_pairs": 10,
+      "recall": 0.07633587786259542,
+      "reference_pairs": 131
+    },
+    "unnecessary_abstention": {
+      "ci95": {
+        "high": 0.8272438325551679,
+        "low": 0.5076986576690685
+      },
+      "denominator": 29,
+      "numerator": 20,
+      "percentage": 68.96551724137932,
+      "reason": null,
+      "value": 0.6896551724137931
+    },
+    "unsafe_commit_rate": {
+      "ci95": {
+        "high": 0.2991450484195441,
+        "low": 0.0
+      },
+      "denominator": 9,
+      "numerator": 0,
+      "percentage": 0.0,
+      "reason": null,
+      "value": 0.0
+    },
+    "unsafe_outcomes_included": [
+      "CORRECT_FRAME_UNSAFE_PATH",
+      "UNSAFE_COMMIT"
+    ],
+    "unsafe_selection_rate": {
+      "ci95": {
+        "high": 0.2991450484195441,
+        "low": 0.0
+      },
+      "denominator": 9,
+      "numerator": 0,
+      "percentage": 0.0,
+      "reason": null,
+      "value": 0.0
+    }
+  },
+  "test_cases": 120,
+  "validation_cases": 120
+}

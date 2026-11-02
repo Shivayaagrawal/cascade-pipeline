@@ -1,0 +1,1961 @@
+{
+  "action_accuracy": {
+    "ci95": {
+      "high": 0.7747437577572543,
+      "low": 0.6128485756752643
+    },
+    "denominator": 120,
+    "numerator": 84,
+    "percentage": 70.0,
+    "reason": null,
+    "value": 0.7
+  },
+  "action_path_consistency": {
+    "ci95": {
+      "high": 1.0,
+      "low": 0.9689808335812966
+    },
+    "denominator": 120,
+    "numerator": 120,
+    "percentage": 100.0,
+    "reason": null,
+    "value": 1.0
+  },
+  "by_category": {
+    "candidate_provenance": {
+      "action_accuracy": {
+        "ci95": {
+          "high": 0.4041500267952385,
+          "low": 0.017876213095072896
+        },
+        "denominator": 10,
+        "numerator": 1,
+        "percentage": 10.0,
+        "reason": null,
+        "value": 0.1
+      },
+      "action_path_consistency": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "cases": 10,
+      "category": "candidate_provenance",
+      "correct_candidate_commitment": {
+        "ci95": {
+          "high": 0.2991450484195441,
+          "low": 0.0
+        },
+        "denominator": 9,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "coverage": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "critical_slot_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no commits on critical-slot categories; this is not a perfect score",
+        "value": null
+      },
+      "exact_frame_accuracy": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "modality_accuracy": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.7008549515804559
+        },
+        "denominator": 9,
+        "numerator": 9,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "outcomes": {
+        "CORRECT_FRAME_UNSAFE_PATH": 0,
+        "INCORRECT_FRAME": 0,
+        "INVALID_ACTION_PATH": 0,
+        "SAFE_ABSTENTION": 1,
+        "SAFE_COMMIT": 0,
+        "UNNECESSARY_ABSTENTION": 9,
+        "UNSAFE_COMMIT": 0
+      },
+      "path_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      },
+      "polarity_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commitment_accuracy": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions",
+        "value": null
+      },
+      "selective_risk": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not a selective error",
+        "value": null
+      },
+      "slot_scores": {
+        "f1": null,
+        "matched_pairs": 0,
+        "precision": null,
+        "predicted_pairs": 0,
+        "recall": 0.0,
+        "reference_pairs": 11
+      },
+      "unnecessary_abstention": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.7008549515804559
+        },
+        "denominator": 9,
+        "numerator": 9,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "unsafe_commit_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not an unsafe commit",
+        "value": null
+      },
+      "unsafe_outcomes_included": [
+        "CORRECT_FRAME_UNSAFE_PATH",
+        "UNSAFE_COMMIT"
+      ],
+      "unsafe_selection_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      }
+    },
+    "clean_control": {
+      "action_accuracy": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.8388748419471806
+        },
+        "denominator": 20,
+        "numerator": 20,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "action_path_consistency": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.8388748419471806
+        },
+        "denominator": 20,
+        "numerator": 20,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "cases": 20,
+      "category": "clean_control",
+      "correct_candidate_commitment": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.8388748419471806
+        },
+        "denominator": 20,
+        "numerator": 20,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "coverage": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.8388748419471806
+        },
+        "denominator": 20,
+        "numerator": 20,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "critical_slot_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no commits on critical-slot categories; this is not a perfect score",
+        "value": null
+      },
+      "exact_frame_accuracy": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.8388748419471806
+        },
+        "denominator": 20,
+        "numerator": 20,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "modality_accuracy": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.8388748419471806
+        },
+        "denominator": 20,
+        "numerator": 20,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "outcomes": {
+        "CORRECT_FRAME_UNSAFE_PATH": 0,
+        "INCORRECT_FRAME": 0,
+        "INVALID_ACTION_PATH": 0,
+        "SAFE_ABSTENTION": 0,
+        "SAFE_COMMIT": 20,
+        "UNNECESSARY_ABSTENTION": 0,
+        "UNSAFE_COMMIT": 0
+      },
+      "path_safety": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.8388748419471806
+        },
+        "denominator": 20,
+        "numerator": 20,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "polarity_accuracy": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.8388748419471806
+        },
+        "denominator": 20,
+        "numerator": 20,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commitment_accuracy": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.8388748419471806
+        },
+        "denominator": 20,
+        "numerator": 20,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "selective_risk": {
+        "ci95": {
+          "high": 0.16112515805281938,
+          "low": 0.0
+        },
+        "denominator": 20,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "slot_scores": {
+        "f1": 1.0,
+        "matched_pairs": 21,
+        "precision": 1.0,
+        "predicted_pairs": 21,
+        "recall": 1.0,
+        "reference_pairs": 21
+      },
+      "unnecessary_abstention": {
+        "ci95": {
+          "high": 0.16112515805281938,
+          "low": 0.0
+        },
+        "denominator": 20,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "unsafe_commit_rate": {
+        "ci95": {
+          "high": 0.16112515805281938,
+          "low": 0.0
+        },
+        "denominator": 20,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "unsafe_outcomes_included": [
+        "CORRECT_FRAME_UNSAFE_PATH",
+        "UNSAFE_COMMIT"
+      ],
+      "unsafe_selection_rate": {
+        "ci95": {
+          "high": 0.16112515805281938,
+          "low": 0.0
+        },
+        "denominator": 20,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      }
+    },
+    "context_dependency": {
+      "action_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "action_path_consistency": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "cases": 10,
+      "category": "context_dependency",
+      "correct_candidate_commitment": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "coverage": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "critical_slot_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no commits on critical-slot categories; this is not a perfect score",
+        "value": null
+      },
+      "exact_frame_accuracy": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "modality_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "outcomes": {
+        "CORRECT_FRAME_UNSAFE_PATH": 0,
+        "INCORRECT_FRAME": 0,
+        "INVALID_ACTION_PATH": 0,
+        "SAFE_ABSTENTION": 10,
+        "SAFE_COMMIT": 0,
+        "UNNECESSARY_ABSTENTION": 0,
+        "UNSAFE_COMMIT": 0
+      },
+      "path_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      },
+      "polarity_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commitment_accuracy": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions",
+        "value": null
+      },
+      "selective_risk": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not a selective error",
+        "value": null
+      },
+      "slot_scores": {
+        "f1": null,
+        "matched_pairs": 0,
+        "precision": null,
+        "predicted_pairs": 0,
+        "recall": 0.0,
+        "reference_pairs": 11
+      },
+      "unnecessary_abstention": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "unsafe_commit_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not an unsafe commit",
+        "value": null
+      },
+      "unsafe_outcomes_included": [
+        "CORRECT_FRAME_UNSAFE_PATH",
+        "UNSAFE_COMMIT"
+      ],
+      "unsafe_selection_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      }
+    },
+    "contradictory_candidates": {
+      "action_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "action_path_consistency": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "cases": 10,
+      "category": "contradictory_candidates",
+      "correct_candidate_commitment": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "coverage": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "critical_slot_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no commits on critical-slot categories; this is not a perfect score",
+        "value": null
+      },
+      "exact_frame_accuracy": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "modality_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "outcomes": {
+        "CORRECT_FRAME_UNSAFE_PATH": 0,
+        "INCORRECT_FRAME": 0,
+        "INVALID_ACTION_PATH": 0,
+        "SAFE_ABSTENTION": 10,
+        "SAFE_COMMIT": 0,
+        "UNNECESSARY_ABSTENTION": 0,
+        "UNSAFE_COMMIT": 0
+      },
+      "path_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      },
+      "polarity_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commitment_accuracy": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions",
+        "value": null
+      },
+      "selective_risk": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not a selective error",
+        "value": null
+      },
+      "slot_scores": {
+        "f1": null,
+        "matched_pairs": 0,
+        "precision": null,
+        "predicted_pairs": 0,
+        "recall": 0.0,
+        "reference_pairs": 11
+      },
+      "unnecessary_abstention": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "unsafe_commit_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not an unsafe commit",
+        "value": null
+      },
+      "unsafe_outcomes_included": [
+        "CORRECT_FRAME_UNSAFE_PATH",
+        "UNSAFE_COMMIT"
+      ],
+      "unsafe_selection_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      }
+    },
+    "critical_slot_mutation": {
+      "action_accuracy": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "action_path_consistency": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "cases": 10,
+      "category": "critical_slot_mutation",
+      "correct_candidate_commitment": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "coverage": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "critical_slot_safety": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "exact_frame_accuracy": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "modality_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "outcomes": {
+        "CORRECT_FRAME_UNSAFE_PATH": 0,
+        "INCORRECT_FRAME": 0,
+        "INVALID_ACTION_PATH": 0,
+        "SAFE_ABSTENTION": 0,
+        "SAFE_COMMIT": 0,
+        "UNNECESSARY_ABSTENTION": 0,
+        "UNSAFE_COMMIT": 10
+      },
+      "path_safety": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "polarity_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commitment_accuracy": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "selective_risk": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "slot_scores": {
+        "f1": 0.09090909090909091,
+        "matched_pairs": 1,
+        "precision": 0.09090909090909091,
+        "predicted_pairs": 11,
+        "recall": 0.09090909090909091,
+        "reference_pairs": 11
+      },
+      "unnecessary_abstention": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "unsafe_commit_rate": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "unsafe_outcomes_included": [
+        "CORRECT_FRAME_UNSAFE_PATH",
+        "UNSAFE_COMMIT"
+      ],
+      "unsafe_selection_rate": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      }
+    },
+    "function_word_damage": {
+      "action_accuracy": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "action_path_consistency": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "cases": 10,
+      "category": "function_word_damage",
+      "correct_candidate_commitment": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "coverage": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "critical_slot_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no commits on critical-slot categories; this is not a perfect score",
+        "value": null
+      },
+      "exact_frame_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "modality_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "outcomes": {
+        "CORRECT_FRAME_UNSAFE_PATH": 10,
+        "INCORRECT_FRAME": 0,
+        "INVALID_ACTION_PATH": 0,
+        "SAFE_ABSTENTION": 0,
+        "SAFE_COMMIT": 0,
+        "UNNECESSARY_ABSTENTION": 0,
+        "UNSAFE_COMMIT": 0
+      },
+      "path_safety": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "polarity_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commitment_accuracy": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "selective_risk": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "slot_scores": {
+        "f1": 1.0,
+        "matched_pairs": 11,
+        "precision": 1.0,
+        "predicted_pairs": 11,
+        "recall": 1.0,
+        "reference_pairs": 11
+      },
+      "unnecessary_abstention": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "unsafe_commit_rate": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "unsafe_outcomes_included": [
+        "CORRECT_FRAME_UNSAFE_PATH",
+        "UNSAFE_COMMIT"
+      ],
+      "unsafe_selection_rate": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      }
+    },
+    "incomplete_required_slots": {
+      "action_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "action_path_consistency": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "cases": 10,
+      "category": "incomplete_required_slots",
+      "correct_candidate_commitment": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "coverage": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "critical_slot_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no commits on critical-slot categories; this is not a perfect score",
+        "value": null
+      },
+      "exact_frame_accuracy": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "modality_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "outcomes": {
+        "CORRECT_FRAME_UNSAFE_PATH": 0,
+        "INCORRECT_FRAME": 0,
+        "INVALID_ACTION_PATH": 0,
+        "SAFE_ABSTENTION": 10,
+        "SAFE_COMMIT": 0,
+        "UNNECESSARY_ABSTENTION": 0,
+        "UNSAFE_COMMIT": 0
+      },
+      "path_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      },
+      "polarity_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commitment_accuracy": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions",
+        "value": null
+      },
+      "selective_risk": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not a selective error",
+        "value": null
+      },
+      "slot_scores": {
+        "f1": null,
+        "matched_pairs": 0,
+        "precision": null,
+        "predicted_pairs": 0,
+        "recall": 0.0,
+        "reference_pairs": 11
+      },
+      "unnecessary_abstention": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "unsafe_commit_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not an unsafe commit",
+        "value": null
+      },
+      "unsafe_outcomes_included": [
+        "CORRECT_FRAME_UNSAFE_PATH",
+        "UNSAFE_COMMIT"
+      ],
+      "unsafe_selection_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      }
+    },
+    "negation_polarity": {
+      "action_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "action_path_consistency": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "cases": 10,
+      "category": "negation_polarity",
+      "correct_candidate_commitment": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "coverage": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "critical_slot_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no commits on critical-slot categories; this is not a perfect score",
+        "value": null
+      },
+      "exact_frame_accuracy": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "modality_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "outcomes": {
+        "CORRECT_FRAME_UNSAFE_PATH": 0,
+        "INCORRECT_FRAME": 0,
+        "INVALID_ACTION_PATH": 0,
+        "SAFE_ABSTENTION": 10,
+        "SAFE_COMMIT": 0,
+        "UNNECESSARY_ABSTENTION": 0,
+        "UNSAFE_COMMIT": 0
+      },
+      "path_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      },
+      "polarity_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commitment_accuracy": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions",
+        "value": null
+      },
+      "selective_risk": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not a selective error",
+        "value": null
+      },
+      "slot_scores": {
+        "f1": null,
+        "matched_pairs": 0,
+        "precision": null,
+        "predicted_pairs": 0,
+        "recall": 0.0,
+        "reference_pairs": 11
+      },
+      "unnecessary_abstention": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "unsafe_commit_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not an unsafe commit",
+        "value": null
+      },
+      "unsafe_outcomes_included": [
+        "CORRECT_FRAME_UNSAFE_PATH",
+        "UNSAFE_COMMIT"
+      ],
+      "unsafe_selection_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      }
+    },
+    "semantic_ambiguity": {
+      "action_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "action_path_consistency": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "cases": 10,
+      "category": "semantic_ambiguity",
+      "correct_candidate_commitment": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "coverage": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "critical_slot_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no commits on critical-slot categories; this is not a perfect score",
+        "value": null
+      },
+      "exact_frame_accuracy": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "modality_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "outcomes": {
+        "CORRECT_FRAME_UNSAFE_PATH": 0,
+        "INCORRECT_FRAME": 0,
+        "INVALID_ACTION_PATH": 0,
+        "SAFE_ABSTENTION": 10,
+        "SAFE_COMMIT": 0,
+        "UNNECESSARY_ABSTENTION": 0,
+        "UNSAFE_COMMIT": 0
+      },
+      "path_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      },
+      "polarity_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commitment_accuracy": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions",
+        "value": null
+      },
+      "selective_risk": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not a selective error",
+        "value": null
+      },
+      "slot_scores": {
+        "f1": null,
+        "matched_pairs": 0,
+        "precision": null,
+        "predicted_pairs": 0,
+        "recall": 0.0,
+        "reference_pairs": 11
+      },
+      "unnecessary_abstention": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "unsafe_commit_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not an unsafe commit",
+        "value": null
+      },
+      "unsafe_outcomes_included": [
+        "CORRECT_FRAME_UNSAFE_PATH",
+        "UNSAFE_COMMIT"
+      ],
+      "unsafe_selection_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      }
+    },
+    "temporal_numerical_conflict": {
+      "action_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "action_path_consistency": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "cases": 10,
+      "category": "temporal_numerical_conflict",
+      "correct_candidate_commitment": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "coverage": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "critical_slot_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no commits on critical-slot categories; this is not a perfect score",
+        "value": null
+      },
+      "exact_frame_accuracy": {
+        "ci95": {
+          "high": 0.2775327998628892,
+          "low": 0.0
+        },
+        "denominator": 10,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "modality_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "outcomes": {
+        "CORRECT_FRAME_UNSAFE_PATH": 0,
+        "INCORRECT_FRAME": 0,
+        "INVALID_ACTION_PATH": 0,
+        "SAFE_ABSTENTION": 10,
+        "SAFE_COMMIT": 0,
+        "UNNECESSARY_ABSTENTION": 0,
+        "UNSAFE_COMMIT": 0
+      },
+      "path_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      },
+      "polarity_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commitment_accuracy": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions",
+        "value": null
+      },
+      "selective_risk": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not a selective error",
+        "value": null
+      },
+      "slot_scores": {
+        "f1": null,
+        "matched_pairs": 0,
+        "precision": null,
+        "predicted_pairs": 0,
+        "recall": 0.0,
+        "reference_pairs": 11
+      },
+      "unnecessary_abstention": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "unsafe_commit_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed decisions; abstention is not an unsafe commit",
+        "value": null
+      },
+      "unsafe_outcomes_included": [
+        "CORRECT_FRAME_UNSAFE_PATH",
+        "UNSAFE_COMMIT"
+      ],
+      "unsafe_selection_rate": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no committed candidate paths",
+        "value": null
+      }
+    },
+    "uncertainty_modality": {
+      "action_accuracy": {
+        "ci95": {
+          "high": 0.6032218525388546,
+          "low": 0.10779126740630099
+        },
+        "denominator": 10,
+        "numerator": 3,
+        "percentage": 30.0,
+        "reason": null,
+        "value": 0.3
+      },
+      "action_path_consistency": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "cases": 10,
+      "category": "uncertainty_modality",
+      "correct_candidate_commitment": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "coverage": {
+        "ci95": {
+          "high": 0.8922087325936989,
+          "low": 0.39677814746114537
+        },
+        "denominator": 10,
+        "numerator": 7,
+        "percentage": 70.0,
+        "reason": null,
+        "value": 0.7
+      },
+      "critical_slot_safety": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no commits on critical-slot categories; this is not a perfect score",
+        "value": null
+      },
+      "exact_frame_accuracy": {
+        "ci95": {
+          "high": 0.8922087325936989,
+          "low": 0.39677814746114537
+        },
+        "denominator": 10,
+        "numerator": 7,
+        "percentage": 70.0,
+        "reason": null,
+        "value": 0.7
+      },
+      "modality_accuracy": {
+        "ci95": {
+          "high": 0.6032218525388546,
+          "low": 0.10779126740630099
+        },
+        "denominator": 10,
+        "numerator": 3,
+        "percentage": 30.0,
+        "reason": null,
+        "value": 0.3
+      },
+      "outcomes": {
+        "CORRECT_FRAME_UNSAFE_PATH": 7,
+        "INCORRECT_FRAME": 0,
+        "INVALID_ACTION_PATH": 0,
+        "SAFE_ABSTENTION": 3,
+        "SAFE_COMMIT": 0,
+        "UNNECESSARY_ABSTENTION": 0,
+        "UNSAFE_COMMIT": 0
+      },
+      "path_safety": {
+        "ci95": {
+          "high": 0.35433043506668743,
+          "low": 5.551115123125783e-17
+        },
+        "denominator": 7,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "polarity_accuracy": {
+        "ci95": {
+          "high": 0.9999999999999999,
+          "low": 0.7224672001371107
+        },
+        "denominator": 10,
+        "numerator": 10,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commitment_accuracy": {
+        "ci95": {
+          "high": 0.35433043506668743,
+          "low": 5.551115123125783e-17
+        },
+        "denominator": 7,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "selective_risk": {
+        "ci95": {
+          "high": 0.35433043506668743,
+          "low": 5.551115123125783e-17
+        },
+        "denominator": 7,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "slot_scores": {
+        "f1": 0.7777777777777778,
+        "matched_pairs": 7,
+        "precision": 1.0,
+        "predicted_pairs": 7,
+        "recall": 0.6363636363636364,
+        "reference_pairs": 11
+      },
+      "unnecessary_abstention": {
+        "ci95": null,
+        "denominator": 0,
+        "numerator": 0,
+        "percentage": null,
+        "reason": "no cases required a commitment",
+        "value": null
+      },
+      "unsafe_commit_rate": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.6456695649333126
+        },
+        "denominator": 7,
+        "numerator": 7,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "unsafe_outcomes_included": [
+        "CORRECT_FRAME_UNSAFE_PATH",
+        "UNSAFE_COMMIT"
+      ],
+      "unsafe_selection_rate": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.6456695649333126
+        },
+        "denominator": 7,
+        "numerator": 7,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      }
+    }
+  },
+  "cases": 120,
+  "category": null,
+  "correct_candidate_commitment": {
+    "ci95": {
+      "high": 0.8272438325551679,
+      "low": 0.5076986576690685
+    },
+    "denominator": 29,
+    "numerator": 20,
+    "percentage": 68.96551724137932,
+    "reason": null,
+    "value": 0.6896551724137931
+  },
+  "coverage": {
+    "ci95": {
+      "high": 0.4810621830007269,
+      "low": 0.30899196972332565
+    },
+    "denominator": 120,
+    "numerator": 47,
+    "percentage": 39.166666666666664,
+    "reason": null,
+    "value": 0.39166666666666666
+  },
+  "critical_slot_safety": {
+    "ci95": {
+      "high": 0.2775327998628892,
+      "low": 0.0
+    },
+    "denominator": 10,
+    "numerator": 0,
+    "percentage": 0.0,
+    "reason": null,
+    "value": 0.0
+  },
+  "exact_frame_accuracy": {
+    "ci95": {
+      "high": 0.39582997723800684,
+      "low": 0.23272736988916298
+    },
+    "denominator": 120,
+    "numerator": 37,
+    "percentage": 30.833333333333332,
+    "reason": null,
+    "value": 0.30833333333333335
+  },
+  "modality_accuracy": {
+    "ci95": {
+      "high": 0.9712166875192725,
+      "low": 0.8835435946201926
+    },
+    "denominator": 119,
+    "numerator": 112,
+    "percentage": 94.11764705882354,
+    "reason": null,
+    "value": 0.9411764705882353
+  },
+  "outcomes": {
+    "CORRECT_FRAME_UNSAFE_PATH": 17,
+    "INCORRECT_FRAME": 0,
+    "INVALID_ACTION_PATH": 0,
+    "SAFE_ABSTENTION": 64,
+    "SAFE_COMMIT": 20,
+    "UNNECESSARY_ABSTENTION": 9,
+    "UNSAFE_COMMIT": 10
+  },
+  "path_safety": {
+    "ci95": {
+      "high": 0.5671808065450721,
+      "low": 0.2951362834367996
+    },
+    "denominator": 47,
+    "numerator": 20,
+    "percentage": 42.5531914893617,
+    "reason": null,
+    "value": 0.425531914893617
+  },
+  "polarity_accuracy": {
+    "ci95": {
+      "high": 1.0,
+      "low": 0.9689808335812966
+    },
+    "denominator": 120,
+    "numerator": 120,
+    "percentage": 100.0,
+    "reason": null,
+    "value": 1.0
+  },
+  "safe_commitment_accuracy": {
+    "ci95": {
+      "high": 0.5671808065450721,
+      "low": 0.2951362834367996
+    },
+    "denominator": 47,
+    "numerator": 20,
+    "percentage": 42.5531914893617,
+    "reason": null,
+    "value": 0.425531914893617
+  },
+  "selective_risk": {
+    "ci95": {
+      "high": 0.34904026709198405,
+      "low": 0.11989707998095002
+    },
+    "denominator": 47,
+    "numerator": 10,
+    "percentage": 21.27659574468085,
+    "reason": null,
+    "value": 0.2127659574468085
+  },
+  "slot_scores": {
+    "f1": 0.4419889502762431,
+    "matched_pairs": 40,
+    "precision": 0.8,
+    "predicted_pairs": 50,
+    "recall": 0.3053435114503817,
+    "reference_pairs": 131
+  },
+  "unnecessary_abstention": {
+    "ci95": {
+      "high": 0.4923013423309317,
+      "low": 0.17275616744483216
+    },
+    "denominator": 29,
+    "numerator": 9,
+    "percentage": 31.03448275862069,
+    "reason": null,
+    "value": 0.3103448275862069
+  },
+  "unsafe_commit_rate": {
+    "ci95": {
+      "high": 0.7048637165632003,
+      "low": 0.4328191934549279
+    },
+    "denominator": 47,
+    "numerator": 27,
+    "percentage": 57.4468085106383,
+    "reason": null,
+    "value": 0.574468085106383
+  },
+  "unsafe_outcomes_included": [
+    "CORRECT_FRAME_UNSAFE_PATH",
+    "UNSAFE_COMMIT"
+  ],
+  "unsafe_selection_rate": {
+    "ci95": {
+      "high": 0.7048637165632003,
+      "low": 0.4328191934549279
+    },
+    "denominator": 47,
+    "numerator": 27,
+    "percentage": 57.4468085106383,
+    "reason": null,
+    "value": 0.574468085106383
+  }
+}

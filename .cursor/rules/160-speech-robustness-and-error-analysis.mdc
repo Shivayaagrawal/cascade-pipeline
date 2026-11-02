@@ -1,0 +1,119 @@
+---
+description: Speech-specific robustness, ASR error propagation, and NLU failure analysis.
+globs: "**/*.py"
+alwaysApply: true
+---
+
+# Speech Robustness and Error Propagation
+
+## 1. Research focus
+
+CascadeGuard studies how speech recognition errors affect downstream semantic understanding.
+
+Always preserve the relationship:
+
+Audio → ASR Output → NLU Output → Final Decision
+
+## 2. Error taxonomy
+
+Support analysis of:
+
+### Acoustic errors
+- Background noise.
+- Low amplitude.
+- Clipping.
+- Reverberation.
+- Speaking-rate variation.
+- Silence and truncation.
+
+### ASR text errors
+- Substitution.
+- Deletion.
+- Insertion.
+- Word-boundary errors.
+- Number corruption.
+- Entity corruption.
+- Negation corruption.
+
+### Semantic errors
+- Incorrect intent.
+- Missing slot.
+- Incorrect slot value.
+- Slot-value substitution.
+- Negation or polarity reversal.
+- Incorrect semantic frame.
+
+### Pipeline errors
+- Timeout.
+- Empty response.
+- Malformed response.
+- Invalid schema.
+- Model loading failure.
+
+## 3. Error propagation
+
+For each evaluated sample, preserve:
+
+- Ground-truth transcript.
+- ASR transcript.
+- Ground-truth semantic frame.
+- Predicted semantic frame.
+- Error category.
+- Diagnosis result.
+- Recovery action.
+- Final semantic output.
+
+Do not assume every ASR error causes an NLU error.
+
+Do not assume every NLU error originates from ASR.
+
+## 4. Controlled corruption
+
+Implement controlled corruption separately from natural ASR inference.
+
+Use clear labels:
+
+- Natural ASR output.
+- Synthetic audio corruption.
+- Synthetic transcript corruption.
+- Independently generated transcript candidates.
+
+Never combine these conditions without recording their source.
+
+## 5. Semantic impact
+
+Investigate whether an error changes meaning, not only whether words differ.
+
+Examples:
+
+- "Turn on the light" versus "Turn off the light".
+- "Move to room A" versus "Move to room B".
+- "I want coffee" versus "I don't want coffee".
+
+Use these examples as test cases, not as claims about actual model performance.
+
+## 6. Candidate hypotheses
+
+If the ASR backend exposes genuine N-best hypotheses:
+
+- Preserve candidate order.
+- Preserve available scores.
+- Record decoding configuration.
+- Evaluate candidate diversity.
+- Evaluate semantic consistency.
+
+If candidates are generated using different decoding settings, identify them as independently decoded candidates.
+
+Never fabricate N-best metadata.
+
+## 7. Robustness reporting
+
+Report:
+- Clean condition performance.
+- Each individual corruption condition.
+- Corruption severity.
+- Combined corruption results, if tested.
+- Semantic error rate.
+- Recovery performance.
+
+Do not treat synthetic stress-test performance as real-world prevalence.

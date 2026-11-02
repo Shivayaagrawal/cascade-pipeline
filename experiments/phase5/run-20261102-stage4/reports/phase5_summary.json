@@ -1,0 +1,1952 @@
+{
+  "git_commit": "f55b5bd5b74d760e00f3178a35cd9b9512fd1ccf",
+  "python": "3.13.7",
+  "seed": 20261105,
+  "dataset_id": "synthetic-semantic-integrity-v1",
+  "dataset_hashes": {
+    "challenge_cases.jsonl": "8fcc2eabfc7f7d115059f0425fb56f27c4108cfe9f52a601201ff1fd61d45fae",
+    "oracle_labels.jsonl": "7ac4aa1abe6f4ba94b80823aaa2c49580013bf1fafb155ff6ba90cf024cdd05b",
+    "splits.json": "708cc65b8036b239bb26523f44f1db59b87dd3cf4f8fa12def2f50b3f848f6d0"
+  },
+  "policy_sha256": "0840ee89f84553b2d345d56c141056f57428950320904b23abd11f91ac7393b9",
+  "test_cases": 56,
+  "validation_cases": 56,
+  "timing_note": "execution_time_ms is controller time from perf_counter. It is not ASR latency.",
+  "validation": {
+    "cases": 56,
+    "coverage": {
+      "value": 0.39285714285714285,
+      "numerator": 22,
+      "denominator": 56,
+      "ci95": {
+        "low": 0.2758041573011051,
+        "high": 0.5236659719957729
+      },
+      "reason": null
+    },
+    "selective_risk": {
+      "value": 0.5909090909090909,
+      "numerator": 13,
+      "denominator": 22,
+      "ci95": {
+        "low": 0.3873481847631513,
+        "high": 0.7674418380352814
+      },
+      "reason": null
+    },
+    "unsafe_commit_rate": {
+      "value": 0.5909090909090909,
+      "numerator": 13,
+      "denominator": 22,
+      "ci95": {
+        "low": 0.3873481847631513,
+        "high": 0.7674418380352814
+      },
+      "reason": null
+    },
+    "path_safety": {
+      "value": 0.4090909090909091,
+      "numerator": 9,
+      "denominator": 22,
+      "ci95": {
+        "low": 0.2325581619647187,
+        "high": 0.6126518152368488
+      },
+      "reason": null
+    },
+    "adapter_path_safety": {
+      "value": null,
+      "numerator": 0,
+      "denominator": 0,
+      "ci95": null,
+      "reason": "no adapter-traced commits"
+    },
+    "exact_frame_accuracy": {
+      "value": 0.16071428571428573,
+      "numerator": 9,
+      "denominator": 56,
+      "ci95": {
+        "low": 0.08692667607595139,
+        "high": 0.2780620666974952
+      },
+      "reason": null
+    },
+    "safe_commitment_accuracy": {
+      "value": 0.4090909090909091,
+      "numerator": 9,
+      "denominator": 22,
+      "ci95": {
+        "low": 0.2325581619647187,
+        "high": 0.6126518152368488
+      },
+      "reason": null
+    },
+    "unnecessary_abstention": {
+      "value": 0.0,
+      "numerator": 0,
+      "denominator": 9,
+      "ci95": {
+        "low": 0.0,
+        "high": 0.2991450484195441
+      },
+      "reason": null
+    },
+    "critical_slot_safety": {
+      "value": 0.0,
+      "numerator": 0,
+      "denominator": 13,
+      "ci95": {
+        "low": 0.0,
+        "high": 0.22809537235419838
+      },
+      "reason": null
+    },
+    "action_accuracy": {
+      "value": 0.7678571428571429,
+      "numerator": 43,
+      "denominator": 56,
+      "ci95": {
+        "low": 0.6423184678498916,
+        "high": 0.8590062089079139
+      },
+      "reason": null
+    },
+    "outcomes": {
+      "SAFE_COMMIT": 9,
+      "UNSAFE_COMMIT": 13,
+      "SAFE_ABSTENTION": 34,
+      "UNNECESSARY_ABSTENTION": 0,
+      "INCORRECT_FRAME": 0,
+      "CORRECT_FRAME_UNSAFE_PATH": 0
+    }
+  },
+  "test": {
+    "E0": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.8571428571428571,
+        "numerator": 48,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.7426407877129466,
+          "high": 0.9257921146307937
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.8541666666666666,
+        "numerator": 41,
+        "denominator": 48,
+        "ci95": {
+          "low": 0.7283282347525372,
+          "high": 0.9275175067339628
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.9583333333333334,
+        "numerator": 46,
+        "denominator": 48,
+        "ci95": {
+          "low": 0.8602434412954456,
+          "high": 0.9884981065106133
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "strategy did not emit a candidate id"
+      },
+      "adapter_path_safety": {
+        "value": 0.125,
+        "numerator": 6,
+        "denominator": 48,
+        "ci95": {
+          "low": 0.058570514385719794,
+          "high": 0.24700458286386834
+        },
+        "reason": null
+      },
+      "exact_frame_accuracy": {
+        "value": 0.125,
+        "numerator": 7,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.06189068695717122,
+          "high": 0.2362547655819014
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 48,
+        "ci95": {
+          "low": 6.938893903907228e-18,
+          "high": 0.07410012966611748
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 56,
+        "ci95": {
+          "low": 6.938893903907228e-18,
+          "high": 0.06419393671876342
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 0,
+        "UNSAFE_COMMIT": 39,
+        "SAFE_ABSTENTION": 8,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 2,
+        "CORRECT_FRAME_UNSAFE_PATH": 7
+      }
+    },
+    "E1": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.8571428571428571,
+        "numerator": 48,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.7426407877129466,
+          "high": 0.9257921146307937
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.8541666666666666,
+        "numerator": 41,
+        "denominator": 48,
+        "ci95": {
+          "low": 0.7283282347525372,
+          "high": 0.9275175067339628
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.9583333333333334,
+        "numerator": 46,
+        "denominator": 48,
+        "ci95": {
+          "low": 0.8602434412954456,
+          "high": 0.9884981065106133
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "strategy did not emit a candidate id"
+      },
+      "adapter_path_safety": {
+        "value": 0.125,
+        "numerator": 6,
+        "denominator": 48,
+        "ci95": {
+          "low": 0.058570514385719794,
+          "high": 0.24700458286386834
+        },
+        "reason": null
+      },
+      "exact_frame_accuracy": {
+        "value": 0.125,
+        "numerator": 7,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.06189068695717122,
+          "high": 0.2362547655819014
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 48,
+        "ci95": {
+          "low": 6.938893903907228e-18,
+          "high": 0.07410012966611748
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 56,
+        "ci95": {
+          "low": 6.938893903907228e-18,
+          "high": 0.06419393671876342
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 0,
+        "UNSAFE_COMMIT": 39,
+        "SAFE_ABSTENTION": 8,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 2,
+        "CORRECT_FRAME_UNSAFE_PATH": 7
+      }
+    },
+    "E2": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.8571428571428571,
+        "numerator": 48,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.7426407877129466,
+          "high": 0.9257921146307937
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.8541666666666666,
+        "numerator": 41,
+        "denominator": 48,
+        "ci95": {
+          "low": 0.7283282347525372,
+          "high": 0.9275175067339628
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.9583333333333334,
+        "numerator": 46,
+        "denominator": 48,
+        "ci95": {
+          "low": 0.8602434412954456,
+          "high": 0.9884981065106133
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "strategy did not emit a candidate id"
+      },
+      "adapter_path_safety": {
+        "value": 0.125,
+        "numerator": 6,
+        "denominator": 48,
+        "ci95": {
+          "low": 0.058570514385719794,
+          "high": 0.24700458286386834
+        },
+        "reason": null
+      },
+      "exact_frame_accuracy": {
+        "value": 0.125,
+        "numerator": 7,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.06189068695717122,
+          "high": 0.2362547655819014
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 48,
+        "ci95": {
+          "low": 6.938893903907228e-18,
+          "high": 0.07410012966611748
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.25,
+        "numerator": 14,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.15517054688270684,
+          "high": 0.376926421476675
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 0,
+        "UNSAFE_COMMIT": 39,
+        "SAFE_ABSTENTION": 8,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 2,
+        "CORRECT_FRAME_UNSAFE_PATH": 7
+      }
+    },
+    "E3": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 56,
+        "ci95": {
+          "low": 6.938893903907228e-18,
+          "high": 0.06419393671876342
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no committed decisions"
+      },
+      "unsafe_commit_rate": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no committed decisions"
+      },
+      "path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "strategy did not emit a candidate id"
+      },
+      "adapter_path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no adapter-traced commits"
+      },
+      "exact_frame_accuracy": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 56,
+        "ci95": {
+          "low": 6.938893903907228e-18,
+          "high": 0.06419393671876342
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no committed decisions"
+      },
+      "unnecessary_abstention": {
+        "value": 1.0,
+        "numerator": 9,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.7008549515804559,
+          "high": 1.0
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no critical-slot commits"
+      },
+      "action_accuracy": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 56,
+        "ci95": {
+          "low": 6.938893903907228e-18,
+          "high": 0.06419393671876342
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 0,
+        "UNSAFE_COMMIT": 0,
+        "SAFE_ABSTENTION": 47,
+        "UNNECESSARY_ABSTENTION": 9,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 0
+      }
+    },
+    "E4": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.9464285714285714,
+        "numerator": 53,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.8539269093117847,
+          "high": 0.9816142186178909
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.2641509433962264,
+        "numerator": 14,
+        "denominator": 53,
+        "ci95": {
+          "low": 0.16437353918463654,
+          "high": 0.395806644106185
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 1.0,
+        "numerator": 53,
+        "denominator": 53,
+        "ci95": {
+          "low": 0.932418011423458,
+          "high": 0.9999999999999999
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "strategy did not emit a candidate id"
+      },
+      "adapter_path_safety": {
+        "value": 0.11320754716981132,
+        "numerator": 6,
+        "denominator": 53,
+        "ci95": {
+          "low": 0.05293030947702562,
+          "high": 0.22576519111992185
+        },
+        "reason": null
+      },
+      "exact_frame_accuracy": {
+        "value": 0.6964285714285714,
+        "numerator": 39,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.5666413471427517,
+          "high": 0.8009967491463056
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 53,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.06758198857654187
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.10714285714285714,
+        "numerator": 6,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.05003935571117074,
+          "high": 0.21468445171071482
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 0,
+        "UNSAFE_COMMIT": 14,
+        "SAFE_ABSTENTION": 3,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 39
+      }
+    },
+    "E5": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.7321428571428571,
+        "numerator": 41,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.6040544407084484,
+          "high": 0.8304269458149828
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.34146341463414637,
+        "numerator": 14,
+        "denominator": 41,
+        "ci95": {
+          "low": 0.21558808257384846,
+          "high": 0.49450163480170306
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 1.0,
+        "numerator": 41,
+        "denominator": 41,
+        "ci95": {
+          "low": 0.9143324298155681,
+          "high": 0.9999999999999999
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "strategy did not emit a candidate id"
+      },
+      "adapter_path_safety": {
+        "value": 0.14634146341463414,
+        "numerator": 6,
+        "denominator": 41,
+        "ci95": {
+          "low": 0.0688424814129593,
+          "high": 0.28443458042480957
+        },
+        "reason": null
+      },
+      "exact_frame_accuracy": {
+        "value": 0.48214285714285715,
+        "numerator": 27,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.3566821941245828,
+          "high": 0.6098961607582303
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 41,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.08566757018443186
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.42857142857142855,
+        "numerator": 24,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.3076896268393824,
+          "high": 0.5586237926918696
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 0,
+        "UNSAFE_COMMIT": 14,
+        "SAFE_ABSTENTION": 15,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 27
+      }
+    },
+    "E6": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.4107142857142857,
+        "numerator": 23,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.29166774287846203,
+          "high": 0.541224031535603
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.6086956521739131,
+        "numerator": 14,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.4078552239138171,
+          "high": 0.7784237720752205
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.6086956521739131,
+        "numerator": 14,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.4078552239138171,
+          "high": 0.7784237720752205
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": 0.391304347826087,
+        "numerator": 9,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.22157622792477952,
+          "high": 0.592144776086183
+        },
+        "reason": null
+      },
+      "adapter_path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no adapter-traced commits"
+      },
+      "exact_frame_accuracy": {
+        "value": 0.16071428571428573,
+        "numerator": 9,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.08692667607595139,
+          "high": 0.2780620666974952
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.391304347826087,
+        "numerator": 9,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.22157622792477952,
+          "high": 0.592144776086183
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.75,
+        "numerator": 42,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.6230735785233251,
+          "high": 0.8448294531172932
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 9,
+        "UNSAFE_COMMIT": 14,
+        "SAFE_ABSTENTION": 33,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 0
+      }
+    }
+  },
+  "ablations": {
+    "A0": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.4107142857142857,
+        "numerator": 23,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.29166774287846203,
+          "high": 0.541224031535603
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.6086956521739131,
+        "numerator": 14,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.4078552239138171,
+          "high": 0.7784237720752205
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.6086956521739131,
+        "numerator": 14,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.4078552239138171,
+          "high": 0.7784237720752205
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": 0.391304347826087,
+        "numerator": 9,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.22157622792477952,
+          "high": 0.592144776086183
+        },
+        "reason": null
+      },
+      "adapter_path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no adapter-traced commits"
+      },
+      "exact_frame_accuracy": {
+        "value": 0.16071428571428573,
+        "numerator": 9,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.08692667607595139,
+          "high": 0.2780620666974952
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.391304347826087,
+        "numerator": 9,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.22157622792477952,
+          "high": 0.592144776086183
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.75,
+        "numerator": 42,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.6230735785233251,
+          "high": 0.8448294531172932
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 9,
+        "UNSAFE_COMMIT": 14,
+        "SAFE_ABSTENTION": 33,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 0
+      }
+    },
+    "A1": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.7321428571428571,
+        "numerator": 41,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.6040544407084484,
+          "high": 0.8304269458149828
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.34146341463414637,
+        "numerator": 14,
+        "denominator": 41,
+        "ci95": {
+          "low": 0.21558808257384846,
+          "high": 0.49450163480170306
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.7804878048780488,
+        "numerator": 32,
+        "denominator": 41,
+        "ci95": {
+          "low": 0.6329499401177383,
+          "high": 0.8799682522178243
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": 0.21951219512195122,
+        "numerator": 9,
+        "denominator": 41,
+        "ci95": {
+          "low": 0.12003174778217568,
+          "high": 0.3670500598822617
+        },
+        "reason": null
+      },
+      "adapter_path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no adapter-traced commits"
+      },
+      "exact_frame_accuracy": {
+        "value": 0.48214285714285715,
+        "numerator": 27,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.3566821941245828,
+          "high": 0.6098961607582303
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.21951219512195122,
+        "numerator": 9,
+        "denominator": 41,
+        "ci95": {
+          "low": 0.12003174778217568,
+          "high": 0.3670500598822617
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.42857142857142855,
+        "numerator": 24,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.3076896268393824,
+          "high": 0.5586237926918696
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 9,
+        "UNSAFE_COMMIT": 14,
+        "SAFE_ABSTENTION": 15,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 18
+      }
+    },
+    "A2": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.5178571428571429,
+        "numerator": 29,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.39010383924176983,
+          "high": 0.6433178058754173
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.4827586206896552,
+        "numerator": 14,
+        "denominator": 29,
+        "ci95": {
+          "low": 0.3138609015268349,
+          "high": 0.6556897811800528
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.7931034482758621,
+        "numerator": 23,
+        "denominator": 29,
+        "ci95": {
+          "low": 0.6160990959613211,
+          "high": 0.9015392980215897
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": 0.20689655172413793,
+        "numerator": 6,
+        "denominator": 29,
+        "ci95": {
+          "low": 0.09846070197841039,
+          "high": 0.38390090403867905
+        },
+        "reason": null
+      },
+      "adapter_path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no adapter-traced commits"
+      },
+      "exact_frame_accuracy": {
+        "value": 0.26785714285714285,
+        "numerator": 15,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.16957305418501728,
+          "high": 0.39594555929155156
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.20689655172413793,
+        "numerator": 6,
+        "denominator": 29,
+        "ci95": {
+          "low": 0.09846070197841039,
+          "high": 0.38390090403867905
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.5892857142857143,
+        "numerator": 33,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.4587759684643971,
+          "high": 0.708332257121538
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 6,
+        "UNSAFE_COMMIT": 14,
+        "SAFE_ABSTENTION": 27,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 9
+      }
+    },
+    "A3": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.4642857142857143,
+        "numerator": 26,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.34019852912223775,
+          "high": 0.5929581806433883
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.5384615384615384,
+        "numerator": 14,
+        "denominator": 26,
+        "ci95": {
+          "low": 0.35457938746858797,
+          "high": 0.7124414646960878
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.6538461538461539,
+        "numerator": 17,
+        "denominator": 26,
+        "ci95": {
+          "low": 0.46220571188810816,
+          "high": 0.8058776967705947
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": 0.34615384615384615,
+        "numerator": 9,
+        "denominator": 26,
+        "ci95": {
+          "low": 0.1941223032294052,
+          "high": 0.5377942881118918
+        },
+        "reason": null
+      },
+      "adapter_path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no adapter-traced commits"
+      },
+      "exact_frame_accuracy": {
+        "value": 0.21428571428571427,
+        "numerator": 12,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.1270590424909565,
+          "high": 0.33819463563405117
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.34615384615384615,
+        "numerator": 9,
+        "denominator": 26,
+        "ci95": {
+          "low": 0.1941223032294052,
+          "high": 0.5377942881118918
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.6964285714285714,
+        "numerator": 39,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.5666413471427517,
+          "high": 0.8009967491463056
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 9,
+        "UNSAFE_COMMIT": 14,
+        "SAFE_ABSTENTION": 30,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 3
+      }
+    },
+    "A4": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.4107142857142857,
+        "numerator": 23,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.29166774287846203,
+          "high": 0.541224031535603
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.6086956521739131,
+        "numerator": 14,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.4078552239138171,
+          "high": 0.7784237720752205
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.6086956521739131,
+        "numerator": 14,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.4078552239138171,
+          "high": 0.7784237720752205
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": 0.391304347826087,
+        "numerator": 9,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.22157622792477952,
+          "high": 0.592144776086183
+        },
+        "reason": null
+      },
+      "adapter_path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no adapter-traced commits"
+      },
+      "exact_frame_accuracy": {
+        "value": 0.16071428571428573,
+        "numerator": 9,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.08692667607595139,
+          "high": 0.2780620666974952
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.391304347826087,
+        "numerator": 9,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.22157622792477952,
+          "high": 0.592144776086183
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.75,
+        "numerator": 42,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.6230735785233251,
+          "high": 0.8448294531172932
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 9,
+        "UNSAFE_COMMIT": 14,
+        "SAFE_ABSTENTION": 33,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 0
+      }
+    },
+    "A5": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.5178571428571429,
+        "numerator": 29,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.39010383924176983,
+          "high": 0.6433178058754173
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.4827586206896552,
+        "numerator": 14,
+        "denominator": 29,
+        "ci95": {
+          "low": 0.3138609015268349,
+          "high": 0.6556897811800528
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.6896551724137931,
+        "numerator": 20,
+        "denominator": 29,
+        "ci95": {
+          "low": 0.5076986576690685,
+          "high": 0.8272438325551679
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": 0.3103448275862069,
+        "numerator": 9,
+        "denominator": 29,
+        "ci95": {
+          "low": 0.17275616744483216,
+          "high": 0.4923013423309317
+        },
+        "reason": null
+      },
+      "adapter_path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no adapter-traced commits"
+      },
+      "exact_frame_accuracy": {
+        "value": 0.26785714285714285,
+        "numerator": 15,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.16957305418501728,
+          "high": 0.39594555929155156
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.3103448275862069,
+        "numerator": 9,
+        "denominator": 29,
+        "ci95": {
+          "low": 0.17275616744483216,
+          "high": 0.4923013423309317
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.6428571428571429,
+        "numerator": 36,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.5119388780139953,
+          "high": 0.755434282923501
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 9,
+        "UNSAFE_COMMIT": 14,
+        "SAFE_ABSTENTION": 27,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 6
+      }
+    },
+    "A6": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.9464285714285714,
+        "numerator": 53,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.8539269093117847,
+          "high": 0.9816142186178909
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.2641509433962264,
+        "numerator": 14,
+        "denominator": 53,
+        "ci95": {
+          "low": 0.16437353918463654,
+          "high": 0.395806644106185
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.8867924528301887,
+        "numerator": 47,
+        "denominator": 53,
+        "ci95": {
+          "low": 0.7742348088800781,
+          "high": 0.9470696905229743
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": 0.11320754716981132,
+        "numerator": 6,
+        "denominator": 53,
+        "ci95": {
+          "low": 0.05293030947702562,
+          "high": 0.22576519111992185
+        },
+        "reason": null
+      },
+      "adapter_path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no adapter-traced commits"
+      },
+      "exact_frame_accuracy": {
+        "value": 0.6964285714285714,
+        "numerator": 39,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.5666413471427517,
+          "high": 0.8009967491463056
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.11320754716981132,
+        "numerator": 6,
+        "denominator": 53,
+        "ci95": {
+          "low": 0.05293030947702562,
+          "high": 0.22576519111992185
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.16071428571428573,
+        "numerator": 9,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.08692667607595139,
+          "high": 0.2780620666974952
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 6,
+        "UNSAFE_COMMIT": 14,
+        "SAFE_ABSTENTION": 3,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 33
+      }
+    },
+    "A7": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.35714285714285715,
+        "numerator": 20,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.24456571707649905,
+          "high": 0.4880611219860049
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.7,
+        "numerator": 14,
+        "denominator": 20,
+        "ci95": {
+          "low": 0.4810271816464765,
+          "high": 0.8545227551323956
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.7,
+        "numerator": 14,
+        "denominator": 20,
+        "ci95": {
+          "low": 0.4810271816464765,
+          "high": 0.8545227551323956
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": 0.3,
+        "numerator": 6,
+        "denominator": 20,
+        "ci95": {
+          "low": 0.1454772448676043,
+          "high": 0.5189728183535235
+        },
+        "reason": null
+      },
+      "adapter_path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no adapter-traced commits"
+      },
+      "exact_frame_accuracy": {
+        "value": 0.10714285714285714,
+        "numerator": 6,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.05003935571117074,
+          "high": 0.21468445171071482
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.3,
+        "numerator": 6,
+        "denominator": 20,
+        "ci95": {
+          "low": 0.1454772448676043,
+          "high": 0.5189728183535235
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.3333333333333333,
+        "numerator": 3,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.1205838183869109,
+          "high": 0.6457978644196036
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.6964285714285714,
+        "numerator": 39,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.5666413471427517,
+          "high": 0.8009967491463056
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 6,
+        "UNSAFE_COMMIT": 14,
+        "SAFE_ABSTENTION": 33,
+        "UNNECESSARY_ABSTENTION": 3,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 0
+      }
+    },
+    "A8": {
+      "cases": 56,
+      "coverage": {
+        "value": 0.4107142857142857,
+        "numerator": 23,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.29166774287846203,
+          "high": 0.541224031535603
+        },
+        "reason": null
+      },
+      "selective_risk": {
+        "value": 0.6086956521739131,
+        "numerator": 14,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.4078552239138171,
+          "high": 0.7784237720752205
+        },
+        "reason": null
+      },
+      "unsafe_commit_rate": {
+        "value": 0.6086956521739131,
+        "numerator": 14,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.4078552239138171,
+          "high": 0.7784237720752205
+        },
+        "reason": null
+      },
+      "path_safety": {
+        "value": 0.391304347826087,
+        "numerator": 9,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.22157622792477952,
+          "high": 0.592144776086183
+        },
+        "reason": null
+      },
+      "adapter_path_safety": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0,
+        "ci95": null,
+        "reason": "no adapter-traced commits"
+      },
+      "exact_frame_accuracy": {
+        "value": 0.16071428571428573,
+        "numerator": 9,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.08692667607595139,
+          "high": 0.2780620666974952
+        },
+        "reason": null
+      },
+      "safe_commitment_accuracy": {
+        "value": 0.391304347826087,
+        "numerator": 9,
+        "denominator": 23,
+        "ci95": {
+          "low": 0.22157622792477952,
+          "high": 0.592144776086183
+        },
+        "reason": null
+      },
+      "unnecessary_abstention": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 9,
+        "ci95": {
+          "low": 0.0,
+          "high": 0.2991450484195441
+        },
+        "reason": null
+      },
+      "critical_slot_safety": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 14,
+        "ci95": {
+          "low": 1.3877787807814457e-17,
+          "high": 0.2153108027376358
+        },
+        "reason": null
+      },
+      "action_accuracy": {
+        "value": 0.75,
+        "numerator": 42,
+        "denominator": 56,
+        "ci95": {
+          "low": 0.6230735785233251,
+          "high": 0.8448294531172932
+        },
+        "reason": null
+      },
+      "outcomes": {
+        "SAFE_COMMIT": 9,
+        "UNSAFE_COMMIT": 14,
+        "SAFE_ABSTENTION": 33,
+        "UNNECESSARY_ABSTENTION": 0,
+        "INCORRECT_FRAME": 0,
+        "CORRECT_FRAME_UNSAFE_PATH": 0
+      }
+    }
+  },
+  "parent_cluster_bootstrap": {
+    "E0": {
+      "unsafe_commit": {
+        "estimate": -0.2857142857142857,
+        "ci95_low": -0.4732142857142857,
+        "ci95_high": -0.11607142857142858,
+        "clusters": 14,
+        "seed": 20261105,
+        "field": "unsafe_commit",
+        "contrast": "E6 minus comparison"
+      },
+      "committed": {
+        "estimate": -0.22321428571428573,
+        "ci95_low": -0.39285714285714285,
+        "ci95_high": -0.08035714285714286,
+        "clusters": 14,
+        "seed": 20261106,
+        "field": "committed",
+        "contrast": "E6 minus comparison"
+      }
+    },
+    "E1": {
+      "unsafe_commit": {
+        "estimate": -0.2857142857142857,
+        "ci95_low": -0.4732142857142857,
+        "ci95_high": -0.11607142857142858,
+        "clusters": 14,
+        "seed": 20261105,
+        "field": "unsafe_commit",
+        "contrast": "E6 minus comparison"
+      },
+      "committed": {
+        "estimate": -0.22321428571428573,
+        "ci95_low": -0.39285714285714285,
+        "ci95_high": -0.08035714285714286,
+        "clusters": 14,
+        "seed": 20261106,
+        "field": "committed",
+        "contrast": "E6 minus comparison"
+      }
+    },
+    "E2": {
+      "unsafe_commit": {
+        "estimate": -0.2857142857142857,
+        "ci95_low": -0.4732142857142857,
+        "ci95_high": -0.11607142857142858,
+        "clusters": 14,
+        "seed": 20261105,
+        "field": "unsafe_commit",
+        "contrast": "E6 minus comparison"
+      },
+      "committed": {
+        "estimate": -0.22321428571428573,
+        "ci95_low": -0.39285714285714285,
+        "ci95_high": -0.08035714285714286,
+        "clusters": 14,
+        "seed": 20261106,
+        "field": "committed",
+        "contrast": "E6 minus comparison"
+      }
+    },
+    "E4": {
+      "unsafe_commit": {
+        "estimate": -0.3482142857142857,
+        "ci95_low": -0.5357142857142857,
+        "ci95_high": -0.16071428571428573,
+        "clusters": 14,
+        "seed": 20261105,
+        "field": "unsafe_commit",
+        "contrast": "E6 minus comparison"
+      },
+      "committed": {
+        "estimate": -0.26785714285714285,
+        "ci95_low": -0.44642857142857145,
+        "ci95_high": -0.08928571428571429,
+        "clusters": 14,
+        "seed": 20261106,
+        "field": "committed",
+        "contrast": "E6 minus comparison"
+      }
+    },
+    "E5": {
+      "unsafe_commit": {
+        "estimate": -0.24107142857142858,
+        "ci95_low": -0.375,
+        "ci95_high": -0.10714285714285714,
+        "clusters": 14,
+        "seed": 20261105,
+        "field": "unsafe_commit",
+        "contrast": "E6 minus comparison"
+      },
+      "committed": {
+        "estimate": -0.16071428571428573,
+        "ci95_low": -0.26785714285714285,
+        "ci95_high": -0.05357142857142857,
+        "clusters": 14,
+        "seed": 20261106,
+        "field": "committed",
+        "contrast": "E6 minus comparison"
+      }
+    }
+  },
+  "experiment_names": {
+    "E0": "b0_prefix",
+    "E1": "b1_prefix",
+    "E2": "b2_prefix_controller",
+    "E3": "b1_forced_lexical",
+    "E4": "b2_lexical_v3",
+    "E5": "b2_semantic_v4",
+    "E6": "b2_semantic_v5",
+    "phase4_warning": "Phase 4 E5 was the lexical ablation and Phase 4 E7 was b2_semantic_v4. Those names are not reused here."
+  }
+}

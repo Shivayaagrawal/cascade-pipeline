@@ -1,0 +1,143 @@
+{
+  "dataset": "synthetic-seed17-v1",
+  "seed": 20261102,
+  "method": "One random.Random(seed). For each intent in utterance_generator.INTENTS order, sort utterance ids and draw 3 with sample. The same generator then shuffles annotation presentation order.",
+  "per_intent": 3,
+  "intent_order": [
+    "book_appointment",
+    "cancel_appointment",
+    "check_appointment",
+    "check_balance",
+    "transfer_money",
+    "check_transaction",
+    "set_reminder",
+    "weather_query",
+    "play_music",
+    "general_information"
+  ],
+  "strata": {
+    "book_appointment": [
+      "utt-018",
+      "utt-002",
+      "utt-012"
+    ],
+    "cancel_appointment": [
+      "utt-025",
+      "utt-023",
+      "utt-033"
+    ],
+    "check_appointment": [
+      "utt-041",
+      "utt-046",
+      "utt-052"
+    ],
+    "check_balance": [
+      "utt-076",
+      "utt-074",
+      "utt-066"
+    ],
+    "transfer_money": [
+      "utt-099",
+      "utt-085",
+      "utt-097"
+    ],
+    "check_transaction": [
+      "utt-113",
+      "utt-118",
+      "utt-114"
+    ],
+    "set_reminder": [
+      "utt-138",
+      "utt-130",
+      "utt-126"
+    ],
+    "weather_query": [
+      "utt-157",
+      "utt-156",
+      "utt-141"
+    ],
+    "play_music": [
+      "utt-162",
+      "utt-163",
+      "utt-179"
+    ],
+    "general_information": [
+      "utt-196",
+      "utt-197",
+      "utt-180"
+    ]
+  },
+  "utterance_ids": [
+    "utt-018",
+    "utt-002",
+    "utt-012",
+    "utt-025",
+    "utt-023",
+    "utt-033",
+    "utt-041",
+    "utt-046",
+    "utt-052",
+    "utt-076",
+    "utt-074",
+    "utt-066",
+    "utt-099",
+    "utt-085",
+    "utt-097",
+    "utt-113",
+    "utt-118",
+    "utt-114",
+    "utt-138",
+    "utt-130",
+    "utt-126",
+    "utt-157",
+    "utt-156",
+    "utt-141",
+    "utt-162",
+    "utt-163",
+    "utt-179",
+    "utt-196",
+    "utt-197",
+    "utt-180"
+  ],
+  "variant_counts": {
+    "utt-002": 3,
+    "utt-012": 3,
+    "utt-018": 3,
+    "utt-023": 3,
+    "utt-025": 3,
+    "utt-033": 3,
+    "utt-041": 3,
+    "utt-046": 3,
+    "utt-052": 3,
+    "utt-066": 3,
+    "utt-074": 3,
+    "utt-076": 3,
+    "utt-085": 3,
+    "utt-097": 3,
+    "utt-099": 3,
+    "utt-113": 3,
+    "utt-114": 3,
+    "utt-118": 3,
+    "utt-126": 3,
+    "utt-130": 3,
+    "utt-138": 3,
+    "utt-141": 3,
+    "utt-156": 3,
+    "utt-157": 3,
+    "utt-162": 3,
+    "utt-163": 3,
+    "utt-179": 3,
+    "utt-180": 3,
+    "utt-196": 3,
+    "utt-197": 3
+  },
+  "gold_rows": 30,
+  "variant_rows": 90,
+  "annotation_rows": 120,
+  "source_files": [
+    "/Users/shivanyaagrawal/cnn/CascadeGuard/data/synthetic/manifest.csv",
+    "/Users/shivanyaagrawal/cnn/CascadeGuard/data/synthetic/transcripts/variants.csv"
+  ],
+  "gold_hidden_from_annotation_sheet": true,
+  "audio": "not_used"
+}

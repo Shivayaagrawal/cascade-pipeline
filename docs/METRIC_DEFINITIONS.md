@@ -2,15 +2,17 @@
 
 These definitions are the scoring rules for later phases. They are not results. The current candidate is Common Voice. FSC and SLURP are superseded implementation tracks. Do not average datasets into one number. Changing a formula after a test run is a protocol change and must be logged in `docs/RESEARCH_DEVIATIONS.md` before new numbers are compared with old numbers.
 
-Milestone A may report WER and CER only. Intent accuracy, slot F1, exact frame match, and recovery metrics stay unused until a verified manual semantic subset exists. Publishing them before that subset is a false result.
+On Common Voice, Milestone A may report WER and CER only. Intent accuracy, slot F1, exact frame match, and recovery metrics stay unused until a verified manual semantic subset exists. Publishing them on Common Voice before that subset is a false result.
+
+The synthetic simulation is a different track. Its intent and slot labels are created with the utterances. Scores on that track are not Common Voice scores and must stay in a separate report.
 
 If FSC or SLURP is ever revived, score each with its own slot names. An FSC `action` value and a SLURP `action` field are not the same feature. Missing slots count as recall misses.
 
 ## Text normalization for WER and CER
 
-PENDING a checked normalizer implementation. Until that code is reviewed, do not publish a WER.
+The synthetic runner uses `src/cascadeguard/evaluation/textnorm.py`: Unicode NFC, casefold, collapsed whitespace, and punctuation kept on both sides. Do not publish a Common Voice WER with that function until a downloaded release is checked.
 
-Planned policy, not yet applied:
+Policy for both tracks:
 
 - Compare after Unicode-normalizing to a single canonical form and collapsing internal whitespace.
 - Lowercase both reference and hypothesis together. Do not lowercase only one side.

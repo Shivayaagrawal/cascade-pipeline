@@ -87,15 +87,4 @@ This checklist is the documentation review. It does not approve Phase 1 and it d
 
 ## Phase 1 scope, not yet approved
 
-When a later approval starts Phase 1, the work is dataset engineering only:
-
-1. Environment setup.
-2. Only after the owner sets Accepted on each required row: obtain the release whose license file matches the accepted instrument, and refuse the download if the bundled file is a different instrument. Phase 0.5 did not accept any row.
-3. Download only after that acceptance.
-4. Separate FSC and SLURP adapters and a shared sample record that keeps native labels.
-5. Audio and annotation checks, manifests, speaker and duplicate checks.
-6. Tests and a dataset audit report.
-
-Phase 1 does not train models, implement B0/B1/B2, run corruption experiments, download ATIS, or train a CNN.
-
-This file does not approve that phase.
+The FSC-and-SLURP dataset-engineering list that used to sit here is superseded. The current scope is `docs/PHASE_1_IMPLEMENTATION_PLAN.md`: real Common Voice access, validated ingestion, waveform ASR, hypothesis provenance, and annotation readiness. Gate C remains unmet. This file does not approve that phase. FSC and SLURP stay superseded, and their license decisions stay Pending.

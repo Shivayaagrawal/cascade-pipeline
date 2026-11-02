@@ -1,0 +1,16 @@
+{
+  "dataset": "synthetic",
+  "intents": [
+    "book_appointment",
+    "cancel_appointment",
+    "check_appointment",
+    "check_balance",
+    "transfer_money",
+    "check_transaction",
+    "set_reminder",
+    "weather_query",
+    "play_music",
+    "general_information"
+  ],
+  "note": "These labels belong to the local simulation. Common Voice does not provide them."
+}

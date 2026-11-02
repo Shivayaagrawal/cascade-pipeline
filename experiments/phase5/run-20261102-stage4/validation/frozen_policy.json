@@ -1,0 +1,19 @@
+{
+  "policy_id": "phase5-gates-v1",
+  "strategy": "b2_semantic_v5",
+  "dataset_id": "synthetic-semantic-integrity-v1",
+  "seed": 20261105,
+  "switches": {
+    "modality": true,
+    "polarity": true,
+    "critical_slots": true,
+    "provenance": true,
+    "conditionality": true,
+    "gate": true,
+    "recovery": true,
+    "risk": true
+  },
+  "weight_search": null,
+  "test_cases_read": false,
+  "note": "Gates are predeclared. A low risk score cannot override a failed gate. No threshold was selected from data."
+}

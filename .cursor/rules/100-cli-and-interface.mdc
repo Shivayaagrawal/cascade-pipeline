@@ -1,0 +1,75 @@
+---
+description: Rules for CLI, demo interface, and user-facing components.
+globs: "**/*.py"
+alwaysApply: true
+---
+
+# Interface and CLI Rules
+
+## 1. Separation
+
+- Keep UI separate from ML components.
+- Keep CLI separate from model implementation.
+- The interface must call the pipeline through documented interfaces.
+- Never duplicate inference logic inside the UI.
+
+## 2. CLI
+
+Provide commands for:
+
+- Dataset validation
+- Model training
+- Baseline evaluation
+- Perturbation generation
+- B0 execution
+- B1 execution
+- B2 execution
+- Metrics generation
+
+Use clear command arguments and configuration files.
+
+## 3. Demo interface
+
+If Streamlit is used, provide:
+
+- Audio upload
+- Audio playback
+- ASR transcript
+- NLU prediction
+- Failure diagnosis
+- Recovery decision
+- Final output
+- Stage-level latency
+
+## 4. Explainability
+
+The demo should show the pipeline's intermediate decisions.
+
+For example:
+
+```text
+Audio Input
+    |
+ASR Transcript
+    |
+NLU Prediction
+    |
+Risk Analysis
+    |
+Recovery Decision
+    |
+Final Result
+```
+
+Show why a recovery action was selected.
+
+Do not expose an internal confidence score as a definitive explanation.
+
+## 5. Reliability
+
+- Handle unsupported audio files.
+- Display meaningful error messages.
+- Avoid crashing on empty input.
+- Provide loading states for long-running inference.
+- Do not block the interface unnecessarily.
+- Avoid running model training from normal demo interactions.

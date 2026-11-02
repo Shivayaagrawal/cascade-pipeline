@@ -64,13 +64,16 @@ Multiple transcript candidates passed through semantic evaluation. Genuine ASR N
 Audio → ASR → candidate list → NLU on each candidate → documented selection rule → one frame
 ```
 
-Label the list with one of:
+Label each hypothesis with one of:
 
-- `native_nbest` only if the recognizer returned an ordered hypothesis list;
-- `independent_decode` if the list comes from separate decoding settings;
-- `synthetic_edit` if the list was built by editing text.
+- `beam_hypothesis` only when one decoding run returns that alternative;
+- `independent_decode` when the text comes from a separate decoding run;
+- `retry_decode` when a real decoder is invoked again for that sample;
+- `synthetic_edit` when the text was produced by editing a transcript.
 
-`beam_size` on a decoder that returns one string is not `native_nbest`. Ruan et al. footnote 1 used 1-best only. A B1 result is not a reproduction of that paper. B1 semantic comparison waits for Milestone B. Before that, the only B1 work allowed in Phase 1 is to record whether the chosen ASR interface returns a real N-best list.
+Do not pool those four labels in one agreement score. The simulation track continues to use `synthetic_edit`. Its code rejects a synthetic row labelled `native_nbest`. That older name is not a substitute for `beam_hypothesis`.
+
+`beam_size` on a decoder that returns one string is not a beam hypothesis. Ruan et al. footnote 1 used 1-best only. A B1 result is not a reproduction of that paper. B1 semantic comparison is a later phase. Phase 1D only records which of the four provenance values the installed decoder can actually produce.
 
 ## B2
 
@@ -82,7 +85,7 @@ Audio → ASR → NLU → diagnosis → CONTINUE, RETRY, CLARIFY, or HOLD → fi
 
 RETRY has a maximum count and a timeout, both set in the experiment config. Schema errors are not retried in a loop. The controller never writes a slot value that was not in a candidate or a clarification response. CLARIFY and HOLD leave the frame unresolved rather than guessing.
 
-The injected corruption label is analysis metadata. It is not a feature of the controller. Natural ASR errors and synthetic corruption stay in separate experiments. B2 is not part of Phase 1.
+The injected corruption label is analysis metadata. It is not a feature of the controller. Natural ASR errors and synthetic corruption stay in separate experiments. On a real decoder, RETRY means `retry_decode`. Rescoring a written candidate list remains a simulation label. B2 comparison is not part of Phase 1.
 
 ## Error injection
 

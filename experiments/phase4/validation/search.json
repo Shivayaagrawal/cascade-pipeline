@@ -1,0 +1,5606 @@
+{
+  "grid_size": 350,
+  "rows": [
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 1.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 1.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 1.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 1.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 1.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 1.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 1.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 1.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 1.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 1.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 1.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 1.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 1.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 1.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 1.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.75,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.5,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.25,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 1.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 1.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 1.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 1.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 1.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.75,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.75,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.75,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.5,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.25,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.25,
+        "polarity": 0.0,
+        "slot": 0.75
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.5,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.5,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.5,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.25,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.5,
+        "polarity": 0.0,
+        "slot": 0.5
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.25,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.25,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.25,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 0.75,
+        "polarity": 0.0,
+        "slot": 0.25
+      }
+    },
+    {
+      "coverage": 0.075,
+      "invalid_count": 0,
+      "safe_accuracy": 1.0,
+      "selective_risk": 0.0,
+      "threshold": 0.0,
+      "unnecessary": 0.6896551724137931,
+      "unsafe_count": 0,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 1.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.25,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 1.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.5,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 1.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 0.75,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 1.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": 0.4666666666666667,
+      "invalid_count": 0,
+      "safe_accuracy": 0.5178571428571429,
+      "selective_risk": 0.17857142857142858,
+      "threshold": 1.0,
+      "unnecessary": 0.0,
+      "unsafe_count": 27,
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 0.0,
+        "intent": 1.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    }
+  ],
+  "tie_count": 70
+}

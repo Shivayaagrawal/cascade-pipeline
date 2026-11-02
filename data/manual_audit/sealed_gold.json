@@ -1,0 +1,185 @@
+{
+  "warning": "Do not open this file while annotating. It holds gold labels for a later comparison.",
+  "rows": [
+    {
+      "utterance_id": "utt-018",
+      "gold_intent": "book_appointment",
+      "gold_slots": "date=September 9",
+      "gold_text": "Book an appointment for September 9"
+    },
+    {
+      "utterance_id": "utt-002",
+      "gold_intent": "book_appointment",
+      "gold_slots": "date=Monday",
+      "gold_text": "Book an appointment for Monday"
+    },
+    {
+      "utterance_id": "utt-012",
+      "gold_intent": "book_appointment",
+      "gold_slots": "date=today",
+      "gold_text": "Book an appointment for today"
+    },
+    {
+      "utterance_id": "utt-025",
+      "gold_intent": "cancel_appointment",
+      "gold_slots": "date=Thursday",
+      "gold_text": "Cancel my appointment for Thursday"
+    },
+    {
+      "utterance_id": "utt-023",
+      "gold_intent": "cancel_appointment",
+      "gold_slots": "date=Tuesday",
+      "gold_text": "Cancel my appointment for Tuesday"
+    },
+    {
+      "utterance_id": "utt-033",
+      "gold_intent": "cancel_appointment",
+      "gold_slots": "date=April 2",
+      "gold_text": "Cancel my appointment for April 2"
+    },
+    {
+      "utterance_id": "utt-041",
+      "gold_intent": "check_appointment",
+      "gold_slots": "date=Friday",
+      "gold_text": "When is my Friday appointment?"
+    },
+    {
+      "utterance_id": "utt-046",
+      "gold_intent": "check_appointment",
+      "gold_slots": "date=Saturday",
+      "gold_text": "When is my Saturday appointment?"
+    },
+    {
+      "utterance_id": "utt-052",
+      "gold_intent": "check_appointment",
+      "gold_slots": "date=today",
+      "gold_text": "When is my today appointment?"
+    },
+    {
+      "utterance_id": "utt-076",
+      "gold_intent": "check_balance",
+      "gold_slots": "account=expense account",
+      "gold_text": "What is my expense account balance?"
+    },
+    {
+      "utterance_id": "utt-074",
+      "gold_intent": "check_balance",
+      "gold_slots": "account=deposit account",
+      "gold_text": "What is my deposit account balance?"
+    },
+    {
+      "utterance_id": "utt-066",
+      "gold_intent": "check_balance",
+      "gold_slots": "account=travel account",
+      "gold_text": "What is my travel account balance?"
+    },
+    {
+      "utterance_id": "utt-099",
+      "gold_intent": "transfer_money",
+      "gold_slots": "amount=650|currency=rupees",
+      "gold_text": "Transfer 650 rupees"
+    },
+    {
+      "utterance_id": "utt-085",
+      "gold_intent": "transfer_money",
+      "gold_slots": "amount=75|currency=rupees",
+      "gold_text": "Transfer 75 rupees"
+    },
+    {
+      "utterance_id": "utt-097",
+      "gold_intent": "transfer_money",
+      "gold_slots": "amount=180|currency=rupees",
+      "gold_text": "Transfer 180 rupees"
+    },
+    {
+      "utterance_id": "utt-113",
+      "gold_intent": "check_transaction",
+      "gold_slots": "recency=card",
+      "gold_text": "Show my card transaction"
+    },
+    {
+      "utterance_id": "utt-118",
+      "gold_intent": "check_transaction",
+      "gold_slots": "recency=yesterday",
+      "gold_text": "Show my yesterday transaction"
+    },
+    {
+      "utterance_id": "utt-114",
+      "gold_intent": "check_transaction",
+      "gold_slots": "recency=cash",
+      "gold_text": "Show my cash transaction"
+    },
+    {
+      "utterance_id": "utt-138",
+      "gold_intent": "set_reminder",
+      "gold_slots": "time=noon",
+      "gold_text": "Remind me at noon"
+    },
+    {
+      "utterance_id": "utt-130",
+      "gold_intent": "set_reminder",
+      "gold_slots": "time=3 PM",
+      "gold_text": "Remind me at 3 PM"
+    },
+    {
+      "utterance_id": "utt-126",
+      "gold_intent": "set_reminder",
+      "gold_slots": "time=10 AM",
+      "gold_text": "Remind me at 10 AM"
+    },
+    {
+      "utterance_id": "utt-157",
+      "gold_intent": "weather_query",
+      "gold_slots": "date=August 12",
+      "gold_text": "Will it rain August 12?"
+    },
+    {
+      "utterance_id": "utt-156",
+      "gold_intent": "weather_query",
+      "gold_slots": "date=July 1",
+      "gold_text": "Will it rain July 1?"
+    },
+    {
+      "utterance_id": "utt-141",
+      "gold_intent": "weather_query",
+      "gold_slots": "date=Friday",
+      "gold_text": "Will it rain Friday?"
+    },
+    {
+      "utterance_id": "utt-162",
+      "gold_intent": "play_music",
+      "gold_slots": "genre=rock",
+      "gold_text": "Play rock music"
+    },
+    {
+      "utterance_id": "utt-163",
+      "gold_intent": "play_music",
+      "gold_slots": "genre=pop",
+      "gold_text": "Play pop music"
+    },
+    {
+      "utterance_id": "utt-179",
+      "gold_intent": "play_music",
+      "gold_slots": "genre=instrumental",
+      "gold_text": "Play instrumental music"
+    },
+    {
+      "utterance_id": "utt-196",
+      "gold_intent": "general_information",
+      "gold_slots": "topic=closing time",
+      "gold_text": "What are your closing time?"
+    },
+    {
+      "utterance_id": "utt-197",
+      "gold_intent": "general_information",
+      "gold_slots": "topic=opening time",
+      "gold_text": "What are your opening time?"
+    },
+    {
+      "utterance_id": "utt-180",
+      "gold_intent": "general_information",
+      "gold_slots": "topic=working hours",
+      "gold_text": "What are your working hours?"
+    }
+  ]
+}

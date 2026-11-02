@@ -1,0 +1,70 @@
+---
+description: Prevent unnecessary model complexity and enforce computational discipline.
+globs: "**/*.py"
+alwaysApply: true
+---
+
+# Model Complexity and Computational Discipline
+
+## 1. Start simple
+
+Use the simplest model that can answer the research question.
+
+Preferred progression:
+
+1. Rule-based baseline.
+2. Classical ML baseline.
+3. Lightweight neural model.
+4. More complex architecture only when justified.
+
+Do not introduce large language models, transformers, or complex ensembles merely because they are available.
+
+## 2. Justify complexity
+
+Before introducing a new model, document:
+
+- Why the existing model is insufficient.
+- What limitation the new model addresses.
+- Expected benefit.
+- Computational cost.
+- Additional dependencies.
+- Evaluation required to demonstrate value.
+
+## 3. Resource awareness
+
+- Support CPU-first development.
+- Do not assume CUDA is available.
+- Check available hardware before selecting model configurations.
+- Avoid unnecessarily large batch sizes.
+- Avoid loading duplicate model instances.
+- Use inference mode during inference.
+- Release unused resources appropriately.
+- Avoid downloading large checkpoints without justification.
+
+## 4. Model selection
+
+Consider:
+
+- Accuracy.
+- Generalization.
+- Latency.
+- Memory consumption.
+- Model size.
+- Inference complexity.
+- Reproducibility.
+
+Do not optimize accuracy alone.
+
+## 5. Dependencies
+
+- Prefer stable, maintained libraries.
+- Avoid unnecessary overlapping ML frameworks.
+- Pin important dependency versions.
+- Document dependency requirements.
+- Do not upgrade core ML libraries without checking compatibility.
+
+## 6. Experimental justification
+
+A more complex model should demonstrate a measurable benefit against a simpler baseline.
+
+If it does not, retain the simpler model unless there is another clearly documented research reason.

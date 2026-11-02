@@ -1,0 +1,190 @@
+{
+  "cases": 36,
+  "committed_cases": 31,
+  "abstained_cases": 5,
+  "coverage": {
+    "value": 0.8611111111111112,
+    "numerator": 31,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.713404696106438,
+      "high": 0.9391818499086717
+    },
+    "reason": null
+  },
+  "selective_risk": {
+    "value": 0.2903225806451613,
+    "numerator": 9,
+    "denominator": 31,
+    "ci95": {
+      "low": 0.1609580015630062,
+      "high": 0.46592329330749926
+    },
+    "reason": null
+  },
+  "unsafe_commit_rate": {
+    "value": 0.7419354838709677,
+    "numerator": 23,
+    "denominator": 31,
+    "ci95": {
+      "low": 0.5675386419056621,
+      "high": 0.8629829409360625
+    },
+    "reason": null
+  },
+  "path_safety": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "strategy did not emit a candidate id"
+  },
+  "adapter_path_safety": {
+    "value": 0.25806451612903225,
+    "numerator": 8,
+    "denominator": 31,
+    "ci95": {
+      "low": 0.13701705906393744,
+      "high": 0.43246135809433794
+    },
+    "reason": null
+  },
+  "exact_frame_accuracy": {
+    "value": 0.6111111111111112,
+    "numerator": 22,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.44864459096605147,
+      "high": 0.75215126934629
+    },
+    "reason": null
+  },
+  "safe_commitment_accuracy": {
+    "value": 0.25806451612903225,
+    "numerator": 8,
+    "denominator": 31,
+    "ci95": {
+      "low": 0.13701705906393744,
+      "high": 0.43246135809433794
+    },
+    "reason": null
+  },
+  "unnecessary_abstention": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 10,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.2775327998628892
+    },
+    "reason": null
+  },
+  "critical_slot_safety": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 9,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.2991450484195441
+    },
+    "reason": null
+  },
+  "critical_substitution_detection": {
+    "value": 0.18181818181818182,
+    "numerator": 2,
+    "denominator": 11,
+    "ci95": {
+      "low": 0.05136768974608513,
+      "high": 0.4769805619608442
+    },
+    "reason": null
+  },
+  "false_rejection_on_clean": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 7,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.35433043506668743
+    },
+    "reason": null
+  },
+  "intent_accuracy": {
+    "value": 0.8611111111111112,
+    "numerator": 31,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.713404696106438,
+      "high": 0.9391818499086717
+    },
+    "reason": null
+  },
+  "slots": {
+    "precision": {
+      "value": 0.7352941176470589,
+      "numerator": 25,
+      "denominator": 34,
+      "ci95": {
+        "low": 0.5688285871705534,
+        "high": 0.8539880932278825
+      },
+      "reason": null
+    },
+    "recall": {
+      "value": 0.625,
+      "numerator": 25,
+      "denominator": 40,
+      "ci95": {
+        "low": 0.47032439137301096,
+        "high": 0.7577702083276673
+      },
+      "reason": null
+    },
+    "f1": 0.6756756756756757
+  },
+  "action_accuracy": {
+    "value": 0.2777777777777778,
+    "numerator": 10,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.1584833794013461,
+      "high": 0.43992489997397105
+    },
+    "reason": null
+  },
+  "modality_accuracy": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "strategy did not emit modality"
+  },
+  "polarity_accuracy": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "strategy did not emit polarity"
+  },
+  "conditionality_accuracy": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "strategy did not emit conditionality"
+  },
+  "outcomes": {
+    "SAFE_COMMIT": 8,
+    "UNSAFE_COMMIT": 9,
+    "SAFE_ABSTENTION": 5,
+    "UNNECESSARY_ABSTENTION": 0,
+    "INCORRECT_FRAME": 0,
+    "CORRECT_FRAME_UNSAFE_PATH": 14
+  },
+  "actions": {
+    "CONTINUE": 31,
+    "RETRY": 0,
+    "CLARIFY": 5,
+    "HOLD": 0
+  }
+}

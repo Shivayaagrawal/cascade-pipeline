@@ -1,0 +1,19 @@
+{
+  "policy_id": "phase6-reference-v1",
+  "dataset_id": "synthetic-reference-integrity-v1",
+  "seed": 20261106,
+  "primary_comparison": "E3 candidate-only versus E4 critical-slot reference",
+  "switches": {
+    "modality": true,
+    "polarity": true,
+    "conditionality": true,
+    "provenance": true,
+    "gate": true,
+    "recovery": true,
+    "reference": true
+  },
+  "weight_search": null,
+  "validation_used_for_selection": false,
+  "test_cases_read": false,
+  "note": "The reference check is predeclared. No threshold or weight was selected from scores."
+}

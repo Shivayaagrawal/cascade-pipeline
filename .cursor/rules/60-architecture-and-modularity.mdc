@@ -1,0 +1,186 @@
+---
+description: Architecture and modularity rules for the CascadeGuard pipeline.
+globs: "**/*.py"
+alwaysApply: true
+---
+
+# CascadeGuard Architecture Rules
+
+## 1. Core architecture
+
+Maintain a modular cascaded architecture:
+
+Audio Input
+    |
+    v
+Audio Preprocessing
+    |
+    v
+ASR Engine
+    |
+    v
+Transcript Candidates
+    |
+    v
+NLU Engine
+    |
+    v
+Failure Diagnosis
+    |
+    v
+Recovery Controller
+    |
+    v
+Dialogue Decision
+    |
+    v
+Response Generation
+
+Each stage must have a clearly defined responsibility.
+
+## 2. Separation of concerns
+
+Keep the following components independent:
+
+- Audio loading and preprocessing
+- ASR inference
+- Transcript candidate generation
+- NLU inference
+- Semantic frame extraction
+- Failure diagnosis
+- Recovery policy
+- Pipeline orchestration
+- Evaluation and metrics
+- Experiment tracking
+
+Do not combine the entire pipeline into a single Python file.
+
+## 3. Suggested project structure
+
+Use this structure as the initial architectural reference. Extend it only when there is a clear requirement.
+
+```text
+cascadeguard/
+│
+├── configs/
+│   ├── default.yaml
+│   ├── dataset.yaml
+│   ├── asr.yaml
+│   ├── nlu.yaml
+│   └── experiments/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   ├── perturbed/
+│   └── manifests/
+│
+├── src/
+│   └── cascadeguard/
+│       ├── audio/
+│       │   ├── loader.py
+│       │   ├── preprocessing.py
+│       │   └── augmentation.py
+│       │
+│       ├── asr/
+│       │   ├── base.py
+│       │   ├── whisper_engine.py
+│       │   └── candidates.py
+│       │
+│       ├── nlu/
+│       │   ├── base.py
+│       │   ├── intent.py
+│       │   ├── slots.py
+│       │   └── semantic_frame.py
+│       │
+│       ├── diagnosis/
+│       │   ├── risk_analyzer.py
+│       │   ├── failure_taxonomy.py
+│       │   └── signals.py
+│       │
+│       ├── recovery/
+│       │   ├── controller.py
+│       │   ├── policies.py
+│       │   └── actions.py
+│       │
+│       ├── pipeline/
+│       │   ├── orchestrator.py
+│       │   └── result.py
+│       │
+│       ├── evaluation/
+│       │   ├── asr_metrics.py
+│       │   ├── nlu_metrics.py
+│       │   ├── recovery_metrics.py
+│       │   └── latency.py
+│       │
+│       ├── experiments/
+│       │   ├── runner.py
+│       │   └── registry.py
+│       │
+│       └── utils/
+│           ├── logging.py
+│           ├── seed.py
+│           └── paths.py
+│
+├── tests/
+├── scripts/
+├── notebooks/
+├── artifacts/
+├── reports/
+├── pyproject.toml
+└── README.md
+```
+
+## 4. Component contracts
+
+Every major pipeline component must expose a predictable interface.
+
+For example:
+
+- ASR receives audio and returns transcription results.
+- NLU receives text and returns a semantic frame.
+- Diagnosis receives pipeline outputs and available risk signals.
+- Recovery receives diagnosis results and decides the next action.
+- Orchestration coordinates execution without implementing model logic.
+
+Use abstract base classes or protocols when multiple implementations are expected.
+
+Example:
+
+```python
+from abc import ABC, abstractmethod
+
+class ASREngine(ABC):
+    @abstractmethod
+    def transcribe(self, audio_path: str):
+        pass
+```
+
+## 5. Data flow
+
+- Use explicit input and output schemas.
+- Do not pass loosely structured dictionaries throughout the entire system.
+- Prefer typed result objects.
+- Preserve sample IDs throughout every pipeline stage.
+- Preserve links between audio, transcript, semantic frame, diagnosis, and recovery.
+- Never silently discard intermediate outputs.
+
+## 6. Research flexibility
+
+The architecture must support:
+
+- B0: Single-best transcript cascade.
+- B1: Multi-candidate cascade.
+- B2: Failure-aware cascade.
+
+These configurations must share reusable components wherever possible.
+
+Do not create three independent implementations of the entire pipeline.
+
+## 7. Dependency direction
+
+- Evaluation must not modify model predictions.
+- Diagnosis must not directly modify ASR outputs.
+- Recovery must not modify the original dataset.
+- Pipeline orchestration must not contain model-training logic.
+- UI code must not contain core ML logic.

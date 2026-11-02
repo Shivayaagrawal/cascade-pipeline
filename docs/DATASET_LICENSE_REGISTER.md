@@ -1,22 +1,47 @@
 # Dataset License Register
 
-**Checked:** 2026-11-02 (Phase 0.5, then the Common Voice direction the same day).  
+**Checked:** 2026-11-02 (Phase 0.5, the Common Voice direction, the OpenSLR proposal, and the same-day owner acceptance of CC BY 4.0 for the two LibriSpeech archives).  
 **This register is not legal advice.**  
 **Owner decision** is the only acceptance field that matters. `Accepted` is Yes only when the owner decision is Accepted, No only when it is Refused, and N/A when it is Pending. Pending is not a refusal and is not permission.
 
-No dataset audio, archive, or annotation package was downloaded. No dataset repository was cloned. A public licence line is not an owner acceptance.
+The original pass did not download dataset audio. On 2026-11-02 the owner authorized the two LibriSpeech archives already present in Downloads. Those files were copied into the project after an MD5 check. They were not fetched again from OpenSLR by this register. Common Voice, FSC, and SLURP were not acquired.
 
 ## Gates
 
 | Gate | Status | Meaning |
 |------|--------|---------|
-| A — Licensing review documented | Complete as a record | Current candidate and superseded rows each have an owner decision. Open questions stay Pending. |
-| B — Acquisition may be considered | Not met | The Common Voice candidate is Pending. FSC and SLURP are no longer required, and they were not Accepted. |
-| C — Phase 1 authorized | Not met | The owner has not accepted the applicable terms and has not approved Phase 1. |
+| A — Licensing review documented | Complete as a record | Current candidate and superseded rows each have an owner decision. Open questions on other datasets stay Pending. |
+| B — Acquisition may be considered | Met for two LibriSpeech archives only | The owner accepted CC BY 4.0 for OpenSLR SLR12 and authorized `dev-clean.tar.gz` and `test-clean.tar.gz`. Common Voice, FSC, and SLURP stay Pending and blocked. |
+| C — Phase 1 authorized | Not met | Phase 1B preparation of the two archives is authorized. Phase 1C and the rest of Phase 1 are not. |
 
-Required for Gate B under the 2026-11-02 direction: the Common Voice Scripted Speech v27.0 English record the owner confirms in Mozilla Data Collective. FSC and SLURP are superseded as implementation datasets. Their rows are kept. ATIS is out of implementation. Google Speech Commands is optional.
+Required for Gate B under the LibriSpeech decision: the owner has accepted CC BY 4.0 for OpenSLR SLR12 and has authorized `dev-clean` and `test-clean`, including extraction into the project dataset directory. That acceptance does not cover any other archive. Common Voice remains a pending candidate and is not approved. FSC and SLURP are superseded as implementation datasets. Their rows are kept. ATIS is out of implementation. Google Speech Commands is optional.
 
-## Common Voice Scripted Speech 27.0 — English (current candidate)
+## LibriSpeech ASR corpus — OpenSLR SLR12 (authorized archives)
+
+| Field | Record |
+|-------|--------|
+| Scope status | Authorized for `dev-clean.tar.gz` and `test-clean.tar.gz` only. Other OpenSLR archives are not authorized. |
+| Artifact | `dev-clean.tar.gz` and `test-clean.tar.gz`. |
+| Declared source | https://www.openslr.org/12/ and the file URLs `https://openslr.trmal.net/resources/12/dev-clean.tar.gz` and `https://openslr.trmal.net/resources/12/test-clean.tar.gz`. |
+| Observed transfer URL | Browser `kMDItemWhereFroms` was `https://chatgpt.com/` via Brave. That is not an OpenSLR host. `downloaded_at` stays null. |
+| Description on the catalog page | About 1000 hours of 16 kHz read English speech from LibriVox audiobooks, prepared by Vassil Panayotov with Daniel Povey. |
+| Measured sizes | dev-clean 337,926,286 bytes. test-clean 346,663,984 bytes. Extracted regular files: dev-clean 360,289,905 bytes, test-clean 368,431,293 bytes. |
+| Checksums | Official `md5sum.txt` retrieved from `https://openslr.trmal.net/resources/12/md5sum.txt`. dev-clean MD5 `42e2234ba48799c1f50f24a7926300a1` matched. test-clean MD5 `32fa31d27d2e1cad72775fee3f4849a9` matched. SHA-256 values are in the acquisition manifest. |
+| Date checked | 2026-11-02 |
+| License name and version | CC BY 4.0 |
+| Deed | https://creativecommons.org/licenses/by/4.0/deed.en |
+| Legal code | https://creativecommons.org/licenses/by/4.0/legalcode.en. The owner stated on 2026-11-02 that the complete legal code was read. |
+| Commercial use | Accepted by the owner for the proposed CascadeGuard research use, under the licence conditions. This register is not a legal opinion. |
+| Modification | The licence allows adaptations if changes are indicated. The copied archives and extracted files were not modified. |
+| Attribution | Keep the corpus name, the preparers named on the catalog, OpenSLR SLR12, the catalog URL, CC BY 4.0, and the licence URL with the data and reports. The files used here were not modified. Do not imply endorsement. |
+| Redistribution | Audio and archives stay out of git. The Kaggle upload `pypiahmad/librispeech-asr-corpus` is not an approved source. |
+| Intended-use analysis | Read audiobook speech for a real-audio dataset. Not spontaneous conversation and not a command corpus. Privacy, publicity, and moral rights are not waived by the licence. |
+| Owner decision | Accepted |
+| Accepted | Yes |
+| Decision record | D-LS-001, recorded 2026-11-02T10:42:27Z from the owner statement communicated at 2026-11-02T10:36:00+05:30. |
+| Open questions | None for licence acceptance of these two archives. Speaker overlap of the drawn samples is checked by the preparation script. Phase 1C is not authorized. |
+
+## Common Voice Scripted Speech 27.0 — English (pending candidate, not this acquisition)
 
 | Field | Record |
 |-------|--------|
@@ -152,4 +177,4 @@ Required for Gate B under the 2026-11-02 direction: the Common Voice Scripted Sp
 
 ## Acquisition
 
-Common Voice acquisition is BLOCKED until the owner confirms the MDC record and records Accepted. FSC acquisition is BLOCKED. SLURP audio acquisition is BLOCKED. SLURP text acquisition is BLOCKED. Gate B is not met. Phase 1 is not authorized.
+LibriSpeech `dev-clean` and `test-clean` are authorized under D-LS-001. No other LibriSpeech archive is authorized. Common Voice acquisition is BLOCKED until the owner confirms the MDC record and records Accepted. FSC acquisition is BLOCKED. SLURP audio acquisition is BLOCKED. SLURP text acquisition is BLOCKED. Phase 1C is not authorized.

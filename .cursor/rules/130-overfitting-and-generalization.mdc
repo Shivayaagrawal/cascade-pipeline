@@ -1,0 +1,110 @@
+---
+description: Prevent overfitting and enforce generalization discipline in CascadeGuard ML experiments.
+globs: "**/*.py"
+alwaysApply: true
+---
+
+# Overfitting and Generalization Rules
+
+## 1. Data separation
+
+Maintain strict separation:
+
+- Training set: model fitting.
+- Validation set: hyperparameter and threshold selection.
+- Test set: final unbiased evaluation.
+
+Never:
+- Train on test samples.
+- Tune thresholds on test samples.
+- Select checkpoints using test performance.
+- Repeatedly inspect test results to guide model changes.
+- Use test labels to modify preprocessing or features.
+
+## 2. Speaker independence
+
+For speech experiments:
+
+- Respect official speaker-independent dataset splits.
+- Never randomly redistribute audio recordings if doing so creates speaker overlap.
+- Verify speaker overlap between train, validation, and test.
+- Record split integrity checks.
+
+## 3. Prevent memorization
+
+- Avoid unnecessarily large models for small datasets.
+- Establish simple baselines before increasing model complexity.
+- Use early stopping based on validation performance where appropriate.
+- Use weight decay when justified.
+- Use dropout when appropriate for the architecture.
+- Consider data augmentation only when it preserves task semantics.
+- Monitor training and validation curves.
+
+Do not add regularization mechanically without measuring its effect.
+
+## 4. Overfitting diagnosis
+
+Track:
+- Training loss.
+- Validation loss.
+- Training metrics.
+- Validation metrics.
+- Generalization gap.
+- Per-class performance.
+
+Investigate:
+- Training performance improving while validation worsens.
+- Large train-validation metric differences.
+- Unusually high performance on a small test set.
+- Models relying on speaker or recording artifacts.
+
+## 5. Model selection
+
+Select models using validation data only.
+
+Record:
+- Selection metric.
+- Selection checkpoint.
+- Training duration.
+- Early stopping condition.
+- Hyperparameters.
+
+Freeze the selected model before final test evaluation.
+
+## 6. Robustness and generalization
+
+Test performance across relevant conditions:
+
+- Clean audio.
+- Background noise.
+- Low signal amplitude.
+- Clipping.
+- Reverberation.
+- Speaking-rate variation.
+- Transcript deletion.
+- Transcript insertion.
+- Transcript substitution.
+- Negation corruption.
+- Entity corruption.
+
+Report results by condition, not only aggregate averages.
+
+## 7. Small dataset discipline
+
+When the dataset is limited:
+
+- Prefer simpler models.
+- Use official splits.
+- Consider multiple random seeds where appropriate.
+- Report mean and standard deviation.
+- Avoid claiming broad generalization from one dataset.
+- Clearly state the limitations of synthetic corruption.
+
+## 8. No performance manipulation
+
+Never:
+- Remove difficult samples merely to improve metrics.
+- Change test conditions after observing results.
+- Report only favorable seeds.
+- Select a favorable subset without declaring it.
+- Present validation performance as test performance.

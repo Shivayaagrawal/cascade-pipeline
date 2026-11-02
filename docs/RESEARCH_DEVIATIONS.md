@@ -99,4 +99,31 @@ Use one entry per deviation. Link related experiment run IDs when applicable.
 - **Scientific implications:** Results are about scripted speech, not spontaneous conversation. They do not reproduce Ruan et al. A public catalogue page lists locale `en`, dataset ID `cmu5jplf300nwmh07iqvk9leo`, and an 88.43 GB archive. Those values are not frozen until the owner confirms them in an MDC account. The full archive does not fit in the 60 GiB free on this disk.
 - **Affected experiments / metrics:** WER and CER are the first scores. Intent accuracy and slot F1 are invalid until Milestone B is annotated and checked. The same evaluation IDs are required when B0, B1, and B2 are later compared.
 - **Approval:** Direction recorded from the owner’s Phase 0 closeout instruction. Mozilla terms: Pending. Phase 1: not approved.
-- **Implementation notes:** No download. No package install. No ASR code. See `docs/DATASET_CARD.md` and `docs/PHASE_1_IMPLEMENTATION_PLAN.md`.
+- **Implementation notes:** No download. No package install. No ASR code in that pass. See `docs/DATASET_CARD.md` and `docs/PHASE_1_IMPLEMENTATION_PLAN.md`.
+
+### D-007 — Local synthetic simulation before any Common Voice download
+
+- **Date:** 2026-11-02
+- **Status:** IMPLEMENTED as a separate simulation track. Phase 1 is not approved. License rows were not changed.
+- **Author / agent session:** Simulation implementation after the Phase 0 documentation commit.
+- **Original design:** Phase 1 waits for a confirmed Common Voice subset and does not implement B0, B1, or B2.
+- **Proposed change:** Build a 200-utterance synthetic grammar with local text-to-speech and injected transcript errors, and run B0, B1, and B2 on that grammar only. Keep the full Common Voice archive off this machine.
+- **Reason:** The listed English archive is 88.43 GB and this Mac had about 60 GiB free. The cascade can be tested on labeled synthetic speech without treating those numbers as a corpus benchmark.
+- **Scientific implications:** Simulation scores do not estimate Common Voice, spontaneous speech, or Whisper error rates. The hypothesis backend does not decode audio. Candidate provenance is `synthetic_edit`.
+- **Affected experiments / metrics:** WER, CER, intent accuracy, slot F1, semantic error rate, recovery rates, and latency on the synthetic ids only.
+- **Approval:** The simulation was requested as the implementation track. It is not acceptance of Mozilla terms and not Phase 1 approval.
+- **Implementation notes:** `docs/SIMULATION_PROTOCOL.md` and `docs/STORAGE_DECISION.md`. Common Voice manifest status remains `not_acquired`.
+
+### D-008 — Phase 1 redefined after simulation v3
+
+- **Date:** 2026-11-02
+- **Status:** Accepted as the working plan by D-CV-007. Phase 1 execution is not approved. License rows were not changed. Acquisition was not started.
+- **Author / agent session:** Documentation amendment after Simulation Evaluation v3.
+- **Original design:** D-006 and the first Phase 1 plan. Phase 1 was ingestion, integrity, an ASR baseline, and annotation readiness, with B0, B1, and B2 left unimplemented in that slice.
+- **Proposed change:** Phase 1 is now 1A access, 1B validated ingestion, 1C measured waveform decoding, 1D provenance for beam hypotheses, independent decodes, retries, and synthetic edits, and 1E a manual annotation pilot. Semantic cascade comparisons start at Phase 3. The simulation track stays separate.
+- **Reason:** v3 found that candidate lists can preserve frames the prefix reader misses, and that agreement can repeat a wrong critical value. Those questions need real decoder output. The paraphrase result is not an ASR result.
+- **Scientific implications:** Phase 1 can report WER, CER, latency, memory, and hypothesis provenance. It cannot report that B1 or B2 improves semantic reliability. Oracle semantic coverage waits until the annotation pilot exists. Agreement is computed inside one provenance class.
+- **Affected experiments / metrics:** Later B0, B1, and B2 comparisons use the same evaluation IDs. Selective risk stays paired with coverage. RETRY on a real backend is `retry_decode`, not a rescore of written text.
+- **Approval:** The revised plan was accepted as the working plan on 2026-11-02. Mozilla terms: Pending. Phase 1 execution: not approved. Acquisition: pending owner decision.
+- **Implementation notes:** `docs/PHASE_1_IMPLEMENTATION_PLAN.md` and `docs/PHASE_0_DECISION_LOG.md` decision D-CV-006. No download and no ASR package install in this amendment.
+- **Later the same day:** D-LS-001 records owner acceptance of CC BY 4.0 and authorization of `dev-clean` and `test-clean`. Phase 1B preparation of those archives is recorded in `docs/PHASE_1B_DATA_VALIDATION.md`. Phase 1C remains not authorized. Common Voice remains pending.

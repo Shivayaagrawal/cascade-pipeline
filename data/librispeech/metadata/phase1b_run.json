@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-11-02T10:44:17Z",
+  "archive_bytes": {
+    "dev-clean": 337926286,
+    "test-clean": 346663984
+  },
+  "extracted_bytes": {
+    "dev-clean": 360289905,
+    "test-clean": 368431293
+  },
+  "data_directory_bytes": 1430248587,
+  "cap_remaining": 3569751413,
+  "utterances": {
+    "dev-clean": 2703,
+    "test-clean": 2620
+  },
+  "problems": 0
+}

@@ -1,0 +1,330 @@
+{
+  "illustrative": false,
+  "points": [
+    {
+      "coverage": {
+        "ci95": {
+          "high": 0.1364091760599377,
+          "low": 0.03995711539596028
+        },
+        "denominator": 120,
+        "numerator": 9,
+        "percentage": 7.5,
+        "reason": null,
+        "value": 0.075
+      },
+      "path_safety": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.7008549515804559
+        },
+        "denominator": 9,
+        "numerator": 9,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "safe_commitment_accuracy": {
+        "ci95": {
+          "high": 1.0,
+          "low": 0.7008549515804559
+        },
+        "denominator": 9,
+        "numerator": 9,
+        "percentage": 100.0,
+        "reason": null,
+        "value": 1.0
+      },
+      "threshold": 0.0,
+      "unnecessary_abstention": {
+        "ci95": {
+          "high": 0.8272438325551679,
+          "low": 0.5076986576690685
+        },
+        "denominator": 29,
+        "numerator": 20,
+        "percentage": 68.96551724137932,
+        "reason": null,
+        "value": 0.6896551724137931
+      },
+      "unsafe_commit_rate": {
+        "ci95": {
+          "high": 0.2991450484195441,
+          "low": 0.0
+        },
+        "denominator": 9,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 1.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": {
+        "ci95": {
+          "high": 0.555572107303257,
+          "low": 0.37982917045799003
+        },
+        "denominator": 120,
+        "numerator": 56,
+        "percentage": 46.666666666666664,
+        "reason": null,
+        "value": 0.4666666666666667
+      },
+      "path_safety": {
+        "ci95": {
+          "high": 0.6433178058754173,
+          "low": 0.39010383924176983
+        },
+        "denominator": 56,
+        "numerator": 29,
+        "percentage": 51.785714285714285,
+        "reason": null,
+        "value": 0.5178571428571429
+      },
+      "safe_commitment_accuracy": {
+        "ci95": {
+          "high": 0.6433178058754173,
+          "low": 0.39010383924176983
+        },
+        "denominator": 56,
+        "numerator": 29,
+        "percentage": 51.785714285714285,
+        "reason": null,
+        "value": 0.5178571428571429
+      },
+      "threshold": 0.25,
+      "unnecessary_abstention": {
+        "ci95": {
+          "high": 0.11696979849974075,
+          "low": 0.0
+        },
+        "denominator": 29,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "unsafe_commit_rate": {
+        "ci95": {
+          "high": 0.6098961607582303,
+          "low": 0.3566821941245828
+        },
+        "denominator": 56,
+        "numerator": 27,
+        "percentage": 48.214285714285715,
+        "reason": null,
+        "value": 0.48214285714285715
+      },
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 1.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": {
+        "ci95": {
+          "high": 0.555572107303257,
+          "low": 0.37982917045799003
+        },
+        "denominator": 120,
+        "numerator": 56,
+        "percentage": 46.666666666666664,
+        "reason": null,
+        "value": 0.4666666666666667
+      },
+      "path_safety": {
+        "ci95": {
+          "high": 0.6433178058754173,
+          "low": 0.39010383924176983
+        },
+        "denominator": 56,
+        "numerator": 29,
+        "percentage": 51.785714285714285,
+        "reason": null,
+        "value": 0.5178571428571429
+      },
+      "safe_commitment_accuracy": {
+        "ci95": {
+          "high": 0.6433178058754173,
+          "low": 0.39010383924176983
+        },
+        "denominator": 56,
+        "numerator": 29,
+        "percentage": 51.785714285714285,
+        "reason": null,
+        "value": 0.5178571428571429
+      },
+      "threshold": 0.5,
+      "unnecessary_abstention": {
+        "ci95": {
+          "high": 0.11696979849974075,
+          "low": 0.0
+        },
+        "denominator": 29,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "unsafe_commit_rate": {
+        "ci95": {
+          "high": 0.6098961607582303,
+          "low": 0.3566821941245828
+        },
+        "denominator": 56,
+        "numerator": 27,
+        "percentage": 48.214285714285715,
+        "reason": null,
+        "value": 0.48214285714285715
+      },
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 1.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": {
+        "ci95": {
+          "high": 0.555572107303257,
+          "low": 0.37982917045799003
+        },
+        "denominator": 120,
+        "numerator": 56,
+        "percentage": 46.666666666666664,
+        "reason": null,
+        "value": 0.4666666666666667
+      },
+      "path_safety": {
+        "ci95": {
+          "high": 0.6433178058754173,
+          "low": 0.39010383924176983
+        },
+        "denominator": 56,
+        "numerator": 29,
+        "percentage": 51.785714285714285,
+        "reason": null,
+        "value": 0.5178571428571429
+      },
+      "safe_commitment_accuracy": {
+        "ci95": {
+          "high": 0.6433178058754173,
+          "low": 0.39010383924176983
+        },
+        "denominator": 56,
+        "numerator": 29,
+        "percentage": 51.785714285714285,
+        "reason": null,
+        "value": 0.5178571428571429
+      },
+      "threshold": 0.75,
+      "unnecessary_abstention": {
+        "ci95": {
+          "high": 0.11696979849974075,
+          "low": 0.0
+        },
+        "denominator": 29,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "unsafe_commit_rate": {
+        "ci95": {
+          "high": 0.6098961607582303,
+          "low": 0.3566821941245828
+        },
+        "denominator": 56,
+        "numerator": 27,
+        "percentage": 48.214285714285715,
+        "reason": null,
+        "value": 0.48214285714285715
+      },
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 1.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    },
+    {
+      "coverage": {
+        "ci95": {
+          "high": 0.555572107303257,
+          "low": 0.37982917045799003
+        },
+        "denominator": 120,
+        "numerator": 56,
+        "percentage": 46.666666666666664,
+        "reason": null,
+        "value": 0.4666666666666667
+      },
+      "path_safety": {
+        "ci95": {
+          "high": 0.6433178058754173,
+          "low": 0.39010383924176983
+        },
+        "denominator": 56,
+        "numerator": 29,
+        "percentage": 51.785714285714285,
+        "reason": null,
+        "value": 0.5178571428571429
+      },
+      "safe_commitment_accuracy": {
+        "ci95": {
+          "high": 0.6433178058754173,
+          "low": 0.39010383924176983
+        },
+        "denominator": 56,
+        "numerator": 29,
+        "percentage": 51.785714285714285,
+        "reason": null,
+        "value": 0.5178571428571429
+      },
+      "threshold": 1.0,
+      "unnecessary_abstention": {
+        "ci95": {
+          "high": 0.11696979849974075,
+          "low": 0.0
+        },
+        "denominator": 29,
+        "numerator": 0,
+        "percentage": 0.0,
+        "reason": null,
+        "value": 0.0
+      },
+      "unsafe_commit_rate": {
+        "ci95": {
+          "high": 0.6098961607582303,
+          "low": 0.3566821941245828
+        },
+        "denominator": 56,
+        "numerator": 27,
+        "percentage": 48.214285714285715,
+        "reason": null,
+        "value": 0.48214285714285715
+      },
+      "weights": {
+        "ambiguity": 0.0,
+        "contradiction": 1.0,
+        "intent": 0.0,
+        "polarity": 0.0,
+        "slot": 0.0
+      }
+    }
+  ]
+}

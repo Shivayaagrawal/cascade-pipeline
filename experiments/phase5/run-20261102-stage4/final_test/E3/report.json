@@ -1,0 +1,93 @@
+{
+  "cases": 56,
+  "coverage": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 56,
+    "ci95": {
+      "low": 6.938893903907228e-18,
+      "high": 0.06419393671876342
+    },
+    "reason": null
+  },
+  "selective_risk": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "no committed decisions"
+  },
+  "unsafe_commit_rate": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "no committed decisions"
+  },
+  "path_safety": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "strategy did not emit a candidate id"
+  },
+  "adapter_path_safety": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "no adapter-traced commits"
+  },
+  "exact_frame_accuracy": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 56,
+    "ci95": {
+      "low": 6.938893903907228e-18,
+      "high": 0.06419393671876342
+    },
+    "reason": null
+  },
+  "safe_commitment_accuracy": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "no committed decisions"
+  },
+  "unnecessary_abstention": {
+    "value": 1.0,
+    "numerator": 9,
+    "denominator": 9,
+    "ci95": {
+      "low": 0.7008549515804559,
+      "high": 1.0
+    },
+    "reason": null
+  },
+  "critical_slot_safety": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "no critical-slot commits"
+  },
+  "action_accuracy": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 56,
+    "ci95": {
+      "low": 6.938893903907228e-18,
+      "high": 0.06419393671876342
+    },
+    "reason": null
+  },
+  "outcomes": {
+    "SAFE_COMMIT": 0,
+    "UNSAFE_COMMIT": 0,
+    "SAFE_ABSTENTION": 47,
+    "UNNECESSARY_ABSTENTION": 9,
+    "INCORRECT_FRAME": 0,
+    "CORRECT_FRAME_UNSAFE_PATH": 0
+  }
+}

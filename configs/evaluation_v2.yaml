@@ -1,0 +1,18 @@
+experiment_id: sim-eval-v2
+seed: 17
+dataset: synthetic
+candidate_count: 3
+gold_transcript_in_primary_oracle: false
+retry_mechanism: simulated_candidate_rescore
+asr_decode: false
+phase_1_approved: false
+common_voice_download: false
+preserves_initial_summaries:
+  - experiments/B0/summary.json
+  - experiments/B1/summary.json
+  - experiments/B2/summary.json
+expected_action_order:
+  - ambiguous_or_ambiguous_transcript_expects_clarify
+  - correct_one_best_frame_expects_continue
+  - other_candidate_has_gold_frame_expects_simulated_retry
+  - otherwise_hold

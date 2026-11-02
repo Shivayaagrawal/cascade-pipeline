@@ -1,0 +1,33 @@
+experiment_id: sim-eval-v3b
+role: audit_and_reporting_extension
+authoritative_experiment: sim-eval-v3
+authoritative_report: experiments/sim-eval-v3/report.json
+seed: 17
+dataset: synthetic
+utterance_count: 200
+utterance_ids: utt-000 through utt-199
+candidate_list: v1_injector
+min_support: 1
+retry_bundle: omitted
+asr_decode: false
+real_speech_validation: false
+librispeech_used: false
+test_clean_accessed: false
+phase_1c: blocked
+output_directory: experiments/sim-eval-v3b
+writes:
+  - experiments/sim-eval-v3b/report.json
+  - experiments/sim-eval-v3b/decision_log.jsonl
+unavailable_fields:
+  negation_evidence: assess() does not return a negation finding
+  uncertainty_evidence: no existing function returns an uncertainty finding
+  recovery_improved_semantic_correctness: the v1 condition has no second candidate bundle
+preserves:
+  - experiments/B0/summary.json
+  - experiments/B1/summary.json
+  - experiments/B2/summary.json
+  - artifacts/reports/simulation_report.json
+  - experiments/sim-eval-v2/report.json
+  - experiments/sim-eval-v3/report.json
+  - configs/evaluation_v3.yaml
+  - data/librispeech/annotations/phase_1c_pilot_30.csv

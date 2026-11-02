@@ -1,0 +1,94 @@
+---
+description: Machine learning development and inference rules for CascadeGuard.
+globs: "**/*.py"
+alwaysApply: true
+---
+
+# Machine Learning Development Rules
+
+## 1. Model implementation
+
+- Use PyTorch for deep learning components.
+- Use established libraries for baseline models where appropriate.
+- Do not implement complex algorithms from scratch unless required by the research question.
+- Keep model training, validation, inference, and evaluation separate.
+- Make model architectures configurable.
+- Keep model checkpoints separate from source code.
+
+## 2. Training discipline
+
+- Fix random seeds for reproducibility.
+- Record model configurations.
+- Record training and validation metrics.
+- Never train using test data.
+- Do not select hyperparameters using test results.
+- Save the best checkpoint according to a predefined validation metric.
+- Record optimizer, learning rate, batch size, epochs, and hardware information.
+
+## 3. Inference
+
+- Support CPU execution by default.
+- Use GPU when available and configured.
+- Avoid unnecessary model reloading.
+- Load models once and reuse them during inference.
+- Set evaluation mode using `model.eval()`.
+- Use `torch.inference_mode()` for inference where appropriate.
+- Handle missing checkpoints and invalid model configurations explicitly.
+
+## 4. ASR-specific requirements
+
+- Keep ASR independent of NLU.
+- Preserve raw transcripts.
+- Preserve ASR metadata when available.
+- Record model name, model version, decoding parameters, and inference time.
+- Store language and task settings.
+- Support multiple candidate hypotheses only when the backend genuinely exposes them.
+
+Never fabricate N-best hypotheses.
+
+If candidate generation uses multiple decoding configurations, label them as independently generated candidates rather than native N-best output.
+
+## 5. NLU-specific requirements
+
+Represent semantic output in a consistent structure.
+
+Example:
+
+```python
+from dataclasses import dataclass
+from typing import Optional
+
+@dataclass
+class SemanticFrame:
+    intent: Optional[str]
+    action: Optional[str]
+    object: Optional[str]
+    location: Optional[str]
+    confidence: Optional[float]
+```
+
+Adapt this schema to the dataset's actual annotation structure.
+
+- Do not assume all datasets have identical slot structures.
+- Preserve missing and unknown values distinctly.
+- Avoid converting uncertain predictions into guaranteed facts.
+- Maintain a mapping between model output labels and dataset labels.
+
+## 6. Model comparison
+
+When comparing models:
+
+- Use identical test samples.
+- Use consistent preprocessing.
+- Use the same evaluation definitions.
+- Record model versions.
+- Record inference settings.
+- Report computational requirements.
+- Separate accuracy improvements from latency costs.
+
+## 7. Confidence
+
+- Do not treat model confidence as proof of correctness.
+- Distinguish confidence scores from calibrated probabilities.
+- Measure calibration before describing confidence as calibrated.
+- Document the source and interpretation of every confidence signal.

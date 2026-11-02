@@ -1,0 +1,190 @@
+{
+  "cases": 36,
+  "committed_cases": 34,
+  "abstained_cases": 2,
+  "coverage": {
+    "value": 0.9444444444444444,
+    "numerator": 34,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.8185534279135275,
+      "high": 0.9846300133358382
+    },
+    "reason": null
+  },
+  "selective_risk": {
+    "value": 0.7941176470588235,
+    "numerator": 27,
+    "denominator": 34,
+    "ci95": {
+      "low": 0.632016119488364,
+      "high": 0.8965047310096808
+    },
+    "reason": null
+  },
+  "unsafe_commit_rate": {
+    "value": 0.7647058823529411,
+    "numerator": 26,
+    "denominator": 34,
+    "ci95": {
+      "low": 0.6000386207746361,
+      "high": 0.8756301446736042
+    },
+    "reason": null
+  },
+  "path_safety": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "strategy did not emit a candidate id"
+  },
+  "adapter_path_safety": {
+    "value": 0.23529411764705882,
+    "numerator": 8,
+    "denominator": 34,
+    "ci95": {
+      "low": 0.12436985532639575,
+      "high": 0.3999613792253638
+    },
+    "reason": null
+  },
+  "exact_frame_accuracy": {
+    "value": 0.19444444444444445,
+    "numerator": 7,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.09753095418928728,
+      "high": 0.3502804299517739
+    },
+    "reason": null
+  },
+  "safe_commitment_accuracy": {
+    "value": 0.17647058823529413,
+    "numerator": 6,
+    "denominator": 34,
+    "ci95": {
+      "low": 0.0834896904537232,
+      "high": 0.33513737399842747
+    },
+    "reason": null
+  },
+  "unnecessary_abstention": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 10,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.2775327998628892
+    },
+    "reason": null
+  },
+  "critical_slot_safety": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 11,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.2588329669680317
+    },
+    "reason": null
+  },
+  "critical_substitution_detection": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 11,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.2588329669680317
+    },
+    "reason": null
+  },
+  "false_rejection_on_clean": {
+    "value": 0.2857142857142857,
+    "numerator": 2,
+    "denominator": 7,
+    "ci95": {
+      "low": 0.08221892400405678,
+      "high": 0.6410655481673808
+    },
+    "reason": null
+  },
+  "intent_accuracy": {
+    "value": 0.9444444444444444,
+    "numerator": 34,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.8185534279135275,
+      "high": 0.9846300133358382
+    },
+    "reason": null
+  },
+  "slots": {
+    "precision": {
+      "value": 0.3793103448275862,
+      "numerator": 11,
+      "denominator": 29,
+      "ci95": {
+        "low": 0.2268802210080984,
+        "high": 0.5599745579401147
+      },
+      "reason": null
+    },
+    "recall": {
+      "value": 0.275,
+      "numerator": 11,
+      "denominator": 40,
+      "ci95": {
+        "low": 0.16108016247667337,
+        "high": 0.42834955806210573
+      },
+      "reason": null
+    },
+    "f1": 0.3188405797101449
+  },
+  "action_accuracy": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 36,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.09641862859446367
+    },
+    "reason": null
+  },
+  "modality_accuracy": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "strategy did not emit modality"
+  },
+  "polarity_accuracy": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "strategy did not emit polarity"
+  },
+  "conditionality_accuracy": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "strategy did not emit conditionality"
+  },
+  "outcomes": {
+    "SAFE_COMMIT": 6,
+    "UNSAFE_COMMIT": 25,
+    "SAFE_ABSTENTION": 2,
+    "UNNECESSARY_ABSTENTION": 0,
+    "INCORRECT_FRAME": 2,
+    "CORRECT_FRAME_UNSAFE_PATH": 1
+  },
+  "actions": {
+    "CONTINUE": 0,
+    "RETRY": 0,
+    "CLARIFY": 0,
+    "HOLD": 0
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "cases": 56,
+  "coverage": {
+    "value": 0.7321428571428571,
+    "numerator": 41,
+    "denominator": 56,
+    "ci95": {
+      "low": 0.6040544407084484,
+      "high": 0.8304269458149828
+    },
+    "reason": null
+  },
+  "selective_risk": {
+    "value": 0.34146341463414637,
+    "numerator": 14,
+    "denominator": 41,
+    "ci95": {
+      "low": 0.21558808257384846,
+      "high": 0.49450163480170306
+    },
+    "reason": null
+  },
+  "unsafe_commit_rate": {
+    "value": 0.8536585365853658,
+    "numerator": 35,
+    "denominator": 41,
+    "ci95": {
+      "low": 0.7155654195751904,
+      "high": 0.9311575185870407
+    },
+    "reason": null
+  },
+  "path_safety": {
+    "value": null,
+    "numerator": 0,
+    "denominator": 0,
+    "ci95": null,
+    "reason": "strategy did not emit a candidate id"
+  },
+  "adapter_path_safety": {
+    "value": 0.14634146341463414,
+    "numerator": 6,
+    "denominator": 41,
+    "ci95": {
+      "low": 0.0688424814129593,
+      "high": 0.28443458042480957
+    },
+    "reason": null
+  },
+  "exact_frame_accuracy": {
+    "value": 0.48214285714285715,
+    "numerator": 27,
+    "denominator": 56,
+    "ci95": {
+      "low": 0.3566821941245828,
+      "high": 0.6098961607582303
+    },
+    "reason": null
+  },
+  "safe_commitment_accuracy": {
+    "value": 0.14634146341463414,
+    "numerator": 6,
+    "denominator": 41,
+    "ci95": {
+      "low": 0.0688424814129593,
+      "high": 0.28443458042480957
+    },
+    "reason": null
+  },
+  "unnecessary_abstention": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 9,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.2991450484195441
+    },
+    "reason": null
+  },
+  "critical_slot_safety": {
+    "value": 0.0,
+    "numerator": 0,
+    "denominator": 14,
+    "ci95": {
+      "low": 0.0,
+      "high": 0.2153108027376358
+    },
+    "reason": null
+  },
+  "action_accuracy": {
+    "value": 0.42857142857142855,
+    "numerator": 24,
+    "denominator": 56,
+    "ci95": {
+      "low": 0.3076896268393824,
+      "high": 0.5586237926918696
+    },
+    "reason": null
+  },
+  "outcomes": {
+    "SAFE_COMMIT": 6,
+    "UNSAFE_COMMIT": 14,
+    "SAFE_ABSTENTION": 15,
+    "UNNECESSARY_ABSTENTION": 0,
+    "INCORRECT_FRAME": 0,
+    "CORRECT_FRAME_UNSAFE_PATH": 21
+  }
+}
