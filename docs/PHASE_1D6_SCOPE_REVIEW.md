@@ -3,11 +3,11 @@
 **Date:** 2026-11-02  
 **Communicated at:** 17:51 +05:30.  
 **Status:** review prepared. The facade is not authorized.  
-**Project:** CascadeGuard, a small synthetic simulation of transcript-error propagation and failure-aware semantic recovery.
+**Project:** Cascade Pipeline, a small synthetic simulation of transcript-error propagation and failure-aware semantic recovery.
 
 ## Definition
 
-CascadeGuard studies how controlled transcript corruption changes intent and slot extraction, and whether multi-candidate selection and selective recovery reduce incorrect semantic commitments.
+Cascade Pipeline studies how controlled transcript corruption changes intent and slot extraction, and whether multi-candidate selection and selective recovery reduce incorrect semantic commitments.
 
 The research environment is synthetic, text-only, and controlled. The primary measurement is B0, B1, and B2 on reproducible written variants. The project is not a speech recognizer, a production SLU system, or a claim about real-world ASR.
 

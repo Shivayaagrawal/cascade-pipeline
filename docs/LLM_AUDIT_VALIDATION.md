@@ -31,7 +31,7 @@ Those rates are consistency with synthetic gold, not a new benchmark and not hum
 
 ## Tests
 
-`python3 -m pytest -q` from the CascadeGuard root reported `98 passed in 6.11s`. That includes the three new audit integrity tests and the existing suite. No test failed.
+`python3 -m pytest -q` from the Cascade Pipeline root reported `98 passed in 6.11s`. That includes the three new audit integrity tests and the existing suite. No test failed.
 
 ## Protected hashes
 

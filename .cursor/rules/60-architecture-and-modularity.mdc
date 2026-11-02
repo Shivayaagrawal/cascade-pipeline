@@ -1,10 +1,10 @@
 ---
-description: Architecture and modularity rules for the CascadeGuard pipeline.
+description: Architecture and modularity rules for the Cascade Pipeline pipeline.
 globs: "**/*.py"
 alwaysApply: true
 ---
 
-# CascadeGuard Architecture Rules
+# Cascade Pipeline Architecture Rules
 
 ## 1. Core architecture
 

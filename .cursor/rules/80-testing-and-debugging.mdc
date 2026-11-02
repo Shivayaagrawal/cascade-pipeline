@@ -1,5 +1,5 @@
 ---
-description: Testing, debugging, and reliability requirements for CascadeGuard.
+description: Testing, debugging, and reliability requirements for Cascade Pipeline.
 globs: "**/*.py"
 alwaysApply: true
 ---

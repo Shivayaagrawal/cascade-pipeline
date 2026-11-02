@@ -1,5 +1,5 @@
 ---
-description: Prevent overfitting and enforce generalization discipline in CascadeGuard ML experiments.
+description: Prevent overfitting and enforce generalization discipline in Cascade Pipeline ML experiments.
 globs: "**/*.py"
 alwaysApply: true
 ---

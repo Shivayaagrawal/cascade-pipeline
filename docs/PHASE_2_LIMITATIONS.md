@@ -1,6 +1,6 @@
 # Phase 2 limitations
 
-CascadeGuard remains a synthetic, text-only simulation. The facade does not add a recognizer, an audio decoder, a genuine N-best list, a speech WER or CER result, a latency claim, or a population-level result. Proxy candidates are edited strings. They are not ASR hypotheses.
+Cascade Pipeline remains a synthetic, text-only simulation. The facade does not add a recognizer, an audio decoder, a genuine N-best list, a speech WER or CER result, a latency claim, or a population-level result. Proxy candidates are edited strings. They are not ASR hypotheses.
 
 ## Naming
 

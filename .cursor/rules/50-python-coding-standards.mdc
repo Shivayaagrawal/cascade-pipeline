@@ -1,12 +1,12 @@
 ---
-description: Python coding standards for all CascadeGuard source code.
+description: Python coding standards for all Cascade Pipeline source code.
 globs: "**/*.py"
 alwaysApply: true
 ---
 
 # Python Coding Standards
 
-You are working on CascadeGuard, a research-oriented cascaded speech understanding system.
+You are working on Cascade Pipeline, a research-oriented cascaded speech understanding system.
 
 ## 1. General principles
 
@@ -74,6 +74,6 @@ Organize imports in this order:
 
 1. Standard library
 2. Third-party libraries
-3. Internal CascadeGuard modules
+3. Internal Cascade Pipeline modules
 
 Use absolute imports from the project package wherever practical.

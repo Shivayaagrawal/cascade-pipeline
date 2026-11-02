@@ -50,7 +50,7 @@ The key names `action`, `object`, and `location` come from the Fluent.ai dataset
 
 ## Publisher mapping
 
-| Dataset concept | Publisher statement | CascadeGuard field | Local status |
+| Dataset concept | Publisher statement | Cascade Pipeline field | Local status |
 |-----------------|---------------------|--------------------|--------------|
 | Transcription | CSV column for the utterance text | `transcript` | PENDING column name |
 | Intent | Combination of the three slot values, not a separate free-text label. 31 such combinations stated. | `intent` as a canonical string of the three values, once the join rule is fixed | PENDING |
@@ -81,7 +81,7 @@ The key names `action`, `object`, and `location` come from the Fluent.ai dataset
 | `action` | `set` | Native SLURP field. Not the FSC `action` slot. | Keep separate |
 | `entities[].type` and `span` | `time` over token 4 | slots, after a written span-to-value rule | The value rule is PENDING |
 | `recordings[].file` | FLAC name, some with `-headset` | audio path | Close-talk and other mics are different files |
-| `recordings[].wer` | Automatic score in the example | Not a human transcript and not a CascadeGuard metric | Do not train on it as a label |
+| `recordings[].wer` | Automatic score in the example | Not a human transcript and not a Cascade Pipeline metric | Do not train on it as a label |
 | `metadata.json` `usrid` | Pattern such as `FO-488` | `speaker_id` | Encodes gender and whether English is native. Do not copy that into public logs unless a data-handling note allows it. |
 
 Official split file names were not in the README section that was read. They are PENDING. Real and synthetic audio stay in separate conditions. Headset and non-headset files of the same utterance are not independent test items until a grouping rule is written.

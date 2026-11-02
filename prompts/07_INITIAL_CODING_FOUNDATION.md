@@ -1,4 +1,4 @@
-# CascadeGuard — Initial Coding Task
+# Cascade Pipeline — Initial Coding Task
 
 Read all applicable files in `.cursor/rules/` and the project documentation before making changes.
 

@@ -1,6 +1,6 @@
 # Manual text annotation
 
-CascadeGuard is a synthetic, text-only simulation. This audit labels transcript text. It is not an audio review, and it is not a speech-recognition annotation.
+Cascade Pipeline is a synthetic, text-only simulation. This audit labels transcript text. It is not an audio review, and it is not a speech-recognition annotation.
 
 One person annotates. Do not report inter-annotator agreement.
 

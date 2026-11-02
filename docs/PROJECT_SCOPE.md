@@ -6,7 +6,7 @@ Cascaded speech systems pass the output of one component to the next. An ASR tra
 
 Conventional pipelines may not detect that an early-stage error has made the final decision unsafe.
 
-CascadeGuard will implement and evaluate a modular cascade with explicit uncertainty checks, error tracing and recovery policies.
+Cascade Pipeline will implement and evaluate a modular cascade with explicit uncertainty checks, error tracing and recovery policies.
 
 ## 2. Objective
 

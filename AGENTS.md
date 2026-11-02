@@ -1,10 +1,10 @@
-# CascadeGuard — Engineering and Research Instructions
+# Cascade Pipeline — Engineering and Research Instructions
 
 This repository is a completed synthetic, text-only research project. Controllers read written transcript variants from a closed grammar. They do not decode speech, and they are not a production spoken-language-understanding system.
 
 All contributors and coding agents must follow:
 
-1. The research objectives in `docs/CASCADEGUARD_FINAL_RESEARCH_REPORT.md` and `docs/PROJECT_SCOPE.md`.
+1. The research objectives in `docs/CASCADE_PIPELINE_FINAL_RESEARCH_REPORT.md` and `docs/PROJECT_SCOPE.md`.
 2. The approved methodology and the frozen experiment record.
 3. All applicable rules in `.cursor/rules/`.
 4. The dataset and licensing requirements.

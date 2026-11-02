@@ -1,6 +1,6 @@
-# CascadeGuard final research report
+# Cascade Pipeline final research report
 
-CascadeGuard is a synthetic, text-only study of how controlled transcript changes affect intent, slots, candidate choice, and the decision to commit a semantic frame. It does not run a speech recognizer and it does not read audio. No waveform decoding was performed. No real word-error-rate or character-error-rate evaluation was conducted. CascadeGuard is not a production spoken-language-understanding system. It does not reproduce a published spoken-language-understanding paper.
+Cascade Pipeline is a synthetic, text-only study of how controlled transcript changes affect intent, slots, candidate choice, and the decision to commit a semantic frame. It does not run a speech recognizer and it does not read audio. No waveform decoding was performed. No real word-error-rate or character-error-rate evaluation was conducted. Cascade Pipeline is not a production spoken-language-understanding system. It does not reproduce a published spoken-language-understanding paper.
 
 Oracle labels are same-session specifications rather than independent human annotations. They are not human gold. Phase 5 and Phase 6 reuse the same eligible parent pool. Phase 6 does not represent an independent population evaluation.
 

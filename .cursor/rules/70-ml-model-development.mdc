@@ -1,5 +1,5 @@
 ---
-description: Machine learning development and inference rules for CascadeGuard.
+description: Machine learning development and inference rules for Cascade Pipeline.
 globs: "**/*.py"
 alwaysApply: true
 ---

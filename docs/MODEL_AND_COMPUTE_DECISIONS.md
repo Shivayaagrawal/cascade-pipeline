@@ -1,6 +1,6 @@
 # Model and Compute Decisions
 
-**Status:** Provisional. No model is downloaded. No package was installed in the amended Phase 0 pass. No accuracy number below is a CascadeGuard measurement.
+**Status:** Provisional. No model is downloaded. No package was installed in the amended Phase 0 pass. No accuracy number below is a Cascade Pipeline measurement.
 
 The current candidate is Common Voice Scripted Speech v27.0 English, accessed later through Mozilla Data Collective only. FSC and SLURP are superseded and are not downloaded. ATIS is out of implementation scope. A CNN keyword model is optional and is not downloaded. The first model milestone is ASR evaluation on CPU, not NLU training.
 

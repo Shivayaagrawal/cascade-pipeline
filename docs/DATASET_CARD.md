@@ -2,7 +2,7 @@
 
 **Card status:** Not frozen. Public pages were read on 2026-11-02. The owner has not confirmed them in a Mozilla Data Collective account, has not accepted the terms, and has not downloaded an archive. Nothing below is a local file measurement.
 
-**Relation to the reference paper:** Ruan et al., Interspeech 2020, use ATIS, not Common Voice. This card does not license ATIS. CascadeGuard is not reproducing that paper. See `docs/REFERENCE_PAPER_NOTES.md`.
+**Relation to the reference paper:** Ruan et al., Interspeech 2020, use ATIS, not Common Voice. This card does not license ATIS. Cascade Pipeline is not reproducing that paper. See `docs/REFERENCE_PAPER_NOTES.md`.
 
 Evidence labels: **CATALOGUE** means text on a public page. **PENDING** means the owner’s account or the downloaded files have not confirmed it.
 

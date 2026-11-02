@@ -81,7 +81,7 @@ def _apply_verification(manifest: dict, measurements: dict[str, dict], status: s
     manifest["decision_source"] = "explicit owner statement in the current conversation"
     manifest["decision_statement"] = (
         "I explicitly authorize both dev-clean.tar.gz and test-clean.tar.gz for "
-        "CascadeGuard research, including extraction into the project dataset directory. "
+        "Cascade Pipeline research, including extraction into the project dataset directory. "
         "I have already read and accepted CC BY 4.0."
     )
     manifest["decision_communicated_at"] = "2026-11-02T10:36:00+05:30"

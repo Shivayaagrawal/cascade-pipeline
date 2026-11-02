@@ -2,7 +2,7 @@
 
 Status: recorded before Phase 3 code, data, or experiments were added. This file does not replace any earlier report.
 
-Repository: CascadeGuard. HEAD `f55b5bd`. The working tree already had 13 tracked documentation files modified from earlier phases, and the rest of `src/`, `tests/`, `data/`, `experiments/`, and `configs/` was untracked. Those tracked documentation edits were not made for Phase 3 and were not reverted.
+Repository: Cascade Pipeline. HEAD `f55b5bd`. The working tree already had 13 tracked documentation files modified from earlier phases, and the rest of `src/`, `tests/`, `data/`, `experiments/`, and `configs/` was untracked. Those tracked documentation edits were not made for Phase 3 and were not reverted.
 
 Test baseline before Phase 3 changes: `python3 -m pytest -q` reported `98 passed in 5.89s`.
 

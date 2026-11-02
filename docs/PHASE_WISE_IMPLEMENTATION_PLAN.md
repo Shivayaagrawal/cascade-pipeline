@@ -1,4 +1,4 @@
-# CascadeGuard — Phase-wise Implementation Plan
+# Cascade Pipeline — Phase-wise Implementation Plan
 
 **Superseded for Phase 1 on 2026-11-02.** The current Phase 1 scope, stages 1A–1E, and the later phase boundary table are in `docs/PHASE_1_IMPLEMENTATION_PLAN.md`. That plan is not approved. The sections below are the earlier roadmap. Do not download FSC or start the Phase 1 prompt in this file.
 
@@ -76,7 +76,7 @@ Do not silently replace the cascade with an end-to-end speech-to-intent system.
 - Inspect the repository and existing code before modifying anything.
 - Read project scope and applicable Cursor rules.
 - Verify the target paper's title, authors, year, methods, dataset, model, and evaluation protocol from the paper itself.
-- Separate paper-inspired baseline, reproduction/approximation, proposed CascadeGuard extension, and exploratory experiments.
+- Separate paper-inspired baseline, reproduction/approximation, proposed Cascade Pipeline extension, and exploratory experiments.
 - Verify dataset candidates, exact release, annotations, splits, speaker metadata, and license.
 - Record assumptions and unresolved questions.
 
@@ -640,7 +640,7 @@ cascadeguard/
 Copy this prompt into Cursor Agent mode after adding the project rules and this plan to the repository.
 
 ```markdown
-You are implementing Phase 1 of CascadeGuard.
+You are implementing Phase 1 of Cascade Pipeline.
 
 Before making changes:
 
@@ -732,7 +732,7 @@ Do not begin Phase 2 until Phase 1 is reviewed and approved.
 
 ## 10. Research alignment (three layers)
 
-Use this framing to align with Voice AI / speech-fundamentals expectations while keeping CascadeGuard as the main project:
+Use this framing to align with Voice AI / speech-fundamentals expectations while keeping Cascade Pipeline as the main project:
 
 | Layer | Content |
 |-------|---------|

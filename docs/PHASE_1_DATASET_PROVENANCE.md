@@ -24,7 +24,7 @@ The catalog page was fetched on 2026-11-02. Its download links point at mirrors.
 | Deed read the same day | https://creativecommons.org/licenses/by/4.0/deed.en |
 | Legal code | The owner stated on 2026-11-02 that the complete CC BY 4.0 legal code was read. |
 | Owner decision | Accepted. Decision D-LS-001, recorded 2026-11-02T10:42:27Z. |
-| Accepted | Yes, for the proposed CascadeGuard research use of `dev-clean` and `test-clean`. |
+| Accepted | Yes, for the proposed Cascade Pipeline research use of `dev-clean` and `test-clean`. |
 
 The deed says it is a summary, not the licence. From that deed, sharing and adaptation are allowed, including commercially, if the terms are followed. Attribution means giving appropriate credit, linking to the licence, and indicating changes, without implying that the licensor endorses the use. The deed also says the licence does not waive other rights such as publicity, privacy, or moral rights, and that no warranties are given.
 

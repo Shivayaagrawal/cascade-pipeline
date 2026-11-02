@@ -47,7 +47,7 @@ This paper is the reference named in the Phase 0 plan. It is **not** the paper t
 | Limitations stated by the authors | ATIS is small and has limited domain and slot diversity. Future work named in the conclusion is contextual encoders such as BERT, which this paper does not evaluate. | Sections 5.1 and 6 |
 | What the paper does not establish | No failure detector. No RETRY, CLARIFY, or HOLD policy. No latency or false-alarm study. No claim about Fluent Speech Commands. No public Alexa split. No released code in the paper. | Sections 1–6 |
 
-These numbers are the paper’s reported results. CascadeGuard has not reproduced them.
+These numbers are the paper’s reported results. Cascade Pipeline has not reproduced them.
 
 ## Three-way split
 
@@ -64,9 +64,9 @@ Decoupled ASR then NLU. NLU is a CNN-BiLSTM classifier and a CNN-BiLSTM-CRF tagg
 - paired transcript and 1-best hypothesis per utterance;
 - the same clean-versus-ASR evaluation rule.
 
-ATIS audio and the LDC license were not inspected. The Alexa corpus cannot be reproduced. None of the training hyperparameters needed for an exact rerun are in the paper. Calling a later CascadeGuard run an exact reproduction would be false.
+ATIS audio and the LDC license were not inspected. The Alexa corpus cannot be reproduced. None of the training hyperparameters needed for an exact rerun are in the paper. Calling a later Cascade Pipeline run an exact reproduction would be false.
 
-### 3. CascadeGuard extension
+### 3. Cascade Pipeline extension
 
 Specified in `docs/PROJECT_SCOPE.md` and not present in Ruan et al.:
 
@@ -75,7 +75,7 @@ Specified in `docs/PROJECT_SCOPE.md` and not present in Ruan et al.:
 - a diagnosis step and a bounded controller with CONTINUE, RETRY, CLARIFY, and HOLD;
 - report recovery success, harmful recovery, false alarms, and latency, not only F1.
 
-Ruan et al. cite n-best reranking as earlier work and then study 1-best robustness training. CascadeGuard’s B1 is closer to that earlier problem than to Ruan’s training method. It is a different experiment.
+Ruan et al. cite n-best reranking as earlier work and then study 1-best robustness training. Cascade Pipeline’s B1 is closer to that earlier problem than to Ruan’s training method. It is a different experiment.
 
 ## Conflict with the current dataset plan
 

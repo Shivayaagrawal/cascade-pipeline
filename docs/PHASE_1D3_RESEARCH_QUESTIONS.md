@@ -6,7 +6,7 @@
 
 These questions are tests. A result that rejects a hypothesis stays in the report. Frozen counts from v1, v2, v3, and v3b are observations of this sample. They do not confirm a hypothesis about speech, about another grammar, or about a recognizer’s N-best list.
 
-The questions are narrower than `docs/RESEARCH_QUESTIONS.md`, which still names a future speech dataset. This file is the protocol for what can be claimed from the assets that exist. Ruan et al., Interspeech 2020, used 1-best Amazon Transcribe hypotheses and a matched-entity slot score. CascadeGuard does not reproduce that paper. Its primary slot score keeps pairs that an ASR error would have removed.
+The questions are narrower than `docs/RESEARCH_QUESTIONS.md`, which still names a future speech dataset. This file is the protocol for what can be claimed from the assets that exist. Ruan et al., Interspeech 2020, used 1-best Amazon Transcribe hypotheses and a matched-entity slot score. Cascade Pipeline does not reproduce that paper. Its primary slot score keeps pairs that an ASR error would have removed.
 
 ## Systems under comparison
 

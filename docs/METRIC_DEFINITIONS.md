@@ -56,7 +56,7 @@ Empty prediction and empty reference: precision and recall are 1 for that uttera
 
 Micro-F1 pools pair counts across utterances. Macro-F1 averages per-slot-name F1 and is reported beside it when counts exist. The primary slot number for B0/B1/B2 comparison is micro-F1, with the pair counts shown.
 
-This is **not** the matched-entity restriction in Ruan et al., Section 2. Under that restriction, a slot whose span was destroyed by ASR is removed from the ASR-set score. CascadeGuard’s primary slot F1 does not remove those cases, because RQ1 asks whether the error changed the frame. A secondary matched-entity score may be reported later under a separate name. It must not replace the primary score.
+This is **not** the matched-entity restriction in Ruan et al., Section 2. Under that restriction, a slot whose span was destroyed by ASR is removed from the ASR-set score. Cascade Pipeline’s primary slot F1 does not remove those cases, because RQ1 asks whether the error changed the frame. A secondary matched-entity score may be reported later under a separate name. It must not replace the primary score.
 
 ## Exact frame match
 

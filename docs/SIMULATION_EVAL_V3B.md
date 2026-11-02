@@ -81,7 +81,7 @@ Hashes matched before and after the write.
 
 ## 7. Reproduce
 
-From the CascadeGuard root:
+From the Cascade Pipeline root:
 
 ```bash
 python3 experiments/run_simulation_v3b.py

@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-02  
 **Status:** strategy. The suite was not modified.  
-**Existing command:** `python3 -m pytest -q` from the CascadeGuard root. Last integrity run in Phase 1D.4: 71 passed.
+**Existing command:** `python3 -m pytest -q` from the Cascade Pipeline root. Last integrity run in Phase 1D.4: 71 passed.
 
 ## Unit tests already present
 

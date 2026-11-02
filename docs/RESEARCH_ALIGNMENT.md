@@ -8,11 +8,11 @@ The Phase 0 plan names Ruan, Nechaev, Chen, Su, and Kiss, *Towards an ASR Error 
 
 ## Shared problem
 
-Both the paper and CascadeGuard start from a cascade: speech is transcribed, then a separate NLU assigns intent and slots, and transcription errors change the downstream frame. Ruan et al., Section 1, use the example of “buy” recognized as “by”.
+Both the paper and Cascade Pipeline start from a cascade: speech is transcribed, then a separate NLU assigns intent and slots, and transcription errors change the downstream frame. Ruan et al., Section 1, use the example of “buy” recognized as “by”.
 
 ## What is not shared
 
-| Piece | Ruan et al. 2020 | CascadeGuard plan |
+| Piece | Ruan et al. 2020 | Cascade Pipeline plan |
 |-------|------------------|-------------------|
 | Primary public data | ATIS, 4,478 / 500 / 893, plus aligned audio | Common Voice Scripted Speech v27.0 English is the candidate. Not downloaded. FSC is superseded. |
 | Other data | Private Alexa corpus | Not available and not in scope |
@@ -28,7 +28,7 @@ Lugosch et al. 2019 introduce Fluent Speech Commands and an end-to-end model. Th
 
 1. **Original methodology.** CNN-BiLSTM-CRF NLU trained to agree on human text and ASR 1-best. See the reference notes.
 2. **Approximation possible here.** Not started. An approximation would need paired transcripts and 1-best text, a declared recognizer, and the clean-versus-ASR scoring rule. It would still miss unpublished hyperparameters and the Alexa data. It is not approved.
-3. **CascadeGuard extension.** Error traces, candidate provenance, diagnosis, and bounded recovery. Specified. Not coded.
+3. **Cascade Pipeline extension.** Error traces, candidate provenance, diagnosis, and bounded recovery. Specified. Not coded.
 
 ## Hypotheses
 

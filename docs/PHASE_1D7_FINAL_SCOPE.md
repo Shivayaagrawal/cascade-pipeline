@@ -4,7 +4,7 @@
 **Communicated at:** 18:04 +05:30.  
 **Status:** scope recorded. The synthetic facade is not authorized.
 
-CascadeGuard is a synthetic, text-only simulation. It studies how controlled transcript edits change intent decisions and slot extraction, whether five named strategies change those decisions, whether selective recovery reduces incorrect commitments, and what coverage that selectivity costs.
+Cascade Pipeline is a synthetic, text-only simulation. It studies how controlled transcript edits change intent decisions and slot extraction, whether five named strategies change those decisions, whether selective recovery reduces incorrect commitments, and what coverage that selectivity costs.
 
 It is not a speech recognizer, a real ASR system, a production SLU system, a conversational benchmark, a real-world robustness study, or a production recovery controller. Claims stay inside `synthetic-seed17-v1`.
 

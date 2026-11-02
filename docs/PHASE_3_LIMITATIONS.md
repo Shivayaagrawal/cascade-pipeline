@@ -1,6 +1,6 @@
 # Phase 3 limitations
 
-CascadeGuard remains a synthetic, text-only simulation. These experiments do not measure speech recognition, waveform decoding, genuine N-best lists, speech WER or CER, audio robustness, or conversational generalization. `RETRY` rescores a string that was already in the bundle.
+Cascade Pipeline remains a synthetic, text-only simulation. These experiments do not measure speech recognition, waveform decoding, genuine N-best lists, speech WER or CER, audio robustness, or conversational generalization. `RETRY` rescores a string that was already in the bundle.
 
 The challenge labels and `b2_semantic_v4` were both defined from the transformation operators. High action accuracy for E7 means the implementation follows those operators. It does not show that a different annotator, or a person, would have chosen the same actions. The LLM audit was not relabeled and is not ground truth. Its previously reported agreements stay 30/30, 57/90, and 43/90.
 

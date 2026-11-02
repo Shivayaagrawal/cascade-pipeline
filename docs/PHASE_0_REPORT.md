@@ -1,4 +1,4 @@
-# CascadeGuard — Phase 0 Completion Report
+# Cascade Pipeline — Phase 0 Completion Report
 
 ## 1. Overall status
 
@@ -152,7 +152,7 @@ The full list is `docs/RISK_REGISTER.md`.
 | FSC and SLURP are not pooled | Pass |
 | ATIS is not a Phase 1 deliverable | Pass |
 | CNN is not mandatory | Pass |
-| Ruan et al. methods are not attributed to CascadeGuard | Pass |
+| Ruan et al. methods are not attributed to Cascade Pipeline | Pass |
 | Synthetic SLURP speech and synthetic corruption stay labelled | Pass |
 | Confidence is not called calibrated | Pass |
 | Test data are not a tuning set | Pass as a written rule |

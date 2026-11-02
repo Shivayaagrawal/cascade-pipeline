@@ -111,7 +111,7 @@ Latency is reported next to accuracy. A method that holds every utterance can lo
 
 ## Robustness rule borrowed as a report constraint
 
-Ruan et al., Section 2: do not describe a change as robustness if ASR-condition scores rise and clean-condition scores fall. CascadeGuard reports both conditions even though it does not adopt their training loss.
+Ruan et al., Section 2: do not describe a change as robustness if ASR-condition scores rise and clean-condition scores fall. Cascade Pipeline reports both conditions even though it does not adopt their training loss.
 
 ## Statistics
 

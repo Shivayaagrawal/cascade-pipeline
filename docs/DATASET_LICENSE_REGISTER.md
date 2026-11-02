@@ -31,7 +31,7 @@ Required for Gate B under the LibriSpeech decision: the owner has accepted CC BY
 | License name and version | CC BY 4.0 |
 | Deed | https://creativecommons.org/licenses/by/4.0/deed.en |
 | Legal code | https://creativecommons.org/licenses/by/4.0/legalcode.en. The owner stated on 2026-11-02 that the complete legal code was read. |
-| Commercial use | Accepted by the owner for the proposed CascadeGuard research use, under the licence conditions. This register is not a legal opinion. |
+| Commercial use | Accepted by the owner for the proposed Cascade Pipeline research use, under the licence conditions. This register is not a legal opinion. |
 | Modification | The licence allows adaptations if changes are indicated. The copied archives and extracted files were not modified. |
 | Attribution | Keep the corpus name, the preparers named on the catalog, OpenSLR SLR12, the catalog URL, CC BY 4.0, and the licence URL with the data and reports. The files used here were not modified. Do not imply endorsement. |
 | Redistribution | Audio and archives stay out of git. The Kaggle upload `pypiahmad/librispeech-asr-corpus` is not an approved source. |

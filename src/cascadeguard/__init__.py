@@ -1,4 +1,4 @@
-"""CascadeGuard local simulation package.
+"""Cascade Pipeline local simulation package.
 
 Synthetic results are not Common Voice benchmark results.
 """

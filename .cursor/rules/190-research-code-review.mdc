@@ -3,7 +3,7 @@ description: Mandatory research and engineering review before completing substan
 alwaysApply: true
 ---
 
-# CascadeGuard Research Code Review
+# Cascade Pipeline Research Code Review
 
 Before considering a substantial implementation complete, perform this review.
 

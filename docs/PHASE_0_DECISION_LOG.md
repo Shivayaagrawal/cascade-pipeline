@@ -77,9 +77,9 @@ Recorded in `docs/STORAGE_DECISION.md`. Synthetic text may be committed. Synthet
 - **Communication time:** 2026-11-02T10:36:00+05:30. That is the conversation timestamp to the minute. Seconds were not given.
 - **Recording time:** 2026-11-02T10:42:27Z, when this repository entry was written.
 - **Source:** Explicit owner statement in this conversation. No handwritten signature, external signature, or legal opinion is claimed.
-- **Statement:** "I explicitly authorize both dev-clean.tar.gz and test-clean.tar.gz for CascadeGuard research, including extraction into the project dataset directory. I have already read and accepted CC BY 4.0."
+- **Statement:** "I explicitly authorize both dev-clean.tar.gz and test-clean.tar.gz for Cascade Pipeline research, including extraction into the project dataset directory. I have already read and accepted CC BY 4.0."
 - **Legal code read completely:** true. The owner stated that the complete CC BY 4.0 legal code was read.
-- **Owner licence acceptance:** true, for the proposed CascadeGuard research use.
+- **Owner licence acceptance:** true, for the proposed Cascade Pipeline research use.
 - **`dev-clean.tar.gz` authorized:** true.
 - **`test-clean.tar.gz` authorized:** true.
 - **Extraction into the project dataset directory:** true.

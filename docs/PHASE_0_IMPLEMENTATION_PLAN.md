@@ -8,7 +8,7 @@ This file is the in-repo checklist for Phase 0. The long agent prompt that accom
 ## Objectives
 
 1. Verify the reference paper and its method.
-2. Separate that method from CascadeGuard.
+2. Separate that method from Cascade Pipeline.
 3. Record deviations.
 4. Verify dataset source, release, and license, or mark them pending.
 5. Define the semantic output using the real label schema, or mark it pending.
@@ -64,7 +64,7 @@ An unresolved license, an unseen label schema, or an unknown split blocks data l
 | Decision | Status |
 |----------|--------|
 | Research design | Superseded the same day by Common Voice as the primary candidate. No Phase 1 secondary dataset. Scores are not pooled with FSC, SLURP, or ATIS. |
-| ATIS | Excluded from implementation. The reference paper still used it. CascadeGuard does not claim to reproduce that paper. |
+| ATIS | Excluded from implementation. The reference paper still used it. Cascade Pipeline does not claim to reproduce that paper. |
 | CNN | Optional. Not a Phase 1 deliverable. |
 | FSC license | Owner decision Pending. Acquisition BLOCKED. Phase 0.5 re-read the page, the Public License PDF, and the CC BY-NC-ND 4.0 legal code. The page’s access link is the Fluent.ai Google Group. The GrindstoneLZX URL is not the official channel and was not cloned. |
 | SLURP license | Owner decision Pending on audio and on text, separately. Zenodo version 1.0 audio is CC BY-NC 4.0. GitHub text at commit `8eb16545762be97ace75334109d73824217311f1` is CC BY 4.0. |

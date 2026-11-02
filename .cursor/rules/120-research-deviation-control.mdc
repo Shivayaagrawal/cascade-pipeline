@@ -1,5 +1,5 @@
 ---
-description: Prevent unapproved deviations from CascadeGuard's research objectives and experimental methodology.
+description: Prevent unapproved deviations from Cascade Pipeline's research objectives and experimental methodology.
 alwaysApply: true
 ---
 
@@ -7,7 +7,7 @@ alwaysApply: true
 
 ## 1. Research objective
 
-CascadeGuard investigates:
+Cascade Pipeline investigates:
 
 1. How ASR errors propagate into spoken language understanding.
 2. Whether multiple transcript candidates improve semantic interpretation.
@@ -93,7 +93,7 @@ Maintain separate labels for:
 
 - Original paper-inspired baseline.
 - Reproduced or approximated method.
-- Proposed CascadeGuard extension.
+- Proposed Cascade Pipeline extension.
 - Optional exploratory experiments.
 
 Do not merge exploratory results into the primary comparison without justification.

@@ -3,7 +3,7 @@ description: Project-wide research integrity and implementation constraints
 alwaysApply: true
 ---
 
-# CascadeGuard project constitution
+# Cascade Pipeline project constitution
 
 - Read `docs/PROJECT_SCOPE.md`, `docs/PHASE_PLAN.md` and `docs/WORK_BREAKDOWN.md` before proposing architecture or changing scope.
 - Do not invent dataset facts, licenses, citations, metrics, model outputs, experiment results or completed work.

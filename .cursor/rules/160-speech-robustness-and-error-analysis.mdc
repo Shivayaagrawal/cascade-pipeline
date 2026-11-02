@@ -8,7 +8,7 @@ alwaysApply: true
 
 ## 1. Research focus
 
-CascadeGuard studies how speech recognition errors affect downstream semantic understanding.
+Cascade Pipeline studies how speech recognition errors affect downstream semantic understanding.
 
 Always preserve the relationship:
 

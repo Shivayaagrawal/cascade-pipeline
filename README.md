@@ -125,7 +125,7 @@ The implementation focuses on downstream semantic processing rather than impleme
 ## Repository Structure
 
 ```text
-CascadeGuard/
+Cascade Pipeline/
 ├── src/                 # Pipeline and controller implementations
 ├── tests/               # Automated tests
 ├── scripts/             # Research and execution scripts

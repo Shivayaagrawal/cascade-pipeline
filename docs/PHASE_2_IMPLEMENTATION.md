@@ -1,6 +1,6 @@
 # Phase 2 implementation
 
-CascadeGuard is a synthetic, text-only simulation. This phase adds an evaluation facade beside the existing experiment code. It does not decode audio, and it does not replace the frozen seed-17 dataset.
+Cascade Pipeline is a synthetic, text-only simulation. This phase adds an evaluation facade beside the existing experiment code. It does not decode audio, and it does not replace the frozen seed-17 dataset.
 
 The name "Phase 2" in this document means the facade and the separate text audit authorized on 2026-11-02. It is not the older speech NLU Phase 2. Phase 1D.7 had recorded that facade as not authorized and that speech Phase 2 as stopped. This implementation follows the later authorization. Speech recognition, real N-best lists, and Phase 3 were not started.
 
@@ -69,7 +69,7 @@ Sampling uses one `random.Random(20261102)`. Intents follow `utterance_generator
 
 ## Reproducibility
 
-From the CascadeGuard root:
+From the Cascade Pipeline root:
 
 ```bash
 python3 -m pytest -q
